@@ -10,6 +10,8 @@ from src.models import Article, NewsApiSettings, RssSourceConfig, ScheduleSettin
 
 
 def build_settings(*, newsapi_enabled: bool = True) -> Settings:
+    """Build a compact settings object for ingestion-focused tests."""
+
     return Settings(
         schedule=ScheduleSettings(lookback_hours=24, max_articles_total=5, max_articles_per_source=2),
         sources=SourceSettings(
@@ -20,6 +22,8 @@ def build_settings(*, newsapi_enabled: bool = True) -> Settings:
 
 
 def test_fetch_rss_articles_filters_by_window_and_source_limit() -> None:
+    """RSS ingestion should keep only recent entries within the per-source cap."""
+
     now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
     settings = build_settings(newsapi_enabled=False)
 
@@ -39,6 +43,8 @@ def test_fetch_rss_articles_filters_by_window_and_source_limit() -> None:
 
 
 def test_fetch_newsapi_articles_skips_missing_api_key() -> None:
+    """NewsAPI ingestion should be a no-op when no API key is available."""
+
     settings = build_settings(newsapi_enabled=True)
 
     articles = fetch_newsapi_articles(settings, api_key=None)
@@ -47,6 +53,8 @@ def test_fetch_newsapi_articles_skips_missing_api_key() -> None:
 
 
 def test_fetch_all_articles_deduplicates_url_and_similar_titles() -> None:
+    """Combined ingestion should collapse duplicate stories across source types."""
+
     now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
     settings = build_settings(newsapi_enabled=True)
 
@@ -82,6 +90,8 @@ def test_fetch_all_articles_deduplicates_url_and_similar_titles() -> None:
 
 
 def test_deduplicate_articles_preserves_most_recent_unique_items() -> None:
+    """Deduplication should keep the newest version of repeated content."""
+
     older = Article(
         title="Shared Story",
         url="https://example.com/shared",
@@ -113,6 +123,8 @@ def test_deduplicate_articles_preserves_most_recent_unique_items() -> None:
 
 
 def _entry(title: str, url: str, published_date: datetime) -> dict[str, object]:
+    """Create a feedparser-like entry payload for deterministic RSS tests."""
+
     return {
         "title": title,
         "link": url,

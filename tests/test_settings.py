@@ -4,6 +4,8 @@ from src.settings import load_settings
 
 
 def test_load_settings_reads_rss_and_newsapi_configuration(tmp_path: Path) -> None:
+    """YAML settings should map cleanly into the typed configuration objects."""
+
     config_path = tmp_path / "settings.yaml"
     config_path.write_text(
         """

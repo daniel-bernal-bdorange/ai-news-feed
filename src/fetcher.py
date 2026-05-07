@@ -25,6 +25,8 @@ def fetch_all_articles(
     now: datetime | None = None,
     parser: Any = feedparser.parse,
 ) -> list[Article]:
+    """Fetch, merge, and rank articles from all configured sources."""
+
     rss_articles = fetch_rss_articles(settings, now=now, parser=parser)
     newsapi_articles = fetch_newsapi_articles(settings, api_key, client=client, now=now)
     combined = deduplicate_articles(rss_articles + newsapi_articles)
@@ -38,6 +40,8 @@ def fetch_rss_articles(
     now: datetime | None = None,
     parser: Any = feedparser.parse,
 ) -> list[Article]:
+    """Collect recent entries from every configured RSS source."""
+
     current_time = now or datetime.now(UTC)
     threshold = current_time - timedelta(hours=settings.schedule.lookback_hours)
     articles: list[Article] = []
@@ -50,6 +54,7 @@ def fetch_rss_articles(
             continue
 
         entries = list(parsed_feed.get("entries", []))
+        # Sort newest first so the per-source cap keeps the most relevant items.
         entries.sort(key=lambda entry: _entry_published_date(entry) or datetime.min.replace(tzinfo=UTC), reverse=True)
 
         added_for_source = 0
@@ -88,6 +93,8 @@ def fetch_newsapi_articles(
     client: httpx.Client | None = None,
     now: datetime | None = None,
 ) -> list[Article]:
+    """Fetch optional NewsAPI articles using the same lookback window as RSS."""
+
     if not settings.sources.newsapi.enabled:
         return []
 
@@ -148,11 +155,14 @@ def deduplicate_articles(
     *,
     title_similarity_threshold: float = 0.92,
 ) -> list[Article]:
+    """Remove repeated stories by canonical URL and near-duplicate titles."""
+
     unique_articles: list[Article] = []
     seen_urls: set[str] = set()
     seen_titles: list[str] = []
 
     for article in sorted(articles, key=lambda item: item.published_date, reverse=True):
+        # URL normalization strips tracking noise so syndicated links collapse reliably.
         canonical_url = _canonicalize_url(article.url)
         normalized_title = _normalize_title(article.title)
 
@@ -170,6 +180,8 @@ def deduplicate_articles(
 
 
 def _entry_published_date(entry: dict[str, Any]) -> datetime | None:
+    """Extract a timezone-aware publication date from a parsed feed entry."""
+
     parsed_time = entry.get("published_parsed") or entry.get("updated_parsed")
     if parsed_time is None:
         return None
@@ -186,6 +198,8 @@ def _entry_published_date(entry: dict[str, Any]) -> datetime | None:
 
 
 def _extract_raw_content(entry: dict[str, Any]) -> str:
+    """Prefer full content when present and fall back to summary fields."""
+
     content_items = entry.get("content") or []
     if content_items and isinstance(content_items, list):
         value = content_items[0].get("value")
@@ -196,6 +210,8 @@ def _extract_raw_content(entry: dict[str, Any]) -> str:
 
 
 def _parse_iso8601(value: str | None) -> datetime | None:
+    """Parse an ISO 8601 timestamp into UTC, returning None on invalid input."""
+
     if not value:
         return None
 
@@ -206,6 +222,8 @@ def _parse_iso8601(value: str | None) -> datetime | None:
 
 
 def _canonicalize_url(url: str) -> str:
+    """Normalize URLs so equivalent links compare equal during deduplication."""
+
     parsed = urlsplit(url)
     filtered_query = [
         (key, value)
@@ -217,9 +235,13 @@ def _canonicalize_url(url: str) -> str:
 
 
 def _normalize_title(title: str) -> str:
+    """Reduce title noise before fuzzy title comparison."""
+
     sanitized = re.sub(r"[^a-z0-9\s]", " ", title.lower())
     return " ".join(sanitized.split())
 
 
 def _similarity(left: str, right: str) -> float:
+    """Return the similarity ratio used for near-duplicate title detection."""
+
     return SequenceMatcher(None, left, right).ratio()

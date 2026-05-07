@@ -8,6 +8,8 @@ from src.settings import load_settings
 
 
 def main() -> None:
+    """Run the ingestion flow and print the shortlisted articles."""
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s %(message)s",
@@ -18,6 +20,7 @@ def main() -> None:
 
     logging.info("Articulos candidatos tras deduplicacion: %s", len(articles))
     for article in articles:
+        # Keep the CLI output compact so it can be used as a quick smoke check.
         print(f"- [{article.source_name}] {article.title} -> {article.url}")
 
 
