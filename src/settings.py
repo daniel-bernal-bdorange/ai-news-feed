@@ -4,7 +4,7 @@ from pathlib import Path
 
 import yaml
 
-from .models import EditorialSettings, NewsApiSettings, RankingSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
+from .models import EditorialSettings, GeoPrioritySettings, NewsApiSettings, RankingSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
 
 
 def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
@@ -16,6 +16,7 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
     schedule = ScheduleSettings(**data.get("schedule", {}))
     sources_data = data.get("sources", {})
     editorial_data = data.get("editorial", {})
+    geo_priority_data = editorial_data.get("geo_priority", {})
     ranking_data = data.get("ranking", {})
 
     # Keep source parsing explicit so malformed sections fail close to the config boundary.
@@ -29,6 +30,11 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
         include_keywords=list(editorial_data.get("include_keywords", [])),
         exclude_keywords=list(editorial_data.get("exclude_keywords", [])),
         min_title_length=editorial_data.get("min_title_length", 0),
+        geo_priority=GeoPrioritySettings(
+            enabled=geo_priority_data.get("enabled", True),
+            boost_keywords=list(geo_priority_data.get("boost_keywords", GeoPrioritySettings().boost_keywords)),
+            boost_score=geo_priority_data.get("boost_score", GeoPrioritySettings().boost_score),
+        ),
     )
     ranking = RankingSettings(
         max_articles_per_category=ranking_data.get("max_articles_per_category"),

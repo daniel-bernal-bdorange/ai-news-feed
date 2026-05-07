@@ -4,6 +4,23 @@ from dataclasses import dataclass, field
 from datetime import datetime
 
 
+DEFAULT_GEO_PRIORITY_KEYWORDS = [
+    "spain",
+    "españa",
+    "spanish",
+    "madrid",
+    "barcelona",
+    "masorange",
+    "telefónica",
+    "european",
+    "europe",
+    "european union",
+    "eu regulation",
+    "european regulation",
+    "eu ai act",
+]
+
+
 @dataclass(frozen=True)
 class Article:
     """Normalized article representation shared across all ingestion sources."""
@@ -14,6 +31,7 @@ class Article:
     published_date: datetime
     raw_content: str
     category: str | None = None
+    geo_boost: bool = False
 
 
 @dataclass(frozen=True)
@@ -57,6 +75,16 @@ class EditorialSettings:
     include_keywords: list[str] = field(default_factory=list)
     exclude_keywords: list[str] = field(default_factory=list)
     min_title_length: int = 0
+    geo_priority: "GeoPrioritySettings" = field(default_factory=lambda: GeoPrioritySettings())
+
+
+@dataclass(frozen=True)
+class GeoPrioritySettings:
+    """Keywords and multiplier used to surface Spain and EU-relevant stories first."""
+
+    enabled: bool = True
+    boost_keywords: list[str] = field(default_factory=lambda: list(DEFAULT_GEO_PRIORITY_KEYWORDS))
+    boost_score: float = 1.5
 
 
 @dataclass(frozen=True)

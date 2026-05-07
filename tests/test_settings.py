@@ -28,6 +28,12 @@ editorial:
   exclude_keywords:
     - podcast
   min_title_length: 18
+  geo_priority:
+    enabled: true
+    boost_keywords:
+      - Spain
+      - European regulation
+    boost_score: 1.8
 ranking:
   max_articles_per_category: 2
   max_articles_per_source: 1
@@ -45,5 +51,8 @@ ranking:
     assert settings.editorial.include_keywords == ["orange"]
     assert settings.editorial.exclude_keywords == ["podcast"]
     assert settings.editorial.min_title_length == 18
+    assert settings.editorial.geo_priority.enabled is True
+    assert settings.editorial.geo_priority.boost_keywords == ["Spain", "European regulation"]
+    assert settings.editorial.geo_priority.boost_score == 1.8
     assert settings.ranking.max_articles_per_category == 2
     assert settings.ranking.max_articles_per_source == 1
