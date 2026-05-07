@@ -5,6 +5,7 @@ import os
 
 from src.fetcher import fetch_all_articles
 from src.settings import load_settings
+from src.storage import DEFAULT_ARTICLE_STORE_PATH, persist_weekly_articles
 
 
 def main() -> None:
@@ -17,8 +18,10 @@ def main() -> None:
 
     settings = load_settings()
     articles = fetch_all_articles(settings, api_key=os.getenv("NEWSAPI_KEY"))
+    weekly_store = persist_weekly_articles(articles)
 
     logging.info("Articulos candidatos tras deduplicacion: %s", len(articles))
+    logging.info("Acumulado semanal persistido en %s: %s", DEFAULT_ARTICLE_STORE_PATH, len(weekly_store.articles))
     for article in articles:
         # Keep the CLI output compact so it can be used as a quick smoke check.
         print(f"- [{article.source_name}] {article.title} -> {article.url}")

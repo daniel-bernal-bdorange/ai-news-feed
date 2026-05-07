@@ -17,6 +17,7 @@ El repositorio ya incluye la base Python del primer slice de la feature 288:
 - ingesta RSS multi-fuente con ventana temporal configurable;
 - NewsAPI como fuente opcional controlada por configuracion;
 - normalizacion comun de articulos y deduplicacion por URL o similitud de titulo;
+- persistencia semanal en `data/articles_week.json` con actualizacion atomica del acumulado actual;
 - ranking final del digest con limites configurables por fuente y categoria;
 - pruebas unitarias focalizadas para el slice de ingesta.
 

@@ -32,6 +32,11 @@ class Article:
     raw_content: str
     category: str | None = None
     geo_boost: bool = False
+    fetched_at: datetime | None = None
+    relevance_score: float = 1.0
+    summary: str | None = None
+    selected: bool = False
+    id: str | None = None
 
 
 @dataclass(frozen=True)

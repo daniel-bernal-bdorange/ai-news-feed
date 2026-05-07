@@ -134,6 +134,7 @@ def fetch_rss_articles(
                         published_date=published_date,
                         raw_content=_extract_raw_content(entry),
                         category=source.category,
+                        fetched_at=current_time,
                     ),
                     settings.editorial,
                 )
@@ -199,6 +200,7 @@ def fetch_newsapi_articles(
                             published_date=published_at,
                             raw_content=(item.get("content") or item.get("description") or "").strip(),
                             category="newsapi",
+                            fetched_at=current_time,
                         ),
                         settings.editorial,
                     )
@@ -385,8 +387,10 @@ def _similarity(left: str, right: str) -> float:
 def _article_rank_key(article: Article, editorial: EditorialSettings) -> tuple[float, datetime, str, str]:
     """Sort geo-prioritized articles first, then newer items, with deterministic ties."""
 
+    relevance_score = max(article.relevance_score, _geo_priority_multiplier(article, editorial))
+
     return (
-        _geo_priority_multiplier(article, editorial),
+        relevance_score,
         article.published_date,
         article.category or "",
         article.source_name.casefold(),
@@ -406,10 +410,12 @@ def _geo_priority_multiplier(article: Article, editorial: EditorialSettings) -> 
 def _with_geo_boost(article: Article, editorial: EditorialSettings) -> Article:
     """Persist the geo-priority match on the article so downstream stages can reuse it."""
 
-    if article.geo_boost:
+    geo_boost = _has_geo_priority(article, editorial)
+    relevance_score = max(article.relevance_score, editorial.geo_priority.boost_score if geo_boost else 1.0)
+    if article.geo_boost == geo_boost and article.relevance_score == relevance_score:
         return article
 
-    return replace(article, geo_boost=_has_geo_priority(article, editorial))
+    return replace(article, geo_boost=geo_boost, relevance_score=relevance_score)
 
 
 def _has_geo_priority(article: Article, editorial: EditorialSettings) -> bool:
@@ -429,10 +435,27 @@ def _has_geo_priority(article: Article, editorial: EditorialSettings) -> bool:
 def _merge_article_signals(primary: Article, duplicate: Article) -> Article:
     """Keep the chosen canonical article while preserving positive signals from duplicates."""
 
-    if primary.geo_boost or not duplicate.geo_boost:
-        return primary
+    return replace(
+        primary,
+        geo_boost=primary.geo_boost or duplicate.geo_boost,
+        fetched_at=_newest_datetime(primary.fetched_at, duplicate.fetched_at),
+        relevance_score=max(primary.relevance_score, duplicate.relevance_score),
+        summary=primary.summary or duplicate.summary,
+        selected=primary.selected or duplicate.selected,
+        id=primary.id or duplicate.id,
+    )
 
-    return replace(primary, geo_boost=True)
+
+def _newest_datetime(left: datetime | None, right: datetime | None) -> datetime | None:
+    """Return the newest available timestamp, tolerating missing fetched dates."""
+
+    if left is None:
+        return right
+
+    if right is None:
+        return left
+
+    return max(left, right)
 
 
 def _reaches_ranking_limit(key: str, counts: dict[str, int], limit: int | None) -> bool:
