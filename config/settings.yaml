@@ -1,0 +1,25 @@
+schedule:
+  lookback_hours: 24
+  max_articles_total: 8
+  max_articles_per_source: 3
+
+sources:
+  rss:
+    - name: "OpenAI Blog"
+      url: "https://openai.com/blog/rss/"
+      category: "ai"
+    - name: "Google AI Blog"
+      url: "https://blog.google/technology/ai/rss/"
+      category: "ai"
+    - name: "RCR Wireless News"
+      url: "https://www.rcrwireless.com/feed"
+      category: "telco"
+    - name: "Orange Newsroom"
+      url: "https://newsroom.orange.com/feed/"
+      category: "orange"
+
+  newsapi:
+    enabled: true
+    queries:
+      - "Orange Business Services"
+      - "Orange telecom enterprise AI"

@@ -1,0 +1,121 @@
+from __future__ import annotations
+
+from datetime import UTC, datetime
+from time import gmtime
+
+import httpx
+
+from src.fetcher import deduplicate_articles, fetch_all_articles, fetch_newsapi_articles, fetch_rss_articles
+from src.models import Article, NewsApiSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
+
+
+def build_settings(*, newsapi_enabled: bool = True) -> Settings:
+    return Settings(
+        schedule=ScheduleSettings(lookback_hours=24, max_articles_total=5, max_articles_per_source=2),
+        sources=SourceSettings(
+            rss=[RssSourceConfig(name="Feed A", url="https://example.com/rss", category="ai")],
+            newsapi=NewsApiSettings(enabled=newsapi_enabled, queries=["orange ai"]),
+        ),
+    )
+
+
+def test_fetch_rss_articles_filters_by_window_and_source_limit() -> None:
+    now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
+    settings = build_settings(newsapi_enabled=False)
+
+    def parser(_: str) -> dict[str, object]:
+        return {
+            "entries": [
+                _entry("Fresh 1", "https://example.com/fresh-1", now),
+                _entry("Fresh 2", "https://example.com/fresh-2", now.replace(hour=6)),
+                _entry("Fresh 3", "https://example.com/fresh-3", now.replace(hour=4)),
+                _entry("Old", "https://example.com/old", now.replace(day=5)),
+            ]
+        }
+
+    articles = fetch_rss_articles(settings, now=now, parser=parser)
+
+    assert [article.title for article in articles] == ["Fresh 1", "Fresh 2"]
+
+
+def test_fetch_newsapi_articles_skips_missing_api_key() -> None:
+    settings = build_settings(newsapi_enabled=True)
+
+    articles = fetch_newsapi_articles(settings, api_key=None)
+
+    assert articles == []
+
+
+def test_fetch_all_articles_deduplicates_url_and_similar_titles() -> None:
+    now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
+    settings = build_settings(newsapi_enabled=True)
+
+    def parser(_: str) -> dict[str, object]:
+        return {
+            "entries": [
+                _entry("Orange launches AI network platform", "https://example.com/story", now),
+            ]
+        }
+
+    transport = httpx.MockTransport(
+        lambda request: httpx.Response(
+            200,
+            json={
+                "articles": [
+                    {
+                        "title": "Orange launches AI network platform today",
+                        "url": "https://example.com/story?utm_source=rss",
+                        "publishedAt": "2026-05-07T07:30:00Z",
+                        "source": {"name": "NewsAPI"},
+                        "description": "Duplicated story through NewsAPI.",
+                    }
+                ]
+            },
+        )
+    )
+    client = httpx.Client(transport=transport)
+
+    articles = fetch_all_articles(settings, api_key="secret", client=client, now=now, parser=parser)
+
+    assert len(articles) == 1
+    assert articles[0].title == "Orange launches AI network platform"
+
+
+def test_deduplicate_articles_preserves_most_recent_unique_items() -> None:
+    older = Article(
+        title="Shared Story",
+        url="https://example.com/shared",
+        source_name="Feed A",
+        published_date=datetime(2026, 5, 7, 6, 0, tzinfo=UTC),
+        raw_content="Older",
+        category="ai",
+    )
+    newer = Article(
+        title="Shared Story Updated",
+        url="https://example.com/shared?utm_source=rss",
+        source_name="Feed B",
+        published_date=datetime(2026, 5, 7, 7, 0, tzinfo=UTC),
+        raw_content="Newer",
+        category="ai",
+    )
+    unique = Article(
+        title="Completely different article",
+        url="https://example.com/unique",
+        source_name="Feed C",
+        published_date=datetime(2026, 5, 7, 5, 0, tzinfo=UTC),
+        raw_content="Unique",
+        category="telco",
+    )
+
+    articles = deduplicate_articles([older, newer, unique], title_similarity_threshold=0.8)
+
+    assert [article.title for article in articles] == ["Shared Story Updated", "Completely different article"]
+
+
+def _entry(title: str, url: str, published_date: datetime) -> dict[str, object]:
+    return {
+        "title": title,
+        "link": url,
+        "summary": f"Summary for {title}",
+        "published_parsed": gmtime(published_date.timestamp()),
+    }
