@@ -44,14 +44,43 @@ def fetch_all_articles(
     newsapi_articles = fetch_newsapi_articles(settings, api_key, client=client, now=now)
     combined = filter_editorial_articles(rss_articles + newsapi_articles, settings.editorial)
     combined = deduplicate_articles(combined)
-    combined.sort(key=lambda article: article.published_date, reverse=True)
-    return combined[: settings.schedule.max_articles_total]
+    return rank_articles_for_digest(combined, settings)
 
 
 def filter_editorial_articles(articles: list[Article], editorial: EditorialSettings) -> list[Article]:
     """Drop articles that fail the editorial inclusion, exclusion, or title rules."""
 
     return [article for article in articles if _matches_editorial_rules(article, editorial)]
+
+
+def rank_articles_for_digest(articles: list[Article], settings: Settings) -> list[Article]:
+    """Return the final digest shortlist ordered by priority and constrained by ranking caps."""
+
+    ranked_articles = sorted(articles, key=_article_rank_key, reverse=True)
+    selected: list[Article] = []
+    source_counts: dict[str, int] = {}
+    category_counts: dict[str, int] = {}
+
+    for article in ranked_articles:
+        if _reaches_ranking_limit(article.source_name, source_counts, settings.ranking.max_articles_per_source):
+            continue
+
+        if article.category and _reaches_ranking_limit(
+            article.category,
+            category_counts,
+            settings.ranking.max_articles_per_category,
+        ):
+            continue
+
+        selected.append(article)
+        source_counts[article.source_name] = source_counts.get(article.source_name, 0) + 1
+        if article.category:
+            category_counts[article.category] = category_counts.get(article.category, 0) + 1
+
+        if len(selected) >= settings.schedule.max_articles_total:
+            break
+
+    return selected
 
 
 def fetch_rss_articles(
@@ -332,3 +361,18 @@ def _similarity(left: str, right: str) -> float:
     """Return the similarity ratio used for near-duplicate title detection."""
 
     return SequenceMatcher(None, left, right).ratio()
+
+
+def _article_rank_key(article: Article) -> tuple[datetime, str, str]:
+    """Sort newer articles first and keep the order deterministic on ties."""
+
+    return (article.published_date, article.category or "", article.source_name.casefold())
+
+
+def _reaches_ranking_limit(key: str, counts: dict[str, int], limit: int | None) -> bool:
+    """Report whether a ranking bucket already consumed its configured quota."""
+
+    if limit is None:
+        return False
+
+    return counts.get(key, 0) >= limit

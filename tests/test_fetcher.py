@@ -5,8 +5,8 @@ from time import gmtime
 
 import httpx
 
-from src.fetcher import deduplicate_articles, fetch_all_articles, fetch_newsapi_articles, fetch_rss_articles
-from src.models import Article, EditorialSettings, NewsApiSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
+from src.fetcher import deduplicate_articles, fetch_all_articles, fetch_newsapi_articles, fetch_rss_articles, rank_articles_for_digest
+from src.models import Article, EditorialSettings, NewsApiSettings, RankingSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
 
 
 def build_settings(
@@ -17,6 +17,8 @@ def build_settings(
     min_title_length: int = 0,
     max_articles_total: int = 5,
     max_articles_per_source: int = 2,
+    max_ranked_articles_per_category: int | None = None,
+    max_ranked_articles_per_source: int | None = None,
 ) -> Settings:
     """Build a compact settings object for ingestion-focused tests."""
 
@@ -34,6 +36,10 @@ def build_settings(
             include_keywords=list(include_keywords or []),
             exclude_keywords=list(exclude_keywords or []),
             min_title_length=min_title_length,
+        ),
+        ranking=RankingSettings(
+            max_articles_per_category=max_ranked_articles_per_category,
+            max_articles_per_source=max_ranked_articles_per_source,
         ),
     )
 
@@ -157,6 +163,63 @@ def test_fetch_all_articles_applies_editorial_filters_before_ranking() -> None:
     articles = fetch_all_articles(settings, api_key=None, now=now, parser=parser)
 
     assert [article.title for article in articles] == ["Orange launches enterprise AI platform"]
+
+
+def test_rank_articles_for_digest_respects_category_and_source_limits() -> None:
+    """Final ranking should keep the best recent mix within source and category caps."""
+
+    settings = build_settings(
+        newsapi_enabled=False,
+        max_articles_total=3,
+        max_ranked_articles_per_category=1,
+        max_ranked_articles_per_source=1,
+    )
+    articles = [
+        Article(
+            title="AI lead",
+            url="https://example.com/ai-lead",
+            source_name="Feed A",
+            published_date=datetime(2026, 5, 7, 8, 0, tzinfo=UTC),
+            raw_content="Lead",
+            category="ai",
+        ),
+        Article(
+            title="AI follow-up same source",
+            url="https://example.com/ai-follow-up",
+            source_name="Feed A",
+            published_date=datetime(2026, 5, 7, 7, 30, tzinfo=UTC),
+            raw_content="Follow-up",
+            category="ai",
+        ),
+        Article(
+            title="AI second source",
+            url="https://example.com/ai-second-source",
+            source_name="Feed B",
+            published_date=datetime(2026, 5, 7, 7, 0, tzinfo=UTC),
+            raw_content="Second",
+            category="ai",
+        ),
+        Article(
+            title="Telco top",
+            url="https://example.com/telco-top",
+            source_name="Feed C",
+            published_date=datetime(2026, 5, 7, 6, 30, tzinfo=UTC),
+            raw_content="Telco",
+            category="telco",
+        ),
+        Article(
+            title="Orange top",
+            url="https://example.com/orange-top",
+            source_name="Feed D",
+            published_date=datetime(2026, 5, 7, 6, 0, tzinfo=UTC),
+            raw_content="Orange",
+            category="orange",
+        ),
+    ]
+
+    ranked = rank_articles_for_digest(articles, settings)
+
+    assert [article.title for article in ranked] == ["AI lead", "Telco top", "Orange top"]
 
 
 def test_deduplicate_articles_preserves_most_recent_unique_items() -> None:

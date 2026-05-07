@@ -32,3 +32,7 @@ editorial:
     - "podcast"
     - "video"
   min_title_length: 20
+
+ranking:
+  max_articles_per_category: 2
+  max_articles_per_source: 1

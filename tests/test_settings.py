@@ -28,6 +28,9 @@ editorial:
   exclude_keywords:
     - podcast
   min_title_length: 18
+ranking:
+  max_articles_per_category: 2
+  max_articles_per_source: 1
 """.strip(),
         encoding="utf-8",
     )
@@ -42,3 +45,5 @@ editorial:
     assert settings.editorial.include_keywords == ["orange"]
     assert settings.editorial.exclude_keywords == ["podcast"]
     assert settings.editorial.min_title_length == 18
+    assert settings.ranking.max_articles_per_category == 2
+    assert settings.ranking.max_articles_per_source == 1

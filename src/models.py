@@ -60,9 +60,18 @@ class EditorialSettings:
 
 
 @dataclass(frozen=True)
+class RankingSettings:
+    """Final digest ranking controls used after ingestion and deduplication."""
+
+    max_articles_per_category: int | None = None
+    max_articles_per_source: int | None = None
+
+
+@dataclass(frozen=True)
 class Settings:
     """Top-level application settings loaded from configuration."""
 
     schedule: ScheduleSettings = field(default_factory=ScheduleSettings)
     sources: SourceSettings = field(default_factory=SourceSettings)
     editorial: EditorialSettings = field(default_factory=EditorialSettings)
+    ranking: RankingSettings = field(default_factory=RankingSettings)
