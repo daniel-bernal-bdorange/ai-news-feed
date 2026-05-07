@@ -192,6 +192,50 @@ def test_deduplicate_articles_preserves_most_recent_unique_items() -> None:
     assert [article.title for article in articles] == ["Shared Story Updated", "Completely different article"]
 
 
+def test_deduplicate_articles_collapses_syndicated_title_variants() -> None:
+    """Title variants with wire suffixes or one extra keyword should still collapse."""
+
+    older = Article(
+        title="Orange launches AI network platform",
+        url="https://feed-a.example.com/story",
+        source_name="Feed A",
+        published_date=datetime(2026, 5, 7, 6, 0, tzinfo=UTC),
+        raw_content="Older",
+        category="ai",
+    )
+    middle = Article(
+        title="Orange launches AI network platform - Reuters",
+        url="https://feed-b.example.com/story",
+        source_name="Feed B",
+        published_date=datetime(2026, 5, 7, 7, 0, tzinfo=UTC),
+        raw_content="Middle",
+        category="ai",
+    )
+    newer = Article(
+        title="Orange launches AI-powered network platform",
+        url="https://feed-c.example.com/story",
+        source_name="Feed C",
+        published_date=datetime(2026, 5, 7, 8, 0, tzinfo=UTC),
+        raw_content="Newer",
+        category="ai",
+    )
+    unique = Article(
+        title="Independent telco cloud update",
+        url="https://feed-d.example.com/story",
+        source_name="Feed D",
+        published_date=datetime(2026, 5, 7, 5, 0, tzinfo=UTC),
+        raw_content="Unique",
+        category="telco",
+    )
+
+    articles = deduplicate_articles([older, middle, newer, unique])
+
+    assert [article.title for article in articles] == [
+        "Orange launches AI-powered network platform",
+        "Independent telco cloud update",
+    ]
+
+
 def _entry(title: str, url: str, published_date: datetime) -> dict[str, object]:
     """Create a feedparser-like entry payload for deterministic RSS tests."""
 

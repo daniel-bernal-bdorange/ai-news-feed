@@ -15,6 +15,19 @@ from .models import Article, EditorialSettings, Settings
 LOGGER = logging.getLogger(__name__)
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
 TRACKING_QUERY_KEYS = {"fbclid", "gclid", "mc_cid", "mc_eid"}
+TITLE_NOISE_TOKENS = {
+    "analysis",
+    "ap",
+    "associated",
+    "bloomberg",
+    "exclusive",
+    "photos",
+    "podcast",
+    "press",
+    "reuters",
+    "update",
+    "video",
+}
 
 
 def fetch_all_articles(
@@ -166,21 +179,31 @@ def deduplicate_articles(
 
     unique_articles: list[Article] = []
     seen_urls: set[str] = set()
-    seen_titles: list[str] = []
+    seen_titles: list[tuple[str, set[str]]] = []
 
     for article in sorted(articles, key=lambda item: item.published_date, reverse=True):
         # URL normalization strips tracking noise so syndicated links collapse reliably.
         canonical_url = _canonicalize_url(article.url)
         normalized_title = _normalize_title(article.title)
+        title_tokens = _meaningful_title_tokens(normalized_title)
 
         if canonical_url in seen_urls:
             continue
 
-        if any(_similarity(normalized_title, existing) >= title_similarity_threshold for existing in seen_titles):
+        if any(
+            _titles_match(
+                normalized_title,
+                title_tokens,
+                existing_title,
+                existing_tokens,
+                title_similarity_threshold,
+            )
+            for existing_title, existing_tokens in seen_titles
+        ):
             continue
 
         seen_urls.add(canonical_url)
-        seen_titles.append(normalized_title)
+        seen_titles.append((normalized_title, title_tokens))
         unique_articles.append(article)
 
     return unique_articles
@@ -265,10 +288,6 @@ def _normalize_title(title: str) -> str:
     return " ".join(sanitized.split())
 
 
-def _similarity(left: str, right: str) -> float:
-    """Return the similarity ratio used for near-duplicate title detection."""
-
-    return SequenceMatcher(None, left, right).ratio()
 def _normalize_search_text(value: str) -> str:
     """Normalize article text so keyword rules behave consistently."""
 
@@ -309,16 +328,7 @@ def _titles_match(
     return len(smaller_tokens) >= 4 and len(shared_tokens) >= 4 and smaller_tokens <= larger_tokens and len(larger_tokens - smaller_tokens) <= 1
 
 
-TITLE_NOISE_TOKENS = {
-    "analysis",
-    "ap",
-    "associated",
-    "bloomberg",
-    "exclusive",
-    "photos",
-    "podcast",
-    "press",
-    "reuters",
-    "update",
-    "video",
-}
+def _similarity(left: str, right: str) -> float:
+    """Return the similarity ratio used for near-duplicate title detection."""
+
+    return SequenceMatcher(None, left, right).ratio()
