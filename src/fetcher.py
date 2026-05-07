@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import replace
 import logging
 import re
 from datetime import UTC, datetime, timedelta
@@ -10,11 +11,24 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import feedparser
 import httpx
 
-from .models import Article, Settings
+from .models import Article, EditorialSettings, Settings
 
 LOGGER = logging.getLogger(__name__)
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
 TRACKING_QUERY_KEYS = {"fbclid", "gclid", "mc_cid", "mc_eid"}
+TITLE_NOISE_TOKENS = {
+    "analysis",
+    "ap",
+    "associated",
+    "bloomberg",
+    "exclusive",
+    "photos",
+    "podcast",
+    "press",
+    "reuters",
+    "update",
+    "video",
+}
 
 
 def fetch_all_articles(
@@ -29,9 +43,49 @@ def fetch_all_articles(
 
     rss_articles = fetch_rss_articles(settings, now=now, parser=parser)
     newsapi_articles = fetch_newsapi_articles(settings, api_key, client=client, now=now)
-    combined = deduplicate_articles(rss_articles + newsapi_articles)
-    combined.sort(key=lambda article: article.published_date, reverse=True)
-    return combined[: settings.schedule.max_articles_total]
+    combined = filter_editorial_articles(rss_articles + newsapi_articles, settings.editorial)
+    combined = deduplicate_articles(combined)
+    return rank_articles_for_digest(combined, settings)
+
+
+def filter_editorial_articles(articles: list[Article], editorial: EditorialSettings) -> list[Article]:
+    """Drop articles that fail the editorial inclusion, exclusion, or title rules."""
+
+    return [article for article in articles if _matches_editorial_rules(article, editorial)]
+
+
+def rank_articles_for_digest(articles: list[Article], settings: Settings) -> list[Article]:
+    """Return the final digest shortlist ordered by priority and constrained by ranking caps."""
+
+    ranked_articles = sorted(
+        articles,
+        key=lambda article: _article_rank_key(article, settings.editorial),
+        reverse=True,
+    )
+    selected: list[Article] = []
+    source_counts: dict[str, int] = {}
+    category_counts: dict[str, int] = {}
+
+    for article in ranked_articles:
+        if _reaches_ranking_limit(article.source_name, source_counts, settings.ranking.max_articles_per_source):
+            continue
+
+        if article.category and _reaches_ranking_limit(
+            article.category,
+            category_counts,
+            settings.ranking.max_articles_per_category,
+        ):
+            continue
+
+        selected.append(article)
+        source_counts[article.source_name] = source_counts.get(article.source_name, 0) + 1
+        if article.category:
+            category_counts[article.category] = category_counts.get(article.category, 0) + 1
+
+        if len(selected) >= settings.schedule.max_articles_total:
+            break
+
+    return selected
 
 
 def fetch_rss_articles(
@@ -72,13 +126,16 @@ def fetch_rss_articles(
                 continue
 
             articles.append(
-                Article(
-                    title=title,
-                    url=url,
-                    source_name=source.name,
-                    published_date=published_date,
-                    raw_content=_extract_raw_content(entry),
-                    category=source.category,
+                _with_geo_boost(
+                    Article(
+                        title=title,
+                        url=url,
+                        source_name=source.name,
+                        published_date=published_date,
+                        raw_content=_extract_raw_content(entry),
+                        category=source.category,
+                    ),
+                    settings.editorial,
                 )
             )
             added_for_source += 1
@@ -134,13 +191,16 @@ def fetch_newsapi_articles(
                     continue
 
                 articles.append(
-                    Article(
-                        title=(item.get("title") or "").strip(),
-                        url=(item.get("url") or "").strip(),
-                        source_name=(item.get("source") or {}).get("name", "NewsAPI"),
-                        published_date=published_at,
-                        raw_content=(item.get("content") or item.get("description") or "").strip(),
-                        category="newsapi",
+                    _with_geo_boost(
+                        Article(
+                            title=(item.get("title") or "").strip(),
+                            url=(item.get("url") or "").strip(),
+                            source_name=(item.get("source") or {}).get("name", "NewsAPI"),
+                            published_date=published_at,
+                            raw_content=(item.get("content") or item.get("description") or "").strip(),
+                            category="newsapi",
+                        ),
+                        settings.editorial,
                     )
                 )
     finally:
@@ -158,25 +218,60 @@ def deduplicate_articles(
     """Remove repeated stories by canonical URL and near-duplicate titles."""
 
     unique_articles: list[Article] = []
-    seen_urls: set[str] = set()
-    seen_titles: list[str] = []
+    seen_urls: dict[str, int] = {}
+    seen_titles: list[tuple[str, set[str], int]] = []
 
     for article in sorted(articles, key=lambda item: item.published_date, reverse=True):
         # URL normalization strips tracking noise so syndicated links collapse reliably.
         canonical_url = _canonicalize_url(article.url)
         normalized_title = _normalize_title(article.title)
+        title_tokens = _meaningful_title_tokens(normalized_title)
 
-        if canonical_url in seen_urls:
+        existing_index = seen_urls.get(canonical_url)
+        if existing_index is not None:
+            unique_articles[existing_index] = _merge_article_signals(unique_articles[existing_index], article)
             continue
 
-        if any(_similarity(normalized_title, existing) >= title_similarity_threshold for existing in seen_titles):
+        title_match_index = next(
+            (
+                existing_index
+                for existing_title, existing_tokens, existing_index in seen_titles
+                if _titles_match(
+                    normalized_title,
+                    title_tokens,
+                    existing_title,
+                    existing_tokens,
+                    title_similarity_threshold,
+                )
+            ),
+            None,
+        )
+        if title_match_index is not None:
+            unique_articles[title_match_index] = _merge_article_signals(unique_articles[title_match_index], article)
             continue
 
-        seen_urls.add(canonical_url)
-        seen_titles.append(normalized_title)
+        seen_urls[canonical_url] = len(unique_articles)
+        seen_titles.append((normalized_title, title_tokens, len(unique_articles)))
         unique_articles.append(article)
 
     return unique_articles
+
+
+def _matches_editorial_rules(article: Article, editorial: EditorialSettings) -> bool:
+    """Evaluate an article against the configured editorial filters."""
+
+    if len(article.title.strip()) < editorial.min_title_length:
+        return False
+
+    searchable_text = _normalize_search_text(f"{article.title} {article.raw_content}")
+
+    if editorial.include_keywords and not any(_keyword_matches(searchable_text, keyword) for keyword in editorial.include_keywords):
+        return False
+
+    if editorial.exclude_keywords and any(_keyword_matches(searchable_text, keyword) for keyword in editorial.exclude_keywords):
+        return False
+
+    return True
 
 
 def _entry_published_date(entry: dict[str, Any]) -> datetime | None:
@@ -241,7 +336,109 @@ def _normalize_title(title: str) -> str:
     return " ".join(sanitized.split())
 
 
+def _normalize_search_text(value: str) -> str:
+    """Normalize article text so keyword rules behave consistently."""
+
+    return " ".join(value.lower().split())
+
+
+def _keyword_matches(searchable_text: str, keyword: str) -> bool:
+    """Match configured keywords case-insensitively against normalized article text."""
+
+    normalized_keyword = _normalize_search_text(keyword)
+    return bool(normalized_keyword) and normalized_keyword in searchable_text
+
+
+def _meaningful_title_tokens(title: str) -> set[str]:
+    """Drop low-signal attribution tokens before comparing title variants."""
+
+    return {token for token in title.split() if token not in TITLE_NOISE_TOKENS}
+
+
+def _titles_match(
+    left_title: str,
+    left_tokens: set[str],
+    right_title: str,
+    right_tokens: set[str],
+    threshold: float,
+) -> bool:
+    """Treat small syndicated title variants as the same story."""
+
+    if _similarity(left_title, right_title) >= threshold:
+        return True
+
+    if not left_tokens or not right_tokens:
+        return False
+
+    shared_tokens = left_tokens & right_tokens
+    smaller_tokens, larger_tokens = sorted((left_tokens, right_tokens), key=len)
+
+    return len(smaller_tokens) >= 4 and len(shared_tokens) >= 4 and smaller_tokens <= larger_tokens and len(larger_tokens - smaller_tokens) <= 1
+
+
 def _similarity(left: str, right: str) -> float:
     """Return the similarity ratio used for near-duplicate title detection."""
 
     return SequenceMatcher(None, left, right).ratio()
+
+
+def _article_rank_key(article: Article, editorial: EditorialSettings) -> tuple[float, datetime, str, str]:
+    """Sort geo-prioritized articles first, then newer items, with deterministic ties."""
+
+    return (
+        _geo_priority_multiplier(article, editorial),
+        article.published_date,
+        article.category or "",
+        article.source_name.casefold(),
+    )
+
+
+def _geo_priority_multiplier(article: Article, editorial: EditorialSettings) -> float:
+    """Return the configured boost for Spain and EU-relevant articles."""
+
+    geo_priority = editorial.geo_priority
+    if _has_geo_priority(article, editorial):
+        return geo_priority.boost_score
+
+    return 1.0
+
+
+def _with_geo_boost(article: Article, editorial: EditorialSettings) -> Article:
+    """Persist the geo-priority match on the article so downstream stages can reuse it."""
+
+    if article.geo_boost:
+        return article
+
+    return replace(article, geo_boost=_has_geo_priority(article, editorial))
+
+
+def _has_geo_priority(article: Article, editorial: EditorialSettings) -> bool:
+    """Check whether an article is relevant to Spain or EU regulation."""
+
+    geo_priority = editorial.geo_priority
+    if not geo_priority.enabled:
+        return article.geo_boost
+
+    if article.geo_boost:
+        return True
+
+    searchable_text = _normalize_search_text(f"{article.title} {article.raw_content}")
+    return any(_keyword_matches(searchable_text, keyword) for keyword in geo_priority.boost_keywords)
+
+
+def _merge_article_signals(primary: Article, duplicate: Article) -> Article:
+    """Keep the chosen canonical article while preserving positive signals from duplicates."""
+
+    if primary.geo_boost or not duplicate.geo_boost:
+        return primary
+
+    return replace(primary, geo_boost=True)
+
+
+def _reaches_ranking_limit(key: str, counts: dict[str, int], limit: int | None) -> bool:
+    """Report whether a ranking bucket already consumed its configured quota."""
+
+    if limit is None:
+        return False
+
+    return counts.get(key, 0) >= limit

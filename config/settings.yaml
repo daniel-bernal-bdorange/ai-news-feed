@@ -23,3 +23,33 @@ sources:
     queries:
       - "Orange Business Services"
       - "Orange telecom enterprise AI"
+
+editorial:
+  include_keywords:
+    - "orange"
+    - "enterprise ai"
+  exclude_keywords:
+    - "podcast"
+    - "video"
+  min_title_length: 20
+  geo_priority:
+    enabled: true
+    boost_keywords:
+      - "spain"
+      - "españa"
+      - "spanish"
+      - "madrid"
+      - "barcelona"
+      - "masorange"
+      - "telefónica"
+      - "european"
+      - "europe"
+      - "european union"
+      - "eu regulation"
+      - "european regulation"
+      - "eu ai act"
+    boost_score: 1.5
+
+ranking:
+  max_articles_per_category: 2
+  max_articles_per_source: 1

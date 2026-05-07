@@ -1,6 +1,6 @@
 # Playbook reutilizable de Git y Azure DevOps
 
-Guia corta para arrancar un proyecto nuevo con el mismo nivel de trazabilidad operativa usado en Olympic Data Story.
+Guia corta para arrancar y operar proyectos con el mismo nivel de trazabilidad usado en este repositorio. Para AI-News-Feed, este playbook se complementa con `docs/devops-rebaseline-v2.md`, que aterriza el brief vigente en backlog, validaciones y orden de ejecucion.
 
 ## Principios base
 
@@ -8,6 +8,7 @@ Guia corta para arrancar un proyecto nuevo con el mismo nivel de trazabilidad op
 - Trabajar por slices pequenas y cerrables, cada una con validacion explicita.
 - Evitar commits con artefactos locales o cambios no relacionados.
 - Dejar siempre trazabilidad bidireccional entre codigo y backlog.
+- Mantener backlog, workflows y criterios de cierre alineados con el brief funcional vigente.
 - Actualizar la memoria del proyecto al cerrar historias, features y cierres relevantes.
 
 ## Flujo recomendado por historia
@@ -15,18 +16,26 @@ Guia corta para arrancar un proyecto nuevo con el mismo nivel de trazabilidad op
 1. Mover la historia a estado activo y dejar comentario de arranque en ADO.
 2. Si la slice no es trivial, crear una rama `feature/<slug-corto>`.
 3. Implementar el cambio y validar con la prueba mas barata y especifica posible.
-4. Hacer commit solo de los archivos relacionados con la historia.
-5. Hacer push y registrar el SHA o la URL del commit.
-6. Cerrar la historia en ADO con resumen tecnico, validaciones ejecutadas y resultado.
-7. Anadir un comentario final con la URL del commit de GitHub si no quedo en el cierre inicial.
-8. Actualizar la memoria del repo con el estado final y los aprendizajes operativos.
+4. Si la slice toca workflows, secretos, auto-commit o entrega externa, registrar tambien una evidencia operacional corta.
+5. Hacer commit solo de los archivos relacionados con la historia.
+6. Hacer push y registrar el SHA o la URL del commit.
+7. Cerrar la historia en ADO con resumen tecnico, validaciones ejecutadas y resultado.
+8. Anadir un comentario final con la URL del commit de GitHub si no quedo en el cierre inicial.
+9. Actualizar README, playbook o memoria si la slice cambia el contrato operativo del repo.
 
 ## Validacion minima antes de cerrar
 
-- `eslint` focalizado en los archivos tocados cuando la slice es local.
-- Smoke test funcional si hay interaccion visible o comportamiento critico.
-- `npm run build` o validacion equivalente cuando la slice afecta integracion o entrega.
-- Verificacion manual breve en la ruta o pantalla afectada cuando aplique.
+- Linter o analisis estatico focalizado sobre los archivos tocados.
+- Prueba automatizada minima y especifica para el slice afectado.
+- Smoke test funcional si hay integracion visible, persistencia o comportamiento critico.
+- Validacion operacional corta cuando la slice afecta CI/CD, secretos, planificacion o entrega externa.
+
+Para este repositorio, la base minima recomendada es:
+
+- `ruff check main.py src tests`
+- `python -m pytest tests/<slice>` o `python -m pytest` cuando el cambio cruce varios modulos
+- `python main.py` solo para slices locales del flujo actual; cuando entren `fetch_and_store.py` o `digest_and_send.py`, usar el entry point afectado
+- `workflow_dispatch` manual cuando el cambio toque GitHub Actions, auto-commit, `data/articles_week.json`, Groq o Teams
 
 ## Convenciones de Git
 
@@ -43,6 +52,15 @@ Guia corta para arrancar un proyecto nuevo con el mismo nivel de trazabilidad op
 - Despues de tocar jerarquias, verificar con WIQL por `System.Parent` y con `work-item show`.
 - Si un item no se puede borrar por permisos, cerrarlo como obsoleto y corregir su jerarquia.
 - Si quedan archivos fuera del commit por ser artefactos locales o trabajo no relacionado, dejarlo indicado en ADO.
+
+## Adaptacion actual para AI-News-Feed
+
+- El brief vigente ya no describe un digest diario simple: ahora hay ingesta diaria, acumulacion semanal en repo y digest semanal los viernes.
+- La trazabilidad operativa debe distinguir tres workflows: `ci.yml`, `daily_fetch.yml` y `weekly_digest.yml`.
+- Las slices que toquen almacenamiento persistente deben vigilar que el unico artefacto mutable esperado sea `data/articles_week.json`.
+- La Definition of Done operativa sube el liston: `ruff`, `pytest`, cobertura objetivo >= 80 %, prueba manual por `workflow_dispatch` cuando aplique, secretos revisados y README actualizado si cambia configuracion.
+- Los secretos operativos a vigilar son `GROQ_API_KEY`, `TEAMS_WEBHOOK_URL`, `NEWSAPI_KEY` y `GH_PAT`.
+- El mapa de backlog y el orden recomendado de ejecucion para este repo viven en `docs/devops-rebaseline-v2.md`.
 
 ## Comandos utiles
 
@@ -82,6 +100,7 @@ Notas: <artefactos excluidos, cierres retroactivos, permisos, etc.>
 Al crear el siguiente repo, conviene dejar desde el dia 1:
 
 - un documento operativo como este en `docs/`;
+- un documento de rebaseline cuando el brief cambie de forma estructural;
 - una memoria de setup con org, proyecto, repo y comandos validados;
 - una memoria de estado para cierres y checkpoints;
 - un script de bootstrap del backlog si el proyecto va a nacer con ADO.
