@@ -4,7 +4,7 @@ from pathlib import Path
 
 import yaml
 
-from .models import NewsApiSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
+from .models import EditorialSettings, NewsApiSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
 
 
 def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
@@ -15,6 +15,7 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
 
     schedule = ScheduleSettings(**data.get("schedule", {}))
     sources_data = data.get("sources", {})
+    editorial_data = data.get("editorial", {})
 
     # Keep source parsing explicit so malformed sections fail close to the config boundary.
     rss_sources = [RssSourceConfig(**item) for item in sources_data.get("rss", [])]
@@ -23,8 +24,14 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
         enabled=newsapi_data.get("enabled", False),
         queries=list(newsapi_data.get("queries", [])),
     )
+    editorial = EditorialSettings(
+        include_keywords=list(editorial_data.get("include_keywords", [])),
+        exclude_keywords=list(editorial_data.get("exclude_keywords", [])),
+        min_title_length=editorial_data.get("min_title_length", 0),
+    )
 
     return Settings(
         schedule=schedule,
         sources=SourceSettings(rss=rss_sources, newsapi=newsapi),
+        editorial=editorial,
     )

@@ -23,3 +23,12 @@ sources:
     queries:
       - "Orange Business Services"
       - "Orange telecom enterprise AI"
+
+editorial:
+  include_keywords:
+    - "orange"
+    - "enterprise ai"
+  exclude_keywords:
+    - "podcast"
+    - "video"
+  min_title_length: 20

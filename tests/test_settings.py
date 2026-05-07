@@ -22,6 +22,12 @@ sources:
     enabled: true
     queries:
       - example query
+editorial:
+  include_keywords:
+    - orange
+  exclude_keywords:
+    - podcast
+  min_title_length: 18
 """.strip(),
         encoding="utf-8",
     )
@@ -33,3 +39,6 @@ sources:
     assert settings.sources.rss[0].name == "Example Feed"
     assert settings.sources.newsapi.enabled is True
     assert settings.sources.newsapi.queries == ["example query"]
+    assert settings.editorial.include_keywords == ["orange"]
+    assert settings.editorial.exclude_keywords == ["podcast"]
+    assert settings.editorial.min_title_length == 18

@@ -10,7 +10,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import feedparser
 import httpx
 
-from .models import Article, Settings
+from .models import Article, EditorialSettings, Settings
 
 LOGGER = logging.getLogger(__name__)
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
@@ -29,9 +29,16 @@ def fetch_all_articles(
 
     rss_articles = fetch_rss_articles(settings, now=now, parser=parser)
     newsapi_articles = fetch_newsapi_articles(settings, api_key, client=client, now=now)
-    combined = deduplicate_articles(rss_articles + newsapi_articles)
+    combined = filter_editorial_articles(rss_articles + newsapi_articles, settings.editorial)
+    combined = deduplicate_articles(combined)
     combined.sort(key=lambda article: article.published_date, reverse=True)
     return combined[: settings.schedule.max_articles_total]
+
+
+def filter_editorial_articles(articles: list[Article], editorial: EditorialSettings) -> list[Article]:
+    """Drop articles that fail the editorial inclusion, exclusion, or title rules."""
+
+    return [article for article in articles if _matches_editorial_rules(article, editorial)]
 
 
 def fetch_rss_articles(
@@ -179,6 +186,23 @@ def deduplicate_articles(
     return unique_articles
 
 
+def _matches_editorial_rules(article: Article, editorial: EditorialSettings) -> bool:
+    """Evaluate an article against the configured editorial filters."""
+
+    if len(article.title.strip()) < editorial.min_title_length:
+        return False
+
+    searchable_text = _normalize_search_text(f"{article.title} {article.raw_content}")
+
+    if editorial.include_keywords and not any(_keyword_matches(searchable_text, keyword) for keyword in editorial.include_keywords):
+        return False
+
+    if editorial.exclude_keywords and any(_keyword_matches(searchable_text, keyword) for keyword in editorial.exclude_keywords):
+        return False
+
+    return True
+
+
 def _entry_published_date(entry: dict[str, Any]) -> datetime | None:
     """Extract a timezone-aware publication date from a parsed feed entry."""
 
@@ -245,3 +269,56 @@ def _similarity(left: str, right: str) -> float:
     """Return the similarity ratio used for near-duplicate title detection."""
 
     return SequenceMatcher(None, left, right).ratio()
+def _normalize_search_text(value: str) -> str:
+    """Normalize article text so keyword rules behave consistently."""
+
+    return " ".join(value.lower().split())
+
+
+def _keyword_matches(searchable_text: str, keyword: str) -> bool:
+    """Match configured keywords case-insensitively against normalized article text."""
+
+    normalized_keyword = _normalize_search_text(keyword)
+    return bool(normalized_keyword) and normalized_keyword in searchable_text
+
+
+def _meaningful_title_tokens(title: str) -> set[str]:
+    """Drop low-signal attribution tokens before comparing title variants."""
+
+    return {token for token in title.split() if token not in TITLE_NOISE_TOKENS}
+
+
+def _titles_match(
+    left_title: str,
+    left_tokens: set[str],
+    right_title: str,
+    right_tokens: set[str],
+    threshold: float,
+) -> bool:
+    """Treat small syndicated title variants as the same story."""
+
+    if _similarity(left_title, right_title) >= threshold:
+        return True
+
+    if not left_tokens or not right_tokens:
+        return False
+
+    shared_tokens = left_tokens & right_tokens
+    smaller_tokens, larger_tokens = sorted((left_tokens, right_tokens), key=len)
+
+    return len(smaller_tokens) >= 4 and len(shared_tokens) >= 4 and smaller_tokens <= larger_tokens and len(larger_tokens - smaller_tokens) <= 1
+
+
+TITLE_NOISE_TOKENS = {
+    "analysis",
+    "ap",
+    "associated",
+    "bloomberg",
+    "exclusive",
+    "photos",
+    "podcast",
+    "press",
+    "reuters",
+    "update",
+    "video",
+}

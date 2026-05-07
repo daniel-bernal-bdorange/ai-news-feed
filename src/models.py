@@ -51,8 +51,18 @@ class ScheduleSettings:
 
 
 @dataclass(frozen=True)
+class EditorialSettings:
+    """Editorial rules used to keep low-signal content out of the shortlist."""
+
+    include_keywords: list[str] = field(default_factory=list)
+    exclude_keywords: list[str] = field(default_factory=list)
+    min_title_length: int = 0
+
+
+@dataclass(frozen=True)
 class Settings:
     """Top-level application settings loaded from configuration."""
 
     schedule: ScheduleSettings = field(default_factory=ScheduleSettings)
     sources: SourceSettings = field(default_factory=SourceSettings)
+    editorial: EditorialSettings = field(default_factory=EditorialSettings)

@@ -6,17 +6,34 @@ from time import gmtime
 import httpx
 
 from src.fetcher import deduplicate_articles, fetch_all_articles, fetch_newsapi_articles, fetch_rss_articles
-from src.models import Article, NewsApiSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
+from src.models import Article, EditorialSettings, NewsApiSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
 
 
-def build_settings(*, newsapi_enabled: bool = True) -> Settings:
+def build_settings(
+    *,
+    newsapi_enabled: bool = True,
+    include_keywords: list[str] | None = None,
+    exclude_keywords: list[str] | None = None,
+    min_title_length: int = 0,
+    max_articles_total: int = 5,
+    max_articles_per_source: int = 2,
+) -> Settings:
     """Build a compact settings object for ingestion-focused tests."""
 
     return Settings(
-        schedule=ScheduleSettings(lookback_hours=24, max_articles_total=5, max_articles_per_source=2),
+        schedule=ScheduleSettings(
+            lookback_hours=24,
+            max_articles_total=max_articles_total,
+            max_articles_per_source=max_articles_per_source,
+        ),
         sources=SourceSettings(
             rss=[RssSourceConfig(name="Feed A", url="https://example.com/rss", category="ai")],
             newsapi=NewsApiSettings(enabled=newsapi_enabled, queries=["orange ai"]),
+        ),
+        editorial=EditorialSettings(
+            include_keywords=list(include_keywords or []),
+            exclude_keywords=list(exclude_keywords or []),
+            min_title_length=min_title_length,
         ),
     )
 
@@ -109,6 +126,37 @@ def test_fetch_all_articles_continues_with_rss_when_newsapi_fails() -> None:
 
     assert len(articles) == 1
     assert articles[0].title == "RSS survives NewsAPI outage"
+
+
+def test_fetch_all_articles_applies_editorial_filters_before_ranking() -> None:
+    """Editorial rules should remove excluded items before the ranked cap is applied."""
+
+    now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
+    settings = build_settings(
+        newsapi_enabled=False,
+        include_keywords=["orange"],
+        exclude_keywords=["podcast"],
+        min_title_length=20,
+        max_articles_total=1,
+        max_articles_per_source=3,
+    )
+
+    def parser(_: str) -> dict[str, object]:
+        return {
+            "entries": [
+                _entry("Orange AI podcast recap", "https://example.com/excluded", now),
+                _entry("Orange AI", "https://example.com/too-short", now.replace(hour=7)),
+                _entry(
+                    "Orange launches enterprise AI platform",
+                    "https://example.com/included",
+                    now.replace(hour=6),
+                ),
+            ]
+        }
+
+    articles = fetch_all_articles(settings, api_key=None, now=now, parser=parser)
+
+    assert [article.title for article in articles] == ["Orange launches enterprise AI platform"]
 
 
 def test_deduplicate_articles_preserves_most_recent_unique_items() -> None:
