@@ -89,6 +89,28 @@ def test_fetch_all_articles_deduplicates_url_and_similar_titles() -> None:
     assert articles[0].title == "Orange launches AI network platform"
 
 
+def test_fetch_all_articles_continues_with_rss_when_newsapi_fails() -> None:
+    """Combined ingestion should still return RSS items when NewsAPI errors out."""
+
+    now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
+    settings = build_settings(newsapi_enabled=True)
+
+    def parser(_: str) -> dict[str, object]:
+        return {
+            "entries": [
+                _entry("RSS survives NewsAPI outage", "https://example.com/rss-only", now),
+            ]
+        }
+
+    transport = httpx.MockTransport(lambda request: httpx.Response(429, request=request, json={"status": "error"}))
+    client = httpx.Client(transport=transport)
+
+    articles = fetch_all_articles(settings, api_key="secret", client=client, now=now, parser=parser)
+
+    assert len(articles) == 1
+    assert articles[0].title == "RSS survives NewsAPI outage"
+
+
 def test_deduplicate_articles_preserves_most_recent_unique_items() -> None:
     """Deduplication should keep the newest version of repeated content."""
 
