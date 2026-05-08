@@ -4,7 +4,7 @@ from pathlib import Path
 
 import yaml
 
-from .models import EditorialSettings, GeoPrioritySettings, NewsApiSettings, RankingSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
+from .models import AiSummarySettings, EditorialSettings, GeoPrioritySettings, NewsApiSettings, RankingSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
 
 
 def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
@@ -18,6 +18,7 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
     editorial_data = data.get("editorial", {})
     geo_priority_data = editorial_data.get("geo_priority", {})
     ranking_data = data.get("ranking", {})
+    ai_summary_data = data.get("ai_summary", {})
 
     # Keep source parsing explicit so malformed sections fail close to the config boundary.
     rss_sources = [RssSourceConfig(**item) for item in sources_data.get("rss", [])]
@@ -40,10 +41,24 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
         max_articles_per_category=ranking_data.get("max_articles_per_category"),
         max_articles_per_source=ranking_data.get("max_articles_per_source"),
     )
+    ai_summary = AiSummarySettings(
+        enabled=ai_summary_data.get("enabled", True),
+        provider=ai_summary_data.get("provider", AiSummarySettings().provider),
+        model=ai_summary_data.get("model", AiSummarySettings().model),
+        max_words=ai_summary_data.get("max_words", AiSummarySettings().max_words),
+        prompt_template=ai_summary_data.get("prompt_template", AiSummarySettings().prompt_template),
+        api_url=ai_summary_data.get("api_url", AiSummarySettings().api_url),
+        api_key=ai_summary_data.get("api_key", AiSummarySettings().api_key),
+        timeout_seconds=ai_summary_data.get("timeout_seconds", AiSummarySettings().timeout_seconds),
+        max_retries=ai_summary_data.get("max_retries", AiSummarySettings().max_retries),
+        retry_base_seconds=ai_summary_data.get("retry_base_seconds", AiSummarySettings().retry_base_seconds),
+        retry_max_seconds=ai_summary_data.get("retry_max_seconds", AiSummarySettings().retry_max_seconds),
+    )
 
     return Settings(
         schedule=schedule,
         sources=SourceSettings(rss=rss_sources, newsapi=newsapi),
         editorial=editorial,
         ranking=ranking,
+        ai_summary=ai_summary,
     )
