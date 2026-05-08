@@ -37,6 +37,18 @@ editorial:
 ranking:
   max_articles_per_category: 2
   max_articles_per_source: 1
+ai_summary:
+  enabled: true
+  model: grok-vision-beta
+  max_words: 45
+  timeout_seconds: 15
+  max_retries: 4
+  retry_base_seconds: 0.25
+  retry_max_seconds: 2.0
+  prompt_template: |
+    Summarize in {max_words} words.
+    {geo_instruction}
+    Article: {content}
 """.strip(),
         encoding="utf-8",
     )
@@ -56,3 +68,11 @@ ranking:
     assert settings.editorial.geo_priority.boost_score == 1.8
     assert settings.ranking.max_articles_per_category == 2
     assert settings.ranking.max_articles_per_source == 1
+    assert settings.ai_summary.enabled is True
+    assert settings.ai_summary.model == "grok-vision-beta"
+    assert settings.ai_summary.max_words == 45
+    assert settings.ai_summary.timeout_seconds == 15
+    assert settings.ai_summary.max_retries == 4
+    assert settings.ai_summary.retry_base_seconds == 0.25
+    assert settings.ai_summary.retry_max_seconds == 2.0
+    assert "Summarize in {max_words} words." in settings.ai_summary.prompt_template

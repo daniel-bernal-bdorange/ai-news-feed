@@ -2,7 +2,7 @@ from .fetcher import deduplicate_articles, fetch_all_articles, fetch_newsapi_art
 from .models import Article, Settings
 from .settings import load_settings
 from .storage import load_weekly_store, persist_weekly_articles, reset_weekly_store
-from .summarizer import build_summary_prompt
+from .summarizer import build_summary_prompt, summarize_articles
 
 __all__ = [
     "Article",
@@ -16,4 +16,5 @@ __all__ = [
     "load_settings",
     "persist_weekly_articles",
     "reset_weekly_store",
+    "summarize_articles",
 ]

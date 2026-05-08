@@ -34,4 +34,23 @@ python main.py
 Variables de entorno relevantes:
 
 - `NEWSAPI_KEY`: habilita la parte opcional de NewsAPI cuando `sources.newsapi.enabled` es `true`.
+- `GROQ_API_KEY`: habilita la generacion de resumenes IA mediante Groq cuando `ai_summary.enabled` es `true`.
+
+Configuracion relevante para resumenes IA en `config/settings.yaml`:
+
+```yaml
+ai_summary:
+	enabled: true
+	provider: "groq"
+	api_url: "https://api.groq.com/openai/v1/chat/completions"
+	model: "llama-3.1-8b-instant"
+	max_words: 60
+	timeout_seconds: 20.0
+	prompt_template: |
+		You are a news analyst for a technology and telecom company based in Spain.
+		Summarize the following news article in {max_words} words or less.
+		{geo_instruction}
+		Be factual, neutral, and concise. Output only the summary, no preamble.
+		Article: {content}
+```
 

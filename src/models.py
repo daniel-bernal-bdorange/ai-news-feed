@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import datetime
 
+from .summary_prompts import DEFAULT_SUMMARY_PROMPT_TEMPLATE
+
 
 DEFAULT_GEO_PRIORITY_KEYWORDS = [
     "spain",
@@ -101,6 +103,27 @@ class RankingSettings:
 
 
 @dataclass(frozen=True)
+class AiSummarySettings:
+    """Runtime settings for AI-based article summaries.
+    
+    Supports multiple providers (Groq, xAI Grok, etc.) via OpenAI-compatible API.
+    When no provider is configured or unavailable, falls back to placeholder.
+    """
+
+    enabled: bool = True
+    provider: str = "placeholder"
+    model: str = "grok-beta"
+    max_words: int = 60
+    prompt_template: str = DEFAULT_SUMMARY_PROMPT_TEMPLATE
+    api_url: str = ""
+    api_key: str | None = None
+    timeout_seconds: float = 20.0
+    max_retries: int = 3
+    retry_base_seconds: float = 0.5
+    retry_max_seconds: float = 4.0
+
+
+@dataclass(frozen=True)
 class Settings:
     """Top-level application settings loaded from configuration."""
 
@@ -108,3 +131,4 @@ class Settings:
     sources: SourceSettings = field(default_factory=SourceSettings)
     editorial: EditorialSettings = field(default_factory=EditorialSettings)
     ranking: RankingSettings = field(default_factory=RankingSettings)
+    ai_summary: AiSummarySettings = field(default_factory=AiSummarySettings)

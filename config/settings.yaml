@@ -9,13 +9,49 @@ sources:
       url: "https://openai.com/blog/rss/"
       category: "ai"
     - name: "Google AI Blog"
-      url: "https://blog.google/technology/ai/rss/"
+      url: "https://ai.googleblog.com/feeds/posts/default"
       category: "ai"
+    - name: "MIT Technology Review - AI"
+      url: "https://news.mit.edu/rss/topic/artificial-intelligence"
+      category: "ai"
+    - name: "The Rundown AI"
+      url: "https://rss.beehiiv.com/feeds/2R3C6BPaez.xml"
+      category: "ai"
+    - name: "VentureBeat - AI"
+      url: "https://venturebeat.com/category/ai/feed/"
+      category: "ai"
+    - name: "TechCrunch - AI"
+      url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+      category: "tech"
+    - name: "Wired - AI & Tech"
+      url: "https://www.wired.com/feed/tag/ai/latest/rss"
+      category: "tech"
+    - name: "Ars Technica"
+      url: "https://feeds.arstechnica.com/arstechnica/index"
+      category: "tech"
+    - name: "The Verge - AI"
+      url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      category: "tech"
     - name: "RCR Wireless News"
       url: "https://www.rcrwireless.com/feed"
       category: "telco"
+    - name: "Light Reading"
+      url: "https://www.lightreading.com/rss"
+      category: "telco"
+    - name: "Fierce Network"
+      url: "https://www.fierce-network.com/rss/xml"
+      category: "telco"
+    - name: "TelecomTV"
+      url: "https://www.telecomtv.com/content/rss/"
+      category: "telco"
+    - name: "Orange Business - Press Releases"
+      url: "https://www.orange-business.com/en/rss.xml"
+      category: "orange"
     - name: "Orange Newsroom"
       url: "https://newsroom.orange.com/feed/"
+      category: "orange"
+    - name: "Orange Group - GlobeNewswire"
+      url: "https://www.globenewswire.com/RssFeed/organization/Orange"
       category: "orange"
 
   newsapi:
@@ -28,10 +64,17 @@ editorial:
   include_keywords:
     - "orange"
     - "enterprise ai"
+    - "ia"
+    - "ai"
+    - "gemini"
+    - "gpt"
+    - "groq"
+    - "llama"
+    - "claude"
   exclude_keywords:
     - "podcast"
     - "video"
-  min_title_length: 20
+  min_title_length: 10
   geo_priority:
     enabled: true
     boost_keywords:
@@ -53,3 +96,17 @@ editorial:
 ranking:
   max_articles_per_category: 2
   max_articles_per_source: 1
+
+ai_summary:
+  enabled: true
+  provider: "groq"
+  api_url: "https://api.groq.com/openai/v1/chat/completions"
+  model: "llama-3.3-70b-versatile"
+  max_words: 60
+  timeout_seconds: 20.0
+  prompt_template: |
+    You are a news analyst for a technology and telecom company based in Spain.
+    Summarize the following news article in {max_words} words or less.
+    {geo_instruction}
+    Be factual, neutral, and concise. Output only the summary, no preamble.
+    Article: {content}
