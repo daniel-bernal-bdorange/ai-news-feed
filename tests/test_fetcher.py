@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import replace
 from datetime import UTC, datetime
 from time import gmtime
 
@@ -139,7 +140,7 @@ def test_fetch_all_articles_persists_geo_boost_on_selected_articles() -> None:
     assert [article.geo_boost for article in articles] == [True, False]
 
 
-def test_fetch_all_articles_continues_with_rss_when_newsapi_fails() -> None:
+def test_fetch_all_articles_continues_with_rss_when_newsapi_fails(caplog) -> None:
     """Combined ingestion should still return RSS items when NewsAPI errors out."""
 
     now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
@@ -155,10 +156,46 @@ def test_fetch_all_articles_continues_with_rss_when_newsapi_fails() -> None:
     transport = httpx.MockTransport(lambda request: httpx.Response(429, request=request, json={"status": "error"}))
     client = httpx.Client(transport=transport)
 
-    articles = fetch_all_articles(settings, api_key="secret", client=client, now=now, parser=parser)
+    with caplog.at_level("WARNING"):
+        articles = fetch_all_articles(settings, api_key="secret", client=client, now=now, parser=parser)
 
     assert len(articles) == 1
     assert articles[0].title == "RSS survives NewsAPI outage"
+    assert "NewsAPI fallo para la query 'orange ai'" in caplog.text
+
+
+def test_fetch_rss_articles_continues_when_one_feed_fails(caplog) -> None:
+    """A failing RSS source should not stop the remaining sources from being processed."""
+
+    now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
+    settings = build_settings(newsapi_enabled=False)
+    settings = replace(
+        settings,
+        sources=SourceSettings(
+            rss=[
+                RssSourceConfig(name="Broken Feed", url="https://example.com/broken", category="ai"),
+                RssSourceConfig(name="Healthy Feed", url="https://example.com/healthy", category="ai"),
+            ],
+            newsapi=settings.sources.newsapi,
+        ),
+    )
+
+    def parser(url: str) -> dict[str, object]:
+        if url.endswith("broken"):
+            raise RuntimeError("feed unavailable")
+
+        return {
+            "entries": [
+                _entry("Healthy article", "https://example.com/healthy-article", now),
+            ]
+        }
+
+    with caplog.at_level("WARNING"):
+        articles = fetch_rss_articles(settings, now=now, parser=parser)
+
+    assert len(articles) == 1
+    assert articles[0].title == "Healthy article"
+    assert "Fallo al leer el feed Broken Feed" in caplog.text
 
 
 def test_fetch_all_articles_applies_editorial_filters_before_ranking() -> None:

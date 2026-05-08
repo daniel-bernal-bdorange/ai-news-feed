@@ -27,7 +27,7 @@ Con el brief v2, ese bootstrap cubre solo la base de ingesta. El backlog operati
 
 ```powershell
 pip install -r requirements.txt
-python -m pytest
+python -m pytest --cov=main --cov=src --cov-fail-under=80
 python main.py --mode daily
 ```
 

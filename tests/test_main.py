@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from time import perf_counter
 from datetime import UTC, date, datetime
 
 import main
@@ -74,9 +75,12 @@ def test_main_weekly_mode_publishes_digest(monkeypatch) -> None:
     monkeypatch.setattr(main, "publish_digest", fake_publish)
     monkeypatch.setenv("POWER_AUTOMATE_URL", "https://example.com/hook")
 
+    start = perf_counter()
     main.main(["--mode", "weekly"])
+    elapsed_seconds = perf_counter() - start
 
     assert len(persisted_articles) == 2
     assert len(published) == 1
     assert published[0][1] == "2026-05-04 / 2026-05-10"
     assert published[0][2] == "https://example.com/hook"
+    assert elapsed_seconds < 1.0

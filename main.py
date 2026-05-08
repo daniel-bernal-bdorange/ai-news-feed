@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import logging
 import os
 from typing import Sequence
 
@@ -14,10 +13,8 @@ from src.storage import DEFAULT_ARTICLE_STORE_PATH, persist_weekly_articles
 from src.summarizer import summarize_articles
 from src.structured_logging import (
     STAGE_FETCH,
-    STAGE_FILTER,
     STAGE_PERSIST,
     STAGE_PUBLISH,
-    STAGE_RANK,
     STAGE_SUMMARIZE,
     configure_structured_logging,
     get_logger,

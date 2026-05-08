@@ -157,7 +157,7 @@ def test_summarize_articles_enforces_the_configured_word_limit_with_external_pro
     assert summarized[0].summary == "One two three four five"
 
 
-def test_summarize_articles_falls_back_to_excerpt_when_provider_fails() -> None:
+def test_summarize_articles_falls_back_to_excerpt_when_provider_fails(caplog) -> None:
     """When provider calls fail, fallback summary should use the article excerpt/content."""
 
     article = Article(
@@ -179,10 +179,11 @@ def test_summarize_articles_falls_back_to_excerpt_when_provider_fails() -> None:
         max_retries=0,
     )
 
-    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client, caplog.at_level("WARNING"):
         summarized = summarize_articles([article], settings, "groq-test-key", client=client)
 
     assert summarized[0].summary == "Original excerpt content for fallback behavior"
+    assert "No se pudo generar el resumen para 'Network outage analysis'" in caplog.text
 
 
 def test_summarize_articles_retries_rate_limit_then_succeeds() -> None:
