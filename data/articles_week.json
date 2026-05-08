@@ -1,7 +1,7 @@
 {
   "week_start": "2026-05-04",
   "week_end": "2026-05-10",
-  "last_updated": "2026-05-08T14:04:56Z",
+  "last_updated": "2026-05-08T14:05:47Z",
   "articles": [
     {
       "id": "cca6cf4376b8",
@@ -10,7 +10,7 @@
       "source_name": "Ars Technica",
       "category": "tech",
       "published_at": "2026-05-08T11:15:42Z",
-      "fetched_at": "2026-05-08T14:04:49Z",
+      "fetched_at": "2026-05-08T14:05:37Z",
       "raw_content": "<p>It\u2019s no fun living through the global <a href=\"https://arstechnica.com/science/2026/04/shock-from-iran-war-has-trumps-vision-for-us-energy-dominance-flailing/\">energy shock</a> and growing economic crisis that has ensued since the conflict choked off shipping through the Strait of Hormuz. But it can be enlightening to play through the new game <em>Bottleneck</em> that forces players to choose among the 2,000 ships still stuck in and around the strait\u2014all while actual news reports and real maritime transit data help tell the story of the unfolding events.</p>\n<p>The free <a href=\"https://bottleneck.jakubgornicki.com/en\">browser-based game</a> challenges players to act as a fictional maritime coordinator by selecting a handful of ships that get to pass through the strait each day. Most decisions come with serious costs or trade-offs, whether it\u2019s paying the toll imposed by the Iranian government that has claimed authority over the strait or antagonizing Iran or the United States while pushing either side toward widening the war. Failure to push through enough specific shipments can spark individual crises involving the price of oil, food, and water security, and a countdown to famine in many countries.</p>\n<p>\u201cThe game does not ask whether you are smart enough to solve the crisis,\u201d said <a href=\"https://jakubgornicki.com/\">Jakub Gornicki</a>, the journalist and artist who developed the game, in a <a href=\"https://mixer.jakubgornicki.com/p/bottleneck-is-live\">post</a>. \u201cIt asks what kind of damage you choose when every option has a cost.\u201d</p><p><a href=\"https://arstechnica.com/gaming/2026/05/everyones-a-loser-in-straight-of-hormuz-game-that-simulates-global-crisis/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gaming/2026/05/everyones-a-loser-in-straight-of-hormuz-game-that-simulates-global-crisis/#comments\">Comments</a></p>",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -38,11 +38,25 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-05-07T21:04:06Z",
-      "fetched_at": "2026-05-08T14:04:49Z",
+      "fetched_at": "2026-05-08T14:05:37Z",
       "raw_content": "The new Verizon system uses drone-captured 3D models and automated damage analysis In sum &#8211; what we know: Verizon is&#160;rolling out&#160;a new digital twin and AI system ahead of the 2026 hurricane season. The goal is essentially to instantly identify&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
       "summary": "Verizon lanza un sistema con drones y an\u00e1lisis de da\u00f1os automatizado para identificar da\u00f1os de forma instant\u00e1nea.",
+      "selected": false
+    },
+    {
+      "id": "eb8c38a4ec7f",
+      "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
+      "title": "Voi founders\u2019 new AI startup Pit has become the latest rising star out of Stockholm",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-07T21:02:11Z",
+      "fetched_at": "2026-05-08T14:05:37Z",
+      "raw_content": "AI startup Pit is led by the co-founders of European scooter giant Voi and backed by a16z, which is leading the startup\u2019s $16 million seed round.",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "La startup de inteligencia artificial Pit, liderada por cofundadores de Voi, recibe 16 millones en ronda de semilla, relevante para el mercado europeo y Espa\u00f1a.",
       "selected": false
     }
   ]
