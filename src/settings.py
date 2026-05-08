@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import yaml
@@ -62,3 +63,27 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
         ranking=ranking,
         ai_summary=ai_summary,
     )
+
+
+def validate_secrets(settings: Settings) -> None:
+    """Raise EnvironmentError listing every required secret that is absent.
+
+    Checks are conditional: a secret is required only when the feature that
+    consumes it is enabled in *settings*.  This keeps the validation honest and
+    avoids forcing CI jobs to set unused secrets.
+    """
+    missing: list[str] = []
+
+    if settings.sources.newsapi.enabled and not os.getenv("NEWSAPI_KEY"):
+        missing.append("NEWSAPI_KEY (required when sources.newsapi.enabled = true)")
+
+    needs_ai_key = (
+        settings.ai_summary.enabled
+        and settings.ai_summary.provider not in ("placeholder", "")
+    )
+    if needs_ai_key and not os.getenv("GROQ_API_KEY"):
+        missing.append("GROQ_API_KEY (required when ai_summary.enabled = true and provider is set)")
+
+    if missing:
+        lines = "\n  - ".join(missing)
+        raise EnvironmentError(f"Missing required environment variables:\n  - {lines}")

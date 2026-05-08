@@ -3,8 +3,10 @@ from __future__ import annotations
 import logging
 import os
 
+from dotenv import load_dotenv
+
 from src.fetcher import fetch_all_articles
-from src.settings import load_settings
+from src.settings import load_settings, validate_secrets
 from src.storage import DEFAULT_ARTICLE_STORE_PATH, persist_weekly_articles
 from src.summarizer import summarize_articles
 
@@ -12,12 +14,15 @@ from src.summarizer import summarize_articles
 def main() -> None:
     """Run the ingestion flow and print the shortlisted articles."""
 
+    load_dotenv()  # No-op when .env is absent (e.g. in CI where secrets are injected directly).
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s %(message)s",
     )
 
     settings = load_settings()
+    validate_secrets(settings)
     articles = fetch_all_articles(settings, api_key=os.getenv("NEWSAPI_KEY"))
     articles = summarize_articles(articles, settings.ai_summary, api_key=os.getenv("GROQ_API_KEY"))
     weekly_store = persist_weekly_articles(articles)

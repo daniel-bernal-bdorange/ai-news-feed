@@ -1,6 +1,8 @@
 from pathlib import Path
 
-from src.settings import load_settings
+import pytest
+
+from src.settings import load_settings, validate_secrets
 
 
 def test_load_settings_reads_rss_and_newsapi_configuration(tmp_path: Path) -> None:
@@ -76,3 +78,57 @@ ai_summary:
     assert settings.ai_summary.retry_base_seconds == 0.25
     assert settings.ai_summary.retry_max_seconds == 2.0
     assert "Summarize in {max_words} words." in settings.ai_summary.prompt_template
+
+
+# ---------------------------------------------------------------------------
+# validate_secrets
+# ---------------------------------------------------------------------------
+
+def _minimal_settings(tmp_path: Path, *, newsapi_enabled: bool = False, ai_provider: str = "placeholder") -> object:
+    """Return a Settings object with the requested feature flags."""
+    config_path = tmp_path / "settings.yaml"
+    config_path.write_text(
+        f"""
+sources:
+  newsapi:
+    enabled: {"true" if newsapi_enabled else "false"}
+ai_summary:
+  enabled: true
+  provider: "{ai_provider}"
+""".strip(),
+        encoding="utf-8",
+    )
+    return load_settings(config_path)
+
+
+def test_validate_secrets_passes_when_no_features_require_keys(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """No error when newsapi and real AI provider are both disabled."""
+    monkeypatch.delenv("NEWSAPI_KEY", raising=False)
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
+    settings = _minimal_settings(tmp_path)
+    validate_secrets(settings)  # Must not raise.
+
+
+def test_validate_secrets_raises_for_missing_newsapi_key(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """EnvironmentError lists NEWSAPI_KEY when newsapi is enabled and the key is absent."""
+    monkeypatch.delenv("NEWSAPI_KEY", raising=False)
+    settings = _minimal_settings(tmp_path, newsapi_enabled=True)
+    with pytest.raises(EnvironmentError, match="NEWSAPI_KEY"):
+        validate_secrets(settings)
+
+
+def test_validate_secrets_raises_for_missing_groq_key(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """EnvironmentError lists GROQ_API_KEY when a real AI provider is configured and the key is absent."""
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
+    settings = _minimal_settings(tmp_path, ai_provider="groq")
+    with pytest.raises(EnvironmentError, match="GROQ_API_KEY"):
+        validate_secrets(settings)
+
+
+def test_validate_secrets_passes_when_keys_present(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """No error when all required secrets are present in the environment."""
+    monkeypatch.setenv("NEWSAPI_KEY", "test-key")
+    monkeypatch.setenv("GROQ_API_KEY", "test-groq-key")
+    settings = _minimal_settings(tmp_path, newsapi_enabled=True, ai_provider="groq")
+    validate_secrets(settings)  # Must not raise.
+
