@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import replace
 import logging
 import re
+import time
 from datetime import UTC, datetime, timedelta
 from difflib import SequenceMatcher
 from typing import Any
@@ -41,22 +42,68 @@ def fetch_all_articles(
 ) -> list[Article]:
     """Fetch, merge, and rank articles from all configured sources."""
 
+    start_time = time.time()
+    
+    LOGGER.info("Iniciando obtención de articulos desde múltiples fuentes", extra={"operation": "fetch_all_articles"})
+    
     rss_articles = fetch_rss_articles(settings, now=now, parser=parser)
+    LOGGER.debug(f"RSS articulos obtenidos: {len(rss_articles)}", extra={"source": "rss", "count": len(rss_articles)})
+    
     newsapi_articles = fetch_newsapi_articles(settings, api_key, client=client, now=now)
-    combined = filter_editorial_articles(rss_articles + newsapi_articles, settings.editorial)
+    LOGGER.debug(f"NewsAPI articulos obtenidos: {len(newsapi_articles)}", extra={"source": "newsapi", "count": len(newsapi_articles)})
+    
+    combined = rss_articles + newsapi_articles
+    LOGGER.debug(f"Articulos combinados: {len(combined)}", extra={"combined_count": len(combined)})
+    
+    combined = filter_editorial_articles(combined, settings.editorial)
+    LOGGER.debug(f"Articulos tras filtro editorial: {len(combined)}", extra={"after_editorial_filter": len(combined)})
+    
     combined = deduplicate_articles(combined)
-    return rank_articles_for_digest(combined, settings)
+    LOGGER.debug(f"Articulos tras deduplicacion: {len(combined)}", extra={"after_dedup": len(combined)})
+    
+    result = rank_articles_for_digest(combined, settings)
+    
+    elapsed = time.time() - start_time
+    LOGGER.info(
+        f"Obtención completada: {len(result)} articulos finales",
+        extra={
+            "operation": "fetch_all_articles",
+            "rss_count": len(rss_articles),
+            "newsapi_count": len(newsapi_articles),
+            "final_count": len(result),
+            "elapsed_seconds": elapsed,
+        }
+    )
+    
+    return result
 
 
 def filter_editorial_articles(articles: list[Article], editorial: EditorialSettings) -> list[Article]:
     """Drop articles that fail the editorial inclusion, exclusion, or title rules."""
 
-    return [article for article in articles if _matches_editorial_rules(article, editorial)]
+    start_time = time.time()
+    filtered = [article for article in articles if _matches_editorial_rules(article, editorial)]
+    elapsed = time.time() - start_time
+    
+    LOGGER.info(
+        f"Filtro editorial: {len(filtered)} articulos validos de {len(articles)} totales",
+        extra={
+            "operation": "filter_editorial_articles",
+            "input_count": len(articles),
+            "output_count": len(filtered),
+            "rejected_count": len(articles) - len(filtered),
+            "elapsed_seconds": elapsed,
+        }
+    )
+    
+    return filtered
 
 
 def rank_articles_for_digest(articles: list[Article], settings: Settings) -> list[Article]:
     """Return the final digest shortlist ordered by priority and constrained by ranking caps."""
 
+    start_time = time.time()
+    
     ranked_articles = sorted(
         articles,
         key=lambda article: _article_rank_key(article, settings.editorial),
@@ -85,6 +132,19 @@ def rank_articles_for_digest(articles: list[Article], settings: Settings) -> lis
         if len(selected) >= settings.schedule.max_articles_total:
             break
 
+    elapsed = time.time() - start_time
+    LOGGER.info(
+        f"Ranking completado: {len(selected)} articulos seleccionados de {len(articles)} candidatos",
+        extra={
+            "operation": "rank_articles_for_digest",
+            "input_count": len(articles),
+            "output_count": len(selected),
+            "source_counts": dict(source_counts),
+            "category_counts": dict(category_counts),
+            "elapsed_seconds": elapsed,
+        }
+    )
+
     return selected
 
 
@@ -99,12 +159,20 @@ def fetch_rss_articles(
     current_time = now or datetime.now(UTC)
     threshold = current_time - timedelta(hours=settings.schedule.lookback_hours)
     articles: list[Article] = []
+    
+    LOGGER.info(
+        f"Iniciando obtención de fuentes RSS: {len(settings.sources.rss)} fuentes configuradas",
+        extra={"operation": "fetch_rss_articles", "source_count": len(settings.sources.rss)}
+    )
 
     for source in settings.sources.rss:
         try:
             parsed_feed = parser(source.url)
         except Exception as exc:
-            LOGGER.warning("Fallo al leer el feed %s: %s", source.name, exc)
+            LOGGER.warning(
+                f"Fallo al leer el feed {source.name}: {exc}",
+                extra={"source": source.name, "url": source.url, "error": str(exc)}
+            )
             continue
 
         entries = list(parsed_feed.get("entries", []))
@@ -140,7 +208,17 @@ def fetch_rss_articles(
                 )
             )
             added_for_source += 1
+        
+        LOGGER.debug(
+            f"RSS fuente {source.name}: {added_for_source} articulos",
+            extra={"source": source.name, "articles_added": added_for_source}
+        )
 
+    LOGGER.info(
+        f"RSS obtencion completada: {len(articles)} articulos totales",
+        extra={"operation": "fetch_rss_articles", "total_articles": len(articles)}
+    )
+    
     return articles
 
 
@@ -154,10 +232,14 @@ def fetch_newsapi_articles(
     """Fetch optional NewsAPI articles using the same lookback window as RSS."""
 
     if not settings.sources.newsapi.enabled:
+        LOGGER.debug("NewsAPI deshabilitada", extra={"source": "newsapi"})
         return []
 
     if not api_key:
-        LOGGER.info("NewsAPI habilitada pero sin clave; se omite la fuente opcional.")
+        LOGGER.info(
+            "NewsAPI habilitada pero sin clave; se omite la fuente opcional.",
+            extra={"source": "newsapi", "reason": "missing_api_key"}
+        )
         return []
 
     current_time = now or datetime.now(UTC)
@@ -165,6 +247,11 @@ def fetch_newsapi_articles(
     own_client = client is None
     http_client = client or httpx.Client(timeout=10.0)
     articles: list[Article] = []
+    
+    LOGGER.info(
+        f"Iniciando obtención NewsAPI: {len(settings.sources.newsapi.queries)} queries",
+        extra={"operation": "fetch_newsapi_articles", "query_count": len(settings.sources.newsapi.queries)}
+    )
 
     try:
         for query in settings.sources.newsapi.queries:
@@ -182,10 +269,19 @@ def fetch_newsapi_articles(
                 )
                 response.raise_for_status()
             except httpx.HTTPError as exc:
-                LOGGER.warning("NewsAPI fallo para la query '%s': %s", query, exc)
+                LOGGER.warning(
+                    f"NewsAPI fallo para la query '{query}': {exc}",
+                    extra={"source": "newsapi", "query": query, "error": str(exc)}
+                )
                 continue
 
             payload = response.json()
+            articles_in_response = len(payload.get("articles", []))
+            LOGGER.debug(
+                f"NewsAPI query '{query}': {articles_in_response} articulos",
+                extra={"query": query, "articles_count": articles_in_response}
+            )
+            
             for item in payload.get("articles", []):
                 published_at = _parse_iso8601(item.get("publishedAt"))
                 if published_at is None:
@@ -209,7 +305,13 @@ def fetch_newsapi_articles(
         if own_client:
             http_client.close()
 
-    return [article for article in articles if article.title and article.url]
+    result = [article for article in articles if article.title and article.url]
+    LOGGER.info(
+        f"NewsAPI obtencion completada: {len(result)} articulos finales",
+        extra={"operation": "fetch_newsapi_articles", "total_articles": len(result)}
+    )
+    
+    return result
 
 
 def deduplicate_articles(
@@ -219,9 +321,11 @@ def deduplicate_articles(
 ) -> list[Article]:
     """Remove repeated stories by canonical URL and near-duplicate titles."""
 
+    start_time = time.time()
     unique_articles: list[Article] = []
     seen_urls: dict[str, int] = {}
     seen_titles: list[tuple[str, set[str], int]] = []
+    duplicates_removed = 0
 
     for article in sorted(articles, key=lambda item: item.published_date, reverse=True):
         # URL normalization strips tracking noise so syndicated links collapse reliably.
@@ -232,6 +336,7 @@ def deduplicate_articles(
         existing_index = seen_urls.get(canonical_url)
         if existing_index is not None:
             unique_articles[existing_index] = _merge_article_signals(unique_articles[existing_index], article)
+            duplicates_removed += 1
             continue
 
         title_match_index = next(
@@ -250,11 +355,24 @@ def deduplicate_articles(
         )
         if title_match_index is not None:
             unique_articles[title_match_index] = _merge_article_signals(unique_articles[title_match_index], article)
+            duplicates_removed += 1
             continue
 
         seen_urls[canonical_url] = len(unique_articles)
         seen_titles.append((normalized_title, title_tokens, len(unique_articles)))
         unique_articles.append(article)
+
+    elapsed = time.time() - start_time
+    LOGGER.info(
+        f"Deduplicacion completada: {len(unique_articles)} articulos unicos, {duplicates_removed} duplicados removidos",
+        extra={
+            "operation": "deduplicate_articles",
+            "input_count": len(articles),
+            "output_count": len(unique_articles),
+            "duplicates_removed": duplicates_removed,
+            "elapsed_seconds": elapsed,
+        }
+    )
 
     return unique_articles
 
