@@ -108,5 +108,6 @@ ai_summary:
     You are a news analyst for a technology and telecom company based in Spain.
     Summarize the following news article in {max_words} words or less.
     {geo_instruction}
+    Write the summary in European Spanish (es-ES) using a business-colloquial tone suitable for executive chats.
     Be factual, neutral, and concise. Output only the summary, no preamble.
     Article: {content}
