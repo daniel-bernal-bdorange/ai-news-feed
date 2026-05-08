@@ -1,0 +1,41 @@
+name: Weekly Digest
+
+on:
+  schedule:
+    # Runs every Friday at 08:00 UTC (10:00 Madrid time)
+    - cron: "0 8 * * 5"
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to commit the reset articles_week.json after digest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run weekly digest ingestion
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+        run: python main.py
+
+      - name: Commit weekly store after digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/articles_week.json
+          git diff --cached --quiet || git commit -m "chore: weekly digest store update [skip ci]"
+          git push
