@@ -1,6 +1,49 @@
 {
   "week_start": "2026-05-04",
   "week_end": "2026-05-10",
-  "last_updated": "2026-05-07T13:02:36Z",
-  "articles": []
+  "last_updated": "2026-05-08T14:04:56Z",
+  "articles": [
+    {
+      "id": "cca6cf4376b8",
+      "url": "https://arstechnica.com/gaming/2026/05/everyones-a-loser-in-straight-of-hormuz-game-that-simulates-global-crisis/",
+      "title": "Everyone\u2019s a loser in Strait of Hormuz game that simulates global crisis",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-08T11:15:42Z",
+      "fetched_at": "2026-05-08T14:04:49Z",
+      "raw_content": "<p>It\u2019s no fun living through the global <a href=\"https://arstechnica.com/science/2026/04/shock-from-iran-war-has-trumps-vision-for-us-energy-dominance-flailing/\">energy shock</a> and growing economic crisis that has ensued since the conflict choked off shipping through the Strait of Hormuz. But it can be enlightening to play through the new game <em>Bottleneck</em> that forces players to choose among the 2,000 ships still stuck in and around the strait\u2014all while actual news reports and real maritime transit data help tell the story of the unfolding events.</p>\n<p>The free <a href=\"https://bottleneck.jakubgornicki.com/en\">browser-based game</a> challenges players to act as a fictional maritime coordinator by selecting a handful of ships that get to pass through the strait each day. Most decisions come with serious costs or trade-offs, whether it\u2019s paying the toll imposed by the Iranian government that has claimed authority over the strait or antagonizing Iran or the United States while pushing either side toward widening the war. Failure to push through enough specific shipments can spark individual crises involving the price of oil, food, and water security, and a countdown to famine in many countries.</p>\n<p>\u201cThe game does not ask whether you are smart enough to solve the crisis,\u201d said <a href=\"https://jakubgornicki.com/\">Jakub Gornicki</a>, the journalist and artist who developed the game, in a <a href=\"https://mixer.jakubgornicki.com/p/bottleneck-is-live\">post</a>. \u201cIt asks what kind of damage you choose when every option has a cost.\u201d</p><p><a href=\"https://arstechnica.com/gaming/2026/05/everyones-a-loser-in-straight-of-hormuz-game-that-simulates-global-crisis/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gaming/2026/05/everyones-a-loser-in-straight-of-hormuz-game-that-simulates-global-crisis/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se lanza \"Bottleneck\", un juego en l\u00ednea que simula la crisis energ\u00e9tica global, desafiando a los jugadores a gestionar el tr\u00e1fico mar\u00edtimo en el estrecho de Ormuz.",
+      "selected": false
+    },
+    {
+      "id": "2935fbd074e0",
+      "url": "https://www.wired.com/story/the-new-wild-west-of-ai-kids-toys/",
+      "title": "The New Wild West of AI Kids\u2019 Toys",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-08T10:00:00Z",
+      "fetched_at": "2026-05-08T14:04:49Z",
+      "raw_content": "These cuddly, connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los compa\u00f1eros conectados podr\u00edan alterar desde juegos de imaginaci\u00f3n hasta cuentos de antes de dormir, lo que lleva a algunos legisladores a considerar su prohibici\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "d54e4dc52b52",
+      "url": "https://www.rcrwireless.com/20260507/ai/verizon-digital-twins-ai",
+      "title": "Verizon is using digital twins and AI to identify storm damage",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-07T21:04:06Z",
+      "fetched_at": "2026-05-08T14:04:49Z",
+      "raw_content": "The new Verizon system uses drone-captured 3D models and automated damage analysis In sum &#8211; what we know: Verizon is&#160;rolling out&#160;a new digital twin and AI system ahead of the 2026 hurricane season. The goal is essentially to instantly identify&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Verizon lanza un sistema con drones y an\u00e1lisis de da\u00f1os automatizado para identificar da\u00f1os de forma instant\u00e1nea.",
+      "selected": false
+    }
+  ]
 }
