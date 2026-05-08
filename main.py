@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import argparse
 import logging
 import os
+from typing import Sequence
 
 from dotenv import load_dotenv
 
@@ -12,8 +14,23 @@ from src.storage import DEFAULT_ARTICLE_STORE_PATH, persist_weekly_articles
 from src.summarizer import summarize_articles
 
 
-def main() -> None:
-    """Run the ingestion flow and print the shortlisted articles."""
+def _build_parser() -> argparse.ArgumentParser:
+    """Build CLI parser for selecting the runtime flow."""
+
+    parser = argparse.ArgumentParser(description="AI News Feed runner")
+    parser.add_argument(
+        "--mode",
+        choices=("daily", "weekly"),
+        default="daily",
+        help="daily ingests and stores articles, weekly also publishes the digest",
+    )
+    return parser
+
+
+def main(argv: Sequence[str] | None = None) -> None:
+    """Run ingestion flow and optionally publish the weekly digest."""
+
+    args = _build_parser().parse_args(list(argv) if argv is not None else None)
 
     load_dotenv()  # No-op when .env is absent (e.g. in CI where secrets are injected directly).
 
@@ -37,7 +54,7 @@ def main() -> None:
             print(f"  Summary: {article.summary}")
 
     webhook_url = os.getenv("POWER_AUTOMATE_URL")
-    if webhook_url:
+    if args.mode == "weekly" and webhook_url:
         # Re-summarize the full weekly store before publishing so legacy entries
         # created in previous runs keep the same language/tone contract.
         weekly_articles = summarize_articles(
@@ -48,8 +65,10 @@ def main() -> None:
         weekly_store = persist_weekly_articles(weekly_articles)
         week_label = f"{weekly_store.week_start} / {weekly_store.week_end}"
         publish_digest(weekly_store.articles, week_label, webhook_url)
+    elif args.mode == "weekly":
+        logging.info("POWER_AUTOMATE_URL no configurada; digest semanal omitido.")
     else:
-        logging.info("POWER_AUTOMATE_URL no configurada — publicacion omitida.")
+        logging.info("Modo diario: publicacion omitida.")
 
 
 if __name__ == "__main__":

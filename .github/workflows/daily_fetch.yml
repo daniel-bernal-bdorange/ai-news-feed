@@ -5,10 +5,20 @@ on:
     # Runs every day at 07:00 UTC (09:00 Madrid time)
     - cron: "0 7 * * *"
   workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit and push data/articles_week.json after this manual run"
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
+
+    concurrency:
+      group: daily-fetch-${{ github.ref }}
+      cancel-in-progress: false
 
     permissions:
       contents: write  # Required to commit the updated articles_week.json
@@ -29,9 +39,10 @@ jobs:
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python main.py
+        run: python main.py --mode daily
 
       - name: Commit updated weekly store
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.commit_changes }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

@@ -28,13 +28,25 @@ Con el brief v2, ese bootstrap cubre solo la base de ingesta. El backlog operati
 ```powershell
 pip install -r requirements.txt
 python -m pytest
-python main.py
+python main.py --mode daily
 ```
+
+Modos de ejecucion del runtime:
+
+- `python main.py --mode daily`: ejecuta ingesta y persistencia semanal sin publicar digest.
+- `python main.py --mode weekly`: ejecuta ingesta, re-sumariza el acumulado semanal y publica digest si `POWER_AUTOMATE_URL` esta configurada.
+
+Automatizacion GitHub Actions:
+
+- `daily_fetch.yml`: cron diario + disparo manual por `workflow_dispatch`.
+- `weekly_digest.yml`: cron de viernes + disparo manual por `workflow_dispatch`.
+- En disparos manuales de ambos workflows, el input `commit_changes` permite decidir si se hace auto-commit de `data/articles_week.json`.
 
 Variables de entorno relevantes:
 
 - `NEWSAPI_KEY`: habilita la parte opcional de NewsAPI cuando `sources.newsapi.enabled` es `true`.
 - `GROQ_API_KEY`: habilita la generacion de resumenes IA mediante Groq cuando `ai_summary.enabled` es `true`.
+- `POWER_AUTOMATE_URL`: habilita la publicacion del digest semanal (solo en `--mode weekly`).
 
 Configuracion relevante para resumenes IA en `config/settings.yaml`:
 
