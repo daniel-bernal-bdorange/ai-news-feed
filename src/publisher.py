@@ -24,6 +24,16 @@ def build_digest_payload(articles: list[Article], week_label: str) -> dict:
         if article.category:
             categories[article.category] += 1
 
+    logger.debug(
+        f"Construyendo payload de digest para semana '{week_label}': {len(articles)} articulos",
+        extra={
+            "operation": "build_digest_payload",
+            "week_label": week_label,
+            "article_count": len(articles),
+            "categories": dict(categories),
+        }
+    )
+
     return {
         "week": week_label,
         "total_articles": len(articles),
@@ -56,29 +66,79 @@ def publish_digest(
     """
 
     payload = build_digest_payload(articles, week_label)
+    start_time = time.time()
+    
+    logger.info(
+        f"Iniciando publicacion de digest para semana '{week_label}': {len(articles)} articulos",
+        extra={
+            "operation": "publish_digest",
+            "week_label": week_label,
+            "article_count": len(articles),
+            "max_retries": max_retries,
+        }
+    )
 
     for attempt in range(1, max_retries + 1):
         try:
             response = httpx.post(webhook_url, json=payload, timeout=timeout)
             response.raise_for_status()
-            logger.info("Digest publicado correctamente en el intento %d/%d", attempt, max_retries)
+            elapsed = time.time() - start_time
+            logger.info(
+                f"Digest publicado correctamente en el intento {attempt}/{max_retries}",
+                extra={
+                    "operation": "publish_digest",
+                    "week_label": week_label,
+                    "attempt": attempt,
+                    "status_code": response.status_code,
+                    "elapsed_seconds": elapsed,
+                }
+            )
             return
         except httpx.HTTPStatusError as exc:
             logger.warning(
-                "Error HTTP en intento %d/%d al publicar digest: %s",
-                attempt, max_retries, exc,
+                f"Error HTTP en intento {attempt}/{max_retries} al publicar digest: {exc}",
+                extra={
+                    "operation": "publish_digest",
+                    "week_label": week_label,
+                    "attempt": attempt,
+                    "status_code": exc.response.status_code,
+                    "error": str(exc),
+                }
             )
         except httpx.RequestError as exc:
             logger.warning(
-                "Error de red en intento %d/%d al publicar digest: %s",
-                attempt, max_retries, exc,
+                f"Error de red en intento {attempt}/{max_retries} al publicar digest: {exc}",
+                extra={
+                    "operation": "publish_digest",
+                    "week_label": week_label,
+                    "attempt": attempt,
+                    "error": str(exc),
+                }
             )
 
         if attempt < max_retries:
             wait = 2 ** (attempt - 1)  # 1s, 2s, ...
-            logger.info("Reintentando en %ds...", wait)
+            logger.debug(
+                f"Reintentando en {wait}s (intento {attempt + 1}/{max_retries})",
+                extra={
+                    "operation": "publish_digest",
+                    "week_label": week_label,
+                    "attempt": attempt,
+                    "retry_delay_seconds": wait,
+                }
+            )
             time.sleep(wait)
 
+    elapsed = time.time() - start_time
+    logger.error(
+        f"No se pudo publicar el digest tras {max_retries} intentos",
+        extra={
+            "operation": "publish_digest",
+            "week_label": week_label,
+            "max_retries": max_retries,
+            "elapsed_seconds": elapsed,
+        }
+    )
     raise RuntimeError(
         f"No se pudo publicar el digest tras {max_retries} intentos."
     )

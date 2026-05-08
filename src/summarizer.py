@@ -45,27 +45,68 @@ def summarize_articles(
     """
 
     if not settings.enabled or not articles:
+        LOGGER.debug(
+            f"Resumen omitido: enabled={settings.enabled}, articles={len(articles) if articles else 0}",
+            extra={"operation": "summarize_articles", "reason": "disabled_or_empty"}
+        )
         return articles
 
     provider = settings.provider or "placeholder"
+    start_time = time.time()
+    
+    LOGGER.info(
+        f"Iniciando resumen de {len(articles)} articulos con proveedor '{provider}'",
+        extra={"operation": "summarize_articles", "provider": provider, "article_count": len(articles)}
+    )
     
     if provider == "placeholder":
-        return [replace(article, summary=_placeholder_summary(article, settings)) for article in articles]
+        result = [replace(article, summary=_placeholder_summary(article, settings)) for article in articles]
+        elapsed = time.time() - start_time
+        LOGGER.info(
+            f"Resumen offline completado para {len(result)} articulos",
+            extra={"operation": "summarize_articles", "provider": provider, "result_count": len(result), "elapsed_seconds": elapsed}
+        )
+        return result
     
     # For external providers (Groq, xAI, etc.)
     active_key = api_key or settings.api_key
     if active_key is None:
-        LOGGER.info("Resumen IA con proveedor '%s' habilitado pero sin clave efectiva; se omite.", provider)
+        LOGGER.info(
+            f"Resumen IA con proveedor '{provider}' habilitado pero sin clave efectiva; se omite.",
+            extra={"operation": "summarize_articles", "provider": provider, "reason": "missing_api_key"}
+        )
         return articles
 
     own_client = client is None
     http_client = client or httpx.Client(timeout=settings.timeout_seconds)
+    summaries_generated = 0
+    summaries_failed = 0
 
     try:
-        return [
-            replace(article, summary=generate_summary(article, settings, active_key, client=http_client) or article.summary or _excerpt_fallback_summary(article, settings.max_words))
-            for article in articles
-        ]
+        result = []
+        for article in articles:
+            summary = generate_summary(article, settings, active_key, client=http_client)
+            if summary:
+                summaries_generated += 1
+                result.append(replace(article, summary=summary))
+            else:
+                summaries_failed += 1
+                fallback = _excerpt_fallback_summary(article, settings.max_words)
+                result.append(replace(article, summary=fallback))
+        
+        elapsed = time.time() - start_time
+        LOGGER.info(
+            f"Resumen IA completado: {summaries_generated} generados, {summaries_failed} fallback",
+            extra={
+                "operation": "summarize_articles",
+                "provider": provider,
+                "total_articles": len(articles),
+                "summaries_generated": summaries_generated,
+                "summaries_failed": summaries_failed,
+                "elapsed_seconds": elapsed,
+            }
+        )
+        return result
     finally:
         if own_client:
             http_client.close()
@@ -104,6 +145,9 @@ def generate_summary(
         max_words=settings.max_words,
         prompt_template=settings.prompt_template,
     )
+    
+    start_time = time.time()
+    article_title_short = article.title[:60]
 
     for attempt in range(settings.max_retries + 1):
         try:
@@ -122,24 +166,69 @@ def generate_summary(
             response.raise_for_status()
             summary = _extract_summary_text(response.json())
             if not summary:
-                LOGGER.warning("Groq devolvio una respuesta vacia para '%s'.", article.title)
+                LOGGER.warning(
+                    f"Groq devolvio una respuesta vacia para '{article_title_short}'",
+                    extra={"operation": "generate_summary", "article_title": article_title_short, "reason": "empty_response"}
+                )
                 return None
 
+            elapsed = time.time() - start_time
+            LOGGER.debug(
+                f"Resumen generado para '{article_title_short}'",
+                extra={
+                    "operation": "generate_summary",
+                    "article_title": article_title_short,
+                    "attempt": attempt + 1,
+                    "elapsed_seconds": elapsed,
+                }
+            )
             return _truncate_to_max_words(summary, settings.max_words)
         except httpx.HTTPStatusError as exc:
             status_code = exc.response.status_code
             if _should_retry_status(status_code) and attempt < settings.max_retries:
+                LOGGER.debug(
+                    f"Error HTTP {status_code} para '{article_title_short}', reintentando (intento {attempt + 1}/{settings.max_retries + 1})",
+                    extra={
+                        "operation": "generate_summary",
+                        "article_title": article_title_short,
+                        "status_code": status_code,
+                        "attempt": attempt + 1,
+                    }
+                )
                 _sleep_backoff(settings, attempt)
                 continue
 
-            LOGGER.warning("No se pudo generar el resumen para '%s': %s", article.title, exc)
+            LOGGER.warning(
+                f"No se pudo generar el resumen para '{article_title_short}': {exc}",
+                extra={
+                    "operation": "generate_summary",
+                    "article_title": article_title_short,
+                    "error": str(exc),
+                    "status_code": status_code if isinstance(exc, httpx.HTTPStatusError) else None,
+                }
+            )
             return None
         except httpx.RequestError as exc:
             if attempt < settings.max_retries:
+                LOGGER.debug(
+                    f"Error de red para '{article_title_short}', reintentando (intento {attempt + 1}/{settings.max_retries + 1})",
+                    extra={
+                        "operation": "generate_summary",
+                        "article_title": article_title_short,
+                        "attempt": attempt + 1,
+                    }
+                )
                 _sleep_backoff(settings, attempt)
                 continue
 
-            LOGGER.warning("No se pudo generar el resumen para '%s': %s", article.title, exc)
+            LOGGER.warning(
+                f"No se pudo generar el resumen para '{article_title_short}': {exc}",
+                extra={
+                    "operation": "generate_summary",
+                    "article_title": article_title_short,
+                    "error": str(exc),
+                }
+            )
             return None
 
     return None
