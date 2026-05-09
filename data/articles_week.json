@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-04",
   "week_end": "2026-05-10",
-  "last_updated": "2026-05-08T14:05:47Z",
+  "last_updated": "2026-05-09T08:28:01Z",
   "articles": [
+    {
+      "id": "a121265fe81f",
+      "url": "https://arstechnica.com/science/2026/05/manufacturing-qubits-that-can-move/",
+      "title": "Manufacturing qubits that can move",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-08T23:13:57Z",
+      "fetched_at": "2026-05-09T08:27:55Z",
+      "raw_content": "<p>To get quantum computing to work, we will ultimately need lots of high-quality qubits, which we can tie together into groups of error-corrected logical qubits. Companies are taking distinct approaches to get there, but you can think of them as falling into two broad categories. Some companies are focused on hosting the qubits in electronics that we can manufacture, guaranteeing that we can get lots of devices. Others are using atoms or photons as qubits, which give more consistent behavior but require lots of complicated hardware to manage.</p>\n<p>One advantage of systems that use atoms or ions is that we can move them around. This allows us to entangle any qubit with any other, which provides a great deal of flexibility for error correction. Systems based on electronic devices, in contrast, are locked into whatever configuration they're wired into during manufacturing.</p>\n<p>But this week, a new paper examined research that seems to provide the best of both worlds. It works with quantum dots, which can be manufactured in bulk and host a qubit as a single electron's spin. The work showed that it's possible to move these spin qubits from one quantum dot to another without losing quantum information. The ability to move them around could potentially enable the sort of any-to-any connectivity we see with atoms and ions.</p><p><a href=\"https://arstechnica.com/science/2026/05/manufacturing-qubits-that-can-move/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/05/manufacturing-qubits-that-can-move/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Investigadores logran mover qubits de puntos cu\u00e1nticos sin perder informaci\u00f3n, combinando ventajas de enfoques electr\u00f3nicos y at\u00f3micos.",
+      "selected": false
+    },
+    {
+      "id": "33fe13b4d952",
+      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-08T22:59:05Z",
+      "fetched_at": "2026-05-09T08:27:55Z",
+      "raw_content": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Trabajadores remotos no califican para protecciones de la ley WARN, como el aviso de dos meses, debido a su clasificaci\u00f3n laboral.",
+      "selected": false
+    },
+    {
+      "id": "e3241ffd19cc",
+      "url": "https://www.rcrwireless.com/20260508/network-infrastructure/vodafone-bt-euro-sovereign-telcos",
+      "title": "AI factories to football matches \u2013 Vodafone and BT show Euro model for sovereign telcos",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-08T15:32:15Z",
+      "fetched_at": "2026-05-09T08:27:55Z",
+      "raw_content": "Vodafone\u2019s sovereign-cloud deal with AWS in Germany and BT\u2019s brand refresh and UEFA deal in the UK, plus lots else, shows how European telcos are repositioning as trusted intermediaries for AI, cloud, cybersecurity, and critical infrastructure. In sum \u2013 what&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Los operadores europeos, como Vodafone en Alemania, se repositionan como intermediarios de confianza en AI, cloud y ciberseguridad, relevante para el mercado espa\u00f1ol.",
+      "selected": false
+    },
     {
       "id": "cca6cf4376b8",
       "url": "https://arstechnica.com/gaming/2026/05/everyones-a-loser-in-straight-of-hormuz-game-that-simulates-global-crisis/",
