@@ -1,8 +1,36 @@
 {
   "week_start": "2026-05-04",
   "week_end": "2026-05-10",
-  "last_updated": "2026-05-09T08:28:01Z",
+  "last_updated": "2026-05-10T08:55:26Z",
   "articles": [
+    {
+      "id": "217ab83ac677",
+      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+      "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-10T02:00:00Z",
+      "fetched_at": "2026-05-10T08:55:21Z",
+      "raw_content": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Wispr Flow afirma que su crecimiento se aceler\u00f3 en la India tras lanzar su versi\u00f3n en Hinglish, pese a los desaf\u00edos que siguen enfrentando los productos de inteligencia artificial de voz.",
+      "selected": false
+    },
+    {
+      "id": "2935fbd074e0",
+      "url": "https://arstechnica.com/ai/2026/05/the-new-wild-west-of-ai-kids-toys/",
+      "title": "The new Wild West of AI kids\u2019 toys",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-09T11:00:51Z",
+      "fetched_at": "2026-05-10T08:55:21Z",
+      "raw_content": "<p>The main antagonist of <em>Toy Story 5</em>, in theaters this summer, is a green, frog-shaped kids\u2019 tablet named Lilypad, a genius new villain for the beloved <a href=\"https://www.wired.com/tag/toy-story/\">Pixar franchise</a>. But if Pixar had its ear to the ground, it might have used an AI kids\u2019 toy instead.</p>\n<p>AI toys are seemingly everywhere, marketed online as friendly companions to children as young as three, and they're still a largely unregulated category. It\u2019s easier than ever to spin up an AI companion, thanks to model developer programs and <a href=\"https://www.wired.com/story/why-did-a-10-billion-dollar-startup-let-me-vibe-code-for-them-and-why-did-i-love-it/\">vibe coding</a>. In 2026, they\u2019ve become a go-to trend in cheap trinkets, lining the halls of trade shows like <a href=\"https://www.wired.com/live/ces-2026-live-blog/\">CES</a>, <a href=\"https://www.wired.com/tag/mwc/\">MWC</a>, and <a href=\"https://www.youtube.com/watch?v=hU1M-JxCSeg\">Hong Kong\u2019s Toys &amp; Games Fair</a>. By October 2025, there were over 1,500 AI toy companies <a href=\"https://www.technologyreview.com/2025/10/07/1125191/ai-toys-in-china/\">registered</a> in China, and Huawei\u2019s <a href=\"https://technode.com/2025/11/26/huawei-launches-first-companion-chat-robot-smart-hanhan-priced-at-about-55/\" rel=\"nofollow noopener\" target=\"_blank\">Smart HanHan</a> plush toy sold 10,000 units in China in its first week. Sharp put its <a href=\"https://poketomo.com/en/#features\" rel=\"nofollow noopener\" target=\"_blank\">PokeTomo talking AI toy</a> on sale in Japan this April.</p>\n<p>But if you browse for AI toys on Amazon, you\u2019ll mostly find specialized players like FoloToy, Alilo, Miriat, and Miko, the last of which claims to have sold more than <a href=\"https://miko.ai/pages/about-us\" rel=\"nofollow noopener\" target=\"_blank\">700,000 units</a>.</p><p><a href=\"https://arstechnica.com/ai/2026/05/the-new-wild-west-of-ai-kids-toys/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/05/the-new-wild-west-of-ai-kids-toys/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los juguetes para ni\u00f1os con inteligencia artificial se est\u00e1n volviendo tendencia en ferias comerciales como CES y MWC.",
+      "selected": false
+    },
     {
       "id": "a121265fe81f",
       "url": "https://arstechnica.com/science/2026/05/manufacturing-qubits-that-can-move/",
@@ -57,20 +85,6 @@
       "relevance_score": 1.0,
       "geo_boost": false,
       "summary": "Se lanza \"Bottleneck\", un juego en l\u00ednea que simula la crisis energ\u00e9tica global, desafiando a los jugadores a gestionar el tr\u00e1fico mar\u00edtimo en el estrecho de Ormuz.",
-      "selected": false
-    },
-    {
-      "id": "2935fbd074e0",
-      "url": "https://www.wired.com/story/the-new-wild-west-of-ai-kids-toys/",
-      "title": "The New Wild West of AI Kids\u2019 Toys",
-      "source_name": "Wired - AI & Tech",
-      "category": "tech",
-      "published_at": "2026-05-08T10:00:00Z",
-      "fetched_at": "2026-05-08T14:04:49Z",
-      "raw_content": "These cuddly, connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
-      "relevance_score": 1.0,
-      "geo_boost": false,
-      "summary": "Los compa\u00f1eros conectados podr\u00edan alterar desde juegos de imaginaci\u00f3n hasta cuentos de antes de dormir, lo que lleva a algunos legisladores a considerar su prohibici\u00f3n.",
       "selected": false
     },
     {
