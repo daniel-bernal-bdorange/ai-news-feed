@@ -1,7 +1,7 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-11T08:26:36Z",
+  "last_updated": "2026-05-11T08:41:39Z",
   "articles": [
     {
       "id": "3d2b2c788665",
@@ -10,7 +10,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-05-10T20:40:41Z",
-      "fetched_at": "2026-05-11T08:26:27Z",
+      "fetched_at": "2026-05-11T08:41:33Z",
       "raw_content": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "Ars Technica",
       "category": "tech",
       "published_at": "2026-05-10T11:15:44Z",
-      "fetched_at": "2026-05-11T08:26:27Z",
+      "fetched_at": "2026-05-11T08:41:33Z",
       "raw_content": "<p class=\"article-subhead\">On a bright afternoon in Jiangsu, China, Xin Yin is playing personal trainer to some mice. One by one, he sets the rodents on a miniature treadmill that starts slow and gradually speeds up. These littermates are born athletes, able to run farther with less lactic acid buildup than average laboratory mice.</p>\n<p>The secret to their speediness isn\u2019t carried in their genes\u2014the animals come from the same genetic stock as a group of control mice. And they haven\u2019t received any special training. Instead, their fitness seems to stem from their father\u2019s exercise habits before they were even conceived. It\u2019s a finding suggesting that running might benefit <a href=\"https://doi.org/10.1016/j.cmet.2025.09.003\">not just the exerciser, but also his unborn children</a>.</p>\n<p>\u201cI was very surprised when I first saw the data,\u201d says Yin, a biochemist at Nanjing University.</p><p><a href=\"https://arstechnica.com/science/2026/05/do-you-take-after-your-dads-rna/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/05/do-you-take-after-your-dads-rna/#comments\">Comments</a></p>",
       "relevance_score": 1.0,
       "geo_boost": false,
