@@ -5,6 +5,8 @@ from __future__ import annotations
 import logging
 import time
 from collections import Counter
+from json import JSONDecodeError
+import json
 
 import httpx
 
@@ -52,6 +54,24 @@ def build_digest_payload(articles: list[Article], week_label: str) -> dict:
     }
 
 
+def _response_preview(response: httpx.Response, *, max_chars: int = 500) -> str:
+    """Return a compact preview of the Power Automate response body."""
+
+    try:
+        body = response.json()
+        preview = json.dumps(body, ensure_ascii=False, default=str)
+    except (JSONDecodeError, ValueError, TypeError):
+        preview = response.text.strip()
+
+    if not preview:
+        return "<empty response body>"
+
+    if len(preview) > max_chars:
+        return f"{preview[:max_chars]}..."
+
+    return preview
+
+
 def publish_digest(
     articles: list[Article],
     week_label: str,
@@ -84,24 +104,26 @@ def publish_digest(
             response.raise_for_status()
             elapsed = time.time() - start_time
             logger.info(
-                f"Digest publicado correctamente en el intento {attempt}/{max_retries}",
+                f"Digest publicado correctamente en el intento {attempt}/{max_retries}. Response preview: {_response_preview(response)}",
                 extra={
                     "operation": "publish_digest",
                     "week_label": week_label,
                     "attempt": attempt,
                     "status_code": response.status_code,
                     "elapsed_seconds": elapsed,
+                    "response_preview": _response_preview(response),
                 }
             )
             return
         except httpx.HTTPStatusError as exc:
             logger.warning(
-                f"Error HTTP en intento {attempt}/{max_retries} al publicar digest: {exc}",
+                f"Error HTTP en intento {attempt}/{max_retries} al publicar digest: {exc}. Response preview: {_response_preview(exc.response)}",
                 extra={
                     "operation": "publish_digest",
                     "week_label": week_label,
                     "attempt": attempt,
                     "status_code": exc.response.status_code,
+                    "response_preview": _response_preview(exc.response),
                     "error": str(exc),
                 }
             )
