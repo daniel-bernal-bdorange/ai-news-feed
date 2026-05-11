@@ -38,31 +38,36 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run weekly digest ingestion
-        env:
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          POWER_AUTOMATE_URL: ${{ secrets.POWER_AUTOMATE_URL }}
-        run: python main.py --mode weekly
-
-      - name: Commit weekly store after digest
-        if: ${{ github.event_name != 'workflow_dispatch' || inputs.commit_changes }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/articles_week.json
-          if git diff --cached --quiet; then
-            echo "No weekly store changes to commit."
-            exit 0
-          fi
-          git commit -m "chore: weekly digest store update [skip ci]"
           branch="${{ github.ref_name }}"
           for attempt in 1 2 3; do
             git fetch origin "$branch"
-            git rebase --autostash "origin/$branch"
+            git reset --hard "origin/$branch"
+
+            NEWSAPI_KEY='${{ secrets.NEWSAPI_KEY }}' \
+            GROQ_API_KEY='${{ secrets.GROQ_API_KEY }}' \
+            POWER_AUTOMATE_URL='${{ secrets.POWER_AUTOMATE_URL }}' \
+            python main.py --mode weekly
+
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.commit_changes }}" != "true" ]; then
+              echo "workflow_dispatch without commit_changes enabled; skipping commit and push."
+              exit 0
+            fi
+
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/articles_week.json
+            if git diff --cached --quiet; then
+              echo "No weekly store changes to commit."
+              exit 0
+            fi
+            git commit -m "chore: weekly digest store update [skip ci]"
+
             if git push origin HEAD:"$branch"; then
               exit 0
             fi
-            echo "Push attempt $attempt failed; retrying after rebase."
+
+            echo "Push attempt $attempt failed; retrying from latest origin/$branch."
           done
           echo "Push failed after 3 attempts."
           exit 1
