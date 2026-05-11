@@ -1,8 +1,22 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-11T09:07:33Z",
+  "last_updated": "2026-05-11T10:35:08Z",
   "articles": [
+    {
+      "id": "0bfc24c7d301",
+      "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/",
+      "title": "CUDA Proves Nvidia Is a Software Company",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-11T10:00:00Z",
+      "fetched_at": "2026-05-11T10:34:58Z",
+      "raw_content": "There\u2019s a deep, forbidding moat that surrounds Nvidia\u2014and it has nothing to do with hardware.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Nvidia cuenta con una barrera competitiva basada en su dominio del software y la inteligencia artificial.",
+      "selected": false
+    },
     {
       "id": "3d2b2c788665",
       "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
@@ -10,7 +24,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-05-10T20:40:41Z",
-      "fetched_at": "2026-05-11T09:07:26Z",
+      "fetched_at": "2026-05-11T10:34:58Z",
       "raw_content": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
       "relevance_score": 1.0,
       "geo_boost": false,
