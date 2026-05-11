@@ -1,7 +1,7 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-11T10:35:08Z",
+  "last_updated": "2026-05-11T10:39:20Z",
   "articles": [
     {
       "id": "0bfc24c7d301",
@@ -10,7 +10,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-05-11T10:00:00Z",
-      "fetched_at": "2026-05-11T10:34:58Z",
+      "fetched_at": "2026-05-11T10:39:14Z",
       "raw_content": "There\u2019s a deep, forbidding moat that surrounds Nvidia\u2014and it has nothing to do with hardware.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-05-10T20:40:41Z",
-      "fetched_at": "2026-05-11T10:34:58Z",
+      "fetched_at": "2026-05-11T10:39:14Z",
       "raw_content": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
       "relevance_score": 1.0,
       "geo_boost": false,
