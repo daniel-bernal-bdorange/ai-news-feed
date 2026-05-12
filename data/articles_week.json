@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-11T10:39:20Z",
+  "last_updated": "2026-05-12T09:42:49Z",
   "articles": [
+    {
+      "id": "66b9a3416de5",
+      "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "title": "Thinking Machines wants to build an AI that actually listens while it talks",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-12T04:52:35Z",
+      "fetched_at": "2026-05-12T09:42:43Z",
+      "raw_content": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it's more like a phone call than a text chain.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Thinking Machines desarrolla un modelo de IA que procesa y responde a la entrada del usuario simult\u00e1neamente, imitando una conversaci\u00f3n en tiempo real.",
+      "selected": false
+    },
+    {
+      "id": "364088c1c47d",
+      "url": "https://www.rcrwireless.com/20260511/wireless/verizon-ai-and-edge",
+      "title": "Verizon\u2019s Srini Kalapala on betting on AI and edge computing",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-11T22:32:32Z",
+      "fetched_at": "2026-05-12T09:42:43Z",
+      "raw_content": "The carrier is increasing build activity by 20% while integrating AI to streamline construction Verizon is accelerating its network build activity by over 20% year-on-year, pushing past 30 million fiber premises passed with the Frontier acquisition, and betting heavily on&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Verizon aumenta un 20% su actividad de construcci\u00f3n de red y apuesta por la integraci\u00f3n de la inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "9b2608e0e117",
+      "url": "https://arstechnica.com/cars/2026/05/take-a-look-inside-audis-new-big-three-row-q9-suv/",
+      "title": "Audi has a new Q9 flagship coming soon: Here's its interior",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-11T22:01:57Z",
+      "fetched_at": "2026-05-12T09:42:43Z",
+      "raw_content": "<aside class=\"pullbox sidebar fullwidth\">Audi provided flights from Washington, DC, to Munich, Germany, and accommodation so Ars could see the new Q9 (and drive something you can read about later). Ars does not accept paid editorial content.</aside>\n<p>MUNICH\u2014Later this summer, Audi will unveil its new flagship model. In the past, that role had been filled <a href=\"https://arstechnica.com/cars/2020/04/flagship-sedans-like-the-audi-a8-are-a-dying-breed/\">by the A8</a>, but that was before SUVs found so much favor; even in Europe, a majority of car buyers now swing that way. But forget Europe for a moment. The new Q9 is Audi's first full-size SUV, underscoring the importance of the North American market. Late in development, the company even redesigned the cupholders to fit those giant insulated mugs that briefly became a retail obsession.</p>\n<p>We can only show this exterior-camouflaged Q9 for now, but the photos show the production interior. Or at least that's one of the possible trims; if you want the interior to evoke more of an Endor or Tatooine feel rather than Mustafar, there are beiges and browns, including an interesting open-grain olive wood alternative to the coarse carbon fiber you see here. The mix of different textures really helps elevate the Q9's interior, which leaves glossy finishes behind in favor of matte wherever possible.</p>\n<p>The view up front was inspired by the way the brand's 2021 <a href=\"https://arstechnica.com/cars/2021/09/audi-subverts-the-luxury-sedan-with-new-grandsphere-concept/\">Grandsphere concept</a> wrapped its dash around front seat occupants. The Grandsphere didn't have to rely on actually available technology, and it didn't bother with screens for the future it was imagined for. The Q9 doesn't have that luxury, but it does have acres of digital real estate. The main instrument display and infotainment screens curve around the driver, but they aren't particularly tall, so you have a clear view down the hood over the interaction light that runs along the base of the windshield and provides an additional visual cue when you use your turn signals or hazard lights.</p><p><a href=\"https://arstechnica.com/cars/2026/05/take-a-look-inside-audis-new-big-three-row-q9-suv/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/05/take-a-look-inside-audis-new-big-three-row-q9-suv/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Audi presentar\u00e1 su nuevo modelo Q9, relevante para el mercado europeo, donde los SUV ganan popularidad.",
+      "selected": false
+    },
     {
       "id": "0bfc24c7d301",
       "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/",
