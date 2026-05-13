@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-12T09:42:49Z",
+  "last_updated": "2026-05-13T09:46:51Z",
   "articles": [
+    {
+      "id": "387231f78dc1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
+      "title": "Data centers are coming for rural America",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-05-13T09:00:00Z",
+      "fetched_at": "2026-05-13T09:46:42Z",
+      "raw_content": "<figure>\n\n<img alt=\"Photo collage of a data center with data visualizations.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap has-text-align-none\">At its peak, the Androscoggin paper mill in Jay, Maine, a rural town about 67 miles northwest of Portland, employed about 1,500 people - until a pulp digester exploded in 2020, forcing the mill to close permanently. </p>\n<p class=\"has-text-align-none\">In 2023, the 1.4 million-square-foot facility was <a href=\"https://boulos.com/androscoggin-mill-in-jay-maine-undergoes-transformation/\">purchased through a joint venture by JGT2 Redevelopment</a> and a number of other holding and capital companies. The project is led by developer Tony McDonald. Over the next three years, McDonald and his team broke down the mill's machinery and shipped it to Pakistan, and worked to clean up the industrial site for resale. That resale agreement was finalized earlier this year, accord \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Una antigua f\u00e1brica de papel en Maine se transformar\u00e1 en un centro de datos tras su compra en 2023.",
+      "selected": false
+    },
+    {
+      "id": "83b67efe25c1",
+      "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "title": "Medicare\u2019s new payment model is built for AI, and most of the tech world has no idea",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-13T00:26:48Z",
+      "fetched_at": "2026-05-13T09:46:42Z",
+      "raw_content": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates that mechanism for the first time.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se crea un mecanismo para pagar a agentes de IA que monitorean a pacientes entre visitas y gestionan su atenci\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "ac037e6e3cbb",
+      "url": "https://www.rcrwireless.com/20260512/ai/edge-killer-use-case",
+      "title": "Why the edge finally has its killer use case",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-12T16:39:35Z",
+      "fetched_at": "2026-05-13T09:46:42Z",
+      "raw_content": "Connect (X) industry panel covers the transition to AI inferencing and infrastructure scaling The edge has been a conference talking point for the better part of a decade, but a panel at Connect (X) made a pretty convincing case that&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un panel en Connect (X) aborda la transici\u00f3n a la inferencia de IA y el escalado de infraestructura.",
+      "selected": false
+    },
     {
       "id": "66b9a3416de5",
       "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
