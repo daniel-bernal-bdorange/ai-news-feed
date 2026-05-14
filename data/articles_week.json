@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-13T09:46:51Z",
+  "last_updated": "2026-05-14T09:35:44Z",
   "articles": [
+    {
+      "id": "16828d2b7f95",
+      "url": "https://www.rcrwireless.com/20260514/analyst-angle/smb-wi-fi-in-2026-fellah",
+      "title": "SMB Wi-Fi in 2026 \u2013 one dominant vendor, one frustrated channel (Analyst Angle)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-14T09:00:56Z",
+      "fetched_at": "2026-05-14T09:35:36Z",
+      "raw_content": "New research into the SMB Wi-Fi market reveals how managed service providers choose networking vendors, where leading platforms succeed or fail, and why support, integrations, channel economics, and ecosystem lock-in now matter more than checklists. Wi-Fi has become the most&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los proveedores de servicios gestionados eligen a los vendedores de redes seg\u00fan el soporte, integraciones y econom\u00eda del canal, m\u00e1s que por listas de verificaci\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "a8a13d866377",
+      "url": "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/",
+      "title": "Who decides what AI tells you? Campbell Brown, once Meta\u2019s news chief, has thoughts",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-14T06:05:31Z",
+      "fetched_at": "2026-05-14T09:35:36Z",
+      "raw_content": "\"The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers.\"",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se percibe una desconexi\u00f3n entre el debate en Silicon Valley y las conversaciones entre los consumidores.",
+      "selected": false
+    },
+    {
+      "id": "e85a44a8ec18",
+      "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+      "title": "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-05-13T22:04:28Z",
+      "fetched_at": "2026-05-14T09:35:36Z",
+      "raw_content": "<figure>\n\n<img alt=\"An image showing the Edge logo\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24385267/STK148_Microsoft_Edge_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Microsoft Edge is <a href=\"https://blogs.windows.com/msedgedev/2026/05/13/new-updates-to-edge-across-desktop-and-mobile/\">adding a new feature</a> that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more.</p>\n<p class=\"has-text-align-none\">In its announcement, Microsoft says you can \"select which experiences you want or leave off the ones you don't.\" The company is <a href=\"https://www.theverge.com/news/714435/microsoft-edge-copilot-mode-ai-features\">retiring Copilot Mode</a> as well, which could similarly draw information from your tabs but offered some agentic features, like the ability to book a reservation on your behalf. Microsoft has since folded these \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Microsoft Edge incorpora una nueva funci\u00f3n que permite a su chatbot Copilot recopilar informaci\u00f3n de todas las pesta\u00f1as abiertas.",
+      "selected": false
+    },
     {
       "id": "387231f78dc1",
       "url": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
