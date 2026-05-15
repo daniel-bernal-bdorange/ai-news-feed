@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-14T09:35:44Z",
+  "last_updated": "2026-05-15T09:48:57Z",
   "articles": [
+    {
+      "id": "a8d4b872968c",
+      "url": "https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/",
+      "title": "Mira Murati Wants Her AI to \u2018Keep Humans in the Loop\u2019",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-15T09:00:00Z",
+      "fetched_at": "2026-05-15T09:48:50Z",
+      "raw_content": "The Thinking Machines Lab founder and former CTO of OpenAI tells WIRED she isn\u2019t interested in automating people out of jobs. Instead, she\u2019s building AI that can collaborate.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La fundadora de Thinking Machines Lab busca desarrollar IA que colabore con humanos, no reemplazarlos.",
+      "selected": false
+    },
+    {
+      "id": "4d0eaaed3e7e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
+      "title": "Closing time",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-05-14T22:21:46Z",
+      "fetched_at": "2026-05-15T09:48:50Z",
+      "raw_content": "<figure>\n\n<img alt=\"Photo collage of Sam Altman and Elon Musk\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKE010_MuskvAltman_AParkin06.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap has-text-align-none\">Today was closing arguments in the <em>Musk v. Altman</em> trial, and I almost feel bad writing about the unbelievable demolition derby I just witnessed. Steven Molo, Musk's lawyer, stumbled over his words. He at one point called Greg Brockman - a co-defendant - Greg Altman. He erroneously claimed that Musk wasn't asking for money and had to be corrected by the judge. He made it clear we've heard from many liars over the past few weeks, but offered little evidence for Musk's actual legal claims.</p>\n<p class=\"has-text-align-none\">OpenAI's lawyer, Sarah Eddy, countered this by simply arranging the mountain of evidence that the company introduced in chronological order. She didn't spen \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se han presentado los alegatos finales en el juicio Musk v. Altman, con el abogado de Musk cometiendo errores y la defensa de OpenAI presentando una gran cantidad de evidencia.",
+      "selected": false
+    },
+    {
+      "id": "050d17d2e74e",
+      "url": "https://www.rcrwireless.com/20260514/carriers/telefonica-brazil-germany-ai-infra-cap",
+      "title": "Telef\u00f3nica leans on Brazil growth and German discipline, and caps AI infra ambitions",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-14T14:30:27Z",
+      "fetched_at": "2026-05-15T09:48:50Z",
+      "raw_content": "Telef\u00f3nica opened 2026 with steady growth, stronger profitability, and lower debt, driven largely by a surge in Brazil and discipline in Germany and Spain. Execs moved to calm expectations about its capital exposure in Europe\u2019s new AI gigafactory push.&#160; Quarterly&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Telef\u00f3nica registra crecimiento estable y mayor rentabilidad en 2026, impulsada por Brasil y disciplina en Alemania y Espa\u00f1a, nuestro mercado relevante en Europa.",
+      "selected": false
+    },
     {
       "id": "16828d2b7f95",
       "url": "https://www.rcrwireless.com/20260514/analyst-angle/smb-wi-fi-in-2026-fellah",
