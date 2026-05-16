@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-15T10:11:15Z",
+  "last_updated": "2026-05-16T08:49:07Z",
   "articles": [
+    {
+      "id": "4ae294d975ff",
+      "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+      "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-05-15T22:25:00Z",
+      "fetched_at": "2026-05-16T08:49:00Z",
+      "raw_content": "<figure>\n\n<img alt=\"A mannequin\u2019s face covered in pixels.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK419_DEEPFAKE_3_CVIRGINIA_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves.</p>\n<p class=\"has-text-align-none\">The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there is a match, YouTube alerts the user; the person then has the option to request that YouTube remove the content. YouTube has said in the past that it has found the number of removal requests to be \"very small.\"</p>\n<p class=\"has-text-align-none\">YouTube began testing the feature <a href=\"https://www.theverge.com/news/803818/youtube-ai-likeness-detection-deepfake\">with content creators</a>, and then <a href=\"https://www.theverge.com/ai-artificial-intelligence/891678/youtube-is-expanding-its-ai-deepfake-detection-tool-to-politicians-and-journalists\">expanded</a> it to government officials, politicians, journalists, and fina \u2026</p>\n<p><a href=\"https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "YouTube ampl\u00eda su programa de detecci\u00f3n de similitudes con IA a todos los usuarios mayores de 18 a\u00f1os para detectar posibles deepfakes.",
+      "selected": false
+    },
+    {
+      "id": "7f52f4f0d726",
+      "url": "https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/",
+      "title": "Russia pressures university students to become wartime drone pilots",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-15T22:19:12Z",
+      "fetched_at": "2026-05-16T08:49:00Z",
+      "raw_content": "<p>Russian universities are promising free tuition and up to $70,000 to students who are willing to serve as drone pilots in the Russian military for a year\u2014all while claiming students can avoid the risk of frontline combat duty in Ukraine. But there has already been one confirmed battlefield death and possibly more among the new cadre of student drone pilots.</p>\n<p>That specific recruitment offer appeared on pamphlets distributed at Bauman Moscow State Technical University, according to <a href=\"https://www.bloomberg.com/news/articles/2026-05-15/russia-presses-college-students-to-fill-ranks-of-drone-pilots\">Bloomberg</a>. Other universities have dangled incentives such as tax holidays, loan forgiveness, and sometimes free land. The independent magazine <a href=\"https://www.groza.media/posts/agitatzia-bpla-voiska\">Groza</a> counted at least 270 Russian academic institutions promoting military contracts to their students in the fifth year of the war that began with Russia\u2019s full-scale invasion of Ukraine in February 2022.</p>\n<p>This new wave of recruitment is targeting a population of approximately 2 million men attending Russian universities, including gamers and students with technical skills that could make them suitable trainees as drone pilots, according to Bloomberg. Russia\u2019s Defense Ministry has specifically called for drone pilot recruits with expertise in flying drones, model aircraft, electronics, and radio engineering, with computer skills also being desirable, <a href=\"https://www.nbcnews.com/world/russia/russia-recruit-students-drone-pilots-ukraine-putin-war-rcna331675\">NBC News</a> reported.</p><p><a href=\"https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Rusia ofrece becas y hasta 70.000 d\u00f3lares a estudiantes que se unan como pilotos de drones en el ej\u00e9rcito.",
+      "selected": false
+    },
+    {
+      "id": "086be65dc1d8",
+      "url": "https://www.rcrwireless.com/20260515/network-infrastructure/vodafone-federated-european-edge-sovereign-iot-ai",
+      "title": "Vodafone talks-up federated European telco edge-cloud for sovereign IoT and AI",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-15T13:16:17Z",
+      "fetched_at": "2026-05-16T08:49:00Z",
+      "raw_content": "Vodafone and other major European operators are advancing a federated telco edge-cloud designed to support sovereign AI and IoT workloads, positioning it as a home-grown alternative to hyperscaler platforms. The initiative promises \u201cseamless\u201d cross-border services, but remains in early-stage validation.&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Vodafone y otros operadores europeos impulsan una nube de borde federada para soportar cargas de trabajo de IA y IoT soberanas, una alternativa a plataformas de hyperscalers en el mercado europeo.",
+      "selected": false
+    },
     {
       "id": "a8d4b872968c",
       "url": "https://www.wired.com/story/mira-murati-humans-in-the-loop-ai-models-thinking-machines/",
