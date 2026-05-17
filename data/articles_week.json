@@ -1,8 +1,36 @@
 {
   "week_start": "2026-05-11",
   "week_end": "2026-05-17",
-  "last_updated": "2026-05-16T08:49:07Z",
+  "last_updated": "2026-05-17T09:07:14Z",
   "articles": [
+    {
+      "id": "302020456d99",
+      "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "title": "The haves and have nots of the AI gold rush",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-16T20:17:16Z",
+      "fetched_at": "2026-05-17T09:07:07Z",
+      "raw_content": "The vibes around the current AI boom aren't great, even in the tech industry.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La euforia por el auge actual de la IA es escasa, incluso dentro del sector tecnol\u00f3gico.",
+      "selected": false
+    },
+    {
+      "id": "00470ac4bbb2",
+      "url": "https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/",
+      "title": "The US is betting on AI to catch insider trading in prediction markets",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-16T11:00:01Z",
+      "fetched_at": "2026-05-17T09:07:07Z",
+      "raw_content": "<p>For most of the past year, it looked like <a href=\"https://www.wired.com/story/the-political-war-over-prediction-markets-is-just-getting-started/\">prediction markets</a> had kicked off a new golden age of fraud. On <a href=\"https://www.wired.com/tag/polymarket/\">Polymarket</a>, traders raked in fortunes from <a href=\"https://www.nytimes.com/2026/05/13/technology/polymarket-insider-trading.html\">suspiciously timed bets</a> on geopolitical events like the raid on Venezuela and the Iran War. It wasn\u2019t clear whether the US government would bother pursuing some of the most flagrant bad actors, since Polymarket\u2019s crypto-based platform was technically offshore and not regulated or licensed within the country.</p>\n<p>Now, however, the Commodity Futures Trading Commission, which oversees prediction markets, wants you to know that it\u2019s watching very, very closely. The agency is searching for suspicious behavior from traders within the United States who have been sneaking onto offshore markets, including Polymarket\u2019s crypto platform\u2014which is blocked stateside\u2014by using virtual private networks. \u201cWe're going to find them, and we're going to bring actions,\u201d agency chairman Michael Selig told WIRED this week, speaking from the CFTC\u2019s headquarters in Washington, DC.</p>\n<p>Selig says the agency, which is especially lean right now, is staffing up. Like so many other AI-pilled workplaces, the CFTC is also leaning into automation to handle the growing workload, including tools that analyze trading patterns and flag potential manipulation. \u201cYou\u2019ve got so much data,\u201d Selig says. \u201cWhen we feed it into AI, we get really great information. It can help us understand things, like where we might want to investigate, or when we might need to send a subpoena to a trader.\u201d</p><p><a href=\"https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La Comisi\u00f3n de Comercio de Futuros de Commodities de EE. UU. vigila de cerca a operadores que utilizan redes privadas virtuales para acceder a mercados de predicci\u00f3n offshore.",
+      "selected": false
+    },
     {
       "id": "4ae294d975ff",
       "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
