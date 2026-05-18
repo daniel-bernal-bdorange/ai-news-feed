@@ -1,7 +1,7 @@
 {
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "last_updated": "2026-05-18T08:56:29Z",
+  "last_updated": "2026-05-18T09:03:13Z",
   "articles": [
     {
       "id": "1e24248a8b10",
@@ -10,7 +10,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-05-17T19:46:34Z",
-      "fetched_at": "2026-05-18T08:56:21Z",
+      "fetched_at": "2026-05-18T09:03:04Z",
       "raw_content": "A big theme in the trial\u2019s final days was whether OpenAI CEO Sam Altman is trustworthy.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "The Verge - AI",
       "category": "tech",
       "published_at": "2026-05-17T18:40:28Z",
-      "fetched_at": "2026-05-18T08:56:21Z",
+      "fetched_at": "2026-05-18T09:03:04Z",
       "raw_content": "<figure>\n\n<img alt=\"Siri logo on a black background\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10817647/acastro_180510_1777_siri_0001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Apple is hoping that its<a href=\"https://www.theverge.com/2019/3/26/18282158/apple-services-privacy-credit-card-tv-data-sharing\"> record on privacy</a> can be the differentiator on the AI front, and maybe even buy it a little slack as it continues to lag behind the competition. According to <em><a href=\"https://www.bloomberg.com/news/newsletters/2026-05-17/ios-27-siri-app-to-have-auto-deleting-chats-siri-may-be-a-beta-genmoji-mp9udydr?srnd=undefined\">Bloomberg's</a></em> Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat histories. Users will be able to save conversations for 30 days, one year, or forever. That's in stark contrast to the other major players in the space that generally only offer temporary incognito chats, if that. </p>\n<p class=\"has-text-align-none\">It appears Apple is betting that people are willing to give up some convenience in the name of greater privacy, as anxiety around AI \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats\">Read the full story at The Verge.</a></p>",
       "relevance_score": 1.0,
       "geo_boost": false,
