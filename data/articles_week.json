@@ -1,8 +1,36 @@
 {
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "last_updated": "2026-05-18T09:03:13Z",
+  "last_updated": "2026-05-18T11:08:06Z",
   "articles": [
+    {
+      "id": "e300d83ce4cc",
+      "url": "https://www.wired.com/story/normie-vibe-code/",
+      "title": "I\u2019m a Normie. Can Normies Really Vibe Code?",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-18T10:00:00Z",
+      "fetched_at": "2026-05-18T11:07:59Z",
+      "raw_content": "Apparently anyone can vibe code anything these days. So Claude and I tried to make a database for tracking the petty grievances of the masses.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Desarrolladores crean una base de datos para registrar quejas menores de la poblaci\u00f3n, aprovechando la facilidad de codificaci\u00f3n actual.",
+      "selected": false
+    },
+    {
+      "id": "9ed9cdf61c71",
+      "url": "https://www.rcrwireless.com/20260518/carriers/dan-schulman-was-right-network-experience",
+      "title": "Dan Schulman was right \u2013 networks won\u2019t differentiate; experience will (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-18T09:35:54Z",
+      "fetched_at": "2026-05-18T11:07:59Z",
+      "raw_content": "Why CSPs are losing the customer relationship betting on half the experience and where they can grab the other half. Just three weeks ago, Verizon CEO Dan Schulman said the quiet part out loud at a Semafor fireside chat: network&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los proveedores de servicios de comunicaciones pierden la relaci\u00f3n con el cliente al centrarse solo en la mitad de la experiencia.",
+      "selected": false
+    },
     {
       "id": "1e24248a8b10",
       "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
@@ -10,7 +38,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-05-17T19:46:34Z",
-      "fetched_at": "2026-05-18T09:03:04Z",
+      "fetched_at": "2026-05-18T11:07:59Z",
       "raw_content": "A big theme in the trial\u2019s final days was whether OpenAI CEO Sam Altman is trustworthy.",
       "relevance_score": 1.0,
       "geo_boost": false,
