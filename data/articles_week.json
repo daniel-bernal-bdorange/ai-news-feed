@@ -1,8 +1,36 @@
 {
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "last_updated": "2026-05-18T11:08:06Z",
+  "last_updated": "2026-05-19T10:37:55Z",
   "articles": [
+    {
+      "id": "edea790988cf",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-tom-steyer/",
+      "title": "Tom Steyer Wants to Save California From Billionaires. But Also Doesn\u2019t Want Them to Leave",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-19T10:30:00Z",
+      "fetched_at": "2026-05-19T10:37:48Z",
+      "raw_content": "The hedge fund billionaire turned gubernatorial candidate wants to tax California\u2019s ultrawealthy, regulate AI, and keep Silicon Valley happy at the same time. Good luck with that.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un candidato a gobernador propone gravar a los ultraricos en California, regular la inteligencia artificial y contentar al Valle del Silicio al mismo tiempo.",
+      "selected": false
+    },
+    {
+      "id": "69c243a4af89",
+      "url": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
+      "title": "Gemini is in danger of going full Copilot",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-05-19T10:30:00Z",
+      "fetched_at": "2026-05-19T10:37:48Z",
+      "raw_content": "<figure>\n\n<img alt=\"Samsung Z Fold 7 phone showing Gemini interface\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/DSC02315_processed_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tI actually use the Gemini app quite a bit on my phone, but let\u2019s not get carried away.\t</figcaption>\n</figure>\n<p class=\"has-drop-cap has-text-align-none\">Gemini has a creep problem.</p>\n<p class=\"has-text-align-none\">A few years ago, that little sparkle icon started showing up in all of our Google apps. Gemini in your inbox! Gemini in your Google Drive! It was slow at first, and easy enough to tune out, but something has changed in the past few months. Gemini is creeping. It's showing up in all kinds of places at a relentless pace, and personally, it's starting to really cheese me off. </p>\n<p class=\"has-text-align-none\">The AI-everywhere fatigue is familiar to anyone who has ever used Windows 11. Microsoft went absolutely bananas putting Copilot shortcuts onto every surface it could find, <a href=\"https://www.theverge.com/tech/825022/microsoft-windows-40-year-anniversary-agentic-os-future\">to the extreme irritation</a> of many users. Likewise,<strong> </strong>we will doubtlessly \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Gemini, la herramienta de inteligencia artificial de Google, est\u00e1 apareciendo en cada vez m\u00e1s lugares, lo que genera fatiga entre los usuarios.",
+      "selected": false
+    },
     {
       "id": "e300d83ce4cc",
       "url": "https://www.wired.com/story/normie-vibe-code/",
