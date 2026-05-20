@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "last_updated": "2026-05-19T10:37:55Z",
+  "last_updated": "2026-05-20T10:25:38Z",
   "articles": [
+    {
+      "id": "8f9c6915ecfa",
+      "url": "https://arstechnica.com/cars/2026/05/moose-proof-and-megacasting-ars-drives-the-new-volvo-ex60/",
+      "title": "Moose-proof and megacasting: Ars drives the new Volvo EX60",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-20T07:00:57Z",
+      "fetched_at": "2026-05-20T10:25:31Z",
+      "raw_content": "<p>BARCELONA, Spain\u2014Volvo unveiled <a href=\"https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/\">its new all-electric EX60 in January</a> with a slew of distinctions. The EX60 is the first model on the company's all-EV SPA3 platform, a scalable base upon which Volvo plans to build a range of other vehicles.</p>\n<p>With up to 400 miles (643 km) of range and faster charging than any other Volvo vehicle, this EV carries a lot of hopes and dreams. Volvo says it completely changed how it builds cars for the EX60, refining every stage of production. Part of the building process is called megacasting, a technique that converts molten aluminum into one lightweight piece. The model also boasts <a href=\"https://arstechnica.com/cars/2026/03/doubling-the-voltage-what-800-v-architecture-really-changes-in-evs/\">800 V charging</a> and cell-to-body integration, a structural load-bearing battery design that integrates battery cells directly into the vehicle\u2019s floor and walls.</p>\n<p>While the market may seem wishy-washy on EVs right now, at least in the United States, <a href=\"https://arstechnica.com/cars/2026/03/facing-heavy-losses-honda-cancels-its-three-us-made-electric-vehicles/\">most automakers</a> with EVs already in the works are plowing forward. Volvo\u00a0launched the\u00a0<a href=\"https://arstechnica.com/cars/2023/11/driving-the-volvo-ex30-a-36k-ev-that-prioritizes-sustainability/\" rel=\"noopener\" target=\"_blank\">compact EX30</a>\u00a0at the end of 2023 and discontinued it this year due to shifting conditions and tariffs, but the\u00a0<a href=\"https://arstechnica.com/cars/2025/07/2025-volvo-ex90-a-low-key-luxury-electric-suv/\" rel=\"noopener\" target=\"_blank\">three-row EX90</a> continues the lineup alongside the new EX60. Priced at $59,795 for the entry-level P6 Plus, the 2027 EX60 ranges up to $68,745 for the P10 AWD Ultra, which is more powerful and has a longer range. Volvo says the P12, which will have even more power and range, is on the horizon.</p><p><a href=\"https://arstechnica.com/cars/2026/05/moose-proof-and-megacasting-ars-drives-the-new-volvo-ex60/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/05/moose-proof-and-megacasting-ars-drives-the-new-volvo-ex60/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Volvo presenta su nuevo EX60, un SUV el\u00e9ctrico con hasta 643 km de autonom\u00eda, relevante para el mercado europeo, especialmente en Espa\u00f1a.",
+      "selected": false
+    },
+    {
+      "id": "c514985556f3",
+      "url": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/",
+      "title": "Literary Prizewinners Are Facing AI Allegations. It Feels Like the New Normal",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-19T22:53:04Z",
+      "fetched_at": "2026-05-20T10:25:31Z",
+      "raw_content": "Three of five regional winners of the prestigious Commonwealth Short Story Prize are suspected of relying on chatbots. They\u2019re certainly not alone.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Tres de cinco ganadores regionales del prestigioso Premio de Cuento de la Commonwealth sospechan haber recurrido a chatbots.",
+      "selected": false
+    },
+    {
+      "id": "12ad36be4b9d",
+      "url": "https://www.rcrwireless.com/20260519/defense-communications/defense-panel-edge-ai",
+      "title": "Defense panel sketches what deployable edge AI and private 5G actually look like",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-19T22:07:32Z",
+      "fetched_at": "2026-05-20T10:25:31Z",
+      "raw_content": "Operators, spectrum leads, and coalition partners weigh in on edge AI, survivability, and spectrum coordination At the Defense Communications Forum, a series of military operators, spectrum policy leads, and coalition partners came together to answer one question: how do you&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Expertos militares y socios coaligados debaten sobre inteligencia artificial de borde y coordinaci\u00f3n de espectro en el Foro de Comunicaciones de Defensa.",
+      "selected": false
+    },
     {
       "id": "edea790988cf",
       "url": "https://www.wired.com/story/the-big-interview-podcast-tom-steyer/",
