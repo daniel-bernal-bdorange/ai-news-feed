@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "last_updated": "2026-05-20T10:25:38Z",
+  "last_updated": "2026-05-21T10:40:52Z",
   "articles": [
+    {
+      "id": "dc288a7bda80",
+      "url": "https://www.rcrwireless.com/20260521/network-infrastructure/space-as-next-network-edge-cisco-thousandeyes",
+      "title": "Space as the next network edge \u2013 the evolution of global connectivity (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-21T10:18:55Z",
+      "fetched_at": "2026-05-21T10:40:46Z",
+      "raw_content": "As satellite constellations reshape global connectivity, attention is shifting beyond internet access toward compute in orbit. The challenge now is understanding how space-based infrastructure will integrate with terrestrial networks to support resilient, distributed digital services. Satellite constellations are already transforming&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Las constelaciones de sat\u00e9lites est\u00e1n transformando la conectividad global, centr\u00e1ndose en el c\u00f3mputo en \u00f3rbita y su integraci\u00f3n con redes terrestres.",
+      "selected": false
+    },
+    {
+      "id": "e17f1caab74d",
+      "url": "https://www.theverge.com/tech/935163/meta-layoffs-ai-investment-offset-memo",
+      "title": "Meta lays off thousands of employees to offset AI investments",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-05-21T09:20:46Z",
+      "fetched_at": "2026-05-21T10:40:46Z",
+      "raw_content": "<figure>\n\n<img alt=\"Photo of Mark Zuckerberg in front of background of Meta logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STKS507_FTCxMETA_ANTITRUST_CVIRGINIA_2_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tMeta says it needs to \u201coffset the other investments we're making.\u201d | Image: Cath Virginia / The Verge, Getty Images\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Meta has reportedly notified thousands of employees that they've been laid off as the company attempts to compensate for its hefty AI investments. In an email from Meta management shared by <a href=\"https://www.businessinsider.com/read-meta-layoff-email-employees-2026-5\"><em>Business Insider</em></a>, impacted staffers were told that the planned headcount reduction was part of the company's \"continued effort to run the company more efficiently and to allow us to offset the other investments we're making.\"</p>\n<p class=\"has-text-align-none\">Reports of an upcoming wave of layoffs started circulating in March, though at that time Meta was believed to be cutting <a href=\"https://www.theverge.com/business/895026/meta-laying-off-20-percent\">up to 20 percent</a> of its total company headcount. According to a <a href=\"https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff\">recent memo shared in May</a>, the layoffs are now  \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/935163/meta-layoffs-ai-investment-offset-memo\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Meta ha notificado a miles de empleados que ser\u00e1n despedidos para compensar sus inversiones en inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "92a9580977e2",
+      "url": "https://www.wired.com/story/spacex-ipo-grok-spicy-mode-risks/",
+      "title": "SpaceX Listed Grok\u2019s \u2018Spicy\u2019 Mode as a Risk in Its IPO Filing",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-21T00:43:13Z",
+      "fetched_at": "2026-05-21T10:40:46Z",
+      "raw_content": "The rocket company has set aside more than $500 million for potential litigation losses, in part to account for complaints alleging that Grok created sexualized images.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La empresa de cohetes ha reservado m\u00e1s de 500 millones de d\u00f3lares para posibles p\u00e9rdidas legales, en parte por denuncias que alegan que Grok cre\u00f3 im\u00e1genes sexualizadas.",
+      "selected": false
+    },
     {
       "id": "8f9c6915ecfa",
       "url": "https://arstechnica.com/cars/2026/05/moose-proof-and-megacasting-ars-drives-the-new-volvo-ex60/",
