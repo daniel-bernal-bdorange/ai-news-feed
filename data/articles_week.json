@@ -1,7 +1,7 @@
 {
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "last_updated": "2026-05-22T10:25:27Z",
+  "last_updated": "2026-05-22T10:40:21Z",
   "articles": [
     {
       "id": "2802759c85ae",
@@ -10,7 +10,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-05-22T09:00:00Z",
-      "fetched_at": "2026-05-22T10:25:18Z",
+      "fetched_at": "2026-05-22T10:40:08Z",
       "raw_content": "Hyperscalers are pushing the Gulf to rethink internet infrastructure as AI raises the stakes of cable disruptions.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "Ars Technica",
       "category": "tech",
       "published_at": "2026-05-22T02:05:37Z",
-      "fetched_at": "2026-05-22T10:25:18Z",
+      "fetched_at": "2026-05-22T10:40:08Z",
       "raw_content": "<p>SpaceX got within 40 seconds of launching the first flight of a taller, more powerful version of its Starship rocket Thursday, but a pesky problem with the launch tower kept the vehicle bound to Earth for at least one more day.</p>\n<p>Clouds and rain showers cleared the area around SpaceX's launch site in South Texas, leaving mostly sunny skies over the Starship launch pad Thursday afternoon. SpaceX pushed back the launch time by one hour, but the countdown appeared to proceed smoothly once propellants began loading into the rocket.</p>\n<p>That was true, at least, until the countdown clock paused 40 seconds before liftoff. The launch team repeatedly attempted to resume the countdown, only for the computer controlling the launch sequence to stop the clock again. There were five holds in all before SpaceX called off the launch attempt.</p><p><a href=\"https://arstechnica.com/space/2026/05/ground-system-issue-scrubs-first-launch-of-spacexs-starship-v3-rocket/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/05/ground-system-issue-scrubs-first-launch-of-spacexs-starship-v3-rocket/#comments\">Comments</a></p>",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -38,7 +38,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-05-21T15:48:11Z",
-      "fetched_at": "2026-05-22T10:25:18Z",
+      "fetched_at": "2026-05-22T10:40:08Z",
       "raw_content": "A weaker North American market reflects both the maturity of the region\u2019s 5G cycle and tougher year-over-year comparisons, says Omdia In sum \u2013 what to know: Emerging market growth \u2013 Omdia said global RAN revenue grew in Q1 2026, supported&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
