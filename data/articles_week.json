@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "last_updated": "2026-05-22T10:45:28Z",
+  "last_updated": "2026-05-23T09:02:36Z",
   "articles": [
+    {
+      "id": "4287b9dc53b3",
+      "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+      "title": "AI is being used to resurrect the voices of dead pilots",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-22T23:03:33Z",
+      "fetched_at": "2026-05-23T09:02:30Z",
+      "raw_content": "People used AI on a spectrogram image of cockpit recordings to reconstruct them, forcing the NTSB to temporarily block access to its docket system.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La NTSB ha bloqueado temporalmente su sistema de acceso a documentos tras reconstruir grabaciones de cabinas mediante inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "fd3e2996458d",
+      "url": "https://arstechnica.com/space/2026/05/a-satellite-company-supporting-ukraine-appears-to-be-in-russias-crosshairs/",
+      "title": "Four Russian satellites are now within striking distance of an ICEYE radarsat",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-22T22:50:23Z",
+      "fetched_at": "2026-05-23T09:02:30Z",
+      "raw_content": "<p>At least four Russian military satellites changed their orbits to match that of a Finnish-American radar surveillance satellite in the last week, raising questions about Russia's intentions amid an ever-expanding standoff high above Earth.</p>\n<p>The maneuvers were identified through open source orbital tracking data. Greg Gillinger, a retired Air Force space intelligence officer, revealed the orbit changes Friday in a special edition of his <a href=\"https://www.linkedin.com/pulse/russia-maneuvering-threaten-iceye-satellite-integrityisr-waiwe/\">Integrity Flash newsletter</a>, published by Integrity ISR, a private business that provides \"combat-proven operational support and elite training that enhances mission success across ISR (Intelligence, Surveillance, and Reconnaissance), cyber, space, and targeting domains.\"</p>\n<p>The Russian satellites in question, designated Kosmos 2610 through 2613, launched together on April 16 on a Soyuz-2.1b rocket from <a href=\"https://arstechnica.com/space/2026/04/russian-cloaks-launch-schedule-after-spaceport-falls-in-ukraines-sights/\">Plesetsk Cosmodrome</a> in northern Russia. Over the last week or so, the four satellites adjusted their inclinations\u2014the angles of their orbits to the equator\u2014by less than a degree.</p><p><a href=\"https://arstechnica.com/space/2026/05/a-satellite-company-supporting-ukraine-appears-to-be-in-russias-crosshairs/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/05/a-satellite-company-supporting-ukraine-appears-to-be-in-russias-crosshairs/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Rusia ha cambiado la \u00f3rbita de cuatro sat\u00e9lites militares para coincidir con un sat\u00e9lite de vigilancia finno-estadounidense.",
+      "selected": false
+    },
+    {
+      "id": "d915f6d5ca03",
+      "url": "https://www.rcrwireless.com/20260522/5g/airtel-5g-slicing",
+      "title": "Bharti Airtel launches 5G slicing service for postpaid users",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-22T16:23:05Z",
+      "fetched_at": "2026-05-23T09:02:30Z",
+      "raw_content": "Nicole McCormick, chief analyst for consumer 5G and broadband monetization at Omdia, said the launch by Airtel reflects a broader shift among operators toward protecting premium subscriber experiences while seeking new revenue opportunities from 5G services In sum \u2013 what&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Airtel lanza servicios para proteger experiencias de suscriptores premium y buscar nuevas oportunidades de ingresos con 5G.",
+      "selected": false
+    },
     {
       "id": "2802759c85ae",
       "url": "https://www.wired.com/story/the-gulfs-ai-boom-has-an-undersea-cable-problem/",
