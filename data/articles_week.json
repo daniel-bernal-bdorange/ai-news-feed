@@ -1,8 +1,36 @@
 {
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "last_updated": "2026-05-23T09:02:36Z",
+  "last_updated": "2026-05-24T09:22:21Z",
   "articles": [
+    {
+      "id": "1bb49b1d4fde",
+      "url": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/",
+      "title": "SpaceX's Starship V3\u2014still a work in progress\u2014mostly successful on first flight",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-23T17:54:54Z",
+      "fetched_at": "2026-05-24T09:22:13Z",
+      "raw_content": "<p>SpaceX launched the first test flight of its upgraded Starship rocket and Super Heavy booster Friday, with mostly positive results.</p>\n<p>The powerful rocket, propelled by 33 methane-fueled main engines, climbed away from SpaceX's Starbase launch facility in South Texas at 5:30 pm CDT (6:30 pm EDT; 22:30 UTC) Friday. Within a few seconds, the 408-foot-tall (124-meter) rocket, the largest ever built, cleared the launch tower and turned onto an eastward heading over the Gulf of Mexico.</p>\n<p>Starship splashed down on target in the Indian Ocean a little more than an hour later to conclude the first flight of the latest version of SpaceX's stainless steel mega-rocket. Starship V3 fared better on its debut than the <a href=\"https://arstechnica.com/science/2023/04/so-what-was-that-was-starships-launch-a-failure-or-a-success/\">first flights of Starship V1</a> and <a href=\"https://arstechnica.com/space/2025/01/fire-destroys-starship-on-its-seventh-test-flight-raining-debris-from-space/\">V2 in 2023 and 2025</a>. Both past versions of Starship broke apart during launch on their inaugural flights.</p><p><a href=\"https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "SpaceX ha lanzado con \u00e9xito su cohete Starship actualizado, alcanzando resultados mayoritariamente positivos en su primer vuelo de prueba.",
+      "selected": false
+    },
+    {
+      "id": "939849a9cc35",
+      "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+      "title": "Ferrari is using IBM\u2019s AI to create F1 superfans",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-23T15:08:00Z",
+      "fetched_at": "2026-05-24T09:22:13Z",
+      "raw_content": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "IBM y Scuderia Ferrari est\u00e1n revolucionando la experiencia del fan\u00e1tico mediante tecnolog\u00edas innovadoras.",
+      "selected": false
+    },
     {
       "id": "4287b9dc53b3",
       "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
