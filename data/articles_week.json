@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-25",
   "week_end": "2026-05-31",
-  "last_updated": "2026-05-25T11:12:02Z",
+  "last_updated": "2026-05-27T10:56:43Z",
   "articles": [
+    {
+      "id": "36305a8d8ebe",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937801/pope-leo-xiv-magnifica-humanitas-ai-pangram",
+      "title": "Did the Pope use AI to write about the dangers of AI?",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-05-27T00:38:11Z",
+      "fetched_at": "2026-05-27T10:56:37Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2278118480.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">It's possible that AI was used to write parts of Pope Leo XIV's latest encyclical about AI's impact on humanity. An <a href=\"https://www.lesswrong.com/posts/wRNJZz2iYrfDaSDdz/claude-author-of-the-humanitas\">analysis</a> by Linch Zhang posted on the forum LessWrong found certain paragraphs of <a href=\"https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html\"><em>Magnifica Humanitas</em></a> to be between 40 percent and 100 percent written by AI, according to the popular AI detector Pangram.</p>\n<p class=\"has-text-align-none\">The document includes known traits that appear in AI-generated writing, such as a higher use of the word \"genuinely\" - which crops up in writing by Anthropic's Claude - than previous encyclicals, Zhang says. Another person ran the text of the document section by section <a href=\"https://www.lesswrong.com/posts/GbWwesBnetyiomxEH/many-portions-of-magnifica-humanitas-appear-to-be-ai-written\">through Pangram</a>, finding that 62 percent of its first cha \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/937801/pope-leo-xiv-magnifica-humanitas-ai-pangram\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se sospecha que partes del \u00faltimo documento del Papa Le\u00f3n XIV sobre el impacto de la IA en la humanidad podr\u00edan haber sido escritas con ayuda de inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "96045ce763a8",
+      "url": "https://www.wired.com/story/pope-leo-schooled-the-tech-bros-on-tolkien/",
+      "title": "Pope Leo Schooled the Tech Bros on Tolkien",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-26T23:19:03Z",
+      "fetched_at": "2026-05-27T10:56:37Z",
+      "raw_content": "The Holy Father referenced The Lord of the Rings in his encyclical about AI\u2014an expert (if unintentional) troll of tech billionaires who keep misinterpreting the series.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "El Papa cita \"El Se\u00f1or de los Anillos\" en su enc\u00edclica sobre inteligencia artificial, en una cr\u00edtica indirecta a los multimillonarios tecnol\u00f3gicos.",
+      "selected": false
+    },
+    {
+      "id": "89f7e78a6299",
+      "url": "https://www.rcrwireless.com/20260526/telco-cloud/dell-poweredgexr8720t-1",
+      "title": "Powering the future of cloud RAN with the Dell PowerEdge XR8720t",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-26T13:30:00Z",
+      "fetched_at": "2026-05-27T10:56:37Z",
+      "raw_content": "Communication Service Providers (CSP) need infrastructure that delivers more value with fewer resources. They require higher performance, reliable networking, straightforward deployment, and room to grow \u2014 all without replacing existing platforms. The Dell PowerEdge XR8720t meets these needs, offering a&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los proveedores de servicios de comunicaci\u00f3n necesitan infraestructuras que ofrezcan m\u00e1s valor con menos recursos, como el Dell PowerEdge XR8720t.",
+      "selected": false
+    },
     {
       "id": "6184075befca",
       "url": "https://www.wired.com/story/the-ai-era-is-creating-a-bug-hunting-arms-race/",
