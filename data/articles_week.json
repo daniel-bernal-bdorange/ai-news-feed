@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-25",
   "week_end": "2026-05-31",
-  "last_updated": "2026-05-27T10:56:43Z",
+  "last_updated": "2026-05-28T10:57:31Z",
   "articles": [
+    {
+      "id": "79a3e638b801",
+      "url": "https://www.wired.com/story/amazon-thinks-the-future-of-data-centers-depends-on-a-technical-problem-it-just-solved/",
+      "title": "Amazon Thinks the Future of Data Centers Depends on a Technical Problem It Just Solved",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-28T10:30:00Z",
+      "fetched_at": "2026-05-28T10:57:25Z",
+      "raw_content": "The tech giant says a breakthrough in data-center networking has dramatically accelerated the flow of information through its massive cloud infrastructure.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un avance en la conectividad de centros de datos ha acelerado significativamente el flujo de informaci\u00f3n en la infraestructura en la nube de la empresa.",
+      "selected": false
+    },
+    {
+      "id": "58d6b1b7c3e5",
+      "url": "https://arstechnica.com/science/2026/05/forecasters-predict-below-average-hurricane-season-advise-against-complacency/",
+      "title": "Forecasters predict below-average hurricane season, advise against complacency",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-28T10:00:01Z",
+      "fetched_at": "2026-05-28T10:57:25Z",
+      "raw_content": "<p>Forecasters are calling for below-average activity this hurricane season, which begins Monday, June 1.</p>\n<p><a href=\"https://www.noaa.gov/news-release/noaa-predicts-below-normal-2026-atlantic-hurricane-season\" rel=\"noopener\" target=\"_blank\">The National Weather Service is predicting</a> eight to 14 named storms, including three to six hurricanes and one to three major hurricanes of category 3, 4, or 5 strength, packing winds of 111 mph or greater. By comparison, a typical season is characterized by 14 named storms, including seven hurricanes and three major hurricanes. The season ends November 30.</p>\n<p>\u201cIt just takes one,\u201d said Ken Graham, director of the National Weather Service. \u201cNow is the time to start thinking about your hurricane preparedness.\u201d</p><p><a href=\"https://arstechnica.com/science/2026/05/forecasters-predict-below-average-hurricane-season-advise-against-complacency/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/05/forecasters-predict-below-average-hurricane-season-advise-against-complacency/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se prev\u00e9n entre 8 y 14 tormentas nombradas en la temporada de huracanes, con una actividad por debajo de la media.",
+      "selected": false
+    },
+    {
+      "id": "8da07738d9c6",
+      "url": "https://www.rcrwireless.com/20260527/ai/softbank-gpu-ai-cloud",
+      "title": "SoftBank launches sovereign AI GPU cloud",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-27T19:32:59Z",
+      "fetched_at": "2026-05-28T10:57:25Z",
+      "raw_content": "The Nvidia-powered service bundles SoftBank&#8217;s telecom edge network with central GPU data centers In sum &#8211; what we know: SoftBank has announced its &#8220;AI Data Center GPU Cloud,&#8221; a sovereign AI infrastructure service that pushes the operator further away from&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "SoftBank lanza \"AI Data Center GPU Cloud\", un servicio de infraestructura de inteligencia artificial que combina su red de borde de telecomunicaciones con centros de datos de GPU centralizados.",
+      "selected": false
+    },
     {
       "id": "36305a8d8ebe",
       "url": "https://www.theverge.com/ai-artificial-intelligence/937801/pope-leo-xiv-magnifica-humanitas-ai-pangram",
