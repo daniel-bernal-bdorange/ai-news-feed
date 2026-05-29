@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-25",
   "week_end": "2026-05-31",
-  "last_updated": "2026-05-28T10:57:31Z",
+  "last_updated": "2026-05-29T10:47:39Z",
   "articles": [
+    {
+      "id": "8d9d177d9af9",
+      "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "title": "Glean\u2019s top line crosses $300M as AI budget-cutting becomes its major selling point",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-29T00:44:37Z",
+      "fetched_at": "2026-05-29T10:47:33Z",
+      "raw_content": "The enterprise AI search startup tripled its annual revenue even as tech giants entered the category.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Una startup de b\u00fasqueda de inteligencia artificial empresarial triplic\u00f3 sus ingresos anuales pese a la entrada de gigantes tecnol\u00f3gicos en el sector.",
+      "selected": false
+    },
+    {
+      "id": "6a546d22c4eb",
+      "url": "https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/",
+      "title": "2027 Audi RS5 first drive: A performance PHEV with split personalities",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-28T22:01:02Z",
+      "fetched_at": "2026-05-29T10:47:33Z",
+      "raw_content": "<aside class=\"pullbox sidebar fullwidth\">Audi provided flights from Washington, DC, to Munich, Germany, and accommodation so Ars could drive the RS5. Ars does not accept paid editorial content.</aside>\n<p>SAALFELDEN, Austria\u2014Audi may have built a reputation for technology over the years, either pioneering or early-adopting things like all-wheel drive, direct-injection engines, and so on. But it's also true that along the way it has earned a bit of a reputation for cars that look good inside and out but maybe aren't the most exciting things on four wheels. Not so for the models reworked by Audi Sport, the company's motorsports division, which now also spends its time building the company's new Formula 1<a href=\"https://arstechnica.com/cars/2025/11/audi-goes-full-minimalism-for-its-first-ever-formula-1-livery/\"> power units</a>.</p>\n<p>And like those latest F1 cars, its newest RS5 road car also marries together a turbocharged V6 and an electric motor. How convenient.</p>\n<p>The underlying chassis of the new RS5 is shared with the A5 that we <a href=\"https://arstechnica.com/cars/2025/06/2025-audi-a5-and-s5-drive-the-fastback-needs-the-s-treatment-to-sizzle/\">first drove</a> last summer, but the only common body panels between the lesser A5 and this car is the hood; everything else is RS5-specific. Aggressive wheel arch blisters add more than 3.5 inches (90 mm) of width compared to the A5, and massive air intakes dominate the front fascia. At the rear, a pair of large oval exhaust pipes are set into a diffuser. Oh, and you don't get those kinds of carbon-fiber accents on a regular A5. Perhaps my favorite styling detail? The rear OLED tail lights have a checkered flag pattern (as do the daylight running lights up front).</p><p><a href=\"https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Audi presenta el nuevo RS5, un coche h\u00edbrido con motor V6 turbo y motor el\u00e9ctrico.",
+      "selected": false
+    },
+    {
+      "id": "18f976109213",
+      "url": "https://www.rcrwireless.com/20260528/opinion/autonomous-networks-need-new-oss-blue-planet",
+      "title": "Extinction or evolution \u2013 why autonomous networks need a new breed of OSS (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-28T16:11:39Z",
+      "fetched_at": "2026-05-29T10:47:33Z",
+      "raw_content": "Autonomous networks driven by AI are exposing the limits of legacy OSS built for static infrastructure. Operators now need an evolved, ontology-driven control layer that can unify fragmented data, govern automation, and orchestrate intent-based, real-time network operations at scale. The&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Las redes aut\u00f3nomas impulsadas por IA revelan los l\u00edmites de los sistemas OSS heredados, necesitando una capa de control evolucionada para unificar datos y orquestar operaciones en tiempo real.",
+      "selected": false
+    },
     {
       "id": "79a3e638b801",
       "url": "https://www.wired.com/story/amazon-thinks-the-future-of-data-centers-depends-on-a-technical-problem-it-just-solved/",
