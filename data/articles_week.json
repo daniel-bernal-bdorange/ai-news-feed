@@ -1,8 +1,22 @@
 {
   "week_start": "2026-05-25",
   "week_end": "2026-05-31",
-  "last_updated": "2026-05-29T10:47:39Z",
+  "last_updated": "2026-05-29T11:17:48Z",
   "articles": [
+    {
+      "id": "e1e4d40e32cd",
+      "url": "https://www.rcrwireless.com/20260529/opinion/future-telecom-workforce-readiness",
+      "title": "The future of telecom workforce readiness (reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-29T10:30:16Z",
+      "fetched_at": "2026-05-29T11:17:37Z",
+      "raw_content": "Telecom operators must rethink workforce training as networks and customer expectations evolve. Immersive, AI-driven roleplay and realistic practice environments can improve retention, strengthen customer-facing skills, and prepare distributed teams to deliver consistent, high-quality experiences at scale. Telecom operators are facing&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los operadores de telecomunicaciones deben replantear la formaci\u00f3n de su personal para adaptarse a las redes y expectativas de los clientes en constante evoluci\u00f3n.",
+      "selected": false
+    },
     {
       "id": "8d9d177d9af9",
       "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
@@ -10,7 +24,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-05-29T00:44:37Z",
-      "fetched_at": "2026-05-29T10:47:33Z",
+      "fetched_at": "2026-05-29T11:17:37Z",
       "raw_content": "The enterprise AI search startup tripled its annual revenue even as tech giants entered the category.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +38,7 @@
       "source_name": "Ars Technica",
       "category": "tech",
       "published_at": "2026-05-28T22:01:02Z",
-      "fetched_at": "2026-05-29T10:47:33Z",
+      "fetched_at": "2026-05-29T11:17:37Z",
       "raw_content": "<aside class=\"pullbox sidebar fullwidth\">Audi provided flights from Washington, DC, to Munich, Germany, and accommodation so Ars could drive the RS5. Ars does not accept paid editorial content.</aside>\n<p>SAALFELDEN, Austria\u2014Audi may have built a reputation for technology over the years, either pioneering or early-adopting things like all-wheel drive, direct-injection engines, and so on. But it's also true that along the way it has earned a bit of a reputation for cars that look good inside and out but maybe aren't the most exciting things on four wheels. Not so for the models reworked by Audi Sport, the company's motorsports division, which now also spends its time building the company's new Formula 1<a href=\"https://arstechnica.com/cars/2025/11/audi-goes-full-minimalism-for-its-first-ever-formula-1-livery/\"> power units</a>.</p>\n<p>And like those latest F1 cars, its newest RS5 road car also marries together a turbocharged V6 and an electric motor. How convenient.</p>\n<p>The underlying chassis of the new RS5 is shared with the A5 that we <a href=\"https://arstechnica.com/cars/2025/06/2025-audi-a5-and-s5-drive-the-fastback-needs-the-s-treatment-to-sizzle/\">first drove</a> last summer, but the only common body panels between the lesser A5 and this car is the hood; everything else is RS5-specific. Aggressive wheel arch blisters add more than 3.5 inches (90 mm) of width compared to the A5, and massive air intakes dominate the front fascia. At the rear, a pair of large oval exhaust pipes are set into a diffuser. Oh, and you don't get those kinds of carbon-fiber accents on a regular A5. Perhaps my favorite styling detail? The rear OLED tail lights have a checkered flag pattern (as do the daylight running lights up front).</p><p><a href=\"https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/#comments\">Comments</a></p>",
       "relevance_score": 1.0,
       "geo_boost": false,
