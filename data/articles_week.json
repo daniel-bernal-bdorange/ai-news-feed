@@ -1,8 +1,50 @@
 {
   "week_start": "2026-05-25",
   "week_end": "2026-05-31",
-  "last_updated": "2026-05-29T11:17:48Z",
+  "last_updated": "2026-05-30T09:19:36Z",
   "articles": [
+    {
+      "id": "5977c1f3a164",
+      "url": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
+      "title": "Proposed new US funding rules: We can cancel any grant at any time",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-05-29T22:58:29Z",
+      "fetched_at": "2026-05-30T09:19:31Z",
+      "raw_content": "<p>Last August, the Trump administration issued an executive order intended to fundamentally alter how grant funding is handled by the US government. Under the system that had made the US a scientific superpower, peer reviewers rated the scientific quality and feasibility of grant applications, and subject-matter experts within the funding agencies used these ratings to determine which grants got funded. Under the proposed rules, political appointees would have the final say, and they were specifically instructed not to \"routinely defer\" to peer reviewers.</p>\n<p>In the interim, the administration has lost many court cases because it turns out that issuing executive orders <a href=\"https://arstechnica.com/tech-policy/2025/12/trumps-order-blocking-wind-development-thrown-out-by-court/\">doesn't circumvent legal requirements</a>, and the orders can be vacated if they lack strong justification. To avoid that same fate, the Office of Management and Budget (OMB) has decided to merge the executive order with other administration priorities and send it through the formal federal rulemaking process.</p>\n<p>The <a href=\"https://public-inspection.federalregister.gov/2026-10817.pdf\">result is a horror show</a> for US science research. Not only is peer review made a secondary consideration, but the new rules would allow any federal agency to cancel any grant at any time based on the vague assertion that it isn't in the \"national interest.\" The document would also ban any grants on a number of culture war topics, limit international collaborations, and block spending on things like publishing papers and attending conferences.</p><p><a href=\"https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La administraci\u00f3n estadounidense busca reformar la financiaci\u00f3n de proyectos de investigaci\u00f3n cient\u00edfica, otorgando m\u00e1s peso a consideraciones pol\u00edticas que a la revisi\u00f3n por pares.",
+      "selected": false
+    },
+    {
+      "id": "a4984aea1596",
+      "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "title": "Coders are refusing to work without AI\u00a0\u2014\u00a0and that could come back to bite them",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-29T22:14:22Z",
+      "fetched_at": "2026-05-30T09:19:31Z",
+      "raw_content": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los investigadores advierten que la inteligencia artificial ayuda a los codificadores a producir c\u00f3digo m\u00e1s r\u00e1pido, pero no necesariamente mejor.",
+      "selected": false
+    },
+    {
+      "id": "fda37f8c3f87",
+      "url": "https://www.rcrwireless.com/20260529/defense-communications/defense-network-panel",
+      "title": "Defense network resilience is moving from redundancy to cognitive design",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-05-29T16:15:37Z",
+      "fetched_at": "2026-05-30T09:19:31Z",
+      "raw_content": "Panelists say defense networks must assume day-one attack and lean on civilian infrastructure to stay up The definition of resilience in defense communications is shifting, and so is the way to deliver it. At the Defense Communications Forum, a panel&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Expertos defienden que las redes de defensa deben asumir ataques desde el primer d\u00eda y recurrir a infraestructuras civiles para mantenerse operativas.",
+      "selected": false
+    },
     {
       "id": "e1e4d40e32cd",
       "url": "https://www.rcrwireless.com/20260529/opinion/future-telecom-workforce-readiness",
