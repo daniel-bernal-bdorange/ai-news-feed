@@ -1,8 +1,36 @@
 {
   "week_start": "2026-05-25",
   "week_end": "2026-05-31",
-  "last_updated": "2026-05-30T09:19:36Z",
+  "last_updated": "2026-05-31T09:47:38Z",
   "articles": [
+    {
+      "id": "87100c866714",
+      "url": "https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/",
+      "title": "How Turkey Hacked the Hair Transplant Industry",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-05-31T09:00:00Z",
+      "fetched_at": "2026-05-31T09:47:31Z",
+      "raw_content": "From specialized motors to the use of machine learning algorithms, Turkey\u2019s billion-dollar hair-transplant industry is the result of a constant process of innovation.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La industria de trasplantes de cabello en Turqu\u00eda, valorada en mil millones de d\u00f3lares, se basa en innovaci\u00f3n constante.",
+      "selected": false
+    },
+    {
+      "id": "d87bbb85d4ff",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "title": "SoftBank says it will invest up to \u20ac75 billion to build French data centers",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-05-30T21:45:00Z",
+      "fetched_at": "2026-05-31T09:47:31Z",
+      "raw_content": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La empresa busca desarrollar y operar hasta 5 gigavatios de capacidad adicional en centros de datos.",
+      "selected": false
+    },
     {
       "id": "5977c1f3a164",
       "url": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
