@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-01",
   "week_end": "2026-06-07",
-  "last_updated": "2026-06-01T12:38:51Z",
+  "last_updated": "2026-06-02T11:19:52Z",
   "articles": [
+    {
+      "id": "faceb3cecfb7",
+      "url": "https://www.wired.com/story/the-white-house-is-at-war-with-itself-over-ai-regulation/",
+      "title": "The Trump Administration Is at War With Itself Over AI Regulation",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-02T09:30:00Z",
+      "fetched_at": "2026-06-02T11:19:43Z",
+      "raw_content": "Donald Trump killed an executive order to regulate AI. Now, administration officials and AI executives are trying to figure out if there\u2019s anything left to piece back together.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se ha cancelado una orden ejecutiva para regular la inteligencia artificial, ahora se busca reconstruir posibles regulaciones.",
+      "selected": false
+    },
+    {
+      "id": "17438810b18f",
+      "url": "https://www.rcrwireless.com/20260602/opinion/runtime-security-imperative-nokia",
+      "title": "Catching live threats in live networks \u2013 the runtime security imperative (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-02T09:01:32Z",
+      "fetched_at": "2026-06-02T11:19:43Z",
+      "raw_content": "Runtime security is becoming a network architecture imperative for telecom operators, writes Nokia. To detect threats earlier without compromising performance, security must deliver continuous visibility, operate predictably under load, and align with stringent operational, validation and regulatory requirements. Telecom networks&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La seguridad en tiempo de ejecuci\u00f3n se convierte en una necesidad para los operadores de telecomunicaciones, seg\u00fan Nokia.",
+      "selected": false
+    },
+    {
+      "id": "de9e262a2a41",
+      "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+      "title": "Alphabet plans to raise $80B to pay for AI buildout",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-01T22:55:09Z",
+      "fetched_at": "2026-06-02T11:19:43Z",
+      "raw_content": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company\u2019s available supply,\" Alphabet said in its statement.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Alphabet informa que la demanda de soluciones y servicios de inteligencia artificial supera su oferta disponible.",
+      "selected": false
+    },
     {
       "id": "cd1adbcc2dd6",
       "url": "https://www.rcrwireless.com/20260601/analyst-angle/5g-advanced-smart-energy-grid-networks-512cmg",
