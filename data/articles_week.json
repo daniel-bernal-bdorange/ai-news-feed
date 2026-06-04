@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-01",
   "week_end": "2026-06-07",
-  "last_updated": "2026-06-03T11:57:37Z",
+  "last_updated": "2026-06-04T10:39:39Z",
   "articles": [
+    {
+      "id": "82ca1950e509",
+      "url": "https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/",
+      "title": "Jeff Bezos Is Funding a Wild Hunt for the Brain\u2019s \u2018Core Algorithm\u2019",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-04T10:30:00Z",
+      "fetched_at": "2026-06-04T10:39:32Z",
+      "raw_content": "With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Flourish, con 500 millones en financiaci\u00f3n, busca reinventar la IA estudiando neuronas reales, con una valoraci\u00f3n de 2.500 millones.",
+      "selected": false
+    },
+    {
+      "id": "0e5366dc2686",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus",
+      "title": "Amazon develops a warehouse robot workers can speak to",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-04T09:31:14Z",
+      "fetched_at": "2026-06-04T10:39:32Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/proteus.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tThe design hasn\u2019t changed much from the original Proteus, which was announced in 2022. | Image: Amazon\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Amazon has announced a new version of its fully autonomous warehouse robot, <a href=\"https://www.theverge.com/2022/6/21/23177756/amazon-warehouse-robots-proteus-autonomous-cart-delivery\">Proteus</a>, that will can interact using language instead of code. The expanded capabilities come as part of a growing pivot towards automation as the e-commerce giant replaces its human workers with robots. </p>\n<p class=\"has-text-align-none\">Amazon says the AI-powered upgrade means its human employees can assign the robot tasks in the same way they'd communicate with colleagues. Previously, workers would need to use specialized software to direct the floor-level, tortoise-like systems, which are designed for heavy lifting and moving large carts throughout Amazon's warehouses. \"You tell it what needs t \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Amazon ha presentado una nueva versi\u00f3n de su robot aut\u00f3nomo Proteus, que puede interactuar mediante lenguaje en lugar de c\u00f3digo.",
+      "selected": false
+    },
+    {
+      "id": "0cf9fb325d2e",
+      "url": "https://www.rcrwireless.com/20260603/uncategorized/telefonica-google",
+      "title": "Telef\u00f3nica, Google Cloud boost Spain\u2019s sovereign cloud ambitions",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-03T14:55:15Z",
+      "fetched_at": "2026-06-04T10:39:32Z",
+      "raw_content": "An Omdia analyst told RCR Wireless News that Telef\u00f3nica and Google Cloud\u2019s new sovereign cloud partnership highlights a growing trend in Europe toward combining hyperscale cloud platforms with local operational controls In sum \u2013 what to know: Local control \u2013&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Telef\u00f3nica y Google Cloud lanzan una alianza de nube soberana, reflejando la tendencia europea de combinar plataformas de nube hiperescala con controles operativos locales, relevante para el mercado espa\u00f1ol.",
+      "selected": false
+    },
     {
       "id": "193aaa174c0c",
       "url": "https://www.wired.com/story/nvidia-rtx-spark-laptop-disruption/",
