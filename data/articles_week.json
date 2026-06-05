@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-01",
   "week_end": "2026-06-07",
-  "last_updated": "2026-06-04T10:39:39Z",
+  "last_updated": "2026-06-05T10:49:01Z",
   "articles": [
+    {
+      "id": "a2be114f246f",
+      "url": "https://www.wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides/",
+      "title": "OpenAI and Anthropic May Be Rivals, but Investors Aren\u2019t Picking Sides",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-05T10:30:00Z",
+      "fetched_at": "2026-06-05T10:48:55Z",
+      "raw_content": "\u201cWhy wouldn\u2019t you want to be in both Pepsi and Coke?\u201d says one venture capitalist. \u201cIt\u2019s the same here.\u201d",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un inversor dice que invertir en varias empresas es beneficioso, compar\u00e1ndolo con tener acciones de Pepsi y Coke.",
+      "selected": false
+    },
+    {
+      "id": "eddeb4938620",
+      "url": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
+      "title": "Mira Murati steps back into the spotlight, carefully",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-05T05:06:37Z",
+      "fetched_at": "2026-06-05T10:48:55Z",
+      "raw_content": "In the current environment, remaining heads down has diminishing returns; at some point, you have to make some noise just to remind the market you exist.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Permanecer en un perfil bajo tiene cada vez menos beneficios; es necesario generar visibilidad para recordar a la competencia que se est\u00e1 presente.",
+      "selected": false
+    },
+    {
+      "id": "f38319a7aa43",
+      "url": "https://www.rcrwireless.com/20260604/defense-communications/defense-5g-spectrum",
+      "title": "The case for defense 5G: borrowing commercial standards for the battlefield",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-04T23:36:12Z",
+      "fetched_at": "2026-06-05T10:48:55Z",
+      "raw_content": "Panelists argued defense 5G built on 3GPP standards offers speed, scale, and a path to reclaiming contested spectrum In sum &#8211; what we know: At the Defense Communications Forum, a panel titled &#8220;from harmonizing to optimizing spectrum for defense operations&#8221;&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Expertos defienden que la defensa 5G basada en est\u00e1ndares 3GPP ofrece velocidad, escala y una v\u00eda para recuperar espectro disputado.",
+      "selected": false
+    },
     {
       "id": "82ca1950e509",
       "url": "https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/",
