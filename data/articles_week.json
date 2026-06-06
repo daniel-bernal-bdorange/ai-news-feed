@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-01",
   "week_end": "2026-06-07",
-  "last_updated": "2026-06-05T11:16:54Z",
+  "last_updated": "2026-06-06T09:27:02Z",
   "articles": [
+    {
+      "id": "6b1fc6305cf5",
+      "url": "https://arstechnica.com/health/2026/06/baby-botulism-outbreak-fda-still-doesnt-know-cause-or-how-to-prevent-it/",
+      "title": "Baby botulism outbreak: FDA still doesn't know cause\u2014or how to prevent it",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-05T22:36:21Z",
+      "fetched_at": "2026-06-06T09:26:56Z",
+      "raw_content": "<p>The Food and Drug Administration this week posted what critics call an \"underwhelming\" epilogue to <a href=\"https://www.fda.gov/food/outbreaks-foodborne-illness/post-outbreak-response-activities-clostridium-botulinum-illnesses-associated-consumption-powdered\">the devastating outbreak of botulism in babies</a>, which was linked to <a href=\"https://arstechnica.com/health/2025/11/formula-with-cleanest-ingredients-recalled-after-15-babies-get-botulism/\">spore-contaminated formula made by ByHeart</a>. Despite clear tracking of the contamination, the regulator still doesn't know how the bacteria arrived in the formula\u2014or how to prevent it from happening again.</p>\n<p>\"The FDA's investigation into the root cause is ongoing with a focus on ingredients,\" the agency reported.</p>\n<p>In the void, three companies at the center of the investigation are left pointing fingers at each other, with none publicly taking responsibility for the contamination.</p><p><a href=\"https://arstechnica.com/health/2026/06/baby-botulism-outbreak-fda-still-doesnt-know-cause-or-how-to-prevent-it/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/health/2026/06/baby-botulism-outbreak-fda-still-doesnt-know-cause-or-how-to-prevent-it/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La FDA sigue investigando la causa de la contaminaci\u00f3n de f\u00f3rmula infantil con botulismo, sin resultados concluyentes.",
+      "selected": false
+    },
+    {
+      "id": "dd023cfffced",
+      "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+      "title": "Startup Battlefield 200 applications officially close in 3 days",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-05T20:00:00Z",
+      "fetched_at": "2026-06-06T09:26:56Z",
+      "raw_content": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Las solicitudes para Startup Battlefield 200 cierran el 8 de junio a las 11:59 p.m. PT, \u00faltima oportunidad para competir en TechCrunch Disrupt 2026.",
+      "selected": false
+    },
+    {
+      "id": "35e048acc036",
+      "url": "https://www.rcrwireless.com/20260605/network-infrastructure/ciena-ai",
+      "title": "Ciena sees AI networking market reaching $50 billion by 2029",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-05T13:47:46Z",
+      "fetched_at": "2026-06-06T09:26:56Z",
+      "raw_content": "Hyperscalers are focused on monetizing their AI compute investments, which continues to direct a larger share of spending towards network infrastructure, observes Ciena chief Gary Smith. In sum \u2013 what to know: Market expansion \u2013 Ciena said its addressable market&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Ciena destaca que los hyperscalers centran su atenci\u00f3n en monetizar sus inversiones en computaci\u00f3n de inteligencia artificial, lo que impulsa el gasto en infraestructura de red.",
+      "selected": false
+    },
     {
       "id": "a2be114f246f",
       "url": "https://www.wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides/",
