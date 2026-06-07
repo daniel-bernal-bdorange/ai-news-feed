@@ -1,8 +1,36 @@
 {
   "week_start": "2026-06-01",
   "week_end": "2026-06-07",
-  "last_updated": "2026-06-06T09:27:02Z",
+  "last_updated": "2026-06-07T10:06:12Z",
   "articles": [
+    {
+      "id": "303cab70ee0e",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-06T20:32:24Z",
+      "fetched_at": "2026-06-07T10:06:04Z",
+      "raw_content": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "ChatGPT sigue siendo vulnerable a inyecciones de comandos pese a su modo de bloqueo, aunque el objetivo es reducir la probabilidad de compartir datos sensibles.",
+      "selected": false
+    },
+    {
+      "id": "3e069c013410",
+      "url": "https://arstechnica.com/science/2026/06/otzis-mummified-body-is-home-to-ancient-strains-of-yeast-and-bacteria/",
+      "title": "Some ancient microbes frozen with \u00d6tzi the Iceman are still growing",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-06T11:15:51Z",
+      "fetched_at": "2026-06-07T10:06:04Z",
+      "raw_content": "<p>\u00d6tzi the Iceman, Europe\u2019s most famous mummy, is crawling with microbes, some long dead, some still eking out a living after thousands of years, and some very modern.</p>\n<p>After he died in the \u00d6tztal Alps, the Copper Age man now known as \u00d6tzi lay alone and forgotten for 5,300 years, until a group of hikers stumbled on his freeze-dried remains in 1991. Since then, he\u2019s received a lot of attention from scientists, who have <a href=\"https://arstechnica.com/science/2023/08/surprise-otzi-the-iceman-was-bald-and-had-darker-skin-than-presumed/\">sequenced his DNA</a>, pored over <a href=\"https://arstechnica.com/science/2018/07/otzi-the-icemans-last-meal-shows-how-copper-age-people-ate-on-the-run/\">his last meal</a> and the remains of his gut microbes, and examined his clothes and<a href=\"https://arstechnica.com/science/2018/06/otzi-the-iceman-spent-his-last-days-trying-to-repair-his-tools/\"> his broken tools</a>. Today, \u00d6tzi lies in a high-tech resting place at the South Tyrol Museum of Archaeology in Italy, where, it turns out, his body is still home to a handful of cold-adapted yeast species that have probably been with him since just after he died.</p>\n<h2>Slightly morbid souvenirs from the Alps</h2>\n<p>Microbiologist Mohamed S. Sarhan (of the Institute of Mummy Studies at the private Eurac Research center) and his colleagues recently sampled material from \u00d6tzi\u2019s stomach and meltwater from inside his body, swabbed his skin, and even sampled airborne microbes from his frozen storage room and the lab outside it. They also took samples from a block of frozen alpine soil taken from next to \u00d6tzi\u2019s body back in 1991.</p><p><a href=\"https://arstechnica.com/science/2026/06/otzis-mummified-body-is-home-to-ancient-strains-of-yeast-and-bacteria/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/06/otzis-mummified-body-is-home-to-ancient-strains-of-yeast-and-bacteria/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "El cuerpo de \u00d6tzi, el Hombre de Hielo, alberga microbios modernos y antiguos, relevante para el mercado europeo.",
+      "selected": false
+    },
     {
       "id": "6b1fc6305cf5",
       "url": "https://arstechnica.com/health/2026/06/baby-botulism-outbreak-fda-still-doesnt-know-cause-or-how-to-prevent-it/",
