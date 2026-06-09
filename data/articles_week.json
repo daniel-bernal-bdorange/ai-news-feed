@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-08",
   "week_end": "2026-06-14",
-  "last_updated": "2026-06-08T11:59:15Z",
+  "last_updated": "2026-06-09T10:35:11Z",
   "articles": [
+    {
+      "id": "31399e3ddb69",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-alex-vindman/",
+      "title": "Alex Vindman Survived Trump\u2019s Retaliation Machine. Now He\u2019s Running for Senate",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-09T10:30:00Z",
+      "fetched_at": "2026-06-09T10:35:03Z",
+      "raw_content": "In 2019, Alex Vindman testified during President Trump\u2019s first impeachment trial\u2013a decision that ended his military career. Now he wants to challenge the president from the halls of Congress.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Alex Vindman, que testific\u00f3 en el juicio de impeachment de Trump, busca ahora un esca\u00f1o en el Congreso.",
+      "selected": false
+    },
+    {
+      "id": "e7a806907812",
+      "url": "https://www.rcrwireless.com/20260609/opinion/ai-infrastructure-power-connectivity-retn",
+      "title": "AI has an infrastructure problem \u2013 and power isn\u2019t the only concern (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-09T10:10:38Z",
+      "fetched_at": "2026-06-09T10:35:03Z",
+      "raw_content": "AI\u2019s growth is increasingly constrained not by chips but by infrastructure, from data storage and energy demand to connectivity bottlenecks. As data centers expand, the weakest link shifts, threatening to limit AI\u2019s future scale and performance. Frontier AI companies are&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La creciente demanda de infraestructura limita el crecimiento de la inteligencia artificial, desde almacenamiento de datos hasta conectividad.",
+      "selected": false
+    },
+    {
+      "id": "41da7d07dcd5",
+      "url": "https://arstechnica.com/space/2026/06/tests-suggest-russian-satellites-can-jam-gps-on-a-continental-scale/",
+      "title": "Tests suggest Russian satellites can jam GPS on a continental scale",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-08T21:56:28Z",
+      "fetched_at": "2026-06-09T10:35:03Z",
+      "raw_content": "<p>Russian satellites have been identified as the cause of mysterious, seconds-long bursts of GPS interference across Europe\u2014a rare example of human-made GPS interference coming from space. But uncertainty still hangs over whether such interference is intentional and if it could be more powerfully weaponized as GPS jamming with continental reach in the future.</p>\n<p>The discovery came from an investigation <a href=\"https://arxiv.org/abs/2606.03673\">detailed in a June 2 preprint paper</a> by <a href=\"https://www.ae.utexas.edu/people/faculty/faculty-directory/humphreys\">Todd Humphreys</a> and his student <a href=\"https://scholar.google.com/citations?user=CPkldIwAAAAJ&amp;hl=en\">Zach Clements</a> at The University of Texas at Austin, along with <a href=\"https://scholar.google.com/citations?user=hw8CX5YAAAAJ&amp;hl=en\">Argyris Krizise</a> at Stanford University in California. By sifting through public data from ground-based stations with global navigation satellite system (GNSS) receivers, they identified a pattern of high-powered interference lasting less than 10 seconds each time but simultaneously detectable by ground stations across Europe from Norway to Spain to Poland, and even reaching as far west as Greenland and Canada.</p>\n<p>By analyzing the ground station data from January 2019 to April 2026, the researchers found 75 days with at least one widespread GNSS interference event overlapping with the <a href=\"https://gssc.esa.int/navipedia/index.php/GPS_Signal_Plan\">GPS L1 frequency band</a> centered on 1575.42 megahertz. That represents the main band used for signal transmission by the US-made GPS satellite constellation and GNSS constellations from other countries.</p><p><a href=\"https://arstechnica.com/space/2026/06/tests-suggest-russian-satellites-can-jam-gps-on-a-continental-scale/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/06/tests-suggest-russian-satellites-can-jam-gps-on-a-continental-scale/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Sat\u00e9lites rusos causan interferencias GPS en Europa, afectando a pa\u00edses como Espa\u00f1a.",
+      "selected": false
+    },
     {
       "id": "368329b1945e",
       "url": "https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/",
