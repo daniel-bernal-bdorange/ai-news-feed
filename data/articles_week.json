@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-08",
   "week_end": "2026-06-14",
-  "last_updated": "2026-06-09T10:35:11Z",
+  "last_updated": "2026-06-10T10:56:55Z",
   "articles": [
+    {
+      "id": "2475343ad9be",
+      "url": "https://www.wired.com/story/artificial-intelligence-sneaks-into-the-world-cup-thanks-to-google-gemini/",
+      "title": "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-10T10:00:00Z",
+      "fetched_at": "2026-06-10T10:56:50Z",
+      "raw_content": "The Argentine national team will be Google\u2019s test bench and technological showcase during the World Cup.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Google utilizar\u00e1 al equipo nacional argentino como banco de pruebas y escaparate tecnol\u00f3gico durante el Mundial.",
+      "selected": false
+    },
+    {
+      "id": "633c4f182728",
+      "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "title": "Meta signs first AI data center deal in India with Reliance",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-10T07:05:26Z",
+      "fetched_at": "2026-06-10T10:56:50Z",
+      "raw_content": "The 168-megawatt facility will support Meta's global AI computing needs and can be expanded over time.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Meta construir\u00e1 una instalaci\u00f3n de 168 megavatios para satisfacer sus necesidades globales de computaci\u00f3n de inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "e3a2668ef1ab",
+      "url": "https://www.rcrwireless.com/20260609/network-infrastructure/att-satellite",
+      "title": "AT&T frames satellite as filling the rural 1%, not eating telco margins",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-09T19:58:18Z",
+      "fetched_at": "2026-06-10T10:56:50Z",
+      "raw_content": "AT&#38;T&#8217;s Pascal Desroches frames direct-to-device satellite as a complement to terrestrial networks In sum &#8211; what we know: AT&#38;T&#8217;s CFO laid out the company&#8217;s satellite playbook days before Starlink&#8217;s parent heads to the public market, and the message was about&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "AT&T considera el sat\u00e9lite como complemento a las redes terrestres, seg\u00fan su director financiero Pascal Desroches.",
+      "selected": false
+    },
     {
       "id": "31399e3ddb69",
       "url": "https://www.wired.com/story/the-big-interview-podcast-alex-vindman/",
