@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-08",
   "week_end": "2026-06-14",
-  "last_updated": "2026-06-10T10:56:55Z",
+  "last_updated": "2026-06-11T11:23:22Z",
   "articles": [
+    {
+      "id": "fae985d88c64",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+      "title": "Deezer launches an AI music detector for other streaming services",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-11T08:00:00Z",
+      "fetched_at": "2026-06-11T11:23:14Z",
+      "raw_content": "<figure>\n\n<img alt=\"Deezer logo and tag line \u201clive the music\u201d on a black background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/NEW_1200-x-580-pixel-SI-logo-1240x600-1.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Deezer will now <a href=\"https://www.deezer.com/explore/en-us/ai-music-detector/\">scan your playlists</a> on other streaming platforms to detect AI-generated music. Deezer was the <a href=\"https://www.theverge.com/entertainment/830393/ai-music-deezer-survey-spotify\">first</a> of the big streaming services to start <a href=\"https://www.theverge.com/ai-artificial-intelligence/686767/music-industry-ai-song-detection-tracking-licensing\">labeling AI-generated music</a>. It even <a href=\"https://www.theverge.com/news/870186/deezer-ai-music-detection-commercially-available\">offered its tech</a> to other platforms, but it doesn't seem like it had many buyers. <a href=\"https://www.theverge.com/entertainment/885486/qobuz-detecting-tagging-ai-music\">Qobuz</a> launched its own detection tech, while <a href=\"https://www.theverge.com/tech/889836/apple-music-ai-transparency-tags-launch\">Apple</a> and <a href=\"https://www.theverge.com/tech/921048/verified-by-spotify-badge\">Spotify</a> have opted for a voluntary tagging system. </p>\n<p class=\"has-text-align-none\">\"No other company has followed our lead yet, so we decided to make it possible for everyone to check if their playlists include synthetic music, no matter which streaming platform they use,\" Deezer CEO Alexis Lanternier said in a press release. So, since nobody is ta \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Deezer escanear\u00e1 listas de reproducci\u00f3n en otras plataformas para detectar m\u00fasica generada por IA.",
+      "selected": false
+    },
+    {
+      "id": "f3e47acb4975",
+      "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+      "title": "Opendoor\u2019s India exit is fueling a bigger conversation about AI and outsourcing",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-11T04:02:19Z",
+      "fetched_at": "2026-06-11T11:23:14Z",
+      "raw_content": "The decision comes as India emerges as the world\u2019s largest GCC market.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "India se consolida como el mayor mercado de GCC a nivel mundial.",
+      "selected": false
+    },
+    {
+      "id": "5a86827a6d38",
+      "url": "https://www.rcrwireless.com/20260610/network-infrastructure/telenor-vodafone-fiber-ai-scale",
+      "title": "New fiber diet \u2013 Telenor and Vodafone reshape scale at the AI edge",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-10T15:04:45Z",
+      "fetched_at": "2026-06-11T11:23:14Z",
+      "raw_content": "European telcos are rebuilding scale in their fixed networks through acquisitions, joint ventures, and wholesale models to reduce fiber overlap, improve economics, and prep the AI-edge. In sum \u2013 what to know: Telenor \u2013 is acquiring Norwegian fiber operator Enivest&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Telenor adquiere a Enivest, operador noruego de fibra, en un movimiento relevante para el mercado europeo, especialmente Espa\u00f1a, para reducir la superposici\u00f3n de infraestructuras.",
+      "selected": false
+    },
     {
       "id": "2475343ad9be",
       "url": "https://www.wired.com/story/artificial-intelligence-sneaks-into-the-world-cup-thanks-to-google-gemini/",
