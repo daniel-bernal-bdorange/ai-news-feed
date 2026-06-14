@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-08",
   "week_end": "2026-06-14",
-  "last_updated": "2026-06-13T09:56:58Z",
+  "last_updated": "2026-06-14T10:25:49Z",
   "articles": [
+    {
+      "id": "61ae2308d52a",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-14T03:00:00Z",
+      "fetched_at": "2026-06-14T10:25:43Z",
+      "raw_content": "Tech leaders debate whether the Anthropic episode is a wake-up call for India\u2019s AI ambitions.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "L\u00edderes tecnol\u00f3gicos debaten si el episodio de Anthropic es un llamado a la acci\u00f3n para las ambiciones de inteligencia artificial en India.",
+      "selected": false
+    },
+    {
+      "id": "c8120a3f312c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "title": "Amazon security research reportedly led to the White House\u2019s Anthropic Fable ban",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-13T21:39:26Z",
+      "fetched_at": "2026-06-14T10:25:43Z",
+      "raw_content": "<figure>\n\n<img alt=\"Anthropic logo on an orange and grey background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">According to the<em> <a href=\"https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?mod=hp_lead_pos1\">Wall Street Journal</a></em>, the export control directive that led to Anthropic <a href=\"https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security\">cutting off access</a> to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series of prompts, it was able to get <a href=\"https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos\">Fable 5</a> to serve up information that could be used in cyberattacks. Amazon has yet to respond to a request for comment.</p>\n<p class=\"has-text-align-none\">Shortly after Jassy shared the company's findings with the government, it made the call to block its use by foreign nationals. Complicating this issue is that many of \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Amazon alert\u00f3 al gobierno sobre vulnerabilidades en Fable 5, lo que llev\u00f3 a restricciones de exportaci\u00f3n para Anthropic.",
+      "selected": false
+    },
+    {
+      "id": "7a1547dd3927",
+      "url": "https://www.rcrwireless.com/20260613/test-and-measurement/anterix-ntn-lynk",
+      "title": "Anterix: \u2018Terrific\u2019 results from NTN testing with Lynk Global",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-13T19:07:03Z",
+      "fetched_at": "2026-06-14T10:25:43Z",
+      "raw_content": "In sum, what to know: &#8211;Taking NTN beyond consumers: Anterix, which owns 900 MHz spectrum and targets the utility and enterprise private wireless space, is testing space-based direct-to-device connectivity with the aim of providing utilities with NTN connectivity. &#8211;Device line-up:&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Anterix prueba la conectividad directa a dispositivos desde el espacio para ofrecer servicios de red no terrestre a empresas y utilities.",
+      "selected": false
+    },
     {
       "id": "ec99355c3a72",
       "url": "https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/",
