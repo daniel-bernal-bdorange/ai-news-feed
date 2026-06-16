@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-15",
   "week_end": "2026-06-21",
-  "last_updated": "2026-06-15T13:16:33Z",
+  "last_updated": "2026-06-16T12:12:35Z",
   "articles": [
+    {
+      "id": "092d2649f244",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion",
+      "title": "SpaceX is officially buying Cursor for $60 billion",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-16T11:41:31Z",
+      "fetched_at": "2026-06-16T12:12:26Z",
+      "raw_content": "<figure>\n\n<img alt=\"Elon Musk with big green arrow pointing up and money falling from the sky.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_F.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Days after its <a href=\"https://www.theverge.com/business/948996/spacex-ipo-elon-musk\">massive IPO</a>, SpaceX says it is spending $60 billion to buy Cursor - a bet designed to help Elon Musk's sprawling rocket / AI / social media behemoth win over lucrative enterprise customers and close the gap with AI rivals like Anthropic and OpenAI.</p>\n<p class=\"has-text-align-none\">The takeover was not entirely unexpected: SpaceX announced a <a href=\"https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition\">peculiar arrangement</a> in April in which it agreed to either acquire the programming platform for $60 billion or pay a $10 billion breakup fee. The company had been holding off completing the deal while going public. </p>\n<p class=\"has-text-align-none\">In an <a href=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026043411/spaceexplorationtechnologi.htm\">SEC filing</a>, SpaceX said it expects the deal to close during the third quarter of 2026. </p>\n<p class=\"has-text-align-none\">Musk has pr \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "SpaceX adquiere Cursor por 60.000 millones para impulsar su negocio de inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "07764ebeeaab",
+      "url": "https://www.rcrwireless.com/20260616/carriers/taiwan-6g-cooperation",
+      "title": "Taiwan ramps up 6G cooperation ahead of next-generation rollout",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-16T09:49:32Z",
+      "fetched_at": "2026-06-16T12:12:26Z",
+      "raw_content": "Taiwan&#8217;s Ministry of Digital Affairs has begun planning the country&#8217;s 6G spectrum roadmap, with a roadmap strategy expected by the end of the year In sum \u2013 what to know: Global collaboration \u2013 ITRI signed new agreements with European organizations&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Taiw\u00e1n planifica su hoja de ruta para el espectro 6G, con estrategia prevista para fin de a\u00f1o, y colabora con organizaciones europeas, lo que puede impactar el mercado europeo, incluyendo Espa\u00f1a.",
+      "selected": false
+    },
+    {
+      "id": "4583c4747c48",
+      "url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
+      "title": "Key mission for Europe's commercial space enterprise scrubbed again",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-15T23:40:38Z",
+      "fetched_at": "2026-06-16T12:12:26Z",
+      "raw_content": "<p>Isar Aerospace still commands top position among a new generation of European rocket startups, but the company's efforts to launch a critical test flight of its Spectrum rocket continue to encounter roadblocks.</p>\n<p>The latest delay came Monday, when Isar scrubbed a launch attempt after \"detecting off nominal behavior in the vehicle's fluid systems,\" according to a social media post. \"The teams are analyzing the new data to isolate the root cause.\"</p>\n<p>The two-stage, 92-foot-tall (28-meter) Spectrum rocket was awaiting liftoff from And\u00f8ya Spaceport in northern Norway. It was the fourth time in five months that Isar Aerospace, headquartered near Munich, Germany, had reached a target launch date for the second test flight of the Spectrum launch vehicle.</p><p><a href=\"https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Isar Aerospace, relevante para el mercado europeo, sufre un nuevo retraso en el lanzamiento de su cohete Spectrum debido a problemas en los sistemas de fluidos.",
+      "selected": false
+    },
     {
       "id": "55cb6182b54c",
       "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
