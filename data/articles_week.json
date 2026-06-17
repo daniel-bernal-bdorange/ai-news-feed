@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-15",
   "week_end": "2026-06-21",
-  "last_updated": "2026-06-16T12:12:35Z",
+  "last_updated": "2026-06-17T11:49:48Z",
   "articles": [
+    {
+      "id": "cb0050ce80fc",
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "title": "Pinterest launches an experimental AI shopping app called \u2018Ask Pinterest\u2019",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-17T11:00:00Z",
+      "fetched_at": "2026-06-17T11:49:42Z",
+      "raw_content": "Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Pinterest lanza 'Ask Pinterest', una app experimental de compras con inteligencia artificial que ofrece recomendaciones a trav\u00e9s de una interfaz conversacional.",
+      "selected": false
+    },
+    {
+      "id": "8a09d4aecab0",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
+      "title": "The next humanoid robot might not look human at all",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-17T09:46:56Z",
+      "fetched_at": "2026-06-17T11:49:42Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Genesis-Eno-Home-Pebble-Beach-CA-06062026-Pouring.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">The <a href=\"https://www.theverge.com/column/843418/humanoid-robot-hype\">next humanoid robot</a> might not have a head. It might not have legs. It might even sit on a wheeled base and fold down like a deck chair. But, as Genesis AI <a href=\"https://x.com/gs_ai_/status/2066869851659121128?s=20\">puts it</a>, \"humanoid robots don't need to look human.\" </p>\n<p class=\"has-text-align-none\">That explains the look of Eno, the <a href=\"https://www.genesis.ai/press/meet-eno\">new robot</a> from the French startup backed by former Google CEO Eric Schmidt. Genesis says Eno is designed \"around human capability\" rather than human appearance and is intended as a fully \"general-purpose\" robot rather than a machine built around a single task, like <a href=\"https://www.theverge.com/tech/877851/weave-isaac-robot-fold-laundry\">folding laundry</a>. One part is still very human though: its hands, which the company says are designed to \"exactly match the form and fu \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Genesis AI presenta Eno, un robot humanoid que prioriza la funcionalidad sobre la apariencia humana.",
+      "selected": false
+    },
+    {
+      "id": "30791257e8cc",
+      "url": "https://www.rcrwireless.com/20260616/ai/ericsson-ai-in-ran",
+      "title": "Ericsson puts AI inside the radio with its new software-only AI in RAN suite",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-16T20:28:12Z",
+      "fetched_at": "2026-06-17T11:49:42Z",
+      "raw_content": "Operators can switch on Ericsson&#8217;s AI models on existing AI-ready hardware In sum &#8211; what we know: Ericsson has launched a new software suite it calls &#8220;AI in RAN,&#8221; a subscription package that embeds AI models directly into basebands and&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Ericsson lanza \"AI en RAN\", un paquete de software que integra modelos de inteligencia artificial en basebands existentes.",
+      "selected": false
+    },
     {
       "id": "092d2649f244",
       "url": "https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion",
