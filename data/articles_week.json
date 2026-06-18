@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-15",
   "week_end": "2026-06-21",
-  "last_updated": "2026-06-17T11:49:48Z",
+  "last_updated": "2026-06-18T11:09:40Z",
   "articles": [
+    {
+      "id": "67d0422be3c1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
+      "title": "Midjourney Medical goes from generating \u2018cat images\u2019 to full-body ultrasound scans",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-18T03:12:31Z",
+      "fetched_at": "2026-06-18T11:09:33Z",
+      "raw_content": "<figure>\n\n<img alt=\"Midjourney Medical 3D scans of a \u201cphantom\u201d body\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ultrasound_phantom_segmentation-b254a71d083eb5c9.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\u201cA scan of an imaging phantom, segmented to validate how cleanly structures separate under controlled conditions.\u201c | Image: Midjourney Medical\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Midjourney CEO David Holz just showed off the company's first hardware product and plans to build a San Francisco spa, which he admitted is a bit different from the \"cat pictures\" produced by its AI image generator. Dubbed <a href=\"https://www.midjourney.com/medical\">The Midjourney Scanner</a>, it's an ultrasound-based full-body scanner that uses a ring of sensors to capture vertical slices of the inside of your body, looking at the composition of your muscle, fat, bone, and organs to start. Holz said ideally, you could do this once a year or every single day, as it \"aims for image quality comparable to MRI in many ways.\"</p>\n<p class=\"has-text-align-none\">He mentioned that one way he'd like to use it would be to see how h \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Midjourney presenta su primer producto de hardware, un esc\u00e1ner de ultrasonido corporal completo llamado The Midjourney Scanner.",
+      "selected": false
+    },
+    {
+      "id": "6c941dc699c5",
+      "url": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
+      "title": "How to turn off AI in your Google Docs",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-18T01:23:51Z",
+      "fetched_at": "2026-06-18T11:09:33Z",
+      "raw_content": "Here's what you need to do to get those pesky \"write with Gemini\" pop-ups to go away.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se pueden eliminar las molestas ventanas emergentes \"escribir con Gemini\" siguiendo unos sencillos pasos.",
+      "selected": false
+    },
+    {
+      "id": "03eaa6e73db6",
+      "url": "https://www.rcrwireless.com/20260617/carriers/china-aidc-telcos",
+      "title": "China\u2019s reported AIDC plan could put telcos at center of AI ecosystem",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-17T14:03:29Z",
+      "fetched_at": "2026-06-18T11:09:33Z",
+      "raw_content": "China&#8217;s AI infrastructure plan appears to be part of a broader national infrastructure strategy announced by the Chinese leadership in April this year, says Omdia In sum \u2013 what to know: National initiative \u2013 China is reportedly developing a plan&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "China desarrolla un plan de infraestructura de inteligencia artificial como parte de una estrategia nacional m\u00e1s amplia.",
+      "selected": false
+    },
     {
       "id": "cb0050ce80fc",
       "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
