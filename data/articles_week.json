@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-15",
   "week_end": "2026-06-21",
-  "last_updated": "2026-06-18T11:09:40Z",
+  "last_updated": "2026-06-19T11:25:22Z",
   "articles": [
+    {
+      "id": "260212e25527",
+      "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+      "title": "The US says ASML\u2019s top chip tool may be in China. ASML says it isn\u2019t",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-19T07:59:12Z",
+      "fetched_at": "2026-06-19T11:25:11Z",
+      "raw_content": "There's a commercial logic that cuts against the idea that ASML would risk its export license to arm a Chinese customer.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "ASML probablemente no arriesgar\u00e1 su licencia de exportaci\u00f3n para armar a un cliente chino, debido a la l\u00f3gica comercial.",
+      "selected": false
+    },
+    {
+      "id": "8ad2b1d3c2a8",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+      "title": "Barret Zoph is out at OpenAI again after just five months",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-19T04:49:33Z",
+      "fetched_at": "2026-06-19T11:25:11Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK155_OPEN_AI_CVirginia_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Five months after returning to OpenAI, Barret Zoph - the company's head of enterprise AI sales - has departed, <em>The Verge</em> has learned. </p>\n<p class=\"has-text-align-none\">Zoph returned to OpenAI in mid-January after a stint as co-founder and CTO of Thinking Machines Lab, the competing AI company founded by former OpenAI CTO Mira Murati. Shortly after Zoph returned to OpenAI, the company said he would lead its push into enterprise - a significant role at OpenAI, since in recent months it had vowed to <a href=\"https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai\">stop chasing</a> so-called \"side quests\" and focus on key revenue drivers like enterprise and coding ahead of its planned IPO. </p>\n<p class=\"has-text-align-none\">OpenAI confirmed to <em>The Verge</em> that Zoph will be depart \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Barret Zoph, jefe de ventas de inteligencia artificial empresarial de OpenAI, abandona la empresa tras cinco meses de regreso.",
+      "selected": false
+    },
+    {
+      "id": "3fce1f63a60c",
+      "url": "https://www.rcrwireless.com/20260618/ai/sk-telecom-ai-agents-2",
+      "title": "SK Telecom wants to give every employee their own AI agent",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-18T20:41:40Z",
+      "fetched_at": "2026-06-19T11:25:11Z",
+      "raw_content": "SK Telecom&#8217;s AX Innovation 2.0 program treats AI agents as &#8220;digital employees&#8221; In sum &#8211; what we know: SK Telecom wants you to think of AI agents less as software and more as colleagues. With&#160;the launch of AX Innovation 2.0,&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "SK Telecom lanza AX Innovation 2.0, que trata a los agentes de IA como \"empleados digitales\", promoviendo su integraci\u00f3n como colegas en lugar de software.",
+      "selected": false
+    },
     {
       "id": "67d0422be3c1",
       "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
