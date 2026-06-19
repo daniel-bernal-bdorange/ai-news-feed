@@ -1,8 +1,22 @@
 {
   "week_start": "2026-06-15",
   "week_end": "2026-06-21",
-  "last_updated": "2026-06-19T11:25:22Z",
+  "last_updated": "2026-06-19T11:57:30Z",
   "articles": [
+    {
+      "id": "8323a5793609",
+      "url": "https://arstechnica.com/science/2026/06/as-global-warming-threatens-corals-scientists-search-for-reefs-that-can-take-the-heat/",
+      "title": "As global warming threatens corals, scientists search for reefs that can take the heat",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-19T11:15:11Z",
+      "fetched_at": "2026-06-19T11:57:15Z",
+      "raw_content": "<p class=\"wp-block-paragraph\">MAJURO, Marshall Islands\u2014Perched on the bow of an aluminum landing craft, Anne Cohen gazed a few yards ahead of the vessel toward a yellow robot gliding across the emerald Majuro lagoon.</p>\n<p class=\"wp-block-paragraph\">The unmanned surface vehicle, called Yellowfin, was quickly becoming one of the coral researcher\u2019s most dependable guides in these Central Pacific waters.</p>\n<p class=\"wp-block-paragraph\">\u201cShe\u2019s the best dive buddy,\u201d said Cohen, a tenured scientist at the Woods Hole Oceanographic Institution in Cape Cod. Programmed to navigate to a precise set of coordinates, the robot cut through small swells like a tiny sailboat without a mast, directing Cohen toward a destination she had traveled thousands of miles to revisit.</p><p><a href=\"https://arstechnica.com/science/2026/06/as-global-warming-threatens-corals-scientists-search-for-reefs-that-can-take-the-heat/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/06/as-global-warming-threatens-corals-scientists-search-for-reefs-that-can-take-the-heat/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un robot submarino llamado Yellowfin ayuda a una investigadora a navegar por el lago de Majuro en busca de arrecifes de coral resistentes al calentamiento global.",
+      "selected": false
+    },
     {
       "id": "260212e25527",
       "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
@@ -10,7 +24,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-06-19T07:59:12Z",
-      "fetched_at": "2026-06-19T11:25:11Z",
+      "fetched_at": "2026-06-19T11:57:15Z",
       "raw_content": "There's a commercial logic that cuts against the idea that ASML would risk its export license to arm a Chinese customer.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -38,7 +52,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-06-18T20:41:40Z",
-      "fetched_at": "2026-06-19T11:25:11Z",
+      "fetched_at": "2026-06-19T11:57:15Z",
       "raw_content": "SK Telecom&#8217;s AX Innovation 2.0 program treats AI agents as &#8220;digital employees&#8221; In sum &#8211; what we know: SK Telecom wants you to think of AI agents less as software and more as colleagues. With&#160;the launch of AX Innovation 2.0,&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
