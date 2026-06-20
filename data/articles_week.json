@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-15",
   "week_end": "2026-06-21",
-  "last_updated": "2026-06-19T11:57:30Z",
+  "last_updated": "2026-06-20T10:09:24Z",
   "articles": [
+    {
+      "id": "6a0fdff213cc",
+      "url": "https://www.wired.com/story/siri-ai-hands-on-iphone/",
+      "title": "Siri AI Hands On: A Smart, Helpful Assistant",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-20T10:00:00Z",
+      "fetched_at": "2026-06-20T10:09:17Z",
+      "raw_content": "The new Siri AI is conversational, omnipresent, and actually helpful.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La nueva inteligencia artificial de Siri es conversacional, omnipresente y realmente \u00fatil.",
+      "selected": false
+    },
+    {
+      "id": "e7e91cfe28c7",
+      "url": "https://www.rcrwireless.com/20260619/ai-infrastructure/taara-ai-interview",
+      "title": "Taara beams fiber-class data through the air to keep AI buildouts moving",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-19T23:04:22Z",
+      "fetched_at": "2026-06-20T10:09:17Z",
+      "raw_content": "Taara Beam swaps mechanical mirrors for a fingernail-sized photonic chip In sum &#8211; what we know: Fiber gets all the credit, and for good reason. It&#8217;s the backbone of global connectivity, it&#8217;s high-capacity, and it&#8217;s proven. But it&#8217;s also slow&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Taara Beam sustituye espejos mec\u00e1nicos por un chip fot\u00f3nico del tama\u00f1o de una u\u00f1a para mejorar la conectividad.",
+      "selected": false
+    },
+    {
+      "id": "e8509f947adf",
+      "url": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/",
+      "title": "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-19T13:36:53Z",
+      "fetched_at": "2026-06-20T10:09:17Z",
+      "raw_content": "<p>Welcome to Edition 8.46 of the Rocket Report! We don't mention Starship in the body of this week's report, so I'll give a brief update here. The next test flight of SpaceX's mega-rocket\u2014Flight 13\u2014could happen as soon as next month, according to Gwynne Shotwell, the company's president and chief operating officer, <a href=\"https://www.cnbc.com/2026/06/12/spacex-coo-gwynne-shotwell-spcx-ipo.html\">in a recent interview with CNBC</a>. There's still a fair bit of work to go before Flight 13, so don't count on a launch next month just yet. What we do know, based on Shotwell's comments to CNBC, is the next Starship test flight will look a like like the previous one last month, with a suborbital flight path and a splashdown of the ship in the Indian Ocean. SpaceX is holding off on an orbital flight until at least the following launch, Flight 14, after the ship was unable to complete a critical engine restart in space on the last flight.</p>\n<p>As always, we <a href=\"https://arstechnica.wufoo.com/forms/launch-stories/\">welcome reader submissions</a>. If you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets, as well as a quick look ahead at the next three launches on the calendar.</p>\n<figure class=\"ars-img-shortcode id-1314289 align-center\">\n    <div>\n                        <img alt=\"\" class=\"center full\" height=\"81\" src=\"https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png\" width=\"560\" />\n                  </div>\n      </figure>\n\n<p><b>Isar test flight scrubbed again. </b>Isar Aerospace still commands top position among a new generation of European rocket startups, but the company\u2019s efforts to launch a critical test flight of its Spectrum rocket continue to encounter roadblocks, <a href=\"https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/\">Ars reports</a>. The latest delay came Monday, when Isar scrubbed a launch attempt after \"detecting off nominal behavior in the vehicle\u2019s fluid systems,\" according to a social media post. \"The teams are analyzing the new data to isolate the root cause.\" Isar is flush with cash, having raised nearly $1 billion to date, but is still lacking in the critical currently of flight experience. The Spectrum rocket has flown just once to date, on a failed launch last year that lasted less than 30 seconds.</p><p><a href=\"https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Isar Aerospace, l\u00edder europea, retrasa vuelo de prueba de su cohete Spectrum, relevante para el mercado espa\u00f1ol y europeo.",
+      "selected": false
+    },
     {
       "id": "8323a5793609",
       "url": "https://arstechnica.com/science/2026/06/as-global-warming-threatens-corals-scientists-search-for-reefs-that-can-take-the-heat/",
