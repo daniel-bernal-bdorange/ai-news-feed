@@ -1,8 +1,36 @@
 {
   "week_start": "2026-06-15",
   "week_end": "2026-06-21",
-  "last_updated": "2026-06-20T10:09:24Z",
+  "last_updated": "2026-06-21T10:30:50Z",
   "articles": [
+    {
+      "id": "eef29938b15b",
+      "url": "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level/",
+      "title": "28 Tips to Take Your ChatGPT Prompts to the Next Level",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-21T10:30:00Z",
+      "fetched_at": "2026-06-21T10:30:44Z",
+      "raw_content": "Sure, anyone can use OpenAI\u2019s chatbot. But with smart engineering, you can get way more interesting results.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La tecnolog\u00eda de OpenAI permite resultados m\u00e1s interesantes con ingenier\u00eda avanzada.",
+      "selected": false
+    },
+    {
+      "id": "20bfeecb69d7",
+      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "title": "Signal\u2019s Meredith Whittaker wants you to remember that AI chatbots \u2018are not your friends\u2019",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-20T20:32:29Z",
+      "fetched_at": "2026-06-21T10:30:44Z",
+      "raw_content": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.\u201d",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se trata de una advertencia sobre no considerar a las inteligencias artificiales como seres conscientes o amigos.",
+      "selected": false
+    },
     {
       "id": "6a0fdff213cc",
       "url": "https://www.wired.com/story/siri-ai-hands-on-iphone/",
