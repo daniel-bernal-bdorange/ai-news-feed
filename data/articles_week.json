@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-22",
   "week_end": "2026-06-28",
-  "last_updated": "2026-06-22T12:51:02Z",
+  "last_updated": "2026-06-23T10:37:12Z",
   "articles": [
+    {
+      "id": "606836facce4",
+      "url": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
+      "title": "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-23T05:25:16Z",
+      "fetched_at": "2026-06-23T10:37:06Z",
+      "raw_content": "<p>A SpaceX Falcon 9 rocket is set to launch Tuesday to test a new reentry vehicle designed to deliver cargo anywhere in the world from low-Earth orbit.</p>\n<p>The company developed the new saucer-shaped reentry pod, called Starfall,\u00a0under a veil of secrecy. Its purpose is to support the \"transport and delivery of goods through space,\" according to an <a href=\"https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID179523766920260515185428.0001?modalOpened=true\">environmental assessment</a> published by the Federal Aviation Administration last month.</p>\n<p>The first demonstration of the Starfall vehicle is scheduled for Tuesday morning. At least one of the Starfall vehicles will ride into orbit atop a Falcon 9 rocket from Cape Canaveral Space Force Station, Florida, perhaps alongside another undisclosed payload. After circling the planet two times, the Falcon 9's upper stage will release Starfall to reenter the atmosphere and target a parachute-assisted splashdown in the Pacific Ocean around 800 miles west of California.</p><p><a href=\"https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "SpaceX lanzar\u00e1 un cohete Falcon 9 para probar el veh\u00edculo de reentrada Starfall, dise\u00f1ado para entregar carga en cualquier lugar del mundo desde \u00f3rbita terrestre baja.",
+      "selected": false
+    },
+    {
+      "id": "ec9b9d1b8b04",
+      "url": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-23T01:27:55Z",
+      "fetched_at": "2026-06-23T10:37:06Z",
+      "raw_content": "A running look \u2014 in reverse chronological order \u2014 at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Empresas tecnol\u00f3gicas destacadas han anunciado despidos significativos este a\u00f1o, citando al factor de la inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "3cb0365d7c1d",
+      "url": "https://www.rcrwireless.com/20260622/internet-of-things/lorawan-fourth-pillar",
+      "title": "LoRaWAN eyes \u2018fourth pillar\u2019 status as IoT apps start to stack",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-22T14:50:55Z",
+      "fetched_at": "2026-06-23T10:37:06Z",
+      "raw_content": "With 125 million IoT connections and annual growth of 25 percent, the LoRa Alliance says LoRaWAN has moved beyond LPWAN niche status. Chief executive Alper Yegin explains why the technology is staking a claim as the wireless industry&#8217;s fourth pillar,&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La alianza LoRa afirma que LoRaWAN supera su nicho con 125 millones de conexiones IoT y un crecimiento anual del 25%.",
+      "selected": false
+    },
     {
       "id": "c47909c526bb",
       "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
