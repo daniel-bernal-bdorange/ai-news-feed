@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-22",
   "week_end": "2026-06-28",
-  "last_updated": "2026-06-23T10:37:12Z",
+  "last_updated": "2026-06-24T10:23:35Z",
   "articles": [
+    {
+      "id": "ccbe4d356160",
+      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+      "title": "India\u2019s MoEngage bets that the future of marketing is millions of AI agents",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-23T23:30:00Z",
+      "fetched_at": "2026-06-24T10:23:29Z",
+      "raw_content": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "MoEngage adquiere tecnolog\u00eda que asigna agentes de IA a clientes individuales mediante un acuerdo en efectivo.",
+      "selected": false
+    },
+    {
+      "id": "b05d0a886a5e",
+      "url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
+      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-23T22:30:57Z",
+      "fetched_at": "2026-06-24T10:23:29Z",
+      "raw_content": "<p>The White House is drastically shortening the deadline for government agencies and organizations to adopt new quantum-resistant encryption systems that will withstand attacks that use quantum computers, as the federal government seeks to protect decades\u2019 worth of secrets belonging to militaries, banks, governments, and most individuals on Earth.</p>\n<p>The executive order, titled <a href=\"https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/\">Securing the Nation against Advanced Cryptographic Attacks</a>, requires computing systems for \u201chigh-value assets\u201d and \u201chigh-impact systems\u201d to transition to post-quantum cryptographic key establishment schemes by December 31, 2030, and to quantum-safe digital signature schemes by December 31, 2031.</p>\n<h2>Heading off a significant threat</h2>\n<p>The new deadline, which for many organizations is about five years sooner than the previous one, comes on the heels of recent research showing that the resources and cost for building a cryptographically relevant quantum computer are far less than previous consensus estimates. In response, Google, Cloudflare, and other companies recently <a href=\"https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/\">tightened their timelines</a> for moving off vulnerable systems to 2029.</p><p><a href=\"https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La Casa Blanca acelera la adopci\u00f3n de sistemas de cifrado resistentes a ataques cu\u00e1nticos, con plazos que finalizan en 2030 y 2031.",
+      "selected": false
+    },
+    {
+      "id": "4ad4ea3970dd",
+      "url": "https://www.rcrwireless.com/20260623/ai/telcoagent-5g-3gpp",
+      "title": "TelcoAgent grounds 5G network forecasting in 3GPP standards",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-23T17:48:26Z",
+      "fetched_at": "2026-06-24T10:23:29Z",
+      "raw_content": "TelcoAgent pairs zero-shot KPM forecasting with a 3GPP knowledge graph In sum &#8211; what we know: Telecom networks generate an enormous amount of operational data, and the people running them have spent years trying to make sense of it at&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "TelcoAgent combina previsi\u00f3n de KPM sin datos hist\u00f3ricos con un grafo de conocimiento 3GPP para analizar datos de redes telecomunicaciones.",
+      "selected": false
+    },
     {
       "id": "606836facce4",
       "url": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
