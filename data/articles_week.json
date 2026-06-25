@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-22",
   "week_end": "2026-06-28",
-  "last_updated": "2026-06-24T10:23:35Z",
+  "last_updated": "2026-06-25T10:16:17Z",
   "articles": [
+    {
+      "id": "700ba794b1df",
+      "url": "https://www.wired.com/story/british-police-built-a-sprawling-crime-prediction-machine-some-results-couldnt-be-trusted/",
+      "title": "British Police Built a Sprawling Crime-Prediction Machine. Some Results Couldn\u2019t Be Trusted",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-25T10:00:00Z",
+      "fetched_at": "2026-06-25T10:16:09Z",
+      "raw_content": "As UK police embrace the AI revolution, a WIRED investigation reveals the messy inside story of one region\u2019s experiment with predictive analytics.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La polic\u00eda del Reino Unido adopta la inteligencia artificial, pero un informe destapa los desaf\u00edos internos en un proyecto de an\u00e1lisis predictivo.",
+      "selected": false
+    },
+    {
+      "id": "e48898beb367",
+      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "title": "Facebook\u2019s Creator Studio has been revived as an AI companion app",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-25T09:06:19Z",
+      "fetched_at": "2026-06-25T10:16:09Z",
+      "raw_content": "<figure>\n\n<img alt=\"Meta\u2019s new Creator Studio app for Facebook creators.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Facebook-Creator-Studio-relaunch.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tThis is what the new Creator Studio app looks like, after the original service was shuttered in 2023. | Image: Meta\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Meta is bringing back the <a href=\"https://creators.facebook.com/blog/introducing-new-facebook-creator-studio\">Facebook Creator Studio</a> page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Meta's announcement.</p>\n<p class=\"wp-block-paragraph\"><a href=\"https://about.fb.com/news/2026/06/creator-assistant-more-languages-for-ai-translations-on-facebook/\">Meta's AI Creator Assistant</a> is a central focus of the newly reimagined app - users can ask the chatbot to provide performance tracking insights and tailored recommendations for improving engagement. It can also be used to find \"the most important comments\" left by the user's audience and \"instantly draft replies in your voice.\"</p>\n<img alt=\"Examples of AI-powered commenting features inside the reimagined Facebook Creator Studio.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Screenshot-2026-06-25-095344.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100\" title=\"Examples of AI-powered commenting features inside the reimagined Facebook Creator Studio.\" />\n<p class=\"wp-block-paragraph\">The Creator Studio app isn't widely ava \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Meta relanza Facebook Creator Studio como app independiente con asistente de IA para ayudar a creadores a gestionar y crecer en la plataforma.",
+      "selected": false
+    },
+    {
+      "id": "7c1864e07a1c",
+      "url": "https://www.rcrwireless.com/20260625/opinion/autonomous-networks-maturity-avenga",
+      "title": "Why autonomous networks don\u2019t mature uniformly (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-25T08:53:15Z",
+      "fetched_at": "2026-06-25T10:16:09Z",
+      "raw_content": "Autonomous networks vary by operational domain, with progress determined less by technology than by data quality, integration readiness and governance foundations. Nemanja Prekovic, head of delivery TMT at Avenga, explains. Most Telco operators sit at autonomy Level 1 or 2&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los operadores de telecomunicaciones se encuentran mayoritariamente en el nivel 1 o 2 de autonom\u00eda, condicionados por la calidad de los datos y la integraci\u00f3n.",
+      "selected": false
+    },
     {
       "id": "ccbe4d356160",
       "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
