@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-22",
   "week_end": "2026-06-28",
-  "last_updated": "2026-06-25T10:16:17Z",
+  "last_updated": "2026-06-26T10:23:56Z",
   "articles": [
+    {
+      "id": "657e3bfa051c",
+      "url": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/",
+      "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-26T00:49:13Z",
+      "fetched_at": "2026-06-26T10:23:46Z",
+      "raw_content": "Anthropic's critics argue it's rapidly accumulating power. The company says that's what responsible AI development looks like.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Anthropic enfrenta cr\u00edticas por acumular poder r\u00e1pidamente, aunque la empresa defiende su enfoque como desarrollo de IA responsable.",
+      "selected": false
+    },
+    {
+      "id": "3d73062a8920",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-25T23:34:39Z",
+      "fetched_at": "2026-06-26T10:23:46Z",
+      "raw_content": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "OpenAI planea compartir su nuevo modelo GPT 5.6 con un grupo selecto de socios, en lugar de con el p\u00fablico en general, tras recibir instrucciones de la administraci\u00f3n Trump.",
+      "selected": false
+    },
+    {
+      "id": "32517eaec254",
+      "url": "https://www.rcrwireless.com/20260625/automation/autonomous-networks-wipro",
+      "title": "From autonomous networks to intelligent telcos \u2013 the next evolution of telecom",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-25T10:40:29Z",
+      "fetched_at": "2026-06-26T10:23:46Z",
+      "raw_content": "AI is pushing telcos beyond network autonomy and into a new era of business intelligence. Working with operators worldwide, Wipro explains how the industry&#8217;s next transformation will create intelligent, adaptive organizations designed to learn, decide, and grow in real time.&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La inteligencia artificial impulsa a los operadores hacia una nueva era de inteligencia empresarial, creando organizaciones adaptativas que aprenden y toman decisiones en tiempo real.",
+      "selected": false
+    },
     {
       "id": "700ba794b1df",
       "url": "https://www.wired.com/story/british-police-built-a-sprawling-crime-prediction-machine-some-results-couldnt-be-trusted/",
