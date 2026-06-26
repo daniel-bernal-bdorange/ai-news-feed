@@ -1,7 +1,7 @@
 {
   "week_start": "2026-06-22",
   "week_end": "2026-06-28",
-  "last_updated": "2026-06-26T10:23:56Z",
+  "last_updated": "2026-06-26T10:41:58Z",
   "articles": [
     {
       "id": "657e3bfa051c",
@@ -10,7 +10,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-06-26T00:49:13Z",
-      "fetched_at": "2026-06-26T10:23:46Z",
+      "fetched_at": "2026-06-26T10:41:44Z",
       "raw_content": "Anthropic's critics argue it's rapidly accumulating power. The company says that's what responsible AI development looks like.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-06-25T23:34:39Z",
-      "fetched_at": "2026-06-26T10:23:46Z",
+      "fetched_at": "2026-06-26T10:41:44Z",
       "raw_content": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
       "relevance_score": 1.0,
       "geo_boost": false,
