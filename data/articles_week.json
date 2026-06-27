@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-22",
   "week_end": "2026-06-28",
-  "last_updated": "2026-06-26T10:41:58Z",
+  "last_updated": "2026-06-27T09:29:05Z",
   "articles": [
+    {
+      "id": "7ef3cf49325e",
+      "url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/",
+      "title": "Doctors suspected man had brain cancer. He actually had worms.",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-26T21:43:57Z",
+      "fetched_at": "2026-06-27T09:28:58Z",
+      "raw_content": "<p>A \u00a060-year-old man in Spain went to the doctor complaining of a headache that he couldn't shake. It had started two weeks prior and was only getting worse. He also said he had noticed subtle changes in his behavior.</p>\n<p>In a neurological exam, doctors found he had a mild delay in his movements, but no other deficits. His blood work was generally normal except for elevated IgE, a signal of immune responses linked to allergies, autoimmune disease, and parasitic infections. The doctors did a computed tomography (CT) scan of his head and saw much more obvious evidence of a problem: There were multiple lesions distributed throughout his brain accompanied by swelling.</p>\n<p>In a case report in <a href=\"https://wwwnc.cdc.gov/eid/article/32/7/26-0587_article\">Emerging Infectious Diseases</a><em>, </em>the doctors reported working through the possible conditions that could explain all the findings. They noted that the man was not immunocompromised and had never traveled internationally. Their top suspicion was metastatic cancer.</p><p><a href=\"https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Un hombre de 60 a\u00f1os en Espa\u00f1a fue diagnosticado con par\u00e1sitos cerebrales, no c\u00e1ncer, en un caso relevante para el mercado sanitario espa\u00f1ol.",
+      "selected": false
+    },
+    {
+      "id": "7a9ccf58b486",
+      "url": "https://www.rcrwireless.com/20260626/ai/ericsson-ai-agents-oss-bss-stack",
+      "title": "Ericsson makes AI agents a first-class part of its OSS/BSS stack",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-26T17:23:57Z",
+      "fetched_at": "2026-06-27T09:28:58Z",
+      "raw_content": "Ericsson&#8217;s architectural blueprint adds an agentic service experience layer In sum &#8211; what we know: Ericsson has put agentic AI at the center of its operations and business support stack, formalizing a new OSS/BSS architectural blueprint where AI agents are&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Ericsson incorpora una capa de experiencia de servicio agente en su arquitectura, centr\u00e1ndose en la inteligencia artificial para mejorar sus operaciones y soporte empresarial.",
+      "selected": false
+    },
+    {
+      "id": "2f4f90bb1370",
+      "url": "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/",
+      "title": "Europe Is Fed Up and Wants Its Own AI",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-06-26T15:00:00Z",
+      "fetched_at": "2026-06-27T09:28:58Z",
+      "raw_content": "It's a stretch to think that the continent can build a top-tier model, but it has an advantage: Donald Trump.",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Europa puede beneficiarse de la pol\u00edtica de Donald Trump para impulsar su desarrollo tecnol\u00f3gico, lo que es especialmente relevante para el mercado espa\u00f1ol.",
+      "selected": false
+    },
     {
       "id": "657e3bfa051c",
       "url": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/",
