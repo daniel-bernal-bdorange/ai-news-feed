@@ -1,8 +1,36 @@
 {
   "week_start": "2026-06-22",
   "week_end": "2026-06-28",
-  "last_updated": "2026-06-27T09:29:05Z",
+  "last_updated": "2026-06-28T09:57:50Z",
   "articles": [
+    {
+      "id": "bd4103dcd79b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "title": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-06-27T18:39:32Z",
+      "fetched_at": "2026-06-28T09:57:41Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2258417618.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tMargaret Atwood onstage at Detroit Opera House on January 26, 2026 | Photo: Monica Morgan/Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Maraget Atwood, the storied author of <em>The Handmaid's Tale</em> and <em>The Blind Assassin</em>, was interviewed as part of the Babell Literary and Cultural Festival in Porto, Portugal. As it usually does at these things, the issue of AI came up, and Atwood didn't mince words. </p>\n<p class=\"wp-block-paragraph\">According to <em><a href=\"https://deadline.com/2026/06/margaret-atwood-ai-claude-babell-literary-festival-1236969046/\">Deadline's</a></em> recap, Atwood said she'd used an AI chatbot exactly once, Anthropic's Claude, and came away unimpressed. She was looking for information about the British detective series <em>Father Brown</em> and, well:</p>\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\">\"Claude gave me the wrong answer, or it lied. Of course, it didn't know it was lying because it's not a human being; it's a large language model\u2026 It had skimmed a \u2026</p></blockquote>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La autora Margaret Atwood critica a los chatbots de IA, calificando su experiencia con Claude como decepcionante.",
+      "selected": false
+    },
+    {
+      "id": "30b13f31d228",
+      "url": "https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/",
+      "title": "Apple and Audi alumni have made a luxe EV based on the moon buggy",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-27T11:07:05Z",
+      "fetched_at": "2026-06-28T09:57:41Z",
+      "raw_content": "<p>It seems to be the week for cheap EVs. Right after the production model of the <a href=\"https://www.wired.com/story/slate-ev-truck-price-specs-release-date/\">Slate electric truck</a> was revealed, complete with a bump in range, a new European entrant in electric mobility is launching out of stealth mode today and plans to bring its own affordable yet stylish rides to market.</p>\n<p>Amble's founders worked at <a href=\"https://www.wired.com/tag/audi/\">Audi</a> and <a href=\"https://www.wired.com/tag/ford/\">Ford</a>, started <a href=\"https://www.wired.com/review/cowboy-4/\">Cowboy</a> ebikes, and cofounded Forpeople, the creative agency that works for, among others, <a href=\"https://www.wired.com/review/review-nio-el6/\">Nio EVs</a>, <a href=\"https://www.wired.com/gallery/best-ski-clothes/\">Arc\u2019teryx</a>, and <a href=\"https://www.wired.com/story/exclusive-herman-miller-coyl-standing-desk-for-gamers/\">Herman Miller</a>. Indeed, Amble's design lead, Julian Hoenig, worked on the infamously canceled <a href=\"https://www.wired.com/story/rip-apple-car-this-is-why-it-died/\">Apple car</a>, which goes some way to explaining how this, the $25,000 Amble One, looks like it could have driven straight out of Cupertino, despite hailing from Lisbon, Portugal.</p>\n<p>The Amble One is a street-legal, stripped-down electric buggy designed for the kind of places where a normal car feels out of place. Coastal paths, private estates, and those dusty tracks between luxury hotel villas and the sea. Think of it as if Apple decided it was going to design a golf cart, then took the project even further.</p><p><a href=\"https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Amble lanza el Amble One, un veh\u00edculo el\u00e9ctrico asequible y elegante, relevante para el mercado europeo, especialmente Espa\u00f1a.",
+      "selected": false
+    },
     {
       "id": "7ef3cf49325e",
       "url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/",
