@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-29",
   "week_end": "2026-07-05",
-  "last_updated": "2026-06-29T12:00:23Z",
+  "last_updated": "2026-06-30T10:31:40Z",
   "articles": [
+    {
+      "id": "2783ddb1c4c5",
+      "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+      "title": "Crypto exchange OKX wants AI agents to hire and pay each other",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-06-30T09:00:00Z",
+      "fetched_at": "2026-06-30T10:31:32Z",
+      "raw_content": "OKX is bringing together payments, identity and reputation into a marketplace for AI agents.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "OKX lanza un mercado para agentes de IA que integra pagos, identidad y reputaci\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "36b90b6e7929",
+      "url": "https://www.rcrwireless.com/20260630/5g/china-tower-digital",
+      "title": "China Tower shifts to \u2018digital\u2019 and \u2018intelligent\u2019 towers",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-06-30T08:02:51Z",
+      "fetched_at": "2026-06-30T10:31:32Z",
+      "raw_content": "China Tower has established about 6.2 million base station sites, including 3.26 million 5G sites across the Asian nation In sum \u2013 what to know: Tower transformation \u2013 China Tower said at MWC Shanghai that it will accelerate the transformation&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "China Tower cuenta con 6,2 millones de estaciones base, de las que 3,26 millones son sitios 5G.",
+      "selected": false
+    },
+    {
+      "id": "3ee220182a55",
+      "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
+      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-06-29T22:05:33Z",
+      "fetched_at": "2026-06-30T10:31:32Z",
+      "raw_content": "<p>Federal authorities are offering a reward of up to $10 million for information leading to the identification or location of a Russian state cyber group that has compromised thousands of Signal and WhatsApp accounts belonging to investigative reporters and US government employees.</p>\n<p>The operation has been active since at least March, when the FBI published an <a href=\"https://www.ic3.gov/PSA/2026/PSA260320\">advisory</a> warning of ongoing phishing campaigns targeting high-value targets by attackers associated with Russian intelligence services. Messages masquerading as automated support communications ask that users click a link or provide verification codes or account passcodes. In the event the user complies, they unknowingly link the attacker's device to their account or have their account completely taken over and are locked out.</p>\n<p><img alt=\"\" class=\"none thumbnail\" height=\"300\" src=\"https://cdn.arstechnica.net/wp-content/uploads/2026/06/messenger-account-hack-techniques-300x300.webp\" width=\"300\" />\n    </p><p><a href=\"https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Las autoridades federales ofrecen hasta 10 millones de d\u00f3lares por informaci\u00f3n sobre un grupo cibern\u00e9tico ruso que ha comprometido cuentas de Signal y WhatsApp.",
+      "selected": false
+    },
     {
       "id": "09ed58d32204",
       "url": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/",
