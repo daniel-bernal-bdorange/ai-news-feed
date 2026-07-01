@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-29",
   "week_end": "2026-07-05",
-  "last_updated": "2026-06-30T10:31:40Z",
+  "last_updated": "2026-07-01T10:42:43Z",
   "articles": [
+    {
+      "id": "a0af3f2ebb96",
+      "url": "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
+      "title": "Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-01T10:00:00Z",
+      "fetched_at": "2026-07-01T10:42:36Z",
+      "raw_content": "A researcher found that using Anthropic\u2019s Claude Opus 4.7, he could break into the website of Front Gate\u2014used by every festival from Lollapalooza to Bonnaroo\u2014and freely issue any ticket he chose.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un investigador ha descubierto una vulnerabilidad en el sitio web de Front Gate, permitiendo emitir tickets de festival sin restricciones mediante Claude Opus 4.7 de Anthropic.",
+      "selected": false
+    },
+    {
+      "id": "1e9eaa0016c5",
+      "url": "https://www.rcrwireless.com/20260701/automation/cyient-dtw-ignite-2026",
+      "title": "Cyient lays out the blueprint for intelligent network modernization",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-01T09:57:51Z",
+      "fetched_at": "2026-07-01T10:42:36Z",
+      "raw_content": "At DTW Ignite, Cyient stressed the continuum between network engineering, data foundation and cognitive operations that will drive autonomy, efficiency and growth Across the telecoms industry, the language of AI-augmented networks and increasingly autonomous operations has become familiar. The harder&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Cyient destaca la conexi\u00f3n entre ingenier\u00eda de redes, datos y operaciones cognitivas para impulsar la autonom\u00eda y el crecimiento en el sector de las telecomunicaciones.",
+      "selected": false
+    },
+    {
+      "id": "5926ae6482dd",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "title": "Trump drops restrictions on Anthropic\u2019s Mythos and Fable models",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-01T02:16:06Z",
+      "fetched_at": "2026-07-01T10:42:36Z",
+      "raw_content": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La administraci\u00f3n Trump ha generado incertidumbre en la industria de la IA al no ofrecer una pol\u00edtica clara para futuras versiones de modelos.",
+      "selected": false
+    },
     {
       "id": "2783ddb1c4c5",
       "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
