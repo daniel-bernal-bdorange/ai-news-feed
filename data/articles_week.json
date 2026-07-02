@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-29",
   "week_end": "2026-07-05",
-  "last_updated": "2026-07-01T10:42:43Z",
+  "last_updated": "2026-07-02T10:10:33Z",
   "articles": [
+    {
+      "id": "122379e5267c",
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-02T05:30:00Z",
+      "fetched_at": "2026-07-02T10:10:25Z",
+      "raw_content": "Neo is Bhavin Turakhia\u2019s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office, Google Apps with AI.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Bhavin Turakhia lanza Neo, su quinta empresa, para competir con Microsoft Office y Google Apps mediante inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "dba9e69546e0",
+      "url": "https://www.rcrwireless.com/20260701/ai/tencent-cloud-ai-agents-xlsmart",
+      "title": "Tencent Cloud used AI agents for XLSMART migration",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-01T23:42:51Z",
+      "fetched_at": "2026-07-02T10:10:25Z",
+      "raw_content": "Tencent Cloud claims zero downtime moving 1,200 microservices for XLSMART In sum &#8211; what we know: Tencent Cloud&#160;has completed&#160;a large-scale public cloud migration for Indonesian telecom operator XLSMART in 4.5 months, with zero downtime, and it apparently did so by&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Tencent Cloud ha migrado 1.200 microservicios de XLSMART con cero tiempo de inactividad en 4,5 meses.",
+      "selected": false
+    },
+    {
+      "id": "1a736c748026",
+      "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
+      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-01T21:21:21Z",
+      "fetched_at": "2026-07-02T10:10:25Z",
+      "raw_content": "<p>T-Mobile is asking a New York court to rule that Broadcom was contractually obligated to continue supporting its VMware perpetual licenses.</p>\n<p>In its complaint, T-Mobile said it has tens of thousands of virtual machines using VMware software across approximately 303,140 CPU cores. It also said that it was migrating off VMware but noted the <a href=\"https://arstechnica.com/information-technology/2025/01/a-long-costly-road-ahead-for-customers-abandoning-broadcoms-vmware/\">time-consuming and technical challenges</a> involved in migrating over 1,000 applications.</p>\n<p>It filed its lawsuit, which was first reported by <a href=\"https://www.theregister.com/virtualization/2026/07/01/t-mobile-appears-to-be-quitting-vmware-and-fighting-a-very-familiar-battle-for-support-rights-on-the-way-out/5264750\">The Register</a> today, in the Supreme Court of the State of New York in August 2025 <a href=\"https://cdn.arstechnica.net/wp-content/uploads/2026/07/654741_2025_T_Mobile_USA_Inc_v_Broadcom_Inc_et_al_COMPLAINT_58.pdf\">(PDF)</a>.</p><p><a href=\"https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "T-Mobile demanda a Broadcom por obligaciones contractuales de soporte para licencias VMware.",
+      "selected": false
+    },
     {
       "id": "a0af3f2ebb96",
       "url": "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
