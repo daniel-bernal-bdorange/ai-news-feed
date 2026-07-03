@@ -1,8 +1,50 @@
 {
   "week_start": "2026-06-29",
   "week_end": "2026-07-05",
-  "last_updated": "2026-07-02T10:10:33Z",
+  "last_updated": "2026-07-03T10:05:56Z",
   "articles": [
+    {
+      "id": "8aafbde5522c",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "title": "Mark Zuckerberg tells staff that AI agents haven\u2019t progressed as quickly as he\u2019d hoped",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-02T23:38:10Z",
+      "fetched_at": "2026-07-03T10:05:49Z",
+      "raw_content": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "El CEO de Meta ha expresado que los esfuerzos de desarrollo de inteligencia artificial no avanzan con la rapidez esperada.",
+      "selected": false
+    },
+    {
+      "id": "f6cc881ad8ab",
+      "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+      "title": "Newly discovered PamStealer isn't your typical macOS malware",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-02T19:38:57Z",
+      "fetched_at": "2026-07-03T10:05:49Z",
+      "raw_content": "<p>Researchers have found a never-before-seen piece of macOS malware that combines a series of clever tradecraft to infect Macs with stealthy, custom-developed credential-stealing code.</p>\n<p>The malware is delivered in two stages. The first is distributed in a disk image that masquerades as <a href=\"https://maccy.app/\">Maccy</a>, a clipboard manager for Macs. It\u2019s compiled as AppleScript that is notable for the way it delivers the second stage. The malware is named PamStealer because the Rust-written infostealer uses the Pluggable Authentication Modules interface built into macOS to validate the target\u2019s login password before sending it to an attacker-controlled server.</p>\n<h2>A quieter execution chain</h2>\n<p>The use of both disk image and AppleScript is common in malware for Macs. More unusual is the way PamStealer combines them to gain stealth. When the AppleScript is double-clicked, it\u2019s opened in the macOS Script Editor, where the malicious functionality is buried deep within the file.</p><p><a href=\"https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Investigadores han descubierto un malware macOS desconocido que roba credenciales de forma sigilosa.",
+      "selected": false
+    },
+    {
+      "id": "62f1be836bbf",
+      "url": "https://www.rcrwireless.com/20260702/5g/indosat-ai-5g-network",
+      "title": "Indosat outlines AI Grid vision as 5G modernization targets nationwide AI-ready network",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-02T12:56:28Z",
+      "fetched_at": "2026-07-03T10:05:49Z",
+      "raw_content": "In sum \u2013 what to know: AI Grid \u2013 Indosat says its AI Grid combines centralized AI Factories with distributed AI computing closer to users, enabling AI applications across Indonesia.&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Indosat lanza AI Grid, que combina f\u00e1bricas de inteligencia artificial centralizadas con c\u00f3mputo distribuido para aplicaciones de IA en Indonesia.",
+      "selected": false
+    },
     {
       "id": "122379e5267c",
       "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
