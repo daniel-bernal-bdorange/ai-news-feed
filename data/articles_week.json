@@ -1,8 +1,36 @@
 {
   "week_start": "2026-06-29",
   "week_end": "2026-07-05",
-  "last_updated": "2026-07-04T09:26:16Z",
+  "last_updated": "2026-07-05T09:42:54Z",
   "articles": [
+    {
+      "id": "8148c8e03297",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-04T20:55:25Z",
+      "fetched_at": "2026-07-05T09:42:47Z",
+      "raw_content": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un anuncio cuestiona qu\u00e9 habr\u00eda pasado si los padres fundadores hubieran tenido acceso a Google Workspace.",
+      "selected": false
+    },
+    {
+      "id": "48e4de73720b",
+      "url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
+      "title": "Review: Supergirl is not the disaster its low box office suggests",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-04T16:49:14Z",
+      "fetched_at": "2026-07-05T09:42:47Z",
+      "raw_content": "<p>Pour one out for <a href=\"https://en.wikipedia.org/wiki/Supergirl_(2026_film)\"><em>Supergirl</em></a>, the latest installment in the DCU's <em>Gods and Monsters</em> chapter, which has been beset by online troll attacks, mixed reviews, and a <a href=\"https://deadline.com/2026/06/box-office-supergirl-toy-story-5-1236968254/\">very disappointing</a> opening weekend box office\u2014not the outcome Warner Bros. was hoping for with this follow-up to last year's <em>Superman</em>. It's actually a pretty good movie, as such films go, but it's not a <em>great</em> movie. And in today's over-saturated superhero market, that's just not sufficient to get people out of their homes and into theaters, rather than waiting for the film to come to streaming platforms.</p>\n<p><strong>(Some spoilers below but no major reveals.)</strong></p>\n<p>The studio tapped Ana Nogueira to write the script, a holdover from the former DCEU plans for a standalone Supergirl film. (The character appeared in the finale of 2022's <em>The Flash</em>, played by Sasha Calle.) The project was reimagined when James Gunn and Peter Safran took over and launched the \"soft reboot\" DCU. Director Craig Gillespie (<em>Lars and the Real Girl, I Tonya</em>) signed on to direct.</p><p><a href=\"https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La pel\u00edcula Supergirl ha tenido un estreno decepcionante en taquilla a pesar de ser una buena pel\u00edcula.",
+      "selected": false
+    },
     {
       "id": "c133325c835e",
       "url": "https://www.rcrwireless.com/20260703/ai/samsung-ai-ran-kddi-trial",
