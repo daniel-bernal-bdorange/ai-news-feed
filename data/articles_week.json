@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-06",
   "week_end": "2026-07-12",
-  "last_updated": "2026-07-06T11:28:16Z",
+  "last_updated": "2026-07-07T10:26:34Z",
   "articles": [
+    {
+      "id": "264273a51c41",
+      "url": "https://www.wired.com/story/erling-haaland-is-everywhere-at-the-world-cup-most-of-it-is-ai/",
+      "title": "Erling Haaland Is Everywhere at the World Cup. Most of It Is AI",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-07T10:00:00Z",
+      "fetched_at": "2026-07-07T10:26:23Z",
+      "raw_content": "Norwegian striker Erling Haaland isn\u2019t just a footballer anymore. He\u2019s become an internet character perpetuated by fans and AI.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Erling Haaland se ha convertido en un personaje de internet gracias a sus fans y la inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "5e57876a1021",
+      "url": "https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/",
+      "title": "Kremlin suspected of flying drones over Europe using Russian shadow fleet",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-06T20:52:42Z",
+      "fetched_at": "2026-07-07T10:26:23Z",
+      "raw_content": "<p>Mysterious drone flights that disrupted major European airports and flew over NATO member military bases hosting US nuclear weapons may be the work of a coordinated Kremlin campaign launched from Russian-linked commercial ships.</p>\n<p>That <a href=\"https://www.iiss.org/globalassets/media-library---content--migration/files/research-papers/2026/06/russia-uav/amended-x2/russia-uav-campaign-over-europe.pdf\">recent assessment</a> from the UK-based <a href=\"https://www.iiss.org/\">International Institute for Strategic Studies</a> used automatic identification system (AIS) maritime tracking data and other publicly available data to show how Russian-linked ships and \u201cshadow fleet\u201d vessels that transport sanctioned Russian oil were often located nearby during various drone incidents. The report suggests that the drone incidents\u2014which impacted a dozen NATO member countries and Ireland between August 2024 and February 2026\u2014also revealed the vulnerability of European air defenses against surveillance and harassment incursions by low-cost drones.</p>\n<p>The IISS report identified 144 drone sightings over Europe during that time period that were unlikely to involve hobbyist recreational drones or drone activity related to the <a href=\"https://arstechnica.com/ai/2026/06/ukraines-one-time-test-used-fully-autonomous-drones-to-kill-russian-soldiers/\">war in Ukraine</a>. About 48 percent of the sightings took place over military bases, 26 percent happened over critical infrastructure such as ports and energy or industrial facilities, and 18 percent occurred over civilian airports. Most occurred at night or in the early morning hours before sunrise, and the drones themselves were typically described in media reports as resembling \u201cprofessional\u201d or \u201cmilitary-style\u201d drones.</p><p><a href=\"https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Vuelos de drones misteriosos que afectaron aeropuertos europeos, incluyendo Espa\u00f1a, podr\u00edan ser obra de una campa\u00f1a coordinada del Kremlin.",
+      "selected": false
+    },
+    {
+      "id": "dcad90bdac54",
+      "url": "https://www.rcrwireless.com/20260706/5g/huawei-ai-network-monetization",
+      "title": "Huawei outlines AI-centric network roadmap for telecom monetization",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-06T13:05:58Z",
+      "fetched_at": "2026-07-07T10:26:23Z",
+      "raw_content": "Huawei tells MWC Shanghai 2026 that operators are entering an era in which AI applications, intelligent agents, and real-time interactions place new demands on mobile and transport networks In sum&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Huawei afirma que los operadores entran en una era con nuevas demandas en redes m\u00f3viles y de transporte debido a aplicaciones de IA y agentes inteligentes.",
+      "selected": false
+    },
     {
       "id": "13d8d9c91084",
       "url": "https://www.quantumnetworksforum.com/page/5531477/register-now",
