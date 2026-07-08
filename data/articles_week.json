@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-06",
   "week_end": "2026-07-12",
-  "last_updated": "2026-07-07T10:26:34Z",
+  "last_updated": "2026-07-08T09:25:59Z",
   "articles": [
+    {
+      "id": "c6520adc872d",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-08T08:00:00Z",
+      "fetched_at": "2026-07-08T09:25:52Z",
+      "raw_content": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "ZML, una startup francesa de IA respaldada por Yann LeCun, lanza ZML/LLMD, un software que reduce costes en la ejecuci\u00f3n de inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "e5525d910e9c",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-08T07:00:51Z",
+      "fetched_at": "2026-07-08T09:25:52Z",
+      "raw_content": "<p>In the brief history of AI security, the prompt injection has quickly become the top threat. Large language models are inherently unable to distinguish between legitimate instructions provided by users and malicious ones sneaked into emails, source code, and other third-party content the models are processing. This makes it trivial to surreptitiously inject malicious commands that the LLM readily follows.</p>\n<p>With no way to enforce this crucial boundary between trusted and untrusted sources, AI engine developers are left to erect elaborate guardrails designed to mitigate the damage rather than solve the root cause.</p>\n<p>To date, most prompt injections have fallen into a class known as push, in which each potential victim is targeted. For example, the adversary injects malicious instructions into an individual email or calendar invitation. Because the injection must then be sent (or pushed) to each specific target, the scale of the attack is limited, hampering mass exploits that hit the Internet at large.</p><p><a href=\"https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los modelos de lenguaje grandes son vulnerables a inyecciones de comandos maliciosos debido a su incapacidad para distinguir entre fuentes leg\u00edtimas y maliciosas.",
+      "selected": false
+    },
+    {
+      "id": "a0997f7b7144",
+      "url": "https://www.rcrwireless.com/20260707/5g/elisa-ai-automation",
+      "title": "Elisa says AI automation has cut network incidents by over 80%",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-07T15:02:04Z",
+      "fetched_at": "2026-07-08T09:25:52Z",
+      "raw_content": "Sami Komulainen, Elisa&#8217;s chief operating officer, told RCR that the operator has created a digital twin of its network and deployed agentic AI that operates alongside human engineers to troubleshoot&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Elisa ha creado un gemelo digital de su red y desplegado AI agente para solucionar problemas junto a ingenieros humanos.",
+      "selected": false
+    },
     {
       "id": "264273a51c41",
       "url": "https://www.wired.com/story/erling-haaland-is-everywhere-at-the-world-cup-most-of-it-is-ai/",
