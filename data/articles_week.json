@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-06",
   "week_end": "2026-07-12",
-  "last_updated": "2026-07-09T10:26:12Z",
+  "last_updated": "2026-07-10T10:24:16Z",
   "articles": [
+    {
+      "id": "c0704b49328c",
+      "url": "https://www.rcrwireless.com/20260710/carriers/telco-diary-plumbing-is-the-product",
+      "title": "Thursday (telco diary) | The plumbing is the product",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-10T09:33:04Z",
+      "fetched_at": "2026-07-10T10:24:08Z",
+      "raw_content": "From the newsletter (sign-up if you want it sooner): AI is driving investment across the telco stack \u2013 from data centers, fiber, and DCI to access networks, IoT, and edge&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La inteligencia artificial impulsa la inversi\u00f3n en todo el sector de las telecomunicaciones, desde centros de datos hasta redes de acceso y IoT.",
+      "selected": false
+    },
+    {
+      "id": "05a591ebd381",
+      "url": "https://www.wired.com/story/robot-dogs-teslas-and-rescue-helicopters-the-un-ai-summit-was-alot/",
+      "title": "Robot Dogs, Teslas, and Rescue Helicopters: The UN AI Summit Was a Lot",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-10T06:00:00Z",
+      "fetched_at": "2026-07-10T10:24:08Z",
+      "raw_content": "Amid live coding sessions and Silicon Valley optimism, the UN\u2019s AI for Good summit wrestled with an increasingly urgent question: Can global governance catch up before the technology races beyond its control?",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La cumbre AI for Good de la ONU aborda la urgente pregunta de si la gobernanza global puede seguir el ritmo de la tecnolog\u00eda.",
+      "selected": false
+    },
+    {
+      "id": "5390181be54f",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "title": "OpenAI says GPT 5.6 is the \u2018preferred model\u2019 for Microsoft Copilot 365 amid breakup chatter",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-10T00:16:54Z",
+      "fetched_at": "2026-07-10T10:24:08Z",
+      "raw_content": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "OpenAI lanzar\u00e1 una nueva familia de modelos que seguir\u00e1 impulsando la suite de aplicaciones de productividad de Microsoft.",
+      "selected": false
+    },
     {
       "id": "c47c4c24fc47",
       "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
