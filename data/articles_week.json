@@ -1,8 +1,22 @@
 {
   "week_start": "2026-07-06",
   "week_end": "2026-07-12",
-  "last_updated": "2026-07-10T10:24:16Z",
+  "last_updated": "2026-07-10T10:42:19Z",
   "articles": [
+    {
+      "id": "b7070a03a1d7",
+      "url": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art/",
+      "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-10T10:30:00Z",
+      "fetched_at": "2026-07-10T10:42:08Z",
+      "raw_content": "Billed as the \u201cworld\u2019s first museum of AI arts,\u201d Dataland uses wearables and troves of material from the Amazon to merge nature, biometrics, and art.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Dataland, el primer museo de arte de IA, combina naturaleza, biometr\u00eda y arte mediante wearables y datos de la Amazon\u00eda.",
+      "selected": false
+    },
     {
       "id": "c0704b49328c",
       "url": "https://www.rcrwireless.com/20260710/carriers/telco-diary-plumbing-is-the-product",
@@ -10,7 +24,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-07-10T09:33:04Z",
-      "fetched_at": "2026-07-10T10:24:08Z",
+      "fetched_at": "2026-07-10T10:42:08Z",
       "raw_content": "From the newsletter (sign-up if you want it sooner): AI is driving investment across the telco stack \u2013 from data centers, fiber, and DCI to access networks, IoT, and edge&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -38,7 +52,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-07-10T00:16:54Z",
-      "fetched_at": "2026-07-10T10:24:08Z",
+      "fetched_at": "2026-07-10T10:42:08Z",
       "raw_content": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
       "relevance_score": 1.0,
       "geo_boost": false,
