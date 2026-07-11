@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-06",
   "week_end": "2026-07-12",
-  "last_updated": "2026-07-10T10:42:19Z",
+  "last_updated": "2026-07-11T08:48:20Z",
   "articles": [
+    {
+      "id": "3a346861aeec",
+      "url": "https://www.wired.com/story/openai-head-of-safety-leaving/",
+      "title": "OpenAI\u2019s Head of Safety Is Leaving the Company",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-11T01:07:26Z",
+      "fetched_at": "2026-07-11T08:48:14Z",
+      "raw_content": "Johannes Heidecke\u2019s departure comes as OpenAI tries to further integrate its research and safety teams.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La salida de Johannes Heidecke se produce mientras OpenAI intenta integrar m\u00e1s sus equipos de investigaci\u00f3n y seguridad.",
+      "selected": false
+    },
+    {
+      "id": "5fdf7a2e04f4",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "title": "Meta removes controversial AI feature on Instagram after backlash",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-10T23:55:07Z",
+      "fetched_at": "2026-07-11T08:48:14Z",
+      "raw_content": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\"",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La empresa ha retirado una funci\u00f3n tras recibir comentarios negativos, admitiendo que no cumpli\u00f3 con las expectativas.",
+      "selected": false
+    },
+    {
+      "id": "2f7564ef306c",
+      "url": "https://pages.rcrtech.com/building-6g-webinar",
+      "title": "Webinar: Building 6G \u2014 aligning technology, policy and purpose",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-10T13:40:22Z",
+      "fetched_at": "2026-07-11T08:48:14Z",
+      "raw_content": "The move toward 6G marks a shift from faster networks to intelligent, purpose-driven infrastructure. This report explores how emerging capabilities like AI-native architectures, sub-THz spectrum, integrated sensing, and multilayer security&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "El paso a 6G se centra en infraestructuras inteligentes y orientadas a prop\u00f3sito, con capacidades como arquitecturas nativas de IA y seguridad multilayer.",
+      "selected": false
+    },
     {
       "id": "b7070a03a1d7",
       "url": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art/",
