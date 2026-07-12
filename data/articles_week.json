@@ -1,8 +1,36 @@
 {
   "week_start": "2026-07-06",
   "week_end": "2026-07-12",
-  "last_updated": "2026-07-11T08:48:20Z",
+  "last_updated": "2026-07-12T09:02:41Z",
   "articles": [
+    {
+      "id": "015c66f9892c",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-11T14:13:00Z",
+      "fetched_at": "2026-07-12T09:02:34Z",
+      "raw_content": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "ChatGPT busca un gestor de producto para desarrollar experiencias dirigidas a familias, cuidadores y adultos mayores, seg\u00fan un anuncio laboral.",
+      "selected": false
+    },
+    {
+      "id": "74107d9673f7",
+      "url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
+      "title": "A Jupiter-size planet that escaped its star's death",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-11T12:00:58Z",
+      "fetched_at": "2026-07-12T09:02:34Z",
+      "raw_content": "<p>WD 1856 b is the only confirmed case of a planet that survived the death of a Sun-like star. It\u2019s a Jupiter-size world orbiting a white dwarf\u2014the burned-out remnant of a Sun-like star. Now, a team of astronomers has used the James Webb Space Telescope to take a closer look at this planet for the first time, and what they found makes an already strange system even stranger.</p>\n<h2>A feeding frenzy</h2>\n<p>WD 1856 b was an accidental discovery. Astronomers pointed the TESS observatory at a sample of roughly 2,000 white dwarfs in 2020. These stars are the remains of a Sun-like star that have already gone through a red-giant phase, leaving behind an Earth-size body that\u2019s primarily composed of elements like carbon and oxygen. The TESS team was searching for small objects like comets or asteroids that might transit across the face of these dead stars.</p>\n<p>What they found in the WD 1856 system was a gas giant. \u201cAs soon as they looked at it, they said, okay, that\u2019s weird,\u201d said Christopher O\u2019Connor, a theoretical astrophysicist at Cornell University and co-author of the recent Nature study on WD 1856 b.</p><p><a href=\"https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un equipo de astr\u00f3nomos ha estudiado con el telescopio James Webb un planeta del tama\u00f1o de J\u00fapiter que orbita una enana blanca.",
+      "selected": false
+    },
     {
       "id": "3a346861aeec",
       "url": "https://www.wired.com/story/openai-head-of-safety-leaving/",
