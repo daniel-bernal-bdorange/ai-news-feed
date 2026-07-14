@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-13",
   "week_end": "2026-07-19",
-  "last_updated": "2026-07-13T10:27:49Z",
+  "last_updated": "2026-07-14T09:05:16Z",
   "articles": [
+    {
+      "id": "6b2909578957",
+      "url": "https://www.wired.com/story/doge-deployed-ai-housing-policy/",
+      "title": "DOGE Used AI for Housing Policy. The Government Won\u2019t Say How",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-14T09:00:00Z",
+      "fetched_at": "2026-07-14T09:05:06Z",
+      "raw_content": "In response to a public records request, HUD has withheld documents about DOGE\u2019s use of AI\u2014in part by citing a privilege that doesn\u2019t exist.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La HUD retiene documentos sobre el uso de IA por DOGE, invocando un privilegio inexistente.",
+      "selected": false
+    },
+    {
+      "id": "5ff11aca3534",
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "title": "New York becomes the first state to enact a data center moratorium",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-07-14T09:00:00Z",
+      "fetched_at": "2026-07-14T09:05:06Z",
+      "raw_content": "<figure>\n\n<img alt=\"Graphic image of a data center.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature.</p>\n<p class=\"wp-block-paragraph\">The order blocks new environmental permits for data centers over 50 megawatts, which the governor's office says will give the state time to come up with the regulations needed to protect residents from rising energy prices and environmental impact. That's higher than the 20 megawatt threshold <a href=\"https://www.theverge.com/policy/944041/new-york-data-center-moratorium\">approved by state lawmakers</a>. Hochul's office could not immediately identify th \u2026</p>\n<p><a href=\"https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Nueva York impone una moratoria estatal de un a\u00f1o a nuevos centros de datos hiperscale.",
+      "selected": false
+    },
+    {
+      "id": "9f8e0d2ccad3",
+      "url": "https://www.rcrwireless.com/20260713/carriers/koran-telcos-ai-infra",
+      "title": "Korean telcos pivot to AI infra as government pursues AI G3 ambitions",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-13T14:37:58Z",
+      "fetched_at": "2026-07-14T09:05:06Z",
+      "raw_content": "Over the past several weeks, SK Telecom, KT, and LG Uplus have each unveiled major initiatives centered on AI infrastructure, underscoring how telecom operators increasingly see AI platforms and digital&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Operadores como SK Telecom, KT y LG Uplus lanzan iniciativas de infraestructura de inteligencia artificial, subrayando el creciente inter\u00e9s de los operadores en plataformas de AI y servicios digitales.",
+      "selected": false
+    },
     {
       "id": "49e268ec4efd",
       "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
