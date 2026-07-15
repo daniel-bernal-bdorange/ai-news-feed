@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-13",
   "week_end": "2026-07-19",
-  "last_updated": "2026-07-14T09:05:16Z",
+  "last_updated": "2026-07-15T09:09:44Z",
   "articles": [
+    {
+      "id": "261ae1661b6d",
+      "url": "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/",
+      "title": "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-15T09:00:00Z",
+      "fetched_at": "2026-07-15T09:09:37Z",
+      "raw_content": "OpenAI employees have donated more than $215,000 to a political effort opposing Leading the Future, a group backed by the company\u2019s president, Greg Brockman.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los empleados de OpenAI han donado m\u00e1s de 215.000 d\u00f3lares a una campa\u00f1a en contra de Leading the Future, grupo respaldado por su presidente, Greg Brockman.",
+      "selected": false
+    },
+    {
+      "id": "9d1201f98cd5",
+      "url": "https://www.rcrwireless.com/20260715/5g/vodafonethree-pi-works",
+      "title": "VodafoneThree puts P.I. Works\u2019 SMO at the center of network transformation",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-15T07:52:32Z",
+      "fetched_at": "2026-07-15T09:09:37Z",
+      "raw_content": "Autonomy is automation that has gained trust; the trust of the network, the trust of the subscribers and the trust of the mobile operators. As VodafoneThree integrates two major mobile&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "VodafoneThree integra dos grandes operadores m\u00f3viles, impulsando la autonom\u00eda y automatizaci\u00f3n en la red.",
+      "selected": false
+    },
+    {
+      "id": "06f6d22989a1",
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-15T00:27:04Z",
+      "fetched_at": "2026-07-15T09:09:37Z",
+      "raw_content": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Inversores muestran inter\u00e9s en aplicar la inteligencia artificial para lograr avances en ciencias de la vida.",
+      "selected": false
+    },
     {
       "id": "6b2909578957",
       "url": "https://www.wired.com/story/doge-deployed-ai-housing-policy/",
