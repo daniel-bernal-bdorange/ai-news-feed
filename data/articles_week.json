@@ -1,8 +1,36 @@
 {
   "week_start": "2026-07-13",
   "week_end": "2026-07-19",
-  "last_updated": "2026-07-18T08:48:45Z",
+  "last_updated": "2026-07-19T09:05:00Z",
   "articles": [
+    {
+      "id": "864e6e0039d4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "title": "Dave Eggers told OpenAI staff  that ChatGPT was \u2018silencing an entire generation\u2019",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-07-18T20:54:42Z",
+      "fetched_at": "2026-07-19T09:04:55Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2157758001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tDave Eggers attends the \"The Turning Point: To Be Destroyed\" premiere. | Image: John Lamparski/Getty Images for Tribeca Festival\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless <a href=\"https://www.theverge.com/2013/8/15/4623732/dave-eggers-the-circle-initial-synopsis\">novels</a>, screenplays, pieces of journalism, started <a href=\"https://www.theverge.com/art-club/660587/mcsweeneys-quarterly-78-vietnamese-diaspora-cigar-box\">McSweeney's</a>, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer tips on being relentlessly prolific, or how to excel in multiple fields. Instead, he apparently laced into the company. According to the <em><a href=\"https://www.ft.com/content/1c833e7b-3cba-4b87-8b45-33d6c2bd468e?syn-25a6b1a6=1\">Financial Times</a></em>, Eggers told the staff:</p>\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\">\"The effect of ChatGPT on educators' lives is catastrophic. Whether you intended to do it or not, you've made every teache \u2026</p></blockquote>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Dave Eggers critic\u00f3 a OpenAI por el impacto de ChatGPT en la vida de los educadores, calific\u00e1ndolo de \"catastr\u00f3fico\".",
+      "selected": false
+    },
+    {
+      "id": "7fb9272d9d4c",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "title": "Kimi: Threat or menace?",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-18T18:51:07Z",
+      "fetched_at": "2026-07-19T09:04:55Z",
+      "raw_content": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La empresa china Moonshot AI lanza una nueva versi\u00f3n de su modelo Kimi, generando inquietud sobre el \"comunismo total de la IA\".",
+      "selected": false
+    },
     {
       "id": "676c823b6899",
       "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
