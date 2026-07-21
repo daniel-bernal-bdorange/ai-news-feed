@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-20",
   "week_end": "2026-07-26",
-  "last_updated": "2026-07-20T10:12:46Z",
+  "last_updated": "2026-07-21T09:27:14Z",
   "articles": [
+    {
+      "id": "001861834f95",
+      "url": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing/",
+      "title": "Etsy Is In Its Flop Era, and Sellers Are Fleeing",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-21T09:00:00Z",
+      "fetched_at": "2026-07-21T09:27:06Z",
+      "raw_content": "Once a quirky bastion of amateur vulva jewelry and pet portraits, Etsy is now deluged with mass-produced goods and AI knockoffs. Some customers don\u2019t seem to mind.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Etsy, plataforma de artesan\u00eda, ahora est\u00e1 inundada de productos masivos y copias de inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "6f587fe95d6b",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "title": "Anthropic\u2019s landmark $1.5B copyright settlement is approved",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-21T00:12:24Z",
+      "fetched_at": "2026-07-21T09:27:06Z",
+      "raw_content": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "La aprobaci\u00f3n final resuelve un caso, pero no aborda la cuesti\u00f3n m\u00e1s amplia de utilizar obras con derechos de autor para entrenar modelos de inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "fbdbcebd2889",
+      "url": "https://www.rcrwireless.com/20260720/sponsored/bai-on-delivering-private-5g-across-australian-industry",
+      "title": "From experiment to expectation: BAI on delivering private 5G across Australian industry",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-20T15:44:39Z",
+      "fetched_at": "2026-07-21T09:27:06Z",
+      "raw_content": "Q&#38;A with Chris Upstone, Director of Private and Public Networks, BAI Communications Private 5G networks are rapidly moving from experiment to expectation across Australian industry. As deployments grow in scale&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "BAI Communications impulsa redes 5G privadas en la industria australiana, pasando de experimentos a expectativas.",
+      "selected": false
+    },
     {
       "id": "f97d53eac10c",
       "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
