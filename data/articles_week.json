@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-20",
   "week_end": "2026-07-26",
-  "last_updated": "2026-07-21T09:27:14Z",
+  "last_updated": "2026-07-22T09:27:24Z",
   "articles": [
+    {
+      "id": "c98d7581ea7d",
+      "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+      "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-22T03:20:57Z",
+      "fetched_at": "2026-07-22T09:27:02Z",
+      "raw_content": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Anthropic y OpenAI realizan adquisiciones agresivas en 2026, generando rumores sobre posibles movimientos estrat\u00e9gicos.",
+      "selected": false
+    },
+    {
+      "id": "3e761248c40b",
+      "url": "https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/",
+      "title": "Range Rover answers the question: \"What if we built a not-SUV?\"",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-21T23:01:23Z",
+      "fetched_at": "2026-07-22T09:27:02Z",
+      "raw_content": "<aside class=\"pullbox sidebar fullwidth\">Range Rover provided flights from Washington, DC, to London and accommodation so Ars could see the RR GT, as well as some other things you can read about in early September. Ars does not accept paid editorial content.</aside>\n<p>WOLVERHAMPTON, England\u2014One can argue about whether or not Range Rover invented the luxury SUV category, but there's no question that since the first Range Rover went on sale in 1970, the brand has made itself the standard that other luxury SUVs have to measure against. But what if Range Rover built something that wasn't an SUV?</p>\n<p>That's exactly what it's doing with the new Range Rover GT. Spy shots have been circulating for at least a year of what was believed to be an all-electric replacement for the <a href=\"https://arstechnica.com/cars/2017/09/range-rover-velar-review/\">Range Rover Velar</a>. It turns out that was a misapprehension; the heavily camouflaged prototypes were examples of the Range Rover GT being tested at <a href=\"https://carbuzz.com/range-rover-velar-spy-shots-july/\">the N\u00fcrburgring</a> and <a href=\"https://www.thedrive.com/news/2026-range-rover-velar-ev-spy-shots\">the Arctic Circle</a>.</p>\n<img alt=\"\" class=\"fullwidth full\" height=\"1688\" src=\"https://cdn.arstechnica.net/wp-content/uploads/2026/07/RR_GT_SIDE-PROFILE.jpg\" width=\"3000\" />\n      Will this be Range Rover's answer to the Lucid Air and Porsche Taycan?\n        Credit:\n          Range Rover\n      \n<p>Range Rover still isn't ready to reveal an uncamouflaged GT, but the car you see is much less disguised than the boxy-looking prototypes seen in earlier spy shots.</p><p><a href=\"https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Range Rover presenta el GT, su primer veh\u00edculo que no es un SUV, con pruebas en el N\u00fcrburgring y el C\u00edrculo \u00c1rtico.",
+      "selected": false
+    },
+    {
+      "id": "f1d59116e646",
+      "url": "https://www.rcrwireless.com/20260721/carriers/cisco-trust-autonomous-operations",
+      "title": "The Agentic Network \u2014\u00a0Cisco on earning trust in autonomous operations",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-21T19:14:14Z",
+      "fetched_at": "2026-07-22T09:27:02Z",
+      "raw_content": "Agentic AI in telecom has to start with open-loop recommendations, explainable confidence and human-centered workflows before operators will trust closed-loop autonomy At DTW Ignite in Copenhagen, much of the telecom&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los operadores confiar\u00e1n en la autonom\u00eda cerrada de Agentic AI cuando se implementen recomendaciones de bucle abierto y flujos de trabajo centrados en humanos.",
+      "selected": false
+    },
     {
       "id": "001861834f95",
       "url": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing/",
