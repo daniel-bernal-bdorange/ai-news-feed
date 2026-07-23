@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-20",
   "week_end": "2026-07-26",
-  "last_updated": "2026-07-22T09:27:24Z",
+  "last_updated": "2026-07-23T09:25:03Z",
   "articles": [
+    {
+      "id": "982001cc2d7c",
+      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-23T06:09:13Z",
+      "fetched_at": "2026-07-23T09:24:49Z",
+      "raw_content": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "ServiceNow invierte en BusinessNext, convirti\u00e9ndose en socio estrat\u00e9gico para expandir su software bancario con inteligencia artificial a nivel global.",
+      "selected": false
+    },
+    {
+      "id": "625a104e2857",
+      "url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
+      "title": "Sales were up at Tesla but so were costs and spending",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-22T21:15:19Z",
+      "fetched_at": "2026-07-23T09:24:49Z",
+      "raw_content": "<p>Tesla posted its financial statement for the second quarter of the year this afternoon. Earlier in July, we learned that the American automaker had had <a href=\"https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/\">a good quarter in terms of sales</a>, growing 25 percent year over year. Fans hoping that sales increase would result in a plenty profitable Tesla may be disappointed, though. Revenues are up but so are expenses, and the company's once-enviable double-digit profit margin has fallen to just 1.4 percent.</p>\n<p>Tesla brought in $20.5 billion from its electric vehicle business, a 23 percent increase year over year, and just $146 million came from automotive regulatory credits. Credits have been a key to Tesla's profitability in previous challenging quarters, but they were abolished in the United States <a href=\"https://arstechnica.com/cars/2024/11/trump-team-puts-ev-tax-credit-on-the-block-tesla-is-on-board-report/\">with Musk's blessing</a> in 2025.</p>\n<p>There was growth from its energy and storage business, which grew 13 percent year over year to revenues of $3.1 billion, but the most growth was in Tesla's services, which doubled, bringing in $4.6 billion. Tesla's shift from a one-time purchase <a href=\"https://arstechnica.com/cars/2026/01/tesla-wants-recurring-revenue-discontinues-autopilot-in-favor-of-fsd/\">to a monthly subscription</a> for its much-criticized FSD partially automated driver assist\u2014something tied to CEO Elon Musk's <a href=\"https://arstechnica.com/tech-policy/2025/11/elon-musk-wins-tesla-pay-vote-that-could-make-him-a-1-trillion-man/\">gargantuan remuneration package</a>\u2014was a big help here.</p><p><a href=\"https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Tesla registra un aumento del 25% en ventas, pero su margen de beneficio cae al 1,4% debido al aumento de gastos.",
+      "selected": false
+    },
+    {
+      "id": "420d5e5203e6",
+      "url": "https://www.rcrwireless.com/20260722/5g/south-korean-ai-ran",
+      "title": "South Korea launches AI-RAN project to advance industrial AI",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-22T13:53:31Z",
+      "fetched_at": "2026-07-23T09:24:49Z",
+      "raw_content": "The government of South Korea has selected two consortia led by SK Telecom and KT to develop and demonstrate what it calls Hyper AI Network Infrastructure In sum \u2013 what&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Corea del Sur selecciona a SK Telecom y KT para desarrollar la infraestructura de red Hyper AI.",
+      "selected": false
+    },
     {
       "id": "c98d7581ea7d",
       "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
