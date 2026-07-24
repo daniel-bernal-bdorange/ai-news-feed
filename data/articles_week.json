@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-20",
   "week_end": "2026-07-26",
-  "last_updated": "2026-07-23T09:25:03Z",
+  "last_updated": "2026-07-24T09:22:12Z",
   "articles": [
+    {
+      "id": "d16aa25601a4",
+      "url": "https://www.rcrwireless.com/20260724/carriers/telco-diary-pieces-in-ai-jigsaw",
+      "title": "Thursday (telco diary) | Telco pieces in the AI jigsaw",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-24T08:52:50Z",
+      "fetched_at": "2026-07-24T09:22:02Z",
+      "raw_content": "From the newsletter (sign-up if you want it sooner): T-Mobile&#8217;s latest Q2 results make the case for it as the West&#8217;s growth leader among mobile operators. But they also show&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "T-Mobile lidera el crecimiento entre operadores m\u00f3viles en Occidente seg\u00fan sus resultados del Q2.",
+      "selected": false
+    },
+    {
+      "id": "ed1f2994131e",
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-24T01:00:00Z",
+      "fetched_at": "2026-07-24T09:22:02Z",
+      "raw_content": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI\u2019s and Anthropic\u2019s guardrails affect their work.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Investigadores de ciberseguridad analizan c\u00f3mo las medidas de seguridad de OpenAI y Anthropic impactan su b\u00fasqueda de vulnerabilidades desconocidas.",
+      "selected": false
+    },
+    {
+      "id": "a6e6ed7cc55b",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-07-23T21:15:06Z",
+      "fetched_at": "2026-07-24T09:22:02Z",
+      "raw_content": "<figure>\n\n<img alt=\"Alexa Plus on an Echo Show 15\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/8A0A3921.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With <a href=\"https://developer.amazon.com/alexaplus/blogs/2026/07/alexa-plus-new-ways-to-build-experiences\">the update</a>, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to the correct device.</p>\n<p class=\"wp-block-paragraph\">In an example shared by Amazon, a person with a supported washing machine can say, \"Alexa, my kid's soccer jersey could use a deep clean, but the tag says cold wash only.\" From there, Alexa Plus would navigate the washer's cycle options and choose the correct setting. The new integrations are powered  \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Amazon lanza una actualizaci\u00f3n de Alexa Plus para conectar con dispositivos de hogar inteligente de manera m\u00e1s efectiva.",
+      "selected": false
+    },
     {
       "id": "982001cc2d7c",
       "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
