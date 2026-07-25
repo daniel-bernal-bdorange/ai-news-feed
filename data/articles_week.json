@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-20",
   "week_end": "2026-07-26",
-  "last_updated": "2026-07-24T10:04:52Z",
+  "last_updated": "2026-07-25T09:02:38Z",
   "articles": [
+    {
+      "id": "535a182fb105",
+      "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+      "title": "I tried out OpenAI\u2019s new AI keypad \u2014 which will be fun for some coders and slightly mystifying to everyone else",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-25T00:23:11Z",
+      "fetched_at": "2026-07-25T09:02:20Z",
+      "raw_content": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "OpenAI lanza un teclado AI que puede ser divertido para algunos, aunque probablemente otros no lo utilicen.",
+      "selected": false
+    },
+    {
+      "id": "5a840bf15af0",
+      "url": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/",
+      "title": "Paramount/WBD merger delayed for months as states' lawsuit moves toward trial",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-24T21:56:02Z",
+      "fetched_at": "2026-07-25T09:02:20Z",
+      "raw_content": "<p>Paramount Skydance agreed to a longer-term delay of its $111 billion acquisition of Warner Bros. Discovery, preventing the companies from combining until after a judge rules on the merits of a case in which a dozen states challenged the legality of the merger.</p>\n<p>Under a <a href=\"https://storage.courtlistener.com/recap/gov.uscourts.cand.474157/gov.uscourts.cand.474157.169.0_5.pdf\">stipulation</a> filed in court today, the states and companies agreed that the merger will not be completed and the firms will not integrate their operations until \"five days after the merits determination in these matters,\" or on June 1, 2027, whichever is earlier. The delay was also agreed to by the Writers Guild of America, which filed its own lawsuit to block the merger. If there is no merits determination by June 1, the plaintiffs could seek a preliminary injunction to keep blocking the deal.</p>\n<p>The agreement amounts to \"a months-long halt\" to the merger, New York Attorney General Letitia James' office <a href=\"https://ag.ny.gov/press-release/2026/attorney-general-james-halts-paramounts-merger-warner-bros-months\">said</a>. \u201cHalting this merger while our case proceeds is a critical victory in our efforts to uphold the law and protect the film and television industries,\" James said.</p><p><a href=\"https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Paramount y Warner Bros. Discovery acuerdan retrasar su fusi\u00f3n de 111.000 millones hasta despu\u00e9s de una sentencia judicial.",
+      "selected": false
+    },
+    {
+      "id": "f6df161fc6fe",
+      "url": "https://www.rcrwireless.com/20260724/5g/huawei-mobile-ai-uplink",
+      "title": "Huawei sees Mobile AI driving new wave of uplink network investment",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-24T13:42:13Z",
+      "fetched_at": "2026-07-25T09:02:20Z",
+      "raw_content": "Huawei and China Unicom Beijing recently announced the commercial deployment of what they describe as the world&#8217;s largest 5G-A 100 MHz GigaUplink network In sum \u2013 what to know: Mobile&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Huawei y China Unicom despliegan la red 5G-A GigaUplink m\u00e1s grande del mundo, con 100 MHz.",
+      "selected": false
+    },
     {
       "id": "d16aa25601a4",
       "url": "https://www.rcrwireless.com/20260724/carriers/telco-diary-pieces-in-ai-jigsaw",
