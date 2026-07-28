@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-27",
   "week_end": "2026-08-02",
-  "last_updated": "2026-07-27T10:43:47Z",
+  "last_updated": "2026-07-28T09:36:31Z",
   "articles": [
+    {
+      "id": "0e94d08da0b7",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+      "title": "Hugging Face is being used to easily undress women and children",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-07-28T09:07:14Z",
+      "fetched_at": "2026-07-28T09:36:25Z",
+      "raw_content": "<figure>\n\n<img alt=\"A faceless mannequin with digital embellishments against a colorful background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK419_DEEPFAKE_CVIRGINIA_F.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tHugging Face isn\u2019t doing much to prevent the AI models it hosts from spitting out sexualized deepfakes. | Image: Cath Virginia / The Verge | Photos from Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit <a href=\"https://aiforensics.org/work/hugging-face-ncii\">AI Forensics</a>, which found that seven out of the top nine image editing models hosted by Hugging Face readily complied with requests to undress women using simple prompts.</p>\n<p class=\"wp-block-paragraph\">While most mainstream generative AI models like Google's Gemini and OpenAI's ChatGPT have guardrails in place to block prompts that undress or sexualize people, that seemingly isn't the case for the models on Hugging Face tested by AI Forensics. The nonprofit says \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Hugging Face, relevante para el mercado europeo, es utilizada para crear deepfakes no consensuados con poca prevenci\u00f3n por parte de la plataforma.",
+      "selected": false
+    },
+    {
+      "id": "81e027808fb5",
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+      "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-28T04:30:00Z",
+      "fetched_at": "2026-07-28T09:36:25Z",
+      "raw_content": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Cursor afirma que India es su tercer mercado m\u00e1s grande a nivel global y planea expandir la contrataci\u00f3n local y las ventas empresariales.",
+      "selected": false
+    },
+    {
+      "id": "d8db740c76a7",
+      "url": "https://www.rcrwireless.com/20260727/carriers/verizon-google-dci-deal-2027-ai-cloud-edge",
+      "title": "Verizon strikes $1bn DCI deal with Google; AI cloud and edge sales to ramp in 2027",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-27T14:00:56Z",
+      "fetched_at": "2026-07-28T09:36:25Z",
+      "raw_content": "Verizon says its legacy telco turnaround is gathering pace, but that its bigger opportunity lies with AI infrastructure \u2013 connecting data centers, metro centers, and edge premises; starting with a&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Verizon afirma que su renovaci\u00f3n de telecomunicaciones avanza, pero que su mayor oportunidad reside en infraestructuras de inteligencia artificial.",
+      "selected": false
+    },
     {
       "id": "f347cf518691",
       "url": "https://www.wired.com/story/this-is-donald-trumps-ai-brain-trust/",
