@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-27",
   "week_end": "2026-08-02",
-  "last_updated": "2026-07-28T09:36:31Z",
+  "last_updated": "2026-07-29T09:37:43Z",
   "articles": [
+    {
+      "id": "15ccf556443f",
+      "url": "https://www.wired.com/story/boomers-cant-stop-gifting-their-grandkids-ai-generated-slop-books/",
+      "title": "Boomers Can\u2019t Stop Gifting Their Grandkids AI-Generated Slop Books",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-29T09:30:00Z",
+      "fetched_at": "2026-07-29T09:37:32Z",
+      "raw_content": "Parents are getting fed up with garbled bedtime stories that feature characters based on actual photos of their children.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los padres est\u00e1n cansados de historias de antes de dormir con personajes basados en fotos reales de sus hijos que resultan ininteligibles.",
+      "selected": false
+    },
+    {
+      "id": "4a113f6a4abf",
+      "url": "https://www.rcrwireless.com/20260729/carriers/telco-diary-d2d-3d-amazon-telcos",
+      "title": "Tuesday (telco diary) | D2D in 3D \u2013 Amazon appeals to telcos",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-29T07:58:57Z",
+      "fetched_at": "2026-07-29T09:37:32Z",
+      "raw_content": "From the newsletter (sign-up if you want it sooner): Amazon\u2019s planned 5,105-satellite LEO constellation signals a shift in the D2D race \u2013 from proving satellite connectivity to embedding it within&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Amazon planea una constelaci\u00f3n de 5.105 sat\u00e9lites en \u00f3rbita baja terrestre, lo que indica un cambio en la carrera de conectividad satelital.",
+      "selected": false
+    },
+    {
+      "id": "9c861c61d8d9",
+      "url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+      "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-29T01:00:36Z",
+      "fetched_at": "2026-07-29T09:37:32Z",
+      "raw_content": "<aside class=\"pullbox sidebar fullwidth\">Audi provided flights from Washington, DC, to Munich, Germany, and accommodation so Ars could see the Q9 and Q7. And we also drove the new RS5. Ars does not accept paid editorial content.</aside>\n<p>MUNICH\u2014It has taken Audi a little longer than its rivals, but with the debut of the 2027 Q9 this evening, the company has joined them in offering a range-topping full-size SUV. No, not the Q7, although a third-generation version of that vehicle <a href=\"https://arstechnica.com/cars/2026/06/heres-audis-next-q7-suv-and-us-only-sq7-now-with-an-rs-v8/\">broke cover in June</a>. The car was designed first and foremost for Europe, with a third row of seats that's fine for small children or occasional use. But in America, there's a segment one size larger, pioneered by the Cadillac Escalade, and it's here we find the new Audi. With no concrete plans to replace the A8 sedan yet, the Q9 SUV becomes the brand's new flagship.</p>\n<p>At 209 inches (5,309 mm) long, 79.2 inches (2,012 mm) wide, and 71.4 inches (1,814 mm) tall, it's definitely not diminutive, although parked next to the aforementioned Caddy, you'll find the American SUV exceeds this one by a few inches here and there. The 123.5-inch wheelbase (3,137 mm) is 5.6 inches (142 mm) longer than the Q7's, much of which translates to more room for the third row.</p>\n<figure>\n      <img alt=\"An Audi Q9 in a studio\" class=\"ars-gallery-image\" height=\"768\" src=\"https://cdn.arstechnica.net/wp-content/uploads/2026/07/A263821_large-1024x768.jpg\" width=\"1024\" />\n      <figcaption>\n        <div class=\"caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300\">\n    <div class=\"caption-icon bg-[left_top_5px] w-[10px] shrink-0\"></div>\n    <div class=\"caption-content\">\n      The silhouette is like a station wagon, but scaled up by 1.3x.\n\n              <span class=\"caption-credit mt-2 text-xs\">\n          Credit:\n\n          \n          Audi\n\n                  </span>\n          </div>\n  </div>\n      </figcaption>\n    </figure>\n      <figure>\n      <img alt=\"Audi Q9 from the rear 3/4s\" class=\"ars-gallery-image\" height=\"768\" src=\"https://cdn.arstechnica.net/wp-content/uploads/2026/07/A263824_large-1024x768.jpg\" width=\"1024\" />\n      <figcaption>\n        <div class=\"caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300\">\n    <div class=\"caption-icon bg-[left_top_5px] w-[10px] shrink-0\"></div>\n    <div class=\"caption-content\">\n      OLED rear lights are an option.\n\n              <span class=\"caption-credit mt-2 text-xs\">\n          Credit:\n\n          \n          Audi\n\n                  </span>\n          </div>\n  </div>\n      </figcaption>\n    </figure>\n  \n<p>The Q9 looked big in the studio, but it was less imposing than a Mercedes-Benz GLS or BMW X7. The body panels feature more curves and more subtle creases than the Audis of a few years ago. And there are definite station wagon vibes, but that\u2019s mostly because its big wheels make it look smaller and closer rather than bigger and farther away (aka, the Father Dougal principle.)</p><p><a href=\"https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Audi lanza el Q9, un SUV de tama\u00f1o completo dise\u00f1ado inicialmente para Europa, relevante para el mercado espa\u00f1ol.",
+      "selected": false
+    },
     {
       "id": "0e94d08da0b7",
       "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
