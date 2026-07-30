@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-27",
   "week_end": "2026-08-02",
-  "last_updated": "2026-07-29T09:37:43Z",
+  "last_updated": "2026-07-30T09:31:56Z",
   "articles": [
+    {
+      "id": "2bd694e05e37",
+      "url": "https://www.rcrwireless.com/20260730/5g/telco-diary-orange-leads-euro-revival",
+      "title": "Wednesday (telco diary) | Orange leads Euro telco revival",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-30T09:09:44Z",
+      "fetched_at": "2026-07-30T09:31:46Z",
+      "raw_content": "From the newsletter (sign-up if you want it sooner): Orange looks like Europe\u2019s strongest-performing incumbent telco this quarter, pairing robust financial growth with bold acquisitions and AI investments. While rivals&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Orange lidera a los operadores europeos con un crecimiento financiero s\u00f3lido y apuestas por adquisiciones y IA, destac\u00e1ndose en el mercado espa\u00f1ol y europeo.",
+      "selected": false
+    },
+    {
+      "id": "96c37dec4da8",
+      "url": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
+      "title": "I Got a Free Meal From a Private Chef\u2014Who Filmed It All to Train Robots",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-30T09:00:00Z",
+      "fetched_at": "2026-07-30T09:31:46Z",
+      "raw_content": "A German startup sent a camera-wearing chef to my apartment. In exchange for a free lunch, I let them record every chop and stir to train future humanoids.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Una startup alemana envi\u00f3 a un chef con c\u00e1mara a un apartamento para grabar sus movimientos y entrenar a humanoides futuros.",
+      "selected": false
+    },
+    {
+      "id": "1c538562910b",
+      "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-30T00:21:06Z",
+      "fetched_at": "2026-07-30T09:31:46Z",
+      "raw_content": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Microsoft present\u00f3 sus propios modelos de IA y herramientas, anticipando un crecimiento continuo.",
+      "selected": false
+    },
     {
       "id": "15ccf556443f",
       "url": "https://www.wired.com/story/boomers-cant-stop-gifting-their-grandkids-ai-generated-slop-books/",
