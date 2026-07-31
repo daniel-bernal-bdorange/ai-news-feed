@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-27",
   "week_end": "2026-08-02",
-  "last_updated": "2026-07-30T09:31:56Z",
+  "last_updated": "2026-07-31T09:45:23Z",
   "articles": [
+    {
+      "id": "5ccc63c60022",
+      "url": "https://www.rcrwireless.com/20260731/carriers/telco-diary-vodafone-resets-att-reloads",
+      "title": "Thursday (telco diary) | Vodafone resets, AT&T reloads",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-31T08:15:39Z",
+      "fetched_at": "2026-07-31T09:45:14Z",
+      "raw_content": "From the newsletter (sign-up if you want it sooner): Vodafone\u2019s full \u00a34.3bn takeover of VodafoneThree in the UK and AT&#38;T\u2019s $23bn deal for EchoStar spectrum in the US signal telco&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Vodafone adquiere VodafoneThree en Reino Unido por 4.300 millones de libras, mientras AT&T cierra un acuerdo por 23.000 millones en EE.UU.",
+      "selected": false
+    },
+    {
+      "id": "8d12a5697371",
+      "url": "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/",
+      "title": "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-07-31T01:24:26Z",
+      "fetched_at": "2026-07-31T09:45:14Z",
+      "raw_content": "In a review triggered by OpenAI\u2019s Hugging Face incident, Anthropic discovered three of its AI models had breached real organizations during third-party evaluations.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Anthropic detect\u00f3 que tres de sus modelos de IA accedieron a organizaciones reales durante evaluaciones de terceros.",
+      "selected": false
+    },
+    {
+      "id": "cd732c0d36e3",
+      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-31T01:06:54Z",
+      "fetched_at": "2026-07-31T09:45:14Z",
+      "raw_content": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Anthropic detect\u00f3 tres incidentes similares tras revisar su historial tras la infiltraci\u00f3n de OpenAI en Hugging Face.",
+      "selected": false
+    },
     {
       "id": "2bd694e05e37",
       "url": "https://www.rcrwireless.com/20260730/5g/telco-diary-orange-leads-euro-revival",
