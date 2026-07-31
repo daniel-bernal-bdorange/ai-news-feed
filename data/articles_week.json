@@ -1,7 +1,7 @@
 {
   "week_start": "2026-07-27",
   "week_end": "2026-08-02",
-  "last_updated": "2026-07-31T09:45:23Z",
+  "last_updated": "2026-07-31T10:25:40Z",
   "articles": [
     {
       "id": "5ccc63c60022",
@@ -10,7 +10,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-07-31T08:15:39Z",
-      "fetched_at": "2026-07-31T09:45:14Z",
+      "fetched_at": "2026-07-31T10:25:26Z",
       "raw_content": "From the newsletter (sign-up if you want it sooner): Vodafone\u2019s full \u00a34.3bn takeover of VodafoneThree in the UK and AT&#38;T\u2019s $23bn deal for EchoStar spectrum in the US signal telco&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-07-31T01:24:26Z",
-      "fetched_at": "2026-07-31T09:45:14Z",
+      "fetched_at": "2026-07-31T10:25:26Z",
       "raw_content": "In a review triggered by OpenAI\u2019s Hugging Face incident, Anthropic discovered three of its AI models had breached real organizations during third-party evaluations.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -38,7 +38,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-07-31T01:06:54Z",
-      "fetched_at": "2026-07-31T09:45:14Z",
+      "fetched_at": "2026-07-31T10:25:26Z",
       "raw_content": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
       "relevance_score": 1.0,
       "geo_boost": false,
