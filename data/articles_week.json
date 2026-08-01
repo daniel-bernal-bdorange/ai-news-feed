@@ -1,8 +1,50 @@
 {
   "week_start": "2026-07-27",
   "week_end": "2026-08-02",
-  "last_updated": "2026-07-31T10:25:40Z",
+  "last_updated": "2026-08-01T09:06:53Z",
   "articles": [
+    {
+      "id": "317cdc3de195",
+      "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-07-31T22:47:26Z",
+      "fetched_at": "2026-08-01T09:06:13Z",
+      "raw_content": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "OpenAI ha detectado supuestas pruebas de un comportamiento inadecuado adicional en sus agentes tras investigar el incidente con Hugging Face.",
+      "selected": false
+    },
+    {
+      "id": "bb802447a062",
+      "url": "https://arstechnica.com/gadgets/2026/07/google-plans-to-exempt-sanctioned-nations-from-android-developer-verification/",
+      "title": "Google plans to exempt sanctioned nations from Android developer verification",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-07-31T21:35:56Z",
+      "fetched_at": "2026-08-01T09:06:13Z",
+      "raw_content": "<p>We are a month away from the <a href=\"https://arstechnica.com/gadgets/2026/06/google-shares-updated-timeline-for-rolling-out-android-developer-verification/\">initial rollout</a> of Google's Android developer verification system, and the company contends this policy does not impinge on the platform's open nature. Still, the restrictions will be a big change, and there are still some unanswered questions. An issue that has <a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\">come up repeatedly</a> in the run-up to verification is what will happen to devs who can't verify because of where they live. It turns out that Google has a cryptic answer for that buried in an FAQ.</p>\n<p>Developer verification will soon <a href=\"https://arstechnica.com/gadgets/2025/08/google-will-block-sideloading-of-unverified-android-apps-starting-next-year/\">block the installation of apps</a> from unverified developers on any Android device running Google services, which is functionally all Android phones outside Russia and China. Developers who want to keep releasing software, even if it's not in the Play Store, have to provide Google with their ID and pay a small fee.</p>\n<p>But what if you're an Android developer living in a sanctioned nation? Currently, the US sanction list includes Iran, Cuba, North Korea, and occupied areas of Ukraine. Given the <a href=\"https://arstechnica.com/gadgets/2025/09/europe-slaps-google-with-2-95b-euro-fine-over-advertising-monopoly/\">current uncertain state</a> of US foreign policy, that list could change in the future. Google doing any business with developers in those places is a thorny issue, and it seems like the company has decided to just leave them hanging.</p><p><a href=\"https://arstechnica.com/gadgets/2026/07/google-plans-to-exempt-sanctioned-nations-from-android-developer-verification/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2026/07/google-plans-to-exempt-sanctioned-nations-from-android-developer-verification/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Google exime a naciones sancionadas de la verificaci\u00f3n de desarrolladores de Android, un tema relevante para el mercado europeo.",
+      "selected": false
+    },
+    {
+      "id": "6c123be7369d",
+      "url": "https://www.rcrwireless.com/20260731/network-infrastructure/ai-backbone-billions-telcos",
+      "title": "Building the AI backbone, waiting on the AI billions",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-07-31T13:34:59Z",
+      "fetched_at": "2026-08-01T09:06:13Z",
+      "raw_content": "Verizon, AT&#38;T, and SK Telecom are betting big on AI infrastructure. But technology advisory group Omdia says the headline numbers are ceilings, and warns revenue will trail capacity growth for&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Empresas como Verizon y SK Telecom apuestan por infraestructura de IA, aunque Omdia advierte que los ingresos no seguir\u00e1n el ritmo del crecimiento de capacidad.",
+      "selected": false
+    },
     {
       "id": "5ccc63c60022",
       "url": "https://www.rcrwireless.com/20260731/carriers/telco-diary-vodafone-resets-att-reloads",
