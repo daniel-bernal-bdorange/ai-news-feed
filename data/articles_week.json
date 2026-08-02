@@ -1,8 +1,36 @@
 {
   "week_start": "2026-07-27",
   "week_end": "2026-08-02",
-  "last_updated": "2026-08-01T09:06:53Z",
+  "last_updated": "2026-08-02T09:09:39Z",
   "articles": [
+    {
+      "id": "196d3fcdba2e",
+      "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
+      "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-08-02T09:08:43Z",
+      "fetched_at": "2026-08-02T09:09:02Z",
+      "raw_content": "New EU rules stipulate that people must be told when they\u2019re interacting with AI or looking at AI-generated or -edited content, leading to fear of \u201cdisclosure fatigue.\u201d",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Nuevas normas de la UE obligan a informar sobre interacciones con IA, generando preocupaci\u00f3n por el \"agotamiento por exceso de informaci\u00f3n\" en el mercado europeo, incluyendo Espa\u00f1a.",
+      "selected": false
+    },
+    {
+      "id": "ae4e2aba061a",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "title": "Judge denies xAI\u2019s request to block Minnesota ban on \u2018nudify\u2019 apps",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-01T20:26:04Z",
+      "fetched_at": "2026-08-02T09:09:02Z",
+      "raw_content": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to \u201cnudify\u201d images can move forward.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Una prohibici\u00f3n en Minnesota sobre apps que permiten \"desnudar\" im\u00e1genes puede continuar pese a una demanda de xAI.",
+      "selected": false
+    },
     {
       "id": "317cdc3de195",
       "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
