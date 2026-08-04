@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-03",
   "week_end": "2026-08-09",
-  "last_updated": "2026-08-03T10:43:00Z",
+  "last_updated": "2026-08-04T09:38:58Z",
   "articles": [
+    {
+      "id": "800386c73e81",
+      "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
+      "title": "Mistral Is in the Right Place at the Right Time",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-08-04T09:21:11Z",
+      "fetched_at": "2026-08-04T09:38:48Z",
+      "raw_content": "Open-weight AI models are having a moment in the wake of recent turmoil at US tech giants. For French AI lab Mistral, that\u2019s the the best thing that could have happened.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Mistral, un laboratorio de inteligencia artificial franc\u00e9s, se beneficia del inter\u00e9s en modelos de AI de c\u00f3digo abierto tras la reciente turbulencia en gigantes tecnol\u00f3gicos estadounidenses.",
+      "selected": false
+    },
+    {
+      "id": "eb37ce1dcdd7",
+      "url": "https://www.rcrwireless.com/20260804/carriers/telco-diary-network-platforms-ai-hill-of-beans",
+      "title": "Monday (telco diary) | Network platforms and an AI hill of beans",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-04T08:49:02Z",
+      "fetched_at": "2026-08-04T09:38:48Z",
+      "raw_content": "From the newsletter (sign-up if you want it sooner): Different moves from Liberty Global and Vodafone, the NTIA and AT&#38;T, NTT Docomo and Ericsson, plus TIM, show how telcos are&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los operadores Liberty Global y Vodafone realizan movimientos estrat\u00e9gicos junto a otros actores clave en el sector telecomunicaciones.",
+      "selected": false
+    },
+    {
+      "id": "43ffd8cfe889",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "title": "Europe\u2019s AI labeling and transparency rules are now in effect",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-08-03T17:38:45Z",
+      "fetched_at": "2026-08-04T09:38:48Z",
+      "raw_content": "<figure>\n\n<img alt=\"AI labels designed by the European Commission.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/EU-AI-label-icons-hero.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tThe EU made some AI labels that companies can use instead of designing their own. | Image: The European Commission / The Verge\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The <a href=\"https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en\">new transparency obligations</a> under the bloc's landmark AI Act came into effect <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714\">on August 2nd</a>, requiring companies to disclose when people are interacting with AI models, and if content has been generated or altered by them.</p>\n<p class=\"wp-block-paragraph\">The <a href=\"https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50\">transparency rules</a> differ between providers (companies that develop and market AI systems) and deployers (platforms and services that use those AI systems), though some companies like Meta and SpaceXAI are classified as both.</p>\n<img alt=\"AI labels designed by the EU, with some use case examples.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-03-181006.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100\" title=\"AI labels designed by the EU, with some use case examples.\" />\n<p class=\"wp-block-paragraph\">Providers must design AI systems to explicitly no \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "La UE implementa etiquetas de IA para mayor transparencia en el mercado europeo.",
+      "selected": false
+    },
     {
       "id": "f10d83b1e33c",
       "url": "https://www.rcrwireless.com/20260803/internet-of-things/physical-ai-data-sovereignty-gap-flolive",
