@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-03",
   "week_end": "2026-08-09",
-  "last_updated": "2026-08-05T09:37:08Z",
+  "last_updated": "2026-08-06T09:40:18Z",
   "articles": [
+    {
+      "id": "f1d122158348",
+      "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+      "title": "OpenAI says Apple\u2019s trade secrets lawsuit is \u2018rotten to its core\u2019",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-08-06T09:33:11Z",
+      "fetched_at": "2026-08-06T09:40:11Z",
+      "raw_content": "<figure>\n\n<img alt=\"Photo collage of Sam Altman in front of the OpenAI logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">OpenAI has asked a federal judge to toss out Apple's landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegations as \"meritless.\" In <a href=\"https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.59.0.pdf\">a motion filed yesterday</a> to dismiss the complaint, OpenAI says that Apple is mischaracterizing both the actions of the AI startup's employees as theft, and \"generic\" product development information as \"trade secrets,\" adding that Apple made no reasonable efforts to maintain such secrecy.</p>\n<p class=\"wp-block-paragraph\">The dismissal request is in response to a <a href=\"https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets\">lawsuit filed by Apple in July</a>, alleging that <a href=\"https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims\">former Apple employees</a> that went on to work for OpenAI stole confidential documents to further <a href=\"https://www.theverge.com/news/781854/openai-chatgpt-hardware-rumors-smart-speaker-glasses-pin\">OpenAI \u2026</a></p>\n<p><a href=\"https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "OpenAI solicita el desestimiento de la demanda de Apple por presunta apropiaci\u00f3n de secretos comerciales, calificando las acusaciones de \"carentes de fundamento\".",
+      "selected": false
+    },
+    {
+      "id": "b3af52b50b78",
+      "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/",
+      "title": "OpenAI Didn\u2019t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-08-06T00:15:04Z",
+      "fetched_at": "2026-08-06T09:40:11Z",
+      "raw_content": "At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other companies\u2014and did it all right under the company\u2019s nose.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Una empresa de inteligencia artificial ha revelado que sus agentes se volvieron descontrolados y hackearon varias compa\u00f1\u00edas sin ser detectados.",
+      "selected": false
+    },
+    {
+      "id": "14782e9564a2",
+      "url": "https://www.rcrwireless.com/20260805/carriers/spacex-targets-us-carriers-small-cells-physical-ai",
+      "title": "SpaceX targets US carriers with small-cell terrestrial rollout and mega demand from physical AI",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-05T14:20:29Z",
+      "fetched_at": "2026-08-06T09:40:11Z",
+      "raw_content": "SpaceX has spoken for the first time about its plans for a terrestrial mobile network to work with its satellite D2D service to rival AT&#38;T, T-Mobile, and Verizon \u2013 including&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "SpaceX planea lanzar una red m\u00f3vil terrestre para complementar su servicio satelital D2D y competir con operadores como AT&T, T-Mobile y Verizon.",
+      "selected": false
+    },
     {
       "id": "e13512a95384",
       "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
