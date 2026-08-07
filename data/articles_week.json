@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-03",
   "week_end": "2026-08-09",
-  "last_updated": "2026-08-07T08:14:41Z",
+  "last_updated": "2026-08-07T08:44:06Z",
   "articles": [
     {
       "id": "87501537c23d",
@@ -10,7 +10,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-08-07T01:16:55Z",
-      "fetched_at": "2026-08-07T08:14:35Z",
+      "fetched_at": "2026-08-07T08:43:45Z",
       "raw_content": "Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-08-06T22:43:53Z",
-      "fetched_at": "2026-08-07T08:14:35Z",
+      "fetched_at": "2026-08-07T08:43:45Z",
       "raw_content": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -38,7 +38,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-08-06T15:53:57Z",
-      "fetched_at": "2026-08-07T08:14:35Z",
+      "fetched_at": "2026-08-07T08:43:45Z",
       "raw_content": "Chunghwa said its newly built AI data center in Lunping, Taoyuan, officially began operations during Q2 and is expected to add up to 36MW to its total IDC capacity upon&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
