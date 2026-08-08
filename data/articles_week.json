@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-03",
   "week_end": "2026-08-09",
-  "last_updated": "2026-08-07T08:44:06Z",
+  "last_updated": "2026-08-08T07:51:01Z",
   "articles": [
+    {
+      "id": "f5e65390d809",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-07T22:48:24Z",
+      "fetched_at": "2026-08-08T07:50:53Z",
+      "raw_content": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "OpenAI informa que su modelo en desarrollo ha alcanzado el umbral cr\u00edtico de ciberseguridad, permiti\u00e9ndole identificar y ejecutar ataques cibern\u00e9ticos contra sistemas bien protegidos.",
+      "selected": false
+    },
+    {
+      "id": "8f0f42fa28d8",
+      "url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+      "title": "Europe's free satellite service just made it easier to track wildfires",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-07T21:48:21Z",
+      "fetched_at": "2026-08-08T07:50:53Z",
+      "raw_content": "<p>The wildfires afflicting communities across the world can now be tracked more easily by anyone using Europe\u2019s free and open satellite imagery service\u2014all thanks to a wildfire visualization script originating from nearly a decade ago.</p>\n<p>The <a href=\"https://browser.dataspace.copernicus.eu/\">Copernicus Browser</a> provides free access to the latest satellite imagery taken by the European Space Agency\u2019s <a href=\"https://www.esa.int/Applications/Observing_the_Earth/Copernicus/The_Sentinel_missions\">Sentinel satellites</a> for the European Union\u2019s Earth observation program. The three satellites of the Sentinel-2 mission have proven especially useful for <a href=\"https://forest-fire.emergency.copernicus.eu/\">wildfire monitoring</a> by providing multi-spectral imaging at resolutions as <a href=\"https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi\">granular as 10 meters</a> in visible light and near-infrared bands\u2014and the Copernicus Browser previously offered 10 default visualization layers using different combinations of spectral bands.</p>\n<p>Now Copernicus Browser has also added a straightforward \u201cwildfires\u201d visualization layer for Sentinel-2 imagery that went live on August 4. Anyone clicking on this layer while looking at a wildfire location can see active fires in white or yellow, burning vegetation in red, and burned landscapes in dark brown or black.</p><p><a href=\"https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "El servicio de im\u00e1genes satelitales de la UE, Copernicus, ofrece una nueva capa de visualizaci\u00f3n de incendios forestales, relevante para el mercado europeo y Espa\u00f1a.",
+      "selected": false
+    },
+    {
+      "id": "75a380ec9342",
+      "url": "https://www.rcrwireless.com/20260807/ai-infrastructure/nvidia-path-to-telecom-autonomy",
+      "title": "The Agentic Network \u2014\u00a0NVIDIA on the full-stack path to telecom autonomy",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-07T18:05:59Z",
+      "fetched_at": "2026-08-08T07:50:53Z",
+      "raw_content": "Operators need telco-trained models, guardrails, simulation and distributed AI infrastructure to move from network automation to new AI-era services. The telecom industry\u2019s agentic AI conversation often starts with network operations.&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los operadores necesitan modelos capacitados y infraestructura de AI distribuida para avanzar en servicios de nueva generaci\u00f3n.",
+      "selected": false
+    },
     {
       "id": "87501537c23d",
       "url": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/",
