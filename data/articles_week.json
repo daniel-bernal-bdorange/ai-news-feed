@@ -1,8 +1,36 @@
 {
   "week_start": "2026-08-03",
   "week_end": "2026-08-09",
-  "last_updated": "2026-08-08T07:51:01Z",
+  "last_updated": "2026-08-09T07:54:04Z",
   "articles": [
+    {
+      "id": "aeb176124cfb",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-08T19:41:13Z",
+      "fetched_at": "2026-08-09T07:53:57Z",
+      "raw_content": "NextSlide says its team members are now working on ChatGPT.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "NextSlide confirma que su equipo trabaja actualmente en ChatGPT.",
+      "selected": false
+    },
+    {
+      "id": "57bcc91c15e3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+      "title": "An Amazon data center could have the worst polluting power plant in the country",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-08-08T17:53:34Z",
+      "fetched_at": "2026-08-09T07:53:57Z",
+      "raw_content": "<figure>\n\n<img alt=\"Graphic image of a data center.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the <a href=\"https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html\"><em>New York Times</em></a>. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, at least initially, would not be connected to the state's power grid. Instead, its 35 natural-gas turbines would primarily deliver its 7.65 gigawatts of electricity to the new data center.</p>\n<p class=\"wp-block-paragraph\">According to <a href=\"https://newsletter.cleanview.co/p/scoop-amazon-is-behind-one-of-the\"><em>Cleanview</em></a>, which tracks data centers and their associated power projects, GW Ranch received a permit from Texas allowing for the \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Amazon invertir\u00e1 en una planta de energ\u00eda para su nuevo centro de datos en Texas, que podr\u00eda ser uno de los mayores productores de gases de efecto invernadero en EE. UU.",
+      "selected": false
+    },
     {
       "id": "f5e65390d809",
       "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
