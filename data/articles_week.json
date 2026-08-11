@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-10",
   "week_end": "2026-08-16",
-  "last_updated": "2026-08-10T08:27:27Z",
+  "last_updated": "2026-08-11T08:09:40Z",
   "articles": [
+    {
+      "id": "bb2a7232b884",
+      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-11T00:03:18Z",
+      "fetched_at": "2026-08-11T08:09:32Z",
+      "raw_content": "San Francisco's housing market is in trouble again.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "El mercado inmobiliario de San Francisco vuelve a enfrentar dificultades.",
+      "selected": false
+    },
+    {
+      "id": "b82f6b5fcb60",
+      "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
+      "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-10T22:13:03Z",
+      "fetched_at": "2026-08-11T08:09:32Z",
+      "raw_content": "<p><!-- obsidian --></p>\n<p>Meta has announced its intention to focus on open-weight large language models. Additionally, the company announced the release of an open model called Muse Glimmer and a promise to open the weights for Muse Spark 1.2, its more powerful model, in the next few weeks.</p>\n<p>Alongside these announcements, Meta CEO Mark Zuckerberg published a more than 6,000-word <a href=\"https://about.fb.com/news/2026/08/the-future-is-for-everyone/\">essay</a> outlining the company's philosophy about AI systems and governance moving forward. The essay aims to differentiate Meta from companies like OpenAI and Anthropic, which develop proprietary models and which have lobbied the US government for help competing against large-scale distillation\u2014which involves using an existing model to train a new one\u2014or open-weight models by Chinese labs.</p><p><a href=\"https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Meta se centra en modelos de lenguaje abiertos y lanza Muse Glimmer, con planes para abrir Muse Spark 1.2.",
+      "selected": false
+    },
+    {
+      "id": "fc34642a3329",
+      "url": "https://www.rcrwireless.com/20260810/analyst-angle/hometown-isps-wispa-bead-starlink-cbrs",
+      "title": "\u2018We think of them as hometown ISPs\u2019 \u2013 WISPA chief on BEAD, Starlink, CBRS",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-10T11:58:34Z",
+      "fetched_at": "2026-08-11T08:09:32Z",
+      "raw_content": "Rural broadband is no longer a quiet corner of telecom, says WISPA chief David Zumwalt. Zumwalt considers how WISPs are facing fiber overbuilds, private equity, Starlink, and spectrum constraints even&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los proveedores de banda ancha inal\u00e1mbrica enfrentan desaf\u00edos como la sobreconstrucci\u00f3n de fibra y la competencia de Starlink.",
+      "selected": false
+    },
     {
       "id": "ffba219f0a05",
       "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
