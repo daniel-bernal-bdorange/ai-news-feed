@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-10",
   "week_end": "2026-08-16",
-  "last_updated": "2026-08-11T08:09:40Z",
+  "last_updated": "2026-08-12T08:18:03Z",
   "articles": [
+    {
+      "id": "2d93b9c8f35a",
+      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+      "title": "Saber denies replacing Rideshare Stimulator&#8217;s writers with ChatGPT",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-08-12T00:39:26Z",
+      "fetched_at": "2026-08-12T08:17:56Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/RS_storefronts_3840x2160_8.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the <em>Rideshare \"Stimulator\"</em> game announced last month, developed by Unigine.</p>\n<p class=\"wp-block-paragraph\">The writer, Stella Sacco, says differently, however, posting <a href=\"https://bsky.app/profile/antlervel.vet/post/3mssv7pyows2l\">on Bluesky</a> that \"I was lead writer on this one! And Saber replaced me with ChatGPT midway through development. All the passenger voices were AI too. Either they changed direction at some point or they're not disclosing it on Steam.\" </p>\n<p class=\"wp-block-paragraph\">Saber describes <em>Rideshare \"Stimulator\"</em> <a href=\"https://store.steampowered.com/app/2366590/Rideshare_Stimulator/\">as an</a> \"immersive driving simulation game that puts you behind the wheel \u2026</p>\n<p><a href=\"https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Saber Interactive niega haber reemplazado a escritores humanos con ChatGPT en el juego Rideshare \"Stimulator\".",
+      "selected": false
+    },
+    {
+      "id": "6071152e7cdb",
+      "url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
+      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-12T00:08:40Z",
+      "fetched_at": "2026-08-12T08:17:56Z",
+      "raw_content": "<p>On Monday, passengers aboard Delta flight 591 going from Las Vegas to Atlanta allegedly spoofed the onboard Wi-Fi, raising the attention of federal law enforcement.</p>\n<p>The incident came one day after the DEF CON security conference concluded in Las Vegas, and was first <a href=\"https://live.acarsdrama.com/@acarsdrama/117072256729860162\">described</a> on social media accounts that <a href=\"https://x.com/Turbinetraveler/status/2087050102930026619\">follow</a> publicly available air-to-ground messages, known as ACARS.</p>\n<p>According to the \u201cACARS Drama\u201d account, a message was sent by pilots from the plane stated: \u201cNO INFO AS OF NOW WE HAVE A BUNCH OF PAX THAT WERE AT A CYBER CONFERENCE IN LAS THEY WERE ABLE TO JAM OUR WIFI AND BROADCAST THEIR SIGNAL.\u201d</p><p><a href=\"https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Pasajeros de un vuelo de Delta supuestamente hackearon el Wi-Fi a bordo, atrayendo la atenci\u00f3n de las autoridades federales.",
+      "selected": false
+    },
+    {
+      "id": "7739677dec48",
+      "url": "https://www.rcrwireless.com/20260811/network-infrastructure/europe-ai-sovereign-cloud-civo",
+      "title": "Europe\u2019s AI ambitions will fail without sovereign cloud infrastructure (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-11T12:20:23Z",
+      "fetched_at": "2026-08-12T08:17:56Z",
+      "raw_content": "Europe\u2019s AI ambitions depend on more than chips and computing power. Without sovereign cloud infrastructure, open standards and domestic alternatives to foreign hyperscalers, the region risks trading technological ambition for&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "La UE depende de infraestructura en la nube soberana y est\u00e1ndares abiertos para lograr sus ambiciones en IA, relevante para el mercado espa\u00f1ol y europeo.",
+      "selected": false
+    },
     {
       "id": "bb2a7232b884",
       "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
