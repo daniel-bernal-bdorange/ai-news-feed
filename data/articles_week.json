@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-10",
   "week_end": "2026-08-16",
-  "last_updated": "2026-08-12T08:18:03Z",
+  "last_updated": "2026-08-13T08:21:53Z",
   "articles": [
+    {
+      "id": "0914d3067307",
+      "url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
+      "title": "Toddler's tragic death from brain-destroying amoeba offers lessons for doctors",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-12T22:31:19Z",
+      "fetched_at": "2026-08-13T08:21:45Z",
+      "raw_content": "<p>A healthy toddler in Washington state fell ill abruptly. It began with vomiting, lethargy, and weakness on his right side. Then it progressed to a headache, fever, and trouble swallowing. At one point, he briefly became unresponsive, and he had episodes where he stopped breathing. Doctors admitted him to the hospital, but his condition only deteriorated.</p>\n<p>The boy was infected with an ultra-rare amoeba known for ravaging the brain. The opportunistic pathogen was <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8579774/\">first identified in 1986</a> from the brain of a San Diego Zoo monkey, which died from the infection. Since then, only about 200 human cases have been recorded worldwide. About 90 percent of them have been fatal.</p>\n<p>The initial symptoms can be vague and, given its rarity, the infection is notorious for being undiagnosed or misdiagnosed. Still, the scant medical literature does provide some telltale signs, clues of what it can look like on tests and scans. But for the toddler, the infection looked different, sending doctors down the wrong path.</p><p><a href=\"https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un ni\u00f1o en Washington sufri\u00f3 una infecci\u00f3n cerebral por un ameba ultra rara con s\u00edntomas iniciales vagos y letal en el 90% de los casos.",
+      "selected": false
+    },
+    {
+      "id": "12b636d0245b",
+      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "title": "Some Claude users are mad that Anthropic\u2019s new watermarks will catch them using it at their jobs, classes",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-12T22:26:37Z",
+      "fetched_at": "2026-08-13T08:21:45Z",
+      "raw_content": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Anthropic lanza un sistema de marcas de agua, generando cr\u00edticas en redes sociales.",
+      "selected": false
+    },
+    {
+      "id": "41af972a49ee",
+      "url": "https://www.rcrwireless.com/20260812/ai/telefonica-ai-voice-services",
+      "title": "Telef\u00f3nica embeds generative AI directly into business voice services in Spain",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-12T22:24:37Z",
+      "fetched_at": "2026-08-13T08:21:45Z",
+      "raw_content": "The operator treats AI as a native network capability rather than an app layer add-on In sum &#8211; what we know: Telef\u00f3nica is&#160;embedding generative AI directly&#160;into its business voice services&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Telef\u00f3nica integra inteligencia artificial generativa en sus servicios de voz empresariales, lo que supone un avance relevante para el mercado espa\u00f1ol y europeo.",
+      "selected": false
+    },
     {
       "id": "2d93b9c8f35a",
       "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
