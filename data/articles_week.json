@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-10",
   "week_end": "2026-08-16",
-  "last_updated": "2026-08-13T08:21:53Z",
+  "last_updated": "2026-08-14T08:16:41Z",
   "articles": [
+    {
+      "id": "389a8ca511fb",
+      "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+      "title": "The Safety Reckoning Inside OpenAI",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-08-13T22:37:19Z",
+      "fetched_at": "2026-08-14T08:16:34Z",
+      "raw_content": "OpenAI\u2019s rogue agent hack was a watershed moment for AI safety and cybersecurity. It also sparked internal questions about the culture that led to it.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "El incidente de OpenAI destaca la importancia de la seguridad y la ciberseguridad en el desarrollo de la inteligencia artificial.",
+      "selected": false
+    },
+    {
+      "id": "92911d99e0e4",
+      "url": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
+      "title": "US wait times for cancer surgeries are getting longer and longer",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-13T22:17:29Z",
+      "fetched_at": "2026-08-14T08:16:34Z",
+      "raw_content": "<p>As cancer treatments have advanced and outcomes have improved, one aspect of cancer care in the US has consistently worsened over the last decade: the wait time for surgery.</p>\n<p><span style=\"margin: 0px; padding: 0px;\">According to\u00a0<a href=\"https://jamanetwork.com/journals/jamasurgery/fullarticle/2852679\" rel=\"noopener\" target=\"_blank\">a study in JAMA Surgery</a>, patients with one of six types of cancer\u2014breast, colon, lung, pancreatic, gastric, and esophageal\u2014have faced longer wait times for surgery than in 2012. Timeliness is considered a core metric of healthcare quality, and delays in cancer surgery have been linked to poorer outcomes, including reduced survival rates and increased patient anxiety and distress.</span></p>\n<p>The findings of the new study are based on data from over 2.7 million patients who had been diagnosed with non-metastatic stage I\u2013III cancers requiring surgery between 2012 and 2023. Researchers led by cancer expert Timothy Donahue at the University of California, Los Angeles, broke that time frame up into four groups: 2012\u20132015, 2016\u20132019, 2020\u20132021, and 2022\u20132023 to see how wait times have changed over the period.</p><p><a href=\"https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Los tiempos de espera para cirug\u00edas de c\u00e1ncer en EE. UU. han aumentado en la \u00faltima d\u00e9cada, seg\u00fan un estudio publicado en JAMA Surgery.",
+      "selected": false
+    },
+    {
+      "id": "90a58e801d19",
+      "url": "https://www.rcrwireless.com/20260813/ai/u-mobile-openai-aws-enterprise-ai",
+      "title": "U Mobile partners with OpenAI and AWS for enterprise AI",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-13T18:07:03Z",
+      "fetched_at": "2026-08-14T08:16:34Z",
+      "raw_content": "From contact centers to network ops, U Mobile bets on frontier models In sum &#8211; what we know: U Mobile&#160;has announced&#160;a strategic partnership with OpenAI, with AWS providing the cloud&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "U Mobile anuncia una alianza estrat\u00e9gica con OpenAI y AWS para impulsar sus operaciones.",
+      "selected": false
+    },
     {
       "id": "0914d3067307",
       "url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
