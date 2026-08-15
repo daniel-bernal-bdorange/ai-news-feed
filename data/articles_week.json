@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-10",
   "week_end": "2026-08-16",
-  "last_updated": "2026-08-14T08:55:36Z",
+  "last_updated": "2026-08-15T07:31:39Z",
   "articles": [
+    {
+      "id": "64bd7759b59f",
+      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-14T18:32:14Z",
+      "fetched_at": "2026-08-15T07:31:30Z",
+      "raw_content": "<p>Dutch officials have warned that a high-severity macOS vulnerability that allows attackers to execute malicious code is under active exploitation.</p>\n<p>\u201cThe NCSC has received a notification indicating that active abuse of this vulnerability has been observed on multiple systems on which port 5900 was accessible from the Internet,\u201d the Netherlands National Cyber Security Centrum <a href=\"https://advisories.ncsc.nl/2026/ncsc-2026-0280.html\">warned</a> earlier this week. \u201cIn all these cases, root had been accessed on the affected system and a Monero crypto miner had been placed.\u201d</p>\n<h2>Do you know if your screen sharing is on?</h2>\n<p>The vulnerability, tracked as CVE-2026-65400, received a patch from Apple last week for macOS <a href=\"https://support.apple.com/en-us/148170\">Tahoe</a>, <a href=\"https://support.apple.com/en-us/148171\">Sequoia</a>, and <a href=\"https://support.apple.com/en-us/148172\">Sonoma</a>. The vulnerability, with a severity rating of 7.1 out of 10, stems from a bug in the macOS screen sharing capability, which allows a remote party to view the screen and control the keyboard and mouse while a machine is turned on. A flaw in the \u201cstate management,\u201d which keeps track of preceding events, user interactions, variables, and other system states, is the underlying cause.</p><p><a href=\"https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Se ha detectado una vulnerabilidad de alto nivel en macOS que permite a atacantes ejecutar c\u00f3digo malicioso y ya est\u00e1 siendo explotada activamente.",
+      "selected": false
+    },
+    {
+      "id": "6d579e74e2a2",
+      "url": "https://rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
+      "title": "Lockheed\u2019s NetSense turns Verizon\u2019s 5G network into a drone-tracking system",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-14T16:33:18Z",
+      "fetched_at": "2026-08-15T07:31:30Z",
+      "raw_content": "NetSense demo in Miami tracked drones with unmodified 5G radios In sum &#8211; what we know: Lockheed Martin, Verizon, and Nvidia \u2014 along with Keysight Technologies, ODC, and Astris AI&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Lockheed Martin, Verizon y Nvidia han demostrado NetSense, que rastrea drones con radios 5G sin modificar.",
+      "selected": false
+    },
+    {
+      "id": "c22aae7eac79",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-14T16:13:40Z",
+      "fetched_at": "2026-08-15T07:31:30Z",
+      "raw_content": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Desactivar esta configuraci\u00f3n no afecta las mediciones invisibles que identifican archivos generados por inteligencia artificial.",
+      "selected": false
+    },
     {
       "id": "d4115f46e779",
       "url": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
