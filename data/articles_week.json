@@ -1,8 +1,36 @@
 {
   "week_start": "2026-08-10",
   "week_end": "2026-08-16",
-  "last_updated": "2026-08-15T07:31:39Z",
+  "last_updated": "2026-08-16T07:31:25Z",
   "articles": [
+    {
+      "id": "47c8acd498f0",
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-15T21:29:19Z",
+      "fetched_at": "2026-08-16T07:31:18Z",
+      "raw_content": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Una mujer denuncia que las herramientas de inteligencia artificial est\u00e1n convirtiendo la vida cotidiana en abuso sexual infantil.",
+      "selected": false
+    },
+    {
+      "id": "015b3666d450",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "title": "Have a laugh at AI\u2019s expense by roleplaying as a chatbot",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-08-15T20:45:00Z",
+      "fetched_at": "2026-08-16T07:31:18Z",
+      "raw_content": "<figure>\n\n<img alt=\"Screenshot of a real human posing as a fake AI and producing a scribble that\u2019s supposed to be a Pit Bull in a party hat.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-15-at-4.40.53-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tIf you squint you can just about make out the hat. | Screenshot: Terrence O\u2019Brien / The Verge\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\"><a href=\"https://youraislopbores.me/\">Your AI Slop Bores Me</a> is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as text or image, and then whoever is roleplaying as the AI gets 150 seconds to respond.</p>\n<p class=\"wp-block-paragraph\">Just like a real LLM, Your AI Slop Bores Me works on a sort of token system. Requests cost credits, and to earn credits you have to jump onto the AI side and answer some of your own. You can also just wait as you get one free request every two minutes. But, as fun as it is to drop \u2026</p>\n<p><a href=\"https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Un sitio web llamado \"Your AI Slop Bores Me\" permite a los usuarios hacer peticiones y responderlas como si fueran una IA, con un toque humano.",
+      "selected": false
+    },
     {
       "id": "64bd7759b59f",
       "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
