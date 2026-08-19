@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "last_updated": "2026-08-18T07:38:30Z",
+  "last_updated": "2026-08-19T07:38:47Z",
   "articles": [
+    {
+      "id": "7573f8c87549",
+      "url": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/",
+      "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-18T22:32:46Z",
+      "fetched_at": "2026-08-19T07:38:42Z",
+      "raw_content": "<p>The federal agency tasked with studying ways to improve America's <a href=\"https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/\">outstandingly poor healthcare system</a> is \"on the brink,\" experts warn. The Trump administration has cut its staff by 75 percent, canceled its grants en masse, and is refusing to spend tens of millions of dollars appropriated by Congress.</p>\n<p>Whether the agency \"will survive the second Trump administration is an open question,\" health policy experts Aaron Carroll and David Atkins wrote in <a href=\"https://www.acpjournals.org/doi/10.7326/ANNALS-26-03490\">an opinion piece published today in the Annals of Internal Medicine</a>.</p>\n<p>The agency in question is the Agency for Healthcare Research and Quality (AHRQ), which has focused on ways to improve patient safety, healthcare quality, care delivery, and new technologies and practices since the 1990s. In the past, \"Republican leaders recognized that health care disparities were fundamental quality problems,\" Carroll and Atkins wrote. But recently, disparities in care have become partisan issues.</p><p><a href=\"https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<p>The federal agency tasked with studying ways to improve America's <a href=\"https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/\">outstandingly poor healthcare system</a> is \"on the brink,\" experts warn. The Trump administration has cut its staff by 75 percent, canceled its grants en masse, and is refusing to spend tens of millions of dollars appropriated by Congress.</p> <p>Whether the agency \"will survive the second Trump administration is an",
+      "selected": false
+    },
+    {
+      "id": "d1942c284f95",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-18T22:14:25Z",
+      "fetched_at": "2026-08-19T07:38:42Z",
+      "raw_content": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "selected": false
+    },
+    {
+      "id": "e40bf0ed4fae",
+      "url": "https://www.ericsson.com/en/oss-bss/forms/omdia-mission-critical-networks-demand-more?utm_medium=advertorial&utm_source=RCR-Wireless&utm_campaign=bcss_Athena2026D1-_bss-oss_23072026_awareness&utm_content=RCR-Wireless-Channel-",
+      "title": "Omdia: Mission critical networks demand more: Rethink your OSS and BSS",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-18T17:25:45Z",
+      "fetched_at": "2026-08-19T07:38:42Z",
+      "raw_content": "\u201cThe next billion dollar growth engine for Communications Service Providers (CSPs) is the digitalization of mission critical verticals, and a modern OSS and BSS solution is the key to unlock&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "\u201cThe next billion dollar growth engine for Communications Service Providers (CSPs) is the digitalization of mission critical verticals, and a modern OSS and BSS solution is the key to unlock&#8230;",
+      "selected": false
+    },
     {
       "id": "81891f8129c7",
       "url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
