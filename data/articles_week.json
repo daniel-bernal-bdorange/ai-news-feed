@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "last_updated": "2026-08-19T07:38:47Z",
+  "last_updated": "2026-08-20T07:41:23Z",
   "articles": [
+    {
+      "id": "60796a568a14",
+      "url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
+      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-20T00:18:48Z",
+      "fetched_at": "2026-08-20T07:41:17Z",
+      "raw_content": "<p>NASA and Katalyst Space Technologies announced Wednesday they are giving up on a robotic mission to rescue the Swift gamma-ray telescope before it falls out of orbit.</p>\n<p>The rescue satellite, named Link, launched July 3 on a journey to fly up to NASA's Neil Gehrels Swift Observatory, capture it with three robotic arms, and boost its orbit high enough to escape a looming reentry. Link is about the size of a refrigerator, with two power-generating solar arrays and three xenon-fueled electric thrusters to send Swift into a safer, higher orbit.</p>\n<p>Katalyst, the startup leading the Swift rescue effort, said Wednesday that \"ongoing attitude control issues\" will prevent the Link satellite from completing its rescue mission. The spacecraft is still alive, and Katalyst said it will make the most of Link's remaining capacity, which may still allow it to get near enough to Swift for a demonstration of the satellite's close-in navigation system.</p><p><a href=\"https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<p>NASA and Katalyst Space Technologies announced Wednesday they are giving up on a robotic mission to rescue the Swift gamma-ray telescope before it falls out of orbit.</p> <p>The rescue satellite, named Link, launched July 3 on a journey to fly up to NASA's Neil Gehrels Swift Observatory, capture it with three robotic arms, and boost its orbit high enough to",
+      "selected": false
+    },
+    {
+      "id": "9c3212205413",
+      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "title": "Stripe didn\u2019t really buy OpenRouter because of the \u2018singularity\u2019",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-19T23:32:00Z",
+      "fetched_at": "2026-08-20T07:41:17Z",
+      "raw_content": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+      "selected": false
+    },
+    {
+      "id": "91dc25910e5d",
+      "url": "https://rcrwireless.com/20260819/ai/hcltech-pulse-survey-telecom-ai",
+      "title": "Telecom AI ambition far outpaces execution, HCLTech pulse survey finds",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-19T19:09:48Z",
+      "fetched_at": "2026-08-20T07:41:17Z",
+      "raw_content": "Only a quarter of operators are ready to scale telecom AI In sum &#8211; what we know: HCLTech and Mobile World Live have&#160;released their &#8220;Telecom Pulse Survey Report&#8221; for 2026,&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Only a quarter of operators are ready to scale telecom AI In sum &#8211; what we know: HCLTech and Mobile World Live have&#160;released their &#8220;Telecom Pulse Survey Report&#8221; for 2026,&#8230;",
+      "selected": false
+    },
     {
       "id": "7573f8c87549",
       "url": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/",
