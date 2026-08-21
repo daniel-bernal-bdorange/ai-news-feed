@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "last_updated": "2026-08-21T07:42:33Z",
+  "last_updated": "2026-08-21T08:24:24Z",
   "articles": [
     {
       "id": "e9ba6db1fcd1",
@@ -10,7 +10,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-08-21T00:13:44Z",
-      "fetched_at": "2026-08-21T07:42:28Z",
+      "fetched_at": "2026-08-21T08:24:17Z",
       "raw_content": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "Ars Technica",
       "category": "tech",
       "published_at": "2026-08-20T21:40:52Z",
-      "fetched_at": "2026-08-21T07:42:28Z",
+      "fetched_at": "2026-08-21T08:24:17Z",
       "raw_content": "<p>In the two years since it made a largely successful debut, Europe's Ariane 6 rocket has launched eight missions, all of which reached orbit safely.</p>\n<p>The large, expendable rocket has a capacity of more than 20 metric tons to low-Earth orbit. And to the credit of European rocket scientists and planners, the Ariane 6 has had a substantially smoother rollout than comparable vehicles in the United States\u2014Blue Origin's New Glenn and United Launch Alliance's Vulcan rockets\u2014both of which have had significant growing pains.</p>\n<p>However, even though the Ariane 6 rocket has had a successful debut, its future is clouded by high costs.</p><p><a href=\"https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/#comments\">Comments</a></p>",
       "relevance_score": 1.5,
       "geo_boost": true,
@@ -38,7 +38,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-08-20T16:30:01Z",
-      "fetched_at": "2026-08-21T07:42:28Z",
+      "fetched_at": "2026-08-21T08:24:17Z",
       "raw_content": "Korean chip, model, and platform in one box, with no cloud access needed In sum &#8211; what we know: KT has officially unveiled the &#8220;KT NPU LLM Station&#8221; &#8212; a&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
