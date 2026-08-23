@@ -1,8 +1,36 @@
 {
   "week_start": "2026-08-17",
   "week_end": "2026-08-23",
-  "last_updated": "2026-08-22T07:32:20Z",
+  "last_updated": "2026-08-23T07:33:49Z",
   "articles": [
+    {
+      "id": "43e4c0bbdfb2",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "title": "Harvard\u2019s $699 startup bootcamp offers AI avatars of its instructors",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-22T21:46:56Z",
+      "fetched_at": "2026-08-23T07:33:43Z",
+      "raw_content": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "selected": false
+    },
+    {
+      "id": "73b1f717a76c",
+      "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
+      "title": "Putting mice into hibernation causes a major loss of synapses",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-22T11:22:32Z",
+      "fetched_at": "2026-08-23T07:33:43Z",
+      "raw_content": "<p>Our leading hypothesis for how our memories are stored is that when you learn something, the connections among neurons involved get stronger and physically larger, and that constitutes the memory. The trouble is that these connections significantly change over time\u2014they\u2019re plastic.</p>\n<p>\u201cIf you compare the arrangement of these connections on day one with the same on day four or five, it's very, very different,\" says Kazumasa Tanaka, a neuroscientist at the Okinawa Institute of Science and Technology Graduate University in Japan. To learn how a memory that can last for years can sit on hardware that shifts every few days, Tanaka\u2019s team made the shift a bit more dramatic. In a recent Science study, they induced a hibernation-like state in mice, which basically erased the state of more than half of their synapses. And yet the mice apparently have kept their memories.</p>\n<h2>Hibernation on demand</h2>\n<p>Hibernation is a specialty of squirrels, hamsters, and bears, but the neural circuit that triggers it is conserved across mammals, and is present in species that never hibernate in the wild\u2014like mice. In June 2020, a team of researchers led by Takeshi Sakurai, a neuroscientist at the University of Tsukuba and a collaborator on Tanaka\u2019s study, developed a technique to artificially activate this hibernation circuit. This can be done by activating a population called Q neurons in a region of the hypothalamus.</p><p><a href=\"https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<p>Our leading hypothesis for how our memories are stored is that when you learn something, the connections among neurons involved get stronger and physically larger, and that constitutes the memory. The trouble is that these connections significantly change over time\u2014they\u2019re plastic.</p> <p>\u201cIf you compare the arrangement of these connections on day one with the same on day four or five,",
+      "selected": false
+    },
     {
       "id": "044a694a9462",
       "url": "https://arstechnica.com/space/2026/08/trump-admin-calls-for-more-spaceports-to-handle-surge-in-launches/",
