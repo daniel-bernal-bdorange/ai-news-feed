@@ -1,8 +1,36 @@
 {
   "week_start": "2026-08-24",
   "week_end": "2026-08-30",
-  "last_updated": "2026-08-24T07:58:05Z",
+  "last_updated": "2026-08-25T07:44:07Z",
   "articles": [
+    {
+      "id": "fc86cf3e9da1",
+      "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-25T00:23:12Z",
+      "fetched_at": "2026-08-25T07:44:01Z",
+      "raw_content": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+      "selected": false
+    },
+    {
+      "id": "7b1bff0cd099",
+      "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-24T21:45:53Z",
+      "fetched_at": "2026-08-25T07:44:01Z",
+      "raw_content": "<p><a href=\"https://arstechnica.com/information-technology/2016/11/elon-musk-universal-income-survive-robot-workers/\">For years</a>, AI <a href=\"https://arstechnica.com/information-technology/2016/12/federal-report-ai-could-threaten-up-to-47-percent-of-jobs-in-two-decades/\">industry watchers</a> of <a href=\"https://arstechnica.com/information-technology/2024/12/ai-company-trolls-san-francisco-with-billboards-saying-stop-hiring-humans/\">all stripes</a> have been <a href=\"https://arstechnica.com/ai/2026/03/how-did-anthropic-measure-ais-theoretical-capabilities-in-the-job-market/\">warning</a> of <a href=\"https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/\">a coming jobs apocalypse</a> driven by <a href=\"https://arstechnica.com/information-technology/2024/04/elon-musk-ai-will-be-smarter-than-any-human-around-the-end-of-next-year/\">ultra-intelligent AI systems</a> that will be able to replicate most human tasks more cheaply. Now, newly updated research from Stanford University economists suggests AI seems to be causing significant entry-level job losses for younger workers in some fields, even as older workers appear largely unaffected so far.</p>\n<p><a href=\"https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/\">The August 2026 edition</a> of \"Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence\" updates and revises <a href=\"https://siepr.stanford.edu/publications/working-paper/canaries-coal-mine-six-facts-about-recent-employment-effects-artificial\">a paper of the same name published last year</a> with fresh data and refined statistics. In that update, the Stanford researchers find the employment trends they identified for entry-level workers last year are persisting and expanding. Specifically, employment levels for workers aged 22 to 25 in the most \"AI-exposed\" occupations are now 19 percent below those of their peers in fields less exposed to AI disruption.</p>\n<p>Last year, that gap measured just 13 percent.</p><p><a href=\"https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<p><a href=\"https://arstechnica.com/information-technology/2016/11/elon-musk-universal-income-survive-robot-workers/\">For years</a>, AI <a href=\"https://arstechnica.com/information-technology/2016/12/federal-report-ai-could-threaten-up-to-47-percent-of-jobs-in-two-decades/\">industry watchers</a> of <a href=\"https://arstechnica.com/information-technology/2024/12/ai-company-trolls-san-francisco-with-billboards-saying-stop-hiring-humans/\">all stripes</a> have been <a href=\"https://arstechnica.com/ai/2026/03/how-did-anthropic-measure-ais-theoretical-capabilities-in-the-job-market/\">warning</a> of <a href=\"https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/\">a coming jobs apocalypse</a> driven by <a href=\"https://arstechnica.com/information-technology/2024/04/elon-musk-ai-will-be-smarter-than-any-human-around-the-end-of-next-year/\">ultra-intelligent AI systems</a> that will be able to replicate most human tasks more cheaply. Now, newly updated research from Stanford University economists suggests AI seems to be causing significant entry-level job losses for younger workers in",
+      "selected": false
+    },
     {
       "id": "9e498fc6c852",
       "url": "https://rcrwireless.com/20260823/5g/zte-computing-carrier",
