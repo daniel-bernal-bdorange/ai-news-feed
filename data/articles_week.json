@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-24",
   "week_end": "2026-08-30",
-  "last_updated": "2026-08-25T07:44:07Z",
+  "last_updated": "2026-08-26T07:47:20Z",
   "articles": [
+    {
+      "id": "355d8aee33bd",
+      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "title": "India\u2019s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-26T03:30:00Z",
+      "fetched_at": "2026-08-26T07:47:13Z",
+      "raw_content": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+      "selected": false
+    },
+    {
+      "id": "a192bc6f2f1f",
+      "url": "https://arstechnica.com/space/2026/08/the-worlds-busiest-spaceport-is-about-to-get-a-lot-quieter-at-least-for-now/",
+      "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-25T22:21:06Z",
+      "fetched_at": "2026-08-26T07:47:13Z",
+      "raw_content": "<p>SpaceX made Florida's Space Coast home to the world's busiest spaceport for a decade, but that will change this year. The company is significantly cutting the number of launches from Florida until Starship arrives, a senior SpaceX official confirmed Tuesday.</p>\n<p>The Falcon 9 rocket has been SpaceX's workhorse, routinely launching batches of satellites for the company's Starlink network, primarily from launch pads at Cape Canaveral Space Force Station and NASA's Kennedy Space Center in Florida. There were 165 Falcon 9 launches last year\u2014about three flights per week\u2014and about 75 percent of them carried Starlink satellites.</p>\n<p>This year is different. SpaceX has <a href=\"https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/\">launched more missions</a> from its West Coast launch pad at Vandenberg Space Force Base in California since January, and this trend will amplify for the rest of the year.</p><p><a href=\"https://arstechnica.com/space/2026/08/the-worlds-busiest-spaceport-is-about-to-get-a-lot-quieter-at-least-for-now/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/08/the-worlds-busiest-spaceport-is-about-to-get-a-lot-quieter-at-least-for-now/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<p>SpaceX made Florida's Space Coast home to the world's busiest spaceport for a decade, but that will change this year. The company is significantly cutting the number of launches from Florida until Starship arrives, a senior SpaceX official confirmed Tuesday.</p> <p>The Falcon 9 rocket has been SpaceX's workhorse, routinely launching batches of satellites for the company's Starlink network, primarily from",
+      "selected": false
+    },
+    {
+      "id": "fca4132804a8",
+      "url": "https://rcrwireless.com/20260825/ai/lightyear-dispatch-agentic-ai",
+      "title": "Lightyear launches Dispatch, an agentic AI platform for enterprise telecom",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-08-25T17:09:23Z",
+      "fetched_at": "2026-08-26T07:47:13Z",
+      "raw_content": "Dispatch deploys AI agents to handle quoting and implementation work In sum &#8211; what we know: Lightyear has&#160;launched Dispatch, an AI platform the company bills as the first &#8220;agentic&#8221; system&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Dispatch deploys AI agents to handle quoting and implementation work In sum &#8211; what we know: Lightyear has&#160;launched Dispatch, an AI platform the company bills as the first &#8220;agentic&#8221; system&#8230;",
+      "selected": false
+    },
     {
       "id": "fc86cf3e9da1",
       "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
