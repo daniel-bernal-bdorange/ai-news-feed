@@ -1,8 +1,36 @@
 {
   "week_start": "2026-08-24",
   "week_end": "2026-08-30",
-  "last_updated": "2026-08-28T19:42:01Z",
+  "last_updated": "2026-08-29T12:59:29Z",
   "articles": [
+    {
+      "id": "4ed9a280c24d",
+      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "title": "Musicians-turned-detectives are hunting for AI grifters",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-08-29T12:00:00Z",
+      "fetched_at": "2026-08-29T12:59:21Z",
+      "raw_content": "<figure>\n\n<img alt=\"A digital illustration depicting Nihil Young and Max \u201cH4RRIS\u201d Harris.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268714_finding_and_shaming_AI_grifters_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,85.33125,89.314310632479\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">As <a href=\"https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects\">audio-focused generative tools</a> and platforms have <a href=\"https://www.theverge.com/ai-artificial-intelligence/976636/suno-will-start-scanning-outputs-for-copyright-infringment\">gotten more sophisticated</a>, the internet has become increasingly filled with <a href=\"https://www.billboard.com/music/rb-hip-hop/tyga-admits-ai-starface-album-1236311004/\">AI-generated music</a> whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content <a href=\"https://www.npr.org/2025/06/17/nx-s1-5431544/timbaland-ai-music-suno-stage-zero-tata-generative\">immediately own up to using AI</a>, others have <a href=\"https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo\">denied using the technology</a> until increasing public scrutiny <a href=\"https://ca.rollingstone.com/music/fenix-flexin-admits-use-ai-rubberz/\">forced them to tell the truth</a>. </p>\n<p class=\"wp-block-paragraph\">For musicians - especially those creating art in technologically-focused spaces like electronic dance music - the increasingly complicated question of what is \"real\" and what isn't feels particularly urgent and personal \u2026</p>\n<p><a href=\"https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"A digital illustration depicting Nihil Young and Max \u201cH4RRIS\u201d Harris.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268714_finding_and_shaming_AI_grifters_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,85.33125,89.314310632479\" /> <figcaption> </figcaption> </figure> <p class=\"has-drop-cap wp-block-paragraph\">As <a href=\"https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects\">audio-focused generative tools</a> and platforms have <a href=\"https://www.theverge.com/ai-artificial-intelligence/976636/suno-will-start-scanning-outputs-for-copyright-infringment\">gotten more sophisticated</a>, the internet has become increasingly filled with <a href=\"https://www.billboard.com/music/rb-hip-hop/tyga-admits-ai-starface-album-1236311004/\">AI-generated music</a> whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping",
+      "selected": false
+    },
+    {
+      "id": "a54298b3ae51",
+      "url": "https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/",
+      "title": "I asked 100 companies for my data. Some deleted it instead.",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-29T10:50:31Z",
+      "fetched_at": "2026-08-29T12:59:21Z",
+      "raw_content": "<p>I filed a request with McDonald\u2019s earlier this month to access all of the personal data the fast food company collected about me, and I received a stunning <a href=\"https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/\">515-page report</a> a few days later that detailed my app interactions in granular detail and predicted I would never stop eating there.</p>\n<p>Under the <a href=\"https://www.wired.com/story/ccpa-guide-california-privacy-law-takes-effect/\">California Consumer Privacy Act</a>, I have the legal right to request access to information from large companies that collect personal data. So I was curious what others might have on me, and I spent the next week filing more than 100 requests.</p>\n<p>The CCPA went into effect in 2020, and three of its key provisions are the right to <a href=\"https://www.wired.com/story/data-brokers-and-ai-firms-opt-out-forms-are-built-to-fail-report-finds/\">opt out</a> of the selling of personal information, the right to delete that info, and the right to request a copy for yourself.</p><p><a href=\"https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<p>I filed a request with McDonald\u2019s earlier this month to access all of the personal data the fast food company collected about me, and I received a stunning <a href=\"https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/\">515-page report</a> a few days later that detailed my app interactions in granular detail and predicted I would never stop eating there.</p> <p>Under the <a href=\"https://www.wired.com/story/ccpa-guide-california-privacy-law-takes-effect/\">California Consumer Privacy Act</a>, I have",
+      "selected": false
+    },
     {
       "id": "8152c5575eb2",
       "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
@@ -52,7 +80,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-08-28T16:46:10Z",
-      "fetched_at": "2026-08-28T19:41:52Z",
+      "fetched_at": "2026-08-29T12:59:21Z",
       "raw_content": "Dell and AMD supply the hardware behind OTel 2.0&#8217;s live deployment In sum &#8211; what we know: AT&#38;T has taken OTel 2.0, the open-source telecom AI model developed under the&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
