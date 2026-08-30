@@ -1,8 +1,36 @@
 {
   "week_start": "2026-08-24",
   "week_end": "2026-08-30",
-  "last_updated": "2026-08-29T12:59:29Z",
+  "last_updated": "2026-08-30T12:38:35Z",
   "articles": [
+    {
+      "id": "022402303394",
+      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "title": "Inside Meta\u2019s push to put robots to work in data centers",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-30T11:03:47Z",
+      "fetched_at": "2026-08-30T12:38:28Z",
+      "raw_content": "<p>Meta is testing robots that can plug in cables, reset servers, and handle other tasks inside its <a href=\"https://www.wired.com/story/how-data-centers-broke-american-politics/\">data centers</a>, according to several current and former workers familiar with the projects. The ongoing effort, which has not been previously reported, may eventually allow <a href=\"https://www.wired.com/tag/meta/\">Meta</a> to operate its rapidly expanding data center footprint with fewer humans, keeping labor costs in check as its spending on <a href=\"https://www.wired.com/story/microsoft-google-meta-2025-earnings/\">AI infrastructure soars</a>.</p>\n<p>Meta is using robots and related hardware from several different vendors, including Watney Robotics, Kinova, and ABB, according to the same workers, who asked to remain anonymous because they weren\u2019t authorized to speak to the media. Kinova and ABB declined to comment. Watney didn\u2019t respond to requests for comment.</p>\n<p>In one experiment, Meta is evaluating whether a Kinova Gen3 robotic arm could be used for power cycling or cutting off electricity to servers. The company is also testing a different robot to swap networking cables. One Meta data center worker estimates that if it\u2019s successful, the bot could replace up to 80 percent of some people\u2019s workloads. \u201cWe thought those of us performing the physical tasks were safe for a while, but not anymore,\u201d says the worker. \u201cIt\u2019s coming for us all, unfortunately.\u201d</p><p><a href=\"https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<p>Meta is testing robots that can plug in cables, reset servers, and handle other tasks inside its <a href=\"https://www.wired.com/story/how-data-centers-broke-american-politics/\">data centers</a>, according to several current and former workers familiar with the projects. The ongoing effort, which has not been previously reported, may eventually allow <a href=\"https://www.wired.com/tag/meta/\">Meta</a> to operate its rapidly expanding data center footprint with fewer humans, keeping labor costs in",
+      "selected": false
+    },
+    {
+      "id": "d750556c657f",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "title": "Sony Music, Warner sue Anthropic, alleging a \u201cbrazen campaign\u201d of intellectual property theft",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-08-29T18:41:59Z",
+      "fetched_at": "2026-08-30T12:38:28Z",
+      "raw_content": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "selected": false
+    },
     {
       "id": "4ed9a280c24d",
       "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
