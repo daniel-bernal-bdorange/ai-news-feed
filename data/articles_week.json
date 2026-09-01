@@ -1,8 +1,22 @@
 {
   "week_start": "2026-08-31",
   "week_end": "2026-09-06",
-  "last_updated": "2026-08-31T14:53:21Z",
+  "last_updated": "2026-09-01T12:23:58Z",
   "articles": [
+    {
+      "id": "a06ae54288df",
+      "url": "https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/",
+      "title": "The Bentley Supersports: A stripped-out engineer's indulgence",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-08-31T23:01:16Z",
+      "fetched_at": "2026-09-01T12:23:51Z",
+      "raw_content": "<aside class=\"pullbox sidebar fullwidth\">Bentley provided flights from Washington, DC, to Monterey, California, and accommodation so Ars could drive the Supersports, as well as ride in a preproduction Torcal EV, <a href=\"https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/\">which we wrote about</a> last week. Ars does not accept paid editorial content.</aside>\n<p>MONTEREY, Calif.\u2014Last week, we <a href=\"https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/\">brought news</a> of the Bentley Torcal, a new electric vehicle that the luxury automaker has been cooking up at its HQ in Crewe, England. The company wants to attract new customers with its first battery EV, part of a plan to make sustainability as much a part of the brand's character as its high-end fit and finish. W12 engines have given way to V8 plug-in hybrid power, and the new Continental GT is <a href=\"https://arstechnica.com/cars/2025/05/the-2025-bentley-continental-gt-the-highs-and-lows-of-borrowed-bits/\">all the better for it</a>.</p>\n<p>But around the same time as Ars <a href=\"https://arstechnica.com/cars/2024/05/heres-what-we-learned-driving-a-prototype-of-bentleys-new-hybrid-gt/\">got its first experience</a> of that new PHEV two-door on a rather wet Spanish racetrack, some of Bentley's boffins were wondering what might happen if you also built one without the hybrid stuff.</p>\n<p>Or all-wheel drive\u2014something that has been a characteristic of every new road-going Bentley since the turn of the century. That would certainly cut the curb weight. So, too, would leaving out the rear seats. That sort of idea leads down a well-trodden path for some OEMs, and Porsche in particular is famous for making stripped-out road cars inspired by its race cars and making money from them, too.</p><p><a href=\"https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<aside class=\"pullbox sidebar fullwidth\">Bentley provided flights from Washington, DC, to Monterey, California, and accommodation so Ars could drive the Supersports, as well as ride in a preproduction Torcal EV, <a href=\"https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/\">which we wrote about</a> last week. Ars does not accept paid editorial content.</aside> <p>MONTEREY, Calif.\u2014Last week, we <a href=\"https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/\">brought news</a> of the Bentley Torcal, a new electric vehicle that the",
+      "selected": false
+    },
     {
       "id": "d8517a241196",
       "url": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
@@ -24,7 +38,7 @@
       "source_name": "The Verge - AI",
       "category": "tech",
       "published_at": "2026-08-31T13:27:36Z",
-      "fetched_at": "2026-08-31T14:53:15Z",
+      "fetched_at": "2026-09-01T12:23:51Z",
       "raw_content": "<figure>\n\n<img alt=\"Chat GPT logo on a graphic green background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_B.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1772\">now considered a Very Large Online Search Engine</a> under the EU's Digital Services Act, a set of laws <a href=\"https://www.theverge.com/23845672/eu-digital-services-act-explained\">regulating major online services and platforms</a>.</p>\n<p class=\"wp-block-paragraph\">Along with ChatGPT, the European Commission also announced that Reddit and Roblox are considered Very Large Online Platforms, subjecting them to the same rules. The DSA restricts platforms from targeting ads to minors or using a person's sexual orientation, religion, ethnicity, or political beliefs. \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa\">Read the full story at The Verge.</a></p>",
       "relevance_score": 1.5,
       "geo_boost": true,
