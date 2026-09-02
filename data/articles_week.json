@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-31",
   "week_end": "2026-09-06",
-  "last_updated": "2026-09-01T12:23:58Z",
+  "last_updated": "2026-09-02T11:59:00Z",
   "articles": [
+    {
+      "id": "059269b68f6b",
+      "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
+      "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-02T10:00:00Z",
+      "fetched_at": "2026-09-02T11:58:54Z",
+      "raw_content": "Meet the AI police who can make or break careers\u2014in publishing and beyond.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Meet the AI police who can make or break careers\u2014in publishing and beyond.",
+      "selected": false
+    },
+    {
+      "id": "4c92c47948e3",
+      "url": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/",
+      "title": "Here's our first look\u2014and drive\u2014of the 2027 Range Rover Electric",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-01T23:01:52Z",
+      "fetched_at": "2026-09-02T11:58:54Z",
+      "raw_content": "<aside class=\"pullbox sidebar fullwidth\">Jaguar Land Rover provided flights from Washington, DC, to London and accommodation so Ars could visit its factory and drive the Range Rover Electric. Ars does not accept paid editorial content.</aside>\n<p>Jaguar Land Rover was one of the first automakers to <a href=\"https://arstechnica.com/cars/2017/09/jaguar-land-rover-to-electrify-all-its-cars-by-2020/\">announce a transition</a> away from combustion engines. That <a href=\"https://arstechnica.com/cars/2021/02/six-new-electric-land-rovers-by-2026-and-jaguar-is-going-all-ev/\">transition timeline</a> might have slipped somewhat\u2014pesky things like pandemics, supply chains, and revanchism have all been barriers to more rapid electrification\u2014but it's still underway, and today is the debut of the Range Rover Electric, a new battery-electric vehicle variant that sits alongside the internal combustion and <a href=\"https://arstechnica.com/cars/2017/10/range-rover-goes-techno-gets-new-cabin-and-p400e-plug-in-hybrid-option/\">plug-in hybrid</a> Range Rovers.</p>\n<p>Until now, the only way to get a fully electric Range Rover was by going the restomod route. But classic Range Rovers <a href=\"https://arstechnica.com/cars/2021/06/this-range-rover-classic-restomod-runs-on-tesla-power/\">drive like classic cars,</a> with all their inherent faults, and the <a href=\"https://arstechnica.com/cars/2025/03/driving-an-ev-restomod-that-costs-as-much-as-a-house-the-jia-chieftain/\">price tag can be eye-watering</a>. No Range Rover is exactly cheap, but with a starting price of $138,000, the 2027 Range Rover Electric is about half the cost of one of those restomods and benefits from 21st century safety systems like airbags, advanced driver assistance systems, modern crash protection standards, plus the support and warranty of a major OEM. And there's evidently demand: JLR told us that it already has 80,000 hand-raisers\u2014half from North America\u201470 percent of whom are new to the brand, with 20 percent already owning an EV. (Obviously, only some fraction of those will translate to sales.)</p>\n<img alt=\"Range Rover EV grille\" class=\"none large\" height=\"683\" src=\"https://cdn.arstechnica.net/wp-content/uploads/2026/08/RANGE-ROVER-ELECTRIC-GRILLE-02_09_26-1024x683.jpg\" width=\"1024\" />\n      The smooth front grille is one of the only ways to spot a Range Rover Electric.\n        Credit:\n          Range Rover\n      \n<p>Because the idea was to make the Range Rover Electric a Range Rover first and an EV second, it looks virtually identical to the other versions, albeit with a slightly more aerodynamic front grille and more aero-efficient wheels that together conspire to shave off a fraction of the vehicle's drag coefficient. The lack of tailpipes at the back is probably the biggest giveaway that you're looking at the electric one. There's also a flat underbody, but hopefully you'll never need to look at that.</p><p><a href=\"https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<aside class=\"pullbox sidebar fullwidth\">Jaguar Land Rover provided flights from Washington, DC, to London and accommodation so Ars could visit its factory and drive the Range Rover Electric. Ars does not accept paid editorial content.</aside> <p>Jaguar Land Rover was one of the first automakers to <a href=\"https://arstechnica.com/cars/2017/09/jaguar-land-rover-to-electrify-all-its-cars-by-2020/\">announce a transition</a> away from combustion engines. That <a href=\"https://arstechnica.com/cars/2021/02/six-new-electric-land-rovers-by-2026-and-jaguar-is-going-all-ev/\">transition timeline</a> might have slipped somewhat\u2014pesky",
+      "selected": false
+    },
+    {
+      "id": "61b613e64cd5",
+      "url": "https://rcrwireless.com/20260901/connectivity/fiber-becomes-ai-bottleneck",
+      "title": "Fiber becomes AI\u2019s next bottleneck",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-01T16:18:43Z",
+      "fetched_at": "2026-09-02T11:58:54Z",
+      "raw_content": "Phil Wong, KPMG US technology principal told RCR that fiber networks will face growing pressure as AI inference and agentic workloads create more traffic between cloud infrastructure, AI compute, and&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Phil Wong, KPMG US technology principal told RCR that fiber networks will face growing pressure as AI inference and agentic workloads create more traffic between cloud infrastructure, AI compute, and&#8230;",
+      "selected": false
+    },
     {
       "id": "a06ae54288df",
       "url": "https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/",
