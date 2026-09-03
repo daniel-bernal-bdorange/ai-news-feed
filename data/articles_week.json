@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-31",
   "week_end": "2026-09-06",
-  "last_updated": "2026-09-02T11:59:00Z",
+  "last_updated": "2026-09-03T11:58:45Z",
   "articles": [
+    {
+      "id": "29b9565fe222",
+      "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
+      "title": "This Is Flock\u2019s AI Search Tool for Cops",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-03T10:00:00Z",
+      "fetched_at": "2026-09-03T11:58:40Z",
+      "raw_content": "WIRED rebuilt Flock\u2019s latest search tool from code the company sends to a police officer\u2019s browser. Its AI can keep watch across multiple cameras for anyone fitting a written description.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "WIRED rebuilt Flock\u2019s latest search tool from code the company sends to a police officer\u2019s browser. Its AI can keep watch across multiple cameras for anyone fitting a written description.",
+      "selected": false
+    },
+    {
+      "id": "4a7dcf7bdb64",
+      "url": "https://rcrwireless.com/20260903/network-infrastructure/distributed-ai-redrawing-the-network-map-reader-forum",
+      "title": "Distributed AI inference is redrawing the network map (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-03T08:00:03Z",
+      "fetched_at": "2026-09-03T11:58:40Z",
+      "raw_content": "As AI shifts from centralised training to distributed inference, network architecture is being redrawn around proximity, latency and resilience. Metro fiber, edge connectivity, and optical infrastructure will become as critical&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "As AI shifts from centralised training to distributed inference, network architecture is being redrawn around proximity, latency and resilience. Metro fiber, edge connectivity, and optical infrastructure will become as critical&#8230;",
+      "selected": false
+    },
+    {
+      "id": "ca24c75ccec2",
+      "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+      "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-02T22:44:56Z",
+      "fetched_at": "2026-09-03T11:58:40Z",
+      "raw_content": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
+      "selected": false
+    },
     {
       "id": "059269b68f6b",
       "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
