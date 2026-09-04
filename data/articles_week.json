@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-31",
   "week_end": "2026-09-06",
-  "last_updated": "2026-09-03T11:58:45Z",
+  "last_updated": "2026-09-04T12:00:15Z",
   "articles": [
+    {
+      "id": "5597b0d13607",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+      "title": "Why AI food looks like that",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-04T11:00:00Z",
+      "fetched_at": "2026-09-04T12:00:06Z",
+      "raw_content": "<figure>\n\n<img alt=\"A collage of AI generated food that is disgusting and a person in the center who is disgusted\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268722_Why_does_AI_food_look_like_that_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes <a href=\"https://x.com/samfbiddle/status/2091599814144467298?s=20\">donut shrimp</a>, <a href=\"https://x.com/dropchris1000/status/2093034729536631064?s=20\">Reubens from the deep</a>, <a href=\"https://x.com/wsgadIibs/status/2094577421118824593?s=20\">wormlike noodles</a>, and <a href=\"https://x.com/maggiemoda/status/2093327513711763661?s=20\">noodle-like pastries</a> and <a href=\"https://x.com/LadyFear1/status/2093119879591133562?s=20\">stringy chicken</a>. There's also construction material masquerading as ice cream, <a href=\"https://x.com/maggiemoda/status/2093327513711763661?s=20\">ice cream masquerading as brains</a>, and other <a href=\"https://x.com/LadyFear1/status/2093119879591133562?s=20\">masonry-adjacent cuisine.</a> I don't even know how to begin describing this <a href=\"https://x.com/IncomingSwarm/status/2092297507392942487?s=20\">monstrous attempt of a burger</a>, and the less said about the <a href=\"https://x.com/katexbt/status/2092916782990299438?s=20\">trypophobic burrito from hell</a>, grubs and all, the better. There are <a href=\"https://x.com/zetalyrae/status/2095333794815652237?s=20\">lumps</a>. And <a href=\"https://x.com/HumanLevelJen/status/2094331900542230529?s=20\">holes</a>. <a href=\"https://x.com/REMARKSIST/status/2092937530257617036?s=20\">So many holes</a>.</p>\n<figure class=\"wp-block-pullquote\"><blockquote><p>\"Diffusion mo \u2026</p></blockquote></figure>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"A collage of AI generated food that is disgusting and a person in the center who is disgusted\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268722_Why_does_AI_food_look_like_that_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"has-drop-cap wp-block-paragraph\">There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes <a href=\"https://x.com/samfbiddle/status/2091599814144467298?s=20\">donut shrimp</a>,",
+      "selected": false
+    },
+    {
+      "id": "218dd7926faa",
+      "url": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/",
+      "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-04T10:00:00Z",
+      "fetched_at": "2026-09-04T12:00:06Z",
+      "raw_content": "Job seekers are trying to game the application process using AI. It\u2019s not working, and not for the reasons you might think.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Job seekers are trying to game the application process using AI. It\u2019s not working, and not for the reasons you might think.",
+      "selected": false
+    },
+    {
+      "id": "63f13c40bf11",
+      "url": "https://rcrwireless.com/20260903/tech/sk-telecoms-topda",
+      "title": "SK Telecom\u2019s Topda turns work vans into an AI inspection fleet",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-03T16:56:41Z",
+      "fetched_at": "2026-09-04T12:00:06Z",
+      "raw_content": "AI cameras on ordinary vans turn daily technician routes into wireline inspection In sum &#8211; what we know: SK Telecom has commercialized &#8220;Topda,&#8221; an AI-powered inspection system that turns the&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "AI cameras on ordinary vans turn daily technician routes into wireline inspection In sum &#8211; what we know: SK Telecom has commercialized &#8220;Topda,&#8221; an AI-powered inspection system that turns the&#8230;",
+      "selected": false
+    },
     {
       "id": "29b9565fe222",
       "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
