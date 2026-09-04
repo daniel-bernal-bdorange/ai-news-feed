@@ -1,8 +1,22 @@
 {
   "week_start": "2026-08-31",
   "week_end": "2026-09-06",
-  "last_updated": "2026-09-04T12:00:15Z",
+  "last_updated": "2026-09-04T12:19:03Z",
   "articles": [
+    {
+      "id": "39ef2b5157f8",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "title": "Instagram\u2019s AI detection is a mess (again)",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-04T12:00:00Z",
+      "fetched_at": "2026-09-04T12:18:55Z",
+      "raw_content": "<figure>\n\n<img alt=\"Painting on an easel with a reCAPTCHA box.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268439_ai_art_label_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">Instagram's visible AI labels are supposed to help people quickly spot synthetically generated content at a glance. Over the last few weeks, however, <a href=\"https://www.instagram.com/p/DcBv-fRIKBb/?img_index=3&amp;igsh=MWsxMTRxemhvNzJscw%3D%3D\">users</a> have been reporting that the system has gone haywire. They say Meta has been automatically applying an \"AI Content\" label to images that they didn't create or edit using generative AI tools. Meanwhile, actual AI imagery is slipping through the cracks, leaving the impression that nothing can be trusted on Instagram at all.</p>\n<p class=\"wp-block-paragraph\">The precise causes of this tagging seem to vary. Many people said the label appeared on images that were edited using tools like Canva's Background Remover or with negl \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"Painting on an easel with a reCAPTCHA box.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268439_ai_art_label_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"has-drop-cap wp-block-paragraph\">Instagram's visible AI labels are supposed to help people quickly spot synthetically generated content at a glance. Over the last few weeks, however, <a href=\"https://www.instagram.com/p/DcBv-fRIKBb/?img_index=3&amp;igsh=MWsxMTRxemhvNzJscw%3D%3D\">users</a> have been reporting that the system has gone haywire. They say Meta has been automatically applying an \"AI",
+      "selected": false
+    },
     {
       "id": "5597b0d13607",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
@@ -24,7 +38,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-09-04T10:00:00Z",
-      "fetched_at": "2026-09-04T12:00:06Z",
+      "fetched_at": "2026-09-04T12:18:55Z",
       "raw_content": "Job seekers are trying to game the application process using AI. It\u2019s not working, and not for the reasons you might think.",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -38,7 +52,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-09-03T16:56:41Z",
-      "fetched_at": "2026-09-04T12:00:06Z",
+      "fetched_at": "2026-09-04T12:18:55Z",
       "raw_content": "AI cameras on ordinary vans turn daily technician routes into wireline inspection In sum &#8211; what we know: SK Telecom has commercialized &#8220;Topda,&#8221; an AI-powered inspection system that turns the&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
