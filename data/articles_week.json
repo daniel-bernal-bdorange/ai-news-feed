@@ -1,8 +1,50 @@
 {
   "week_start": "2026-08-31",
   "week_end": "2026-09-06",
-  "last_updated": "2026-09-04T12:19:03Z",
+  "last_updated": "2026-09-05T11:09:43Z",
   "articles": [
+    {
+      "id": "38195d6e89a3",
+      "url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
+      "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-04T22:49:17Z",
+      "fetched_at": "2026-09-05T11:09:35Z",
+      "raw_content": "<p>The BepiColombo mission cleared a major milestone this week in the final stretch of an eight-year interplanetary voyage to Mercury, the hard-to-reach, scorching hot iron world at the Solar System's innermost frontier.</p>\n<p>The robotic science mission, with a price tag of nearly $2 billion, is led by the European Space Agency with contributions from Japan and the United States. Since its launch in 2018, BepiColombo has spiraled closer to the Sun using a combination of plasma propulsion and a series of flybys of Earth, Venus, and Mercury. The maneuvers changed the spacecraft's velocity and steered it toward a final encounter with Mercury later this year.</p>\n<p>Next time it reaches Mercury, BepiColombo will be traveling at just the right speed for the planet's gravity to capture the spacecraft into orbit. Scientists working on interplanetary missions are accustomed to long waits for scientific payoffs. It took nearly 10 years for NASA's New Horizons spacecraft to travel from Earth to Pluto. It turns out traveling to fleet-footed Mercury and then entering orbit requires more energy, or delta-v, than sending a probe to fly by Pluto.</p><p><a href=\"https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<p>The BepiColombo mission cleared a major milestone this week in the final stretch of an eight-year interplanetary voyage to Mercury, the hard-to-reach, scorching hot iron world at the Solar System's innermost frontier.</p> <p>The robotic science mission, with a price tag of nearly $2 billion, is led by the European Space Agency with contributions from Japan and the United States. Since",
+      "selected": false
+    },
+    {
+      "id": "49143ee2372c",
+      "url": "https://rcrwireless.com/20260904/ai/microsoft-aws-multicloud-interconnect",
+      "title": "Microsoft and AWS launch a managed multicloud interconnect",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-04T16:49:15Z",
+      "fetched_at": "2026-09-05T11:09:35Z",
+      "raw_content": "Multicloud interconnect is free in preview, built for distributed AI workloads In sum &#8211; what we know: Microsoft and AWS have jointly launched a managed multicloud interconnect designed to create&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Multicloud interconnect is free in preview, built for distributed AI workloads In sum &#8211; what we know: Microsoft and AWS have jointly launched a managed multicloud interconnect designed to create&#8230;",
+      "selected": false
+    },
+    {
+      "id": "f60d7bb6db5c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-04T13:34:12Z",
+      "fetched_at": "2026-09-05T11:09:35Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI labs after multiple breaches were discovered this summer. </p>\n<p class=\"wp-block-paragraph\">The incident, <a href=\"https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/\">first reported</a> by <em>Reuters</em>, is outlined in new <a href=\"https://collusion.wiki/\">research</a> published by four AI safety researchers on Friday. The group said the AI agents found a way to communicate on an obscure German-language wiki, DseWiki, using it to share tips \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<figure> <img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"wp-block-paragraph\">A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding",
+      "selected": false
+    },
     {
       "id": "39ef2b5157f8",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
