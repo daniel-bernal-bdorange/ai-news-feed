@@ -1,8 +1,36 @@
 {
   "week_start": "2026-08-31",
   "week_end": "2026-09-06",
-  "last_updated": "2026-09-05T11:09:43Z",
+  "last_updated": "2026-09-06T11:32:37Z",
   "articles": [
+    {
+      "id": "261bc314729c",
+      "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
+      "title": "My Brief Summer Fling With Siri AI",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-06T10:30:00Z",
+      "fetched_at": "2026-09-06T11:32:30Z",
+      "raw_content": "I was initially enamored with the beta version of Apple\u2019s revamped smartphone assistant. As the full release approaches, I\u2019ve forgotten Siri AI even exists.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "I was initially enamored with the beta version of Apple\u2019s revamped smartphone assistant. As the full release approaches, I\u2019ve forgotten Siri AI even exists.",
+      "selected": false
+    },
+    {
+      "id": "6df0f5d81c2b",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-05T22:49:55Z",
+      "fetched_at": "2026-09-06T11:32:30Z",
+      "raw_content": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "selected": false
+    },
     {
       "id": "38195d6e89a3",
       "url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
