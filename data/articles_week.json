@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-07",
   "week_end": "2026-09-13",
-  "last_updated": "2026-09-08T12:00:20Z",
+  "last_updated": "2026-09-09T12:11:45Z",
   "articles": [
+    {
+      "id": "606e9bc7b6ea",
+      "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+      "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-09T12:05:34Z",
+      "fetched_at": "2026-09-09T12:11:38Z",
+      "raw_content": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
+      "selected": false
+    },
+    {
+      "id": "f165b33b514a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
+      "title": "Students who use AI generally score worse at school",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-09T12:05:01Z",
+      "fetched_at": "2026-09-09T12:11:38Z",
+      "raw_content": "<figure>\n\n<img alt=\"Photo collage of a pixelated student at a desk.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25584700/STK483_EDUCATION_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report. The situation is more complex than it sounds though, with certain types of AI use giving learners a slight boost, especially among students taught to critically assess how well the AI tools perform.</p>\n<p class=\"wp-block-paragraph\">The <a href=\"https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/pisa-2025-results-volume-i_5265bfb1/73451bc5-en.pdf\">OECD's Programme for International Student Assessment (PISA)</a> takes data from countries around the world every few years. This year's study, based on data collected in 2025, is the first to be carried out since AI use went truly mainstream. It tests 15-year-old students in science, math and read \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"Photo collage of a pixelated student at a desk.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25584700/STK483_EDUCATION_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"wp-block-paragraph\">Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report. The situation is more complex than it sounds though, with certain types of AI use giving",
+      "selected": false
+    },
+    {
+      "id": "9ffb285b44cf",
+      "url": "https://rcrwireless.com/20260909/opinion/connectivity-has-become-the-deciding-half-of-ais-infra-race-reader-forum",
+      "title": "Connectivity has become the deciding half of AI\u2019s infra race (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-09T11:05:57Z",
+      "fetched_at": "2026-09-09T12:11:38Z",
+      "raw_content": "Connectivity, not just compute, will determine AI\u2019s infrastructure future, argues former AT&#38;T president Glenn Lurie. Drawing on the iPhone\u2019s launch, he says operators, hyperscalers and technology companies must build together&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Connectivity, not just compute, will determine AI\u2019s infrastructure future, argues former AT&#38;T president Glenn Lurie. Drawing on the iPhone\u2019s launch, he says operators, hyperscalers and technology companies must build together&#8230;",
+      "selected": false
+    },
     {
       "id": "8b8898d492e7",
       "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
