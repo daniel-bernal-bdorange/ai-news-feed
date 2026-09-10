@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-07",
   "week_end": "2026-09-13",
-  "last_updated": "2026-09-09T12:11:45Z",
+  "last_updated": "2026-09-10T12:05:29Z",
   "articles": [
+    {
+      "id": "e29cd346e532",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "title": "Mathematicians want proof OpenAI didn\u2019t use their work",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-10T11:00:57Z",
+      "fetched_at": "2026-09-10T12:05:22Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2236544323.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tSam Altman, chief executive officer of OpenAI, during a media tour of the Stargate AI data center. | Bloomberg via Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward accusing the AI giant of unethical and \"dishonest\" behavior and a lack of transparency about the origins of its training data.</p>\n<p class=\"wp-block-paragraph\">In a <a href=\"https://mathstodon.xyz/@andreasthom/117240535270608201\">series</a> <a href=\"https://mathstodon.xyz/@andreasthom/117240536885387540\">of</a> <a href=\"https://mathstodon.xyz/@andreasthom/117240537520615623\">posts</a> on Mastodon, mathematician Andreas Thom raised concerns that interactions he and his colleagues had had with the ChatGPT chatbot before OpenAI's triumphant announcement may have contributed to its success in the field. One of the \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2236544323.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> Sam Altman, chief executive officer of OpenAI, during a media tour of the Stargate AI data center. | Bloomberg via Getty Images </figcaption> </figure> <p class=\"wp-block-paragraph\">Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited",
+      "selected": false
+    },
+    {
+      "id": "d5f5c35725a6",
+      "url": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
+      "title": "Europe may finally have found a space entrepreneur who is meeting the moment",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-09T20:27:40Z",
+      "fetched_at": "2026-09-10T12:05:22Z",
+      "raw_content": "<p>All of a sudden, French entrepreneur H\u00e8lene Huby is seemingly everywhere.</p>\n<p>This week she is serving as one of two envoys, alongside astronaut Thomas Pesquet, at a high-profile International Space Summit convened by French President Emmanuel Macron. The <a href=\"https://www.diplomatie.gouv.fr/en/priorites-et-actions/grands-dossiers/le-sommet-international-sur-l-espace/helene-huby-special-envoy-of-the-president-of-the-republic\">government's website</a> for the event describes her as chief executive of \"the fastest-growing space company in Europe.\"</p>\n<p>Also this week, that firm, The Exploration Company, announced a significant capital raise of $450 million in Series C funding. Although not spectacular by the standards of some US space businesses, this is the largest-ever Series C funding round by a Europe-based space company, and likely the largest funding round ever raised by a female-led company in Europe.</p><p><a href=\"https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<p>All of a sudden, French entrepreneur H\u00e8lene Huby is seemingly everywhere.</p> <p>This week she is serving as one of two envoys, alongside astronaut Thomas Pesquet, at a high-profile International Space Summit convened by French President Emmanuel Macron. The <a href=\"https://www.diplomatie.gouv.fr/en/priorites-et-actions/grands-dossiers/le-sommet-international-sur-l-espace/helene-huby-special-envoy-of-the-president-of-the-republic\">government's website</a> for the event describes her as chief executive of \"the fastest-growing space company in Europe.\"</p> <p>Also this week, that",
+      "selected": false
+    },
+    {
+      "id": "d9ca35a81e6d",
+      "url": "https://rcrwireless.com/20260909/network-infrastructure/att-strikes-deal-with-amazon-leo-as-eu-operators-seek-d2d-stake-us-opens-d2d-tap",
+      "title": "AT&T strikes deal with Amazon Leo \u2013 as EU operators seek D2D stake, US opens D2D tap",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-09T14:46:44Z",
+      "fetched_at": "2026-09-10T12:05:22Z",
+      "raw_content": "AT&#38;T is adding Amazon Leo to its enterprise connectivity mix as satellite moves deeper into terrestrial networks \u2013 and European operators eye D2D spectrum and US regulators push to expand&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "AT&#38;T is adding Amazon Leo to its enterprise connectivity mix as satellite moves deeper into terrestrial networks \u2013 and European operators eye D2D spectrum and US regulators push to expand&#8230;",
+      "selected": false
+    },
     {
       "id": "606e9bc7b6ea",
       "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
