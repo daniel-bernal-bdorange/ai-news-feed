@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-07",
   "week_end": "2026-09-13",
-  "last_updated": "2026-09-10T12:05:29Z",
+  "last_updated": "2026-09-11T12:03:36Z",
   "articles": [
+    {
+      "id": "eb0ec067ba7c",
+      "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-11T09:00:00Z",
+      "fetched_at": "2026-09-11T12:03:28Z",
+      "raw_content": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely \u201cspooking people\u201d inside big labs.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely \u201cspooking people\u201d inside big labs.",
+      "selected": false
+    },
+    {
+      "id": "6ed4ce8b25be",
+      "url": "https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/",
+      "title": "Europe will go it alone on Venus mission after NASA yanks radar instrument",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-10T19:09:29Z",
+      "fetched_at": "2026-09-11T12:03:28Z",
+      "raw_content": "<p>The European Space Agency is moving \"full steam ahead\" with development of a robotic mission to Venus after NASA officials determined they were unlikely to fulfill a commitment to provide a US-built radar instrument for the spacecraft, the mission's project scientist said.</p>\n<p>The European orbiter, named Envision, will map the Venusian surface at 10 times higher resolution than the last radar mission sent to Venus by NASA in the 1990s. The planet is enshrouded in a blanket of thick clouds of sulfuric acid, rendering its mysterious surface unseen by optical cameras in orbit. Radar is the most effective way to penetrate the clouds of Venus to reveal the terrain below, and scientists will use Envision to look for signs of active volcanism.</p>\n<p>NASA and ESA signed a memorandum of understanding in 2024 outlining their partnership on Envision. NASA agreed to supply a US-made synthetic aperture radar instrument, Envision's primary means of mapping the surface of Venus, along with providing tracking and communications support through NASA's Deep Space Network. In exchange, ESA would include US researchers on Envision's science team. Europe would build the Envision spacecraft and the rest of its science instruments and provide the launch on an Ariane 6 rocket.</p><p><a href=\"https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<p>The European Space Agency is moving \"full steam ahead\" with development of a robotic mission to Venus after NASA officials determined they were unlikely to fulfill a commitment to provide a US-built radar instrument for the spacecraft, the mission's project scientist said.</p> <p>The European orbiter, named Envision, will map the Venusian surface at 10 times higher resolution than the last",
+      "selected": false
+    },
+    {
+      "id": "3b8085610c96",
+      "url": "https://rcrwireless.com/20260910/private-5g/nokia-hints-at-new-campus-ai-strategy-raises-questions-about-its-old-campus-5g",
+      "title": "Nokia hints at new campus-AI strategy, raises questions about its old campus-5G one",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-10T17:23:11Z",
+      "fetched_at": "2026-09-11T12:03:28Z",
+      "raw_content": "Nokia\u2019s new Cognitive Operations edge-compute platform for the mining sector, initially, looks familiar, and raises questions about the sale of its ECE business and its retreat from the \u2018campus\u2019 end&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Nokia\u2019s new Cognitive Operations edge-compute platform for the mining sector, initially, looks familiar, and raises questions about the sale of its ECE business and its retreat from the \u2018campus\u2019 end&#8230;",
+      "selected": false
+    },
     {
       "id": "e29cd346e532",
       "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
