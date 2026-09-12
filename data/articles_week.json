@@ -1,8 +1,36 @@
 {
   "week_start": "2026-09-07",
   "week_end": "2026-09-13",
-  "last_updated": "2026-09-11T12:24:00Z",
+  "last_updated": "2026-09-12T11:30:22Z",
   "articles": [
+    {
+      "id": "eeedd70bf03d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "title": "OpenAI just wants to win",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-12T11:00:00Z",
+      "fetched_at": "2026-09-12T11:30:15Z",
+      "raw_content": "<figure>\n\n<img alt=\"A trophy with OpenAI\u2019s logo on it\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268745_OpenAI_just_wants_to_win-_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement.</p>\n<p class=\"wp-block-paragraph\">Instead, many mathematicians have watched OpenAI's relentless advance with growing unease. To them, the company appears less like an enthusiastic newcomer than an impossibly well-resourced interloper, charging into problems they have dedicated their lives to studying with little apparent regard for long-standing norms or the consequences for those  \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"A trophy with OpenAI\u2019s logo on it\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268745_OpenAI_just_wants_to_win-_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"has-drop-cap wp-block-paragraph\">OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a",
+      "selected": false
+    },
+    {
+      "id": "8f75a7c2114a",
+      "url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+      "title": "Some satellite companies still have an appetite for boutique launch services",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-11T23:34:45Z",
+      "fetched_at": "2026-09-12T11:30:15Z",
+      "raw_content": "<p>If you ask most satellite companies aside from SpaceX, they will tell you the world doesn't have enough capacity for launching payloads into orbit. This is despite the blistering launch cadence we've seen around the world in recent years, led by SpaceX's Falcon 9 rocket.</p>\n<p>Customers in any sector will, of course, usually welcome competition. Theoretically, competition will lead to lower prices and allow the best to rise to the top. It seems like the customers buying launch services were right. SpaceX is <a href=\"https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/\">dialing back its Falcon 9 launch program</a>, and there is no certainty about when SpaceX's reusable next-generation super-heavy-lift rocket, Starship, will carry anything to orbit besides the company's own Starlink satellites.</p>\n<p>So it's no surprise satellite operators are cheering the success of a new launch provider. This was especially the case a few days ago, when Germany's <a href=\"https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/\">Isar Aerospace reached orbit for the first time</a> with its Spectrum rocket. The launcher delivered a batch of CubeSats to low-Earth orbit from a spaceport in northern Norway, and Isar tasted success after its first test flight ended in failure last year.</p><p><a href=\"https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<p>If you ask most satellite companies aside from SpaceX, they will tell you the world doesn't have enough capacity for launching payloads into orbit. This is despite the blistering launch cadence we've seen around the world in recent years, led by SpaceX's Falcon 9 rocket.</p> <p>Customers in any sector will, of course, usually welcome competition. Theoretically, competition will lead to",
+      "selected": false
+    },
     {
       "id": "eb0ec067ba7c",
       "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
