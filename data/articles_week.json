@@ -1,8 +1,36 @@
 {
   "week_start": "2026-09-07",
   "week_end": "2026-09-13",
-  "last_updated": "2026-09-12T11:30:22Z",
+  "last_updated": "2026-09-13T12:35:03Z",
   "articles": [
+    {
+      "id": "2d9445da4351",
+      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+      "title": "AI Agents Are Thirsty for Power",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-13T10:00:00Z",
+      "fetched_at": "2026-09-13T12:34:56Z",
+      "raw_content": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI\u2014and it's driving the data center buildout.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI\u2014and it's driving the data center buildout.",
+      "selected": false
+    },
+    {
+      "id": "593440c97619",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "title": "OpenAI\u2019s rogue AI tried to hack another company in May",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-12T21:41:36Z",
+      "fetched_at": "2026-09-13T12:34:56Z",
+      "raw_content": "<figure>\n\n<img alt=\"Maroon OpenAI logo on yellow background\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now <a href=\"https://www.rubyhack.ai/\">independent researchers</a> have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. </p>\n<p class=\"wp-block-paragraph\">At the time, RubyGems described it as a \"<a href=\"https://x.com/maciejmensfeld/status/2054164602577940619\">major malicious attack</a>\" and shut down signups for four days as it tried to mitigate the damage and collect data. Researchers said that the contents of the packages that brought RubyGems to its knees were clearly authored by an LLM, and that the agents submitting those packages self-identified as being from OpenAI. They said the \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"Maroon OpenAI logo on yellow background\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"wp-block-paragraph\">In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now <a href=\"https://www.rubyhack.ai/\">independent researchers</a> have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users'",
+      "selected": false
+    },
     {
       "id": "eeedd70bf03d",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
