@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-14",
   "week_end": "2026-09-20",
-  "last_updated": "2026-09-14T13:43:00Z",
+  "last_updated": "2026-09-15T12:29:58Z",
   "articles": [
+    {
+      "id": "e33bad75df32",
+      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+      "title": "Salesforce and Nvidia\u2019s new reasoning model is everything the AI labs should fear",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-15T12:00:00Z",
+      "fetched_at": "2026-09-15T12:29:52Z",
+      "raw_content": "Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing and customer-support tasks.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing and customer-support tasks.",
+      "selected": false
+    },
+    {
+      "id": "aec74c8e34e6",
+      "url": "https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/",
+      "title": "Volvo increases the batteries for 2028 XC60 and XC90 plug-in refresh",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-15T07:00:30Z",
+      "fetched_at": "2026-09-15T12:29:52Z",
+      "raw_content": "<aside class=\"pullbox sidebar fullwidth\">Volvo provided flights from Washington, DC, to London, England, and accommodation so Ars could see its refreshed vehicles. Ars does not accept paid editorial content.</aside>\n<p>There must be a case of upgrade fever taking hold in Gothenburg. <a href=\"https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/\">Yesterday, we saw the revised Volvo XC40</a>; today it\u2019s the turn of another pair of Volvo SUVs, the bestselling XC60 and the three-row XC90. While the styling changes are more subtle, the new plug-in hybrid powertrain\u2014which more than doubles its real-world electric range\u2014is most welcome.</p>\n<p>Volvo had sold more than 2.7 million XC60s worldwide by the end of last year, so it\u2019s an important car for the brand. Visually, there are changes to the \u201cThor\u2019s Hammer\u201d headlights: these keep their distinctive daylight running light signature but now hide matrix LED projectors within their depths. There\u2019s a new front grille as well, one that has been slimmed down a little, together with tweaks to the bumpers, wings, and some other body panels.</p>\n<p>On the inside, there\u2019s a new ventilated leather interior option, and like the XC40, the new 11.2-inch infotainment system sports a Gemini personal assistant to enable conversational voice control of the android automotive OS-based infotainment system. Based on some brief testing, the new Gemini voice assistant does at least perform a lot better than the previous version, which, if anything, has degraded in ability over the past few years.</p><p><a href=\"https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<aside class=\"pullbox sidebar fullwidth\">Volvo provided flights from Washington, DC, to London, England, and accommodation so Ars could see its refreshed vehicles. Ars does not accept paid editorial content.</aside> <p>There must be a case of upgrade fever taking hold in Gothenburg. <a href=\"https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/\">Yesterday, we saw the revised Volvo XC40</a>; today it\u2019s the turn of another pair of Volvo SUVs, the bestselling",
+      "selected": false
+    },
+    {
+      "id": "ad085053c7b6",
+      "url": "https://rcrwireless.com/20260914/5g/american-tower-consolidation",
+      "title": "American Tower sees European consolidation as growth opportunity",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-14T14:28:58Z",
+      "fetched_at": "2026-09-15T12:29:52Z",
+      "raw_content": "American Tower does not expect consolidation in Europe to materially affect its anchor tenants and said it has limited exposure to churn from some of the carriers that could potentially&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "American Tower does not expect consolidation in Europe to materially affect its anchor tenants and said it has limited exposure to churn from some of the carriers that could potentially&#8230;",
+      "selected": false
+    },
     {
       "id": "a654488b7348",
       "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
