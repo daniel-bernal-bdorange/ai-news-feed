@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-14",
   "week_end": "2026-09-20",
-  "last_updated": "2026-09-15T12:29:58Z",
+  "last_updated": "2026-09-16T12:27:52Z",
   "articles": [
+    {
+      "id": "f1145eca1cbd",
+      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+      "title": "A brief history of AI executives calling for regulation",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-16T12:00:00Z",
+      "fetched_at": "2026-09-16T12:27:47Z",
+      "raw_content": "<figure>\n\n<img alt=\"H.A.L.-style glowing red digital eye over a textured digital backdrop.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK_414_5_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">Over the past few days, a lot of people who stand to make a lot of money from AI all <a href=\"https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei\">publicly agreed</a> that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, Microsoft CEO Satya Nadella, and X CEO Elon Musk.</p>\n<p class=\"wp-block-paragraph\">When people who profit from something declare that it's dangerous and needs to be regulated, <a href=\"https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel\">there's always reason to be skeptical</a>. But whatever their reason, this is far from the first time AI thought leaders have sounded the alarm. </p>\n<p class=\"wp-block-paragraph\">Charles Darwin's theory of evolution prompted author Samuel Butler to warn about intelligen \u2026</p>\n<p><a href=\"https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"H.A.L.-style glowing red digital eye over a textured digital backdrop.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK_414_5_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"has-drop-cap wp-block-paragraph\">Over the past few days, a lot of people who stand to make a lot of money from AI all <a href=\"https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei\">publicly agreed</a> that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman,",
+      "selected": false
+    },
+    {
+      "id": "a65a8aee9040",
+      "url": "https://rcrwireless.com/20260916/network-infrastructure/ai-slow-down-what-ai-slow-down-telco-diary",
+      "title": "AI slow-down? What AI slow-down? (Telco Diary)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-16T09:07:34Z",
+      "fetched_at": "2026-09-16T12:27:47Z",
+      "raw_content": "From the newsletter (September 15; sign-up or follow if you want it sooner): AI safety warnings may be genuine, but they arrive alongside mounting questions about AI economics. As frontier&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "From the newsletter (September 15; sign-up or follow if you want it sooner): AI safety warnings may be genuine, but they arrive alongside mounting questions about AI economics. As frontier&#8230;",
+      "selected": false
+    },
+    {
+      "id": "123e0064883f",
+      "url": "https://arstechnica.com/science/2026/09/how-chimps-teach-their-kids-tool-tricks/",
+      "title": "How chimps teach their kids tool tricks",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-16T04:00:39Z",
+      "fetched_at": "2026-09-16T12:27:47Z",
+      "raw_content": "<p>Chimpanzees are known to use rudimentary tools when foraging for food. According to a new paper in the journal Frontiers in Psychology, this learned behavior is passed down from adults to offspring through social learning. Specifically, adult chimps deliberately model the behavior, then turn their tools over to the youngsters so they can mimic the same motions.</p>\n<p>\"Receiving food and tools from experienced individuals, which we call food or tool transfer, may help chimpanzees learn to use technology to extract foods that are difficult to access,\u201d <a href=\"https://www.eurekalert.org/news-releases/1143218\">said co-author Andreu S\u00e1nchez-Meg\u00edas</a>, a graduate student at the University of Barcelona and the Jane Goodall Institute Spain in Senegal. \u201cTool transfers thus appear to be a form of teaching, together with observation and supervised practice. It appears that mothers are the main models and teachers for young chimpanzees in this manner.\u201d</p>\n<p>As <a href=\"https://arstechnica.com/science/2012/11/parrot-in-captivity-manufactures-tools-something-not-seen-in-the-wild/\">we have previously reported</a>, tool use was once thought to be one of the defining features of humans, although Charles Darwin observed chimpanzees using stones to crack nuts in 1871. In 1960, the late primatologist <a href=\"https://arstechnica.com/science/2025/10/world-famous-primatologist-jane-goodall-dead-at-91/\">Jane Goodall</a> observed a chimp named David Greybeard bend a twig, strip off the leaves, and use it to spoon termites out of a nest and into his mouth. When he learned of the behavior, Goodall's mentor, Louis Leakey, famously observed, \u201cNow we must redefine \u2018tool,\u2019 redefine \u2018man,\u2019 or accept chimpanzees as humans.\u201d Since then, chimps have been observed making sponges out of leaves to soak up liquids, shaping sticks to collect algae, and sharpening rudimentary spears for hunting.</p><p><a href=\"https://arstechnica.com/science/2026/09/how-chimps-teach-their-kids-tool-tricks/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/09/how-chimps-teach-their-kids-tool-tricks/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<p>Chimpanzees are known to use rudimentary tools when foraging for food. According to a new paper in the journal Frontiers in Psychology, this learned behavior is passed down from adults to offspring through social learning. Specifically, adult chimps deliberately model the behavior, then turn their tools over to the youngsters so they can mimic the same motions.</p> <p>\"Receiving food and",
+      "selected": false
+    },
     {
       "id": "e33bad75df32",
       "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
