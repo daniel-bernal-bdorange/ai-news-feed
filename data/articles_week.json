@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-14",
   "week_end": "2026-09-20",
-  "last_updated": "2026-09-16T12:27:52Z",
+  "last_updated": "2026-09-17T12:27:41Z",
   "articles": [
+    {
+      "id": "adcebf01c1d9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+      "title": "Inside the suddenly explosive world of AI safety",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-17T11:30:00Z",
+      "fetched_at": "2026-09-17T12:27:36Z",
+      "raw_content": "<figure>\n\n<img alt=\"Crystal ball surrounded by graphics evoking statistics, research, and evaluation.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268747_AI_safety_RJIANG3.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly sophisticated three-part plan. It broke out of its holding area, finagled access to the internet, and hacked into a competing AI startup's systems - all without OpenAI finding out about it for more than a week. </p>\n<p class=\"wp-block-paragraph\">No one in the war room was surprised; this was the very thing the third-party AI-safety rese \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"Crystal ball surrounded by graphics evoking statistics, research, and evaluation.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268747_AI_safety_RJIANG3.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"has-drop-cap wp-block-paragraph\">On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the",
+      "selected": false
+    },
+    {
+      "id": "0139ab252a5b",
+      "url": "https://rcrwireless.com/20260917/analyst-angle/when-the-vendor-disappears-what-cambium-collapse-means-for-mdus-analyst-angle",
+      "title": "When the vendor disappears \u2013 what the Cambium collapse means for MDUs (Analyst Angle)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-17T11:26:53Z",
+      "fetched_at": "2026-09-17T12:27:36Z",
+      "raw_content": "Cambium\u2019s collapse shows what vendor risk looks like when it becomes reality: uncertain cloud management, stranded equipment and difficult migration decisions for MDU operators, while forcing MSPs and property owners&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Cambium\u2019s collapse shows what vendor risk looks like when it becomes reality: uncertain cloud management, stranded equipment and difficult migration decisions for MDU operators, while forcing MSPs and property owners&#8230;",
+      "selected": false
+    },
+    {
+      "id": "a3827026bd29",
+      "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-17T05:00:00Z",
+      "fetched_at": "2026-09-17T12:27:36Z",
+      "raw_content": "Treble's voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Treble's voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies",
+      "selected": false
+    },
     {
       "id": "f1145eca1cbd",
       "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
