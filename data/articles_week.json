@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-14",
   "week_end": "2026-09-20",
-  "last_updated": "2026-09-18T12:06:11Z",
+  "last_updated": "2026-09-18T12:25:33Z",
   "articles": [
     {
       "id": "084a8ea6d1f7",
@@ -18,13 +18,27 @@
       "selected": false
     },
     {
+      "id": "09d134dcf860",
+      "url": "https://www.wired.com/story/inside-the-surprising-leftist-split-over-ai-doom/",
+      "title": "The Leftist Split Over AI Doom",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-18T10:15:00Z",
+      "fetched_at": "2026-09-18T12:25:23Z",
+      "raw_content": "The left wants AI regulation. They just can't agree on what it should look like or how concerned they should be.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "The left wants AI regulation. They just can't agree on what it should look like or how concerned they should be.",
+      "selected": false
+    },
+    {
       "id": "6d69cf8c968e",
       "url": "https://rcrwireless.com/20260918/network-infrastructure/the-4ghz-ai-case-has-a-way-to-go-telco-diary",
       "title": "The 4GHz AI case has a way to go (Telco Diary)",
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-09-18T08:36:08Z",
-      "fetched_at": "2026-09-18T12:06:03Z",
+      "fetched_at": "2026-09-18T12:25:23Z",
       "raw_content": "From the newsletter (September 17; sign-up or follow if you want it sooner): AI is strengthening the case for more mid-band spectrum, particularly as physical AI pushes more traffic upstream.&#8230;",
       "relevance_score": 1.0,
       "geo_boost": false,
@@ -38,7 +52,7 @@
       "source_name": "Ars Technica",
       "category": "tech",
       "published_at": "2026-09-17T22:12:58Z",
-      "fetched_at": "2026-09-18T12:06:03Z",
+      "fetched_at": "2026-09-18T12:25:23Z",
       "raw_content": "<p>As European militaries adapt to the use of AI and drones in modern warfare, a NATO-backed startup is helping to deploy AI-driven target detection and selection that can run on small drones for surveillance and attack missions.</p>\n<p>The company <a href=\"https://www.scaleoutsystems.com/\">Scaleout Systems</a> was originally founded by researchers from Uppsala University in Sweden in 2018, and initially focused on training and deploying machine learning models directly on the hardware available in commercial trucks and other vehicles. But once Russia launched its <a href=\"https://arstechnica.com/tag/russia-invasion-of-ukraine/\">full-scale invasion of Ukraine</a> in 2022, the company pivoted toward defense applications.</p>\n<p>\u201cWith the <a href=\"https://arstechnica.com/tag/ukraine-war/\">war in Ukraine</a> and a shifting world, we realized that this technology can be very important to operationalize edge data and sensor data for machine learning to make sure that NATO allies have found that strategic advantage,\u201d Andreas Hellander, cofounder and CEO of Scaleout Systems, told Ars.</p><p><a href=\"https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/#comments\">Comments</a></p>",
       "relevance_score": 1.5,
       "geo_boost": true,
