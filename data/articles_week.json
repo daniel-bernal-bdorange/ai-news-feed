@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-14",
   "week_end": "2026-09-20",
-  "last_updated": "2026-09-17T12:27:41Z",
+  "last_updated": "2026-09-18T12:06:11Z",
   "articles": [
+    {
+      "id": "084a8ea6d1f7",
+      "url": "https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning",
+      "title": "Flash floods can strike without warning \u2014 this new technology could change that",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-18T11:00:00Z",
+      "fetched_at": "2026-09-18T12:06:03Z",
+      "raw_content": "<figure>\n\n<img alt=\"Flash flood\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268746_new_technology_could_change_how_we_predict_flash_floods_for_good_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">On the morning of June 9th, Laura Lin was working from her home in Lanesville, a rural southern Indiana town about 15 miles from the Kentucky border. She was on a Zoom call, unaware that the heavy rain outside was beginning to flood her yard. </p>\n<p class=\"wp-block-paragraph\">\"I look over to where the barn is over there, and I see pieces of my wood floating, and I was like, 'What?' And I immediately was like, 'I have to go.' Close my laptop, and I get my kids up, and I'm like, 'Something's wrong,'\" Lin recalls.</p>\n<p class=\"wp-block-paragraph\">Lin and her family got out safely and sheltered at a neighbor's house, but Lanesville got over 8 inches of rain within <a href=\"https://www.wlky.com/article/lanesville-indiana-corydon-flooding-rain-evacuations/71536533\">just a few hours that day</a>, way over <a href=\"https://glossary.ametsoc.org/wiki/rain/\">the thre \u2026</a></p>\n<p><a href=\"https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"Flash flood\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268746_new_technology_could_change_how_we_predict_flash_floods_for_good_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"has-drop-cap wp-block-paragraph\">On the morning of June 9th, Laura Lin was working from her home in Lanesville, a rural southern Indiana town about 15 miles from the Kentucky border. She was on a Zoom call, unaware that the heavy rain outside was beginning to flood her yard. </p> <p class=\"wp-block-paragraph\">\"I look",
+      "selected": false
+    },
+    {
+      "id": "6d69cf8c968e",
+      "url": "https://rcrwireless.com/20260918/network-infrastructure/the-4ghz-ai-case-has-a-way-to-go-telco-diary",
+      "title": "The 4GHz AI case has a way to go (Telco Diary)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-18T08:36:08Z",
+      "fetched_at": "2026-09-18T12:06:03Z",
+      "raw_content": "From the newsletter (September 17; sign-up or follow if you want it sooner): AI is strengthening the case for more mid-band spectrum, particularly as physical AI pushes more traffic upstream.&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "From the newsletter (September 17; sign-up or follow if you want it sooner): AI is strengthening the case for more mid-band spectrum, particularly as physical AI pushes more traffic upstream.&#8230;",
+      "selected": false
+    },
+    {
+      "id": "5f759f1230a0",
+      "url": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
+      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-17T22:12:58Z",
+      "fetched_at": "2026-09-18T12:06:03Z",
+      "raw_content": "<p>As European militaries adapt to the use of AI and drones in modern warfare, a NATO-backed startup is helping to deploy AI-driven target detection and selection that can run on small drones for surveillance and attack missions.</p>\n<p>The company <a href=\"https://www.scaleoutsystems.com/\">Scaleout Systems</a> was originally founded by researchers from Uppsala University in Sweden in 2018, and initially focused on training and deploying machine learning models directly on the hardware available in commercial trucks and other vehicles. But once Russia launched its <a href=\"https://arstechnica.com/tag/russia-invasion-of-ukraine/\">full-scale invasion of Ukraine</a> in 2022, the company pivoted toward defense applications.</p>\n<p>\u201cWith the <a href=\"https://arstechnica.com/tag/ukraine-war/\">war in Ukraine</a> and a shifting world, we realized that this technology can be very important to operationalize edge data and sensor data for machine learning to make sure that NATO allies have found that strategic advantage,\u201d Andreas Hellander, cofounder and CEO of Scaleout Systems, told Ars.</p><p><a href=\"https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<p>As European militaries adapt to the use of AI and drones in modern warfare, a NATO-backed startup is helping to deploy AI-driven target detection and selection that can run on small drones for surveillance and attack missions.</p> <p>The company <a href=\"https://www.scaleoutsystems.com/\">Scaleout Systems</a> was originally founded by researchers from Uppsala University in Sweden in 2018, and initially focused on training and",
+      "selected": false
+    },
     {
       "id": "adcebf01c1d9",
       "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
