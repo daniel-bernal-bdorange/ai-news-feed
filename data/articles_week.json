@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-14",
   "week_end": "2026-09-20",
-  "last_updated": "2026-09-18T12:25:33Z",
+  "last_updated": "2026-09-19T11:49:51Z",
   "articles": [
+    {
+      "id": "ec39f5fbfc8e",
+      "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
+      "title": "Forget the AI Slowdown\u2014the Vulnerability Explosion Is Already Happening",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-19T11:00:00Z",
+      "fetched_at": "2026-09-19T11:49:46Z",
+      "raw_content": "AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws.",
+      "selected": false
+    },
+    {
+      "id": "0b78c077bac7",
+      "url": "https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/",
+      "title": "Rings around a tiny body have changed over the past decade",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-19T10:00:06Z",
+      "fetched_at": "2026-09-19T11:49:46Z",
+      "raw_content": "<p>For decades, astronomers thought rings were something only giant planets had. That changed in 2013, when a small, dark body orbiting between Saturn and Uranus passed in front of a star and blinked twice on either side of the main event, revealing two narrow rings around an object barely 250 kilometers across. \u201cIt was a surprise,\u201d says Pablo Santos-Sanz, an astronomer at the Instituto de Astrof\u00edsica de Andaluc\u00eda in Granada, Spain. Ever since, the question has been what such rings are made of and how long they can last.</p>\n<p>In a recent study, Santos-Sanz and his colleagues used the James Webb Space Telescope to watch the same body, now known as Chariklo, pass in front of a background star again. They found one of its rings had grown denser and the other had almost vanished. We don\u2019t know exactly why.</p>\n<h2>Shadowing a star</h2>\n<p>The technique behind the observation is simple. \u201cWe predict when a Solar System object passes in front of a star,\u201d Santos-Sanz said. The starlight dims for a moment, and the shape of that dip reveals the size, shape, and surroundings of the object that caused it. \u201cThis is particularly challenging for minor bodies, and more challenging for distant minor bodies,\u201d he said.</p><p><a href=\"https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<p>For decades, astronomers thought rings were something only giant planets had. That changed in 2013, when a small, dark body orbiting between Saturn and Uranus passed in front of a star and blinked twice on either side of the main event, revealing two narrow rings around an object barely 250 kilometers across. \u201cIt was a surprise,\u201d says Pablo Santos-Sanz, an",
+      "selected": false
+    },
+    {
+      "id": "ba2c446d8859",
+      "url": "https://rcrwireless.com/20260918/network-infrastructure/iris%c2%b2-takes-shape-as-europe-puts-e15-6bn-satellite-plan-into-orbit",
+      "title": "IRIS\u00b2 takes shape as Europe puts \u20ac15.6bn satellite plan into orbit",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-18T13:29:12Z",
+      "fetched_at": "2026-09-19T11:49:46Z",
+      "raw_content": "Europe\u2019s \u20ac15.6bn IRIS\u00b2 initiative is moving from sovereign-connectivity ambition to hardware, with hundreds of LEO and MEO satellites, billions in industrial contracts and a separate Low-LEO pipeline taking shape. In&#8230;",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "Europe\u2019s \u20ac15.6bn IRIS\u00b2 initiative is moving from sovereign-connectivity ambition to hardware, with hundreds of LEO and MEO satellites, billions in industrial contracts and a separate Low-LEO pipeline taking shape. In&#8230;",
+      "selected": false
+    },
     {
       "id": "084a8ea6d1f7",
       "url": "https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning",
