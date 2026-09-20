@@ -1,8 +1,36 @@
 {
   "week_start": "2026-09-14",
   "week_end": "2026-09-20",
-  "last_updated": "2026-09-19T11:49:51Z",
+  "last_updated": "2026-09-20T12:03:50Z",
   "articles": [
+    {
+      "id": "736f424f3d22",
+      "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-20T11:07:00Z",
+      "fetched_at": "2026-09-20T12:03:43Z",
+      "raw_content": "<p>Before two of its alleged members were arrested and charged in Australia last month, the hacker group known as TeamPCP <a href=\"https://www.wired.com/story/teampcp-software-supply-chain-attack-spree-github/\">carried out a hacking spree</a> unlike any other in history. It tainted hundreds of open-source programs with its malware, stole developer accounts to perpetuate that software supply-chain hacking, and even released a <a href=\"https://www.wired.com/story/a-dangerous-worm-is-eating-its-way-through-software-packages/\"><em>Dune</em>-themed self-spreading worm</a> to automate the process, ultimately breaching more than a thousand companies.</p>\n<p>Now Google\u2019s threat intelligence group has revealed that during a key moment of TeamPCP\u2019s rampage, the company\u2019s own undercover researcher had infiltrated the group\u2014allowing Google to monitor the hacking spree from the inside, warn breach targets, and even help disrupt the group\u2019s attempts to exploit those victims.</p>\n<p>In a talk at security firm SentinelOne's LABScon research conference today, Google Threat Intelligence Group researcher Austin Larsen will present details on the company\u2019s investigation\u2014and infiltration\u2014of TeamPCP amidst the group\u2019s unprecedented, chaotic supply-chain hacking campaign. According to Larsen, Google eventually followed a trail of operational security mistakes allegedly made by one of the two Australians now accused of being leading members of the hacker group and passed on key identifying details to law enforcement. The company also received intelligence from ShinyHunters, another infamous cybercriminal group that TeamPCP partnered with, but which later turned on the supply-chain hackers. And perhaps most surprisingly, Larsen says that Google\u2019s security subsidiary Mandiant had an undercover analyst\u2014not himself\u2014within the group\u2019s inner circle from almost the beginning of TeamPCP\u2019s time in the spotlight.</p><p><a href=\"https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/#comments\">Comments</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<p>Before two of its alleged members were arrested and charged in Australia last month, the hacker group known as TeamPCP <a href=\"https://www.wired.com/story/teampcp-software-supply-chain-attack-spree-github/\">carried out a hacking spree</a> unlike any other in history. It tainted hundreds of open-source programs with its malware, stole developer accounts to perpetuate that software supply-chain hacking, and even released a <a href=\"https://www.wired.com/story/a-dangerous-worm-is-eating-its-way-through-software-packages/\"><em>Dune</em>-themed self-spreading worm</a> to automate the",
+      "selected": false
+    },
+    {
+      "id": "46d0cb7f45a7",
+      "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+      "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-20T10:30:00Z",
+      "fetched_at": "2026-09-20T12:03:43Z",
+      "raw_content": "The Muse app continues Meta\u2019s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "The Muse app continues Meta\u2019s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.",
+      "selected": false
+    },
     {
       "id": "ec39f5fbfc8e",
       "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
