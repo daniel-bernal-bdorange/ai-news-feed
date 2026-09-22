@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-21",
   "week_end": "2026-09-27",
-  "last_updated": "2026-09-21T13:41:50Z",
+  "last_updated": "2026-09-22T12:24:59Z",
   "articles": [
+    {
+      "id": "1db4d52e35fa",
+      "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+      "title": "Nscale\u2019s IPO will test Wall Street\u2019s appetite for concentrated AI bets once again",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-22T12:23:05Z",
+      "fetched_at": "2026-09-22T12:24:53Z",
+      "raw_content": "The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.",
+      "selected": false
+    },
+    {
+      "id": "52b311a05fba",
+      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+      "title": "Meta patches Muse exploit that let attackers control the AI agent",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-22T11:53:58Z",
+      "fetched_at": "2026-09-22T12:24:53Z",
+      "raw_content": "<figure>\n\n<img alt=\"Robot hands typing on a keyboard\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tThe zero-day exploit required local access to the user\u2019s device, but gave potential attackers access to Muse accounts. | Image: The Verge\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by <a href=\"https://x.com/patrickwardle/status/2102045926474785265\">security researcher Patrick Wardle</a> utilized an undocumented Muse setting that enabled potential attackers running local code to redirect transcription processing from Meta's servers to their own endpoint, <a href=\"https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/\"><em>Ars Technica</em></a> reports, giving the attacker access to the Muse account.</p>\n<p class=\"wp-block-paragraph\">Several design decisions reportedly enabled this flaw, including having Muse dictation occur in the cloud instead of on-device, and allowing any app to control all of Muse's undocumented settings. Pr \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"Robot hands typing on a keyboard\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> The zero-day exploit required local access to the user\u2019s device, but gave potential attackers access to Muse accounts. | Image: The Verge </figcaption> </figure> <p class=\"wp-block-paragraph\">Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control",
+      "selected": false
+    },
+    {
+      "id": "f8da45607733",
+      "url": "https://rcrwireless.com/20260922/sponsored/samsung-ai-vran",
+      "title": "The journey to the AI era begins with virtualized RAN",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-22T11:12:40Z",
+      "fetched_at": "2026-09-22T12:24:53Z",
+      "raw_content": "Artificial intelligence is rapidly becoming the defining force behind the next generation of mobile networks. The deployment decisions operators make today will shape their ability to adopt new AI capabilities,&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Artificial intelligence is rapidly becoming the defining force behind the next generation of mobile networks. The deployment decisions operators make today will shape their ability to adopt new AI capabilities,&#8230;",
+      "selected": false
+    },
     {
       "id": "c8b7580d0a35",
       "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
