@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-21",
   "week_end": "2026-09-27",
-  "last_updated": "2026-09-22T12:24:59Z",
+  "last_updated": "2026-09-23T12:36:22Z",
   "articles": [
+    {
+      "id": "117b225a2730",
+      "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+      "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-23T12:00:00Z",
+      "fetched_at": "2026-09-23T12:36:16Z",
+      "raw_content": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
+      "selected": false
+    },
+    {
+      "id": "a484742fdb12",
+      "url": "https://rcrwireless.com/20260923/analyst-angle/the-cambium-collapse-what-it-means-for-wisps-analyst-angle",
+      "title": "The Cambium collapse \u2013 what it means for WISPs (Analyst Angle)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-23T11:15:21Z",
+      "fetched_at": "2026-09-23T12:36:16Z",
+      "raw_content": "Cambium\u2019s collapse leaves WISPs facing a sprawling installed-base problem, with Airspan\u2019s partial acquisition offering some relief but leaving ePMP and other product lines in limbo. The challenge now is securing&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Cambium\u2019s collapse leaves WISPs facing a sprawling installed-base problem, with Airspan\u2019s partial acquisition offering some relief but leaving ePMP and other product lines in limbo. The challenge now is securing&#8230;",
+      "selected": false
+    },
+    {
+      "id": "9b5eb49e1849",
+      "url": "https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/",
+      "title": "A new report from Europe raises serious alarms about orbital collisions",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-09-23T11:00:17Z",
+      "fetched_at": "2026-09-23T12:36:16Z",
+      "raw_content": "<p>The 2013 sci-fi blockbuster film <em>Gravity</em>, starring Sandra Bullock and George Clooney, popularized the notion of the Kessler syndrome. In the movie, Russia shoots down a defunct satellite and creates a cloud of debris, leading to serious tension in orbit.</p>\n<p>The movie is fantastic, a true thriller, and while some liberties were taken with the depiction of outer space, the basic premise of a cascading series of collisions rendering orbits too cluttered with debris to be usable is valid. <a href=\"https://en.wikipedia.org/wiki/Kessler_syndrome\">The idea was first proposed</a> by NASA scientists Donald Kessler and Burton Cour-Palais nearly half a century ago.</p>\n<p>Still, the movie was science fiction, right?</p><p><a href=\"https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/#comments\">Comments</a></p>",
+      "relevance_score": 1.5,
+      "geo_boost": true,
+      "summary": "<p>The 2013 sci-fi blockbuster film <em>Gravity</em>, starring Sandra Bullock and George Clooney, popularized the notion of the Kessler syndrome. In the movie, Russia shoots down a defunct satellite and creates a cloud of debris, leading to serious tension in orbit.</p> <p>The movie is fantastic, a true thriller, and while some liberties were taken with the depiction of outer space, the",
+      "selected": false
+    },
     {
       "id": "1db4d52e35fa",
       "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
