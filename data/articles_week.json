@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-21",
   "week_end": "2026-09-27",
-  "last_updated": "2026-09-23T12:36:22Z",
+  "last_updated": "2026-09-24T12:35:03Z",
   "articles": [
+    {
+      "id": "f333fe86f9e8",
+      "url": "https://rcrwireless.com/20260924/network-infrastructure/ditch-the-gold-standard-build-the-network-that-pays-mimosa",
+      "title": "Ditch the \u2018gold standard\u2019, build the network that pays \u2013 Mimosa",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-24T11:07:31Z",
+      "fetched_at": "2026-09-24T12:34:57Z",
+      "raw_content": "Mimosa Networks argues broadband operators should build for the business case, not fiber-first dogma. As BEAD funding and rural economics shift, FWA in unlicensed spectrum offers another route to viable&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "Mimosa Networks argues broadband operators should build for the business case, not fiber-first dogma. As BEAD funding and rural economics shift, FWA in unlicensed spectrum offers another route to viable&#8230;",
+      "selected": false
+    },
+    {
+      "id": "b1db7d7804a7",
+      "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+      "title": "An OpenAI Agent Hacked Australia\u2019s Health Service. Their Government Found Out Months Later",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-24T10:46:56Z",
+      "fetched_at": "2026-09-24T12:34:57Z",
+      "raw_content": "The country\u2019s prime minister expressed disappointment at being informed of the hack only via email. Now Australia is investigating whether OpenAI broke the law.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "The country\u2019s prime minister expressed disappointment at being informed of the hack only via email. Now Australia is investigating whether OpenAI broke the law.",
+      "selected": false
+    },
+    {
+      "id": "364e76eaa6a6",
+      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "title": "Everything new coming to Meta\u2019s AI agent Muse",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-24T01:13:32Z",
+      "fetched_at": "2026-09-24T12:34:57Z",
+      "raw_content": "CEO Mark Zuckerberg kicked off the company\u2019s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "CEO Mark Zuckerberg kicked off the company\u2019s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+      "selected": false
+    },
     {
       "id": "117b225a2730",
       "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
