@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-21",
   "week_end": "2026-09-27",
-  "last_updated": "2026-09-24T12:35:03Z",
+  "last_updated": "2026-09-25T12:36:37Z",
   "articles": [
+    {
+      "id": "ab39be484551",
+      "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "title": "Microsoft thinks its new Copilot \u2018super app\u2019 will be as influential as Office",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-25T12:00:00Z",
+      "fetched_at": "2026-09-25T12:36:29Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/copilothed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">After teasing its new Copilot \"super app\" <a href=\"https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed\">last month</a>, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the <a href=\"https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw\">AI personal assistant</a> it unveiled at Build earlier this year, as Autopilot.</p>\n<p class=\"wp-block-paragraph\">This new Copilot app will have three tabs for Home, Code, and Autopilot, with Home combining Copilot Chat and Cowork together. It's the default landing experience for Copilot users, and Microsoft is also planning to include a Today feature inside it that works as personalized dashboard for important  \u2026</p>\n<p><a href=\"https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/copilothed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"wp-block-paragraph\">After teasing its new Copilot \"super app\" <a href=\"https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed\">last month</a>, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the <a href=\"https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw\">AI personal assistant</a> it unveiled at",
+      "selected": false
+    },
+    {
+      "id": "297442df36ca",
+      "url": "https://rcrwireless.com/20260925/opinion/ai-ran-not-front-of-house-stuff-telco-diary",
+      "title": "AI-RAN \u2013 \u201cnot front-of-house stuff\u201d (Telco Diary)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-25T10:22:06Z",
+      "fetched_at": "2026-09-25T12:36:29Z",
+      "raw_content": "From the newsletter (September 24; sign-up or follow if you want it sooner): Optus, Orange, SK Telecom, plus ZTE and Samsung, are sharpening the AI-RAN debate: near-term gains from AI&#8230;",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "From the newsletter (September 24; sign-up or follow if you want it sooner): Optus, Orange, SK Telecom, plus ZTE and Samsung, are sharpening the AI-RAN debate: near-term gains from AI&#8230;",
+      "selected": false
+    },
+    {
+      "id": "ff3979163f0a",
+      "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
+      "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-25T05:00:00Z",
+      "fetched_at": "2026-09-25T12:36:29Z",
+      "raw_content": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
+      "selected": false
+    },
     {
       "id": "f333fe86f9e8",
       "url": "https://rcrwireless.com/20260924/network-infrastructure/ditch-the-gold-standard-build-the-network-that-pays-mimosa",
