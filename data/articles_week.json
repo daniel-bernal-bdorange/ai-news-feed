@@ -1,8 +1,36 @@
 {
   "week_start": "2026-09-21",
   "week_end": "2026-09-27",
-  "last_updated": "2026-09-26T12:05:36Z",
+  "last_updated": "2026-09-27T12:50:21Z",
   "articles": [
+    {
+      "id": "3e5c288472f5",
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-27T01:30:00Z",
+      "fetched_at": "2026-09-27T12:50:15Z",
+      "raw_content": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "selected": false
+    },
+    {
+      "id": "960b51012f8d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "title": "OpenAI pauses training of its \u2018most capable models\u2019",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-26T16:34:59Z",
+      "fetched_at": "2026-09-27T12:50:15Z",
+      "raw_content": "<figure>\n\n<img alt=\"Vector illustration of the Open AI logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">As reports of OpenAI's models <a href=\"https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai\">breaking containment</a>, hacking sites, and generally getting out of control pile up, the company has made the decision to <a href=\"https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/\">pause training</a> of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to <a href=\"https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents\">gain internet access</a>. The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paused as of Saturday evening, September 25th.</p>\n<p class=\"wp-block-paragraph\">In addition, OpenAI revealed on Friday that its agents had inappropriately uploaded 53nimages from ChatGPT users to image-hosting sites. The company has not stated if the images were AI- \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 1.0,
+      "geo_boost": false,
+      "summary": "<figure> <img alt=\"Vector illustration of the Open AI logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" /> <figcaption> </figcaption> </figure> <p class=\"wp-block-paragraph\">As reports of OpenAI's models <a href=\"https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai\">breaking containment</a>, hacking sites, and generally getting out of control pile up, the company has made the decision to <a href=\"https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/\">pause training</a> of its most powerful models. The decision was made after a model being tested within a sandbox",
+      "selected": false
+    },
     {
       "id": "ecbc331b04a9",
       "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
