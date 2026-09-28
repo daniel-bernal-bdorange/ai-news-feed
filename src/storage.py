@@ -116,7 +116,7 @@ def _article_to_dict(article: Article, fallback_fetched_at: datetime) -> dict[st
     return {
         "id": article.id or _build_article_id(article.url),
         "url": article.url,
-        "title": article.title,
+        "title": article.display_title or article.title,
         "source_name": article.source_name,
         "category": article.category,
         "published_at": _format_datetime(article.published_date),

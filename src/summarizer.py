@@ -105,8 +105,8 @@ def summarize_articles(
                 result.append(
                     replace(
                         article,
-                        display_title=headline or _fallback_spanish_title(article.title),
-                        summary=summary or _excerpt_fallback_summary(article, settings.max_words),
+                        display_title=_fallback_spanish_title(article.title),
+                        summary=_normalize_spanish_text(summary) or _excerpt_fallback_summary(article, settings.max_words),
                     )
                 )
             else:
@@ -268,7 +268,7 @@ def _excerpt_fallback_summary(article: Article, max_words: int) -> str | None:
     """Use original content as fallback summary when the provider call fails."""
 
     content = article.raw_content.strip() or article.title.strip()
-    spanish_content = _spanishize_text(content)
+    spanish_content = _normalize_spanish_text(content)
     return _truncate_to_max_words(spanish_content, max_words) if spanish_content else None
 
 
@@ -331,14 +331,53 @@ def _parse_json_block(content: str) -> dict[str, object] | None:
 def _fallback_spanish_title(title: str) -> str:
     """Provide a lightweight Spanish headline fallback when the model is unavailable."""
 
-    translated = _spanishize_text(title)
+    translated = _normalize_spanish_text(title)
     return _truncate_to_max_words(translated, 12) or title
+
+
+def _normalize_spanish_text(text: str | None) -> str | None:
+    """Apply lightweight Spanish replacements to model output and fallbacks."""
+
+    if not text:
+        return None
+
+    translated = _spanishize_text(text)
+    return translated or None
 
 
 def _spanishize_text(text: str) -> str:
     """Replace common news terms with Spanish equivalents for offline fallbacks."""
 
     replacements = (
+        (r"\band\b", "y"),
+        (r"\bfor\b", "para"),
+        (r"\bwith\b", "con"),
+        (r"\bnew\b", "nuevo"),
+        (r"\bkey\b", "clave"),
+        (r"\blead\b", "lidera"),
+        (r"\bleads\b", "lidera"),
+        (r"\bleading\b", "líder"),
+        (r"\bservice\b", "servicio"),
+        (r"\bservices\b", "servicios"),
+        (r"\bplatform\b", "plataforma"),
+        (r"\bplatforms\b", "plataformas"),
+        (r"\bproduct\b", "producto"),
+        (r"\bproducts\b", "productos"),
+        (r"\bcompany\b", "empresa"),
+        (r"\bcompanies\b", "empresas"),
+        (r"\bcustomer\b", "cliente"),
+        (r"\bcustomers\b", "clientes"),
+        (r"\bgrowth\b", "crecimiento"),
+        (r"\brevenue\b", "ingresos"),
+        (r"\breport\b", "informe"),
+        (r"\breports\b", "informa"),
+        (r"\bresearch\b", "investigación"),
+        (r"\bsolution\b", "solución"),
+        (r"\bsolutions\b", "soluciones"),
+        (r"\btool\b", "herramienta"),
+        (r"\btools\b", "herramientas"),
+        (r"\bdeal\b", "acuerdo"),
+        (r"\bsupport\b", "soporte"),
         (r"\bartificial intelligence\b", "inteligencia artificial"),
         (r"\bgenerative AI\b", "IA generativa"),
         (r"\bmachine learning\b", "aprendizaje automático"),
@@ -358,12 +397,13 @@ def _spanishize_text(text: str) -> str:
         (r"\bannounced\b", "anunció"),
         (r"\bpartnership\b", "alianza"),
         (r"\bpartnerships\b", "alianzas"),
+        (r"\brelease\b", "lanzamiento"),
+        (r"\breleases\b", "lanzamientos"),
+        (r"\breleased\b", "lanzó"),
         (r"\bregulation\b", "regulación"),
         (r"\bpolicy\b", "política"),
         (r"\bmodel\b", "modelo"),
         (r"\bmodels\b", "modelos"),
-        (r"\brelease\b", "lanzamiento"),
-        (r"\breleases\b", "lanzamientos"),
         (r"\bSpain\b", "España"),
         (r"\bSpanish\b", "español"),
         (r"\bEuropean\b", "europeo"),

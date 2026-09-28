@@ -2,10 +2,10 @@ from __future__ import annotations
 
 DEFAULT_SUMMARY_PROMPT_TEMPLATE = """You are a news analyst for a technology and telecom company based in Spain.
 Return a JSON object with the keys "headline_es" and "summary_es" only.
-Headline: a concise Spanish headline that preserves the meaning of the original title.
+Headline: a concise Spanish headline that preserves the meaning of the original title. Do not keep the English title.
 Summary: summarize the following news article in {max_words} words or less.
 {geo_instruction}
-Write both fields in European Spanish (es-ES) using a business-colloquial tone suitable for executive chats.
+Write both fields entirely in European Spanish (es-ES) using a business-colloquial tone suitable for executive chats. Do not leave English words in either field.
 Be factual, neutral, and concise. Output only valid JSON, no preamble.
 Original headline: {title}
 Article: {content}"""

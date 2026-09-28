@@ -44,6 +44,36 @@ def test_persist_weekly_articles_creates_expected_weekly_schema(tmp_path: Path) 
     assert store.articles[0].title == "Spain enterprise AI update"
 
 
+def test_persist_weekly_articles_uses_display_title_when_available(tmp_path: Path) -> None:
+    """Persisted JSON should keep the Spanish display title instead of the original title."""
+
+    now = datetime(2026, 5, 7, 8, 3, 21, tzinfo=UTC)
+    path = tmp_path / "articles_week.json"
+
+    persist_weekly_articles(
+        [
+            Article(
+                title="Spain enterprise AI update",
+                display_title="España actualización de IA empresarial",
+                url="https://example.com/spain-ai-spanish",
+                source_name="Feed A",
+                published_date=datetime(2026, 5, 7, 6, 30, tzinfo=UTC),
+                fetched_at=now,
+                raw_content="Spain and enterprise AI",
+                category="ai",
+                geo_boost=True,
+                relevance_score=1.5,
+            )
+        ],
+        path,
+        now=now,
+    )
+
+    payload = json.loads(path.read_text(encoding="utf-8"))
+
+    assert payload["articles"][0]["title"] == "España actualización de IA empresarial"
+
+
 def test_persist_weekly_articles_merges_with_existing_week_and_keeps_unique_urls(tmp_path: Path) -> None:
     """Weekly persistence should deduplicate against already stored articles."""
 

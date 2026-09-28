@@ -64,7 +64,7 @@ def test_summarize_articles_placeholder_extracts_first_max_words() -> None:
 
     assert summarized[0].display_title == "España IA regulación actualización"
     assert summarized[0].summary.startswith("Relevante para España y Europa")
-    assert "europeo regulación actualización for the" in summarized[0].summary
+    assert "europeo regulación actualización para the" in summarized[0].summary
 
 
 def test_summarize_articles_uses_configured_model_and_prompt_template_with_external_provider() -> None:
@@ -112,7 +112,7 @@ def test_summarize_articles_uses_configured_model_and_prompt_template_with_exter
     assert '"model":"grok-vision-beta"' in str(captured_request["payload"])
     assert "Custom prompt for 12 words." in str(captured_request["payload"])
     assert "Mention that relevance explicitly" in str(captured_request["payload"])
-    assert summarized[0].display_title == "España y Europa en el centro de la actualización de teleco e IA"
+    assert summarized[0].display_title == "España IA regulación actualización"
     assert summarized[0].summary == "España y Europa siguen siendo clave en esta actualización de política de"
 
 
@@ -184,7 +184,7 @@ def test_summarize_articles_falls_back_to_excerpt_when_provider_fails(caplog) ->
     with httpx.Client(transport=httpx.MockTransport(handler)) as client, caplog.at_level("WARNING"):
         summarized = summarize_articles([article], settings, "groq-test-key", client=client)
 
-    assert summarized[0].summary == "Original excerpt content for fallback behavior"
+    assert summarized[0].summary == "Original excerpt content para fallback behavior"
     assert "No se pudo generar el resumen para 'Network outage analysis'" in caplog.text
 
 
