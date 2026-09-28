@@ -70,7 +70,7 @@ class StructuredLogHandler(logging.Handler):
                     log_entry[key] = getattr(record, key)
 
             print(json.dumps(log_entry, default=str))
-        except Exception:  # noqa: BLE001
+        except Exception:
             self.handleError(record)
 
 
@@ -123,7 +123,7 @@ def log_stage(
 
     try:
         yield context
-    except Exception:  # noqa: BLE001
+    except Exception:
         elapsed = time.time() - start_time
         logger.exception(
             f"Error en stage {stage}",
@@ -174,7 +174,7 @@ def log_operation(
 
     try:
         yield details
-    except Exception as exc:  # noqa: BLE001
+    except Exception as exc:
         elapsed = time.time() - start_time
         logger.warning(
             f"Operacion {operation} fallida: {exc}",

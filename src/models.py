@@ -83,7 +83,7 @@ class EditorialSettings:
     include_keywords: list[str] = field(default_factory=list)
     exclude_keywords: list[str] = field(default_factory=list)
     min_title_length: int = 0
-    geo_priority: "GeoPrioritySettings" = field(default_factory=lambda: GeoPrioritySettings())
+    geo_priority: GeoPrioritySettings = field(default_factory=lambda: GeoPrioritySettings())
 
 
 @dataclass(frozen=True)

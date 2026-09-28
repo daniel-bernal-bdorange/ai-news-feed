@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import argparse
-from collections.abc import Sequence
 import os
+from collections.abc import Sequence
 
 from dotenv import load_dotenv
 
@@ -10,7 +10,6 @@ from src.fetcher import fetch_all_articles
 from src.publisher import publish_digest
 from src.settings import load_settings, validate_secrets
 from src.storage import DEFAULT_ARTICLE_STORE_PATH, persist_weekly_articles
-from src.summarizer import summarize_articles
 from src.structured_logging import (
     STAGE_FETCH,
     STAGE_PERSIST,
@@ -20,6 +19,7 @@ from src.structured_logging import (
     get_logger,
     log_stage,
 )
+from src.summarizer import summarize_articles
 
 
 def _build_parser() -> argparse.ArgumentParser:
