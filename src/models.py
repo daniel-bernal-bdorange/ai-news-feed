@@ -32,6 +32,7 @@ class Article:
     source_name: str
     published_date: datetime
     raw_content: str
+    display_title: str | None = None
     category: str | None = None
     geo_boost: bool = False
     fetched_at: datetime | None = None

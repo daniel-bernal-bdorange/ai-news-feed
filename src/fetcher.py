@@ -515,6 +515,25 @@ def _article_rank_key(article: Article, editorial: EditorialSettings) -> tuple[f
     )
 
 
+def _calculate_relevance_score(article: Article, editorial: EditorialSettings) -> float:
+    """Estimate relevance from keyword matches in the title and content."""
+
+    if not editorial.include_keywords:
+        return max(article.relevance_score, 1.0)
+
+    searchable_title = _normalize_search_text(article.title)
+    searchable_content = _normalize_search_text(article.raw_content)
+    score = 1.0
+
+    for keyword in editorial.include_keywords:
+        if _keyword_matches(searchable_title, keyword):
+            score += 1.5
+        elif _keyword_matches(searchable_content, keyword):
+            score += 0.75
+
+    return score
+
+
 def _geo_priority_multiplier(article: Article, editorial: EditorialSettings) -> float:
     """Return the configured boost for Spain and EU-relevant articles."""
 
@@ -529,7 +548,10 @@ def _with_geo_boost(article: Article, editorial: EditorialSettings) -> Article:
     """Persist the geo-priority match on the article so downstream stages can reuse it."""
 
     geo_boost = _has_geo_priority(article, editorial)
-    relevance_score = max(article.relevance_score, editorial.geo_priority.boost_score if geo_boost else 1.0)
+    relevance_score = max(article.relevance_score, _calculate_relevance_score(article, editorial))
+    if geo_boost:
+        relevance_score *= editorial.geo_priority.boost_score
+
     if article.geo_boost == geo_boost and article.relevance_score == relevance_score:
         return article
 

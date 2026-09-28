@@ -12,6 +12,7 @@ def _sample_articles() -> list[Article]:
     return [
         Article(
             title="Weekly digest item",
+            display_title="Elemento del resumen semanal",
             url="https://example.com/item",
             source_name="Feed A",
             published_date=datetime(2026, 5, 11, 8, 0, tzinfo=UTC),
@@ -28,7 +29,7 @@ def test_build_digest_payload_counts_categories() -> None:
     assert payload["week"] == "2026-05-11 / 2026-05-17"
     assert payload["total_articles"] == 1
     assert payload["categories"] == {"tech": 1}
-    assert payload["articles"][0]["title"] == "Weekly digest item"
+    assert payload["articles"][0]["title"] == "Elemento del resumen semanal"
 
 
 def test_publish_digest_logs_response_preview_on_success(monkeypatch, caplog) -> None:

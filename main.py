@@ -75,7 +75,8 @@ def main(argv: Sequence[str] | None = None) -> None:
     )
     for article in articles:
         # Keep the CLI output compact so it can be used as a quick smoke check.
-        print(f"- [{article.source_name}] {article.title} -> {article.url}")
+        display_title = article.display_title or article.title
+        print(f"- [{article.source_name}] {display_title} -> {article.url}")
         if article.summary:
             print(f"  Summary: {article.summary}")
 
@@ -98,7 +99,7 @@ def main(argv: Sequence[str] | None = None) -> None:
         # PUBLISH stage
         with log_stage(STAGE_PUBLISH, logger, {"articles": len(weekly_store.articles)}) as publish_ctx:
             week_label = f"{weekly_store.week_start} / {weekly_store.week_end}"
-            publish_digest(weekly_store.articles, week_label, webhook_url)
+            publish_digest(weekly_articles, week_label, webhook_url)
             publish_ctx["week_label"] = week_label
             publish_ctx["status"] = "published"
     elif args.mode == "weekly":

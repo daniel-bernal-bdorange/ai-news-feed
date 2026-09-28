@@ -42,7 +42,7 @@ def build_digest_payload(articles: list[Article], week_label: str) -> dict:
         "categories": dict(categories),
         "articles": [
             {
-                "title": a.title,
+                "title": a.display_title or a.title,
                 "url": a.url,
                 "source": a.source_name,
                 "category": a.category or "",

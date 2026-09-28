@@ -229,6 +229,39 @@ def test_fetch_all_articles_applies_editorial_filters_before_ranking() -> None:
     assert [article.title for article in articles] == ["Orange launches enterprise AI platform"]
 
 
+def test_fetch_all_articles_prioritizes_keyword_rich_articles_over_newer_generic_items() -> None:
+    """Keyword-heavy articles should outrank a more recent but weaker match."""
+
+    now = datetime(2026, 5, 7, 8, 0, tzinfo=UTC)
+    settings = build_settings(
+        newsapi_enabled=False,
+        include_keywords=["orange", "ai", "launch", "network"],
+        max_articles_total=2,
+        max_articles_per_source=3,
+    )
+
+    def parser(_: str) -> dict[str, object]:
+        return {
+            "entries": [
+                _entry(
+                    "Orange launches AI network platform",
+                    "https://example.com/keyword-rich",
+                    now.replace(hour=7),
+                ),
+                _entry(
+                    "Orange update",
+                    "https://example.com/generic",
+                    now,
+                ),
+            ]
+        }
+
+    articles = fetch_all_articles(settings, api_key=None, now=now, parser=parser)
+
+    assert [article.title for article in articles] == ["Orange launches AI network platform", "Orange update"]
+    assert articles[0].relevance_score > articles[1].relevance_score
+
+
 def test_rank_articles_for_digest_respects_category_and_source_limits() -> None:
     """Final ranking should keep the best recent mix within source and category caps."""
 

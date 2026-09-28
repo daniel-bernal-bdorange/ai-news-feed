@@ -1,7 +1,7 @@
 schedule:
   lookback_hours: 24
-  max_articles_total: 8
-  max_articles_per_source: 3
+  max_articles_total: 4
+  max_articles_per_source: 2
 
 sources:
   rss:
@@ -106,8 +106,11 @@ ai_summary:
   timeout_seconds: 20.0
   prompt_template: |
     You are a news analyst for a technology and telecom company based in Spain.
-    Summarize the following news article in {max_words} words or less.
+    Return a JSON object with the keys "headline_es" and "summary_es" only.
+    Headline: a concise Spanish headline that preserves the meaning of the original title.
+    Summary: summarize the following news article in {max_words} words or less.
     {geo_instruction}
-    Write the summary in European Spanish (es-ES) using a business-colloquial tone suitable for executive chats.
-    Be factual, neutral, and concise. Output only the summary, no preamble.
+    Write both fields in European Spanish (es-ES) using a business-colloquial tone suitable for executive chats.
+    Be factual, neutral, and concise. Output only valid JSON, no preamble.
+    Original headline: {title}
     Article: {content}
