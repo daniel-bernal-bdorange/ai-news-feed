@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
-  "last_updated": "2026-09-28T09:02:37Z",
+  "last_updated": "2026-09-28T15:01:26Z",
   "articles": [
+    {
+      "id": "6ec519350686",
+      "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "title": "Modulate raises $25M para its voice modelos y analysis suite",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-28T14:05:00Z",
+      "fetched_at": "2026-09-28T15:01:16Z",
+      "raw_content": "Modulate deploys its models to detect deepfake, fraud and scam",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "Modulate ha desplegado sus modelos de voz para identificar deepfakes, fraudes y estafas, reforzando su posici\u00f3n en el mercado de seguridad de la comunicaci\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "64fdf8a89fbd",
+      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "title": "Nvidia says its nuevo IA safety plataforma can contain rogue agents within",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-28T13:36:06Z",
+      "fetched_at": "2026-09-28T15:01:16Z",
+      "raw_content": "<figure>\n\n<img alt=\"Vector illustration of the Nvidia logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25728971/STK083_NVIDIA_2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a <a href=\"http://theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google\">wave of rogue hacking incidents</a>, as <a href=\"https://www.reuters.com/legal/litigation/nvidia-releases-ai-safety-software-it-says-could-have-stopped-hugging-face-hack-2026-09-28/\">reported earlier by <em>Reuters</em></a>. In <a href=\"https://nvidianews.nvidia.com/news/open-agent-safety-platform\">an announcement on Monday</a>, Nvidia says its new Open Agent Safety Platform can quarantine agents that attempt to escape their boundaries within \"milliseconds.\"</p>\n<p class=\"wp-block-paragraph\">The platform uses Nvidia's OpenShell open-source software, which runs on the company's <a href=\"https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents\">Vera AI CPU</a>. Users can choose the information an AI agent can access, and OpenShell checks these restrictions before and during a task, <a href=\"https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/\">according to Nvidia</a>. It also includes Nvidia's Sentry technology on a separate \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Nvidia presenta su nueva Plataforma de Seguridad de Agentes Abiertos, capaz de aislar y supervisar agentes de IA que intenten salirse de sus l\u00edmites en cuesti\u00f3n de milisegundos. La soluci\u00f3n, basada en el software OpenShell y la CPU Vera, permite definir accesos y vigilar restricciones antes y durante las tareas, reforzando la protecci\u00f3n frente a ataques de IA descontrolada.",
+      "selected": false
+    },
+    {
+      "id": "280252571836",
+      "url": "https://rcrwireless.com/20260928/tech/everyones-building-ai-infrastructure-whos-building-the-business-reader-forum",
+      "title": "Everyone\u2019s building IA infrastructure \u2013 who\u2019s building the business? (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-28T10:10:51Z",
+      "fetched_at": "2026-09-28T15:01:16Z",
+      "raw_content": "Telecom operators are pouring billions into AI infrastructure, but compute alone will not create lasting value. The bigger challenge is turning GPUs, models and AI platforms into commercially sustainable services&#8230;",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "Los operadores de telecomunicaciones est\u00e1n destinando miles de millones a infraestructuras de IA, pero el mero poder de c\u00f3mputo no garantiza valor sostenible. El reto real es convertir GPUs, modelos y plataformas de IA en servicios rentables y comercialmente viables.",
+      "selected": false
+    },
     {
       "id": "e45d610e6974",
       "url": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system/",
