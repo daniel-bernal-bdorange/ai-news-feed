@@ -1,8 +1,22 @@
 {
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
-  "last_updated": "2026-09-28T07:44:33Z",
+  "last_updated": "2026-09-28T09:02:37Z",
   "articles": [
+    {
+      "id": "e45d610e6974",
+      "url": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system/",
+      "title": "Nvidia\u2019s Answer to Rogue Agents Is an Open-Source AI Security System",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-28T09:00:00Z",
+      "fetched_at": "2026-09-28T09:02:28Z",
+      "raw_content": "In the wake of a series of high-profile AI safety incidents, Nvidia is introducing a new software tool that helps keep agents from escaping containment.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Nvidia ha lanzado una herramienta de software de c\u00f3digo abierto que previene que los agentes de IA escapen de su contenci\u00f3n, respondiendo a recientes incidentes de seguridad. La soluci\u00f3n permite monitorizar y controlar el comportamiento de los modelos, reforzando la protecci\u00f3n en entornos empresariales.",
+      "selected": false
+    },
     {
       "id": "3462e7c1a917",
       "url": "https://rcrwireless.com/20260927/test-and-measurement/5g-mu-mimo-fdd-uplink",
@@ -10,7 +24,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-09-28T04:45:34Z",
-      "fetched_at": "2026-09-28T07:42:28Z",
+      "fetched_at": "2026-09-28T09:02:28Z",
       "raw_content": "In sum, what to know: -Signals Research Group recently conducted what is almost certainly the first independent testing of 5G massive and Multi-User MIMO in FDD spectrum, in a live&#8230;",
       "relevance_score": 1.75,
       "geo_boost": false,
@@ -24,7 +38,7 @@
       "source_name": "The Verge - AI",
       "category": "tech",
       "published_at": "2026-09-27T20:46:36Z",
-      "fetched_at": "2026-09-28T07:42:28Z",
+      "fetched_at": "2026-09-28T09:02:28Z",
       "raw_content": "<figure>\n\n<img alt=\"Engram - an instrument with 16 pads, 8 knobs, a few buttons and all the usual nonsense on a rug.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-27-at-4.42.53-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Music startup <a href=\"https://thoughtfulthings.ai/\">Thoughtful Things</a> has just launched the Kickstarter campaign for its first instrument, <a href=\"https://www.kickstarter.com/projects/evmaki/engram-generative-audio-sampler-and-groovebox?ref=section-homepage-view-more-discovery-p1&amp;category_id=Q2F0ZWdvcnktMzM5#use-of-ai\">Engram</a>. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 radio. It's about creating experimental, uncanny sounds and pushing AI audio models beyond their limits.</p>\n<p class=\"wp-block-paragraph\">Engram isn't connected to the internet. Instead, it runs a \"tiny AI\" locally. According to the Kickstarter listing, the model is designed in-house and custom-trained. The company says: </p>\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\"> \u2026</blockquote>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music\">Read the full story at The Verge.</a></p>",
       "relevance_score": 3.25,
       "geo_boost": false,
