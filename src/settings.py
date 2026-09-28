@@ -5,7 +5,17 @@ from pathlib import Path
 
 import yaml
 
-from .models import AiSummarySettings, EditorialSettings, GeoPrioritySettings, NewsApiSettings, RankingSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
+from .models import (
+    AiSummarySettings,
+    EditorialSettings,
+    GeoPrioritySettings,
+    NewsApiSettings,
+    RankingSettings,
+    RssSourceConfig,
+    ScheduleSettings,
+    Settings,
+    SourceSettings,
+)
 
 
 def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
@@ -86,4 +96,4 @@ def validate_secrets(settings: Settings) -> None:
 
     if missing:
         lines = "\n  - ".join(missing)
-        raise EnvironmentError(f"Missing required environment variables:\n  - {lines}")
+        raise OSError(f"Missing required environment variables:\n  - {lines}")

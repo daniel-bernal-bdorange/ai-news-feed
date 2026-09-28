@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import argparse
+from collections.abc import Sequence
 import os
-from typing import Sequence
 
 from dotenv import load_dotenv
 

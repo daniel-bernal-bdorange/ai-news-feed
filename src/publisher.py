@@ -2,11 +2,11 @@
 
 from __future__ import annotations
 
+import json
 import logging
 import time
 from collections import Counter
 from json import JSONDecodeError
-import json
 
 import httpx
 

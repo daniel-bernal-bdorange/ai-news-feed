@@ -5,9 +5,10 @@ from __future__ import annotations
 import json
 import logging
 import time
+from collections.abc import Generator
 from contextlib import contextmanager
-from datetime import datetime, timezone
-from typing import Any, Generator
+from datetime import UTC, datetime
+from typing import Any
 
 # Pipeline stage constants
 STAGE_FETCH = "fetch"
@@ -30,7 +31,7 @@ class StructuredLogHandler(logging.Handler):
         """Convert log record to structured JSON format."""
         try:
             log_entry = {
-                "timestamp": datetime.now(timezone.utc).isoformat(),
+                "timestamp": datetime.now(UTC).isoformat(),
                 "stage": self.stage,
                 "level": record.levelname,
                 "logger": record.name,
@@ -69,7 +70,7 @@ class StructuredLogHandler(logging.Handler):
                     log_entry[key] = getattr(record, key)
 
             print(json.dumps(log_entry, default=str))
-        except Exception:
+        except Exception:  # noqa: BLE001
             self.handleError(record)
 
 
@@ -122,11 +123,10 @@ def log_stage(
 
     try:
         yield context
-    except Exception as exc:
+    except Exception:  # noqa: BLE001
         elapsed = time.time() - start_time
-        logger.error(
-            f"Error en stage {stage}: {exc}",
-            exc_info=True,
+        logger.exception(
+            f"Error en stage {stage}",
             extra={
                 "stage_name": stage,
                 "context": context,
@@ -174,7 +174,7 @@ def log_operation(
 
     try:
         yield details
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         elapsed = time.time() - start_time
         logger.warning(
             f"Operacion {operation} fallida: {exc}",

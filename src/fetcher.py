@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-from dataclasses import replace
 import logging
 import re
 import time
+from dataclasses import replace
 from datetime import UTC, datetime, timedelta
 from difflib import SequenceMatcher
 from typing import Any
@@ -168,7 +168,7 @@ def fetch_rss_articles(
     for source in settings.sources.rss:
         try:
             parsed_feed = parser(source.url)
-        except Exception as exc:
+        except Exception as exc:  # noqa: BLE001
             LOGGER.warning(
                 f"Fallo al leer el feed {source.name}: {exc}",
                 extra={"source": source.name, "url": source.url, "error": str(exc)}
@@ -388,10 +388,7 @@ def _matches_editorial_rules(article: Article, editorial: EditorialSettings) -> 
     if editorial.include_keywords and not any(_keyword_matches(searchable_text, keyword) for keyword in editorial.include_keywords):
         return False
 
-    if editorial.exclude_keywords and any(_keyword_matches(searchable_text, keyword) for keyword in editorial.exclude_keywords):
-        return False
-
-    return True
+    return not (editorial.exclude_keywords and any(_keyword_matches(searchable_text, keyword) for keyword in editorial.exclude_keywords))
 
 
 def _entry_published_date(entry: dict[str, Any]) -> datetime | None:
@@ -431,7 +428,7 @@ def _parse_iso8601(value: str | None) -> datetime | None:
         return None
 
     try:
-        return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(UTC)
+        return datetime.fromisoformat(value).astimezone(UTC)
     except ValueError:
         return None
 

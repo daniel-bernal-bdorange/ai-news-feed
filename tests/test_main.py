@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from time import perf_counter
 from datetime import UTC, date, datetime
+from time import perf_counter
 
 import main
 from src.models import Article, Settings

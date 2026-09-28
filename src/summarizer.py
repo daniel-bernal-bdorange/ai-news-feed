@@ -1,15 +1,19 @@
 from __future__ import annotations
 
-from dataclasses import replace
 import json
 import logging
 import re
 import time
+from dataclasses import replace
 
 import httpx
 
 from .models import AiSummarySettings, Article
-from .summary_prompts import DEFAULT_RELEVANCE_INSTRUCTION, DEFAULT_SUMMARY_PROMPT_TEMPLATE, GEO_RELEVANCE_INSTRUCTION
+from .summary_prompts import (
+    DEFAULT_RELEVANCE_INSTRUCTION,
+    DEFAULT_SUMMARY_PROMPT_TEMPLATE,
+    GEO_RELEVANCE_INSTRUCTION,
+)
 
 LOGGER = logging.getLogger(__name__)
 RETRYABLE_STATUS_CODES = {408, 429, 500, 502, 503, 504}

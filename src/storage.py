@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
-from datetime import UTC, date, datetime, timedelta
 import hashlib
 import json
+from dataclasses import dataclass
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -39,7 +39,7 @@ def load_weekly_store(
 
     payload = json.loads(store_path.read_text(encoding="utf-8"))
     if not isinstance(payload, dict):
-        raise ValueError(f"Weekly storage payload must be a JSON object: {store_path}")
+        raise TypeError(f"Weekly storage payload must be a JSON object: {store_path}")
 
     stored_start = _parse_date(payload.get("week_start"))
     stored_end = _parse_date(payload.get("week_end"))
@@ -48,7 +48,7 @@ def load_weekly_store(
 
     articles_payload = payload.get("articles", [])
     if not isinstance(articles_payload, list):
-        raise ValueError(f"Weekly storage articles must be a JSON array: {store_path}")
+        raise TypeError(f"Weekly storage articles must be a JSON array: {store_path}")
 
     return WeeklyArticleStore(
         week_start=week_start,
@@ -180,7 +180,7 @@ def _parse_datetime(value: Any) -> datetime | None:
         return None
 
     try:
-        return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(UTC)
+        return datetime.fromisoformat(value).astimezone(UTC)
     except ValueError:
         return None
 

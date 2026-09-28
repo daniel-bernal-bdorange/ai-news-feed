@@ -6,8 +6,24 @@ from time import gmtime
 
 import httpx
 
-from src.fetcher import deduplicate_articles, fetch_all_articles, fetch_newsapi_articles, fetch_rss_articles, rank_articles_for_digest
-from src.models import Article, EditorialSettings, GeoPrioritySettings, NewsApiSettings, RankingSettings, RssSourceConfig, ScheduleSettings, Settings, SourceSettings
+from src.fetcher import (
+    deduplicate_articles,
+    fetch_all_articles,
+    fetch_newsapi_articles,
+    fetch_rss_articles,
+    rank_articles_for_digest,
+)
+from src.models import (
+    Article,
+    EditorialSettings,
+    GeoPrioritySettings,
+    NewsApiSettings,
+    RankingSettings,
+    RssSourceConfig,
+    ScheduleSettings,
+    Settings,
+    SourceSettings,
+)
 
 
 def build_settings(
