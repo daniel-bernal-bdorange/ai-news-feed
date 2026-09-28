@@ -70,7 +70,7 @@ class StructuredLogHandler(logging.Handler):
                     log_entry[key] = getattr(record, key)
 
             print(json.dumps(log_entry, default=str))
-        except Exception:
+        except (OSError, TypeError, ValueError, UnicodeError):
             self.handleError(record)
 
 
