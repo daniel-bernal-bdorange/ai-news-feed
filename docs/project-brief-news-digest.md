@@ -70,7 +70,7 @@
 | RSS parsing | `feedparser` library | Unlimited |
 | News API (optional) | NewsAPI.org | 100 req/day |
 | AI summarization | Groq API | ~14,400 req/day (free tier) |
-| LLM model | `llama-3.1-8b-instant` via Groq | Included in Groq free tier |
+| LLM model | `openai/gpt-oss-20b` via Groq | Valid chat model on the current Groq account |
 | HTTP client | `httpx` or `requests` | — |
 | Teams delivery | Microsoft Teams Incoming Webhook | Free, native Teams feature |
 | Scheduling | GitHub Actions (cron) | 2,000 min/month (free private repos) |
@@ -267,7 +267,7 @@ filters:
     boost_score: 1.5     # multiplicador sobre el score base de ranking
 
 summarization:
-  model: "llama-3.1-8b-instant"
+  model: "openai/gpt-oss-20b"
   max_summary_words: 60
   geo_context: "Spain"   # hint para el LLM: priorizar relevancia para mercado español
   prompt_template: |

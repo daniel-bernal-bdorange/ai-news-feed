@@ -55,7 +55,7 @@ ai_summary:
 	enabled: true
 	provider: "groq"
 	api_url: "https://api.groq.com/openai/v1/chat/completions"
-	model: "llama-3.1-8b-instant"
+		model: "openai/gpt-oss-20b"
 	max_words: 60
 	timeout_seconds: 20.0
 	prompt_template: |

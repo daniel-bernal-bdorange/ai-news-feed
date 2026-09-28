@@ -54,7 +54,7 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
     )
     ai_summary = AiSummarySettings(
         enabled=ai_summary_data.get("enabled", True),
-        provider=ai_summary_data.get("provider", AiSummarySettings().provider),
+        provider=os.getenv("AI_SUMMARY_PROVIDER", ai_summary_data.get("provider", AiSummarySettings().provider)),
         model=ai_summary_data.get("model", AiSummarySettings().model),
         max_words=ai_summary_data.get("max_words", AiSummarySettings().max_words),
         prompt_template=ai_summary_data.get("prompt_template", AiSummarySettings().prompt_template),

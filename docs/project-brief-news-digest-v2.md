@@ -80,7 +80,7 @@
 | RSS parsing | `feedparser` | Unlimited |
 | News API (optional) | NewsAPI.org | 100 req/day |
 | AI summarization | Groq API | ~14,400 req/day |
-| LLM model | `llama-3.1-8b-instant` via Groq | Included in Groq free tier |
+| LLM model | `openai/gpt-oss-20b` via Groq | Valid chat model on the current Groq account |
 | HTTP client | `httpx` | — |
 | Weekly storage | JSON file in repository | — |
 | Teams delivery | Microsoft Teams Incoming Webhook | Free, native Teams feature |
@@ -367,7 +367,7 @@ ranking:
   diversity_bonus: 0.5      # bonus when 3+ sources cover the same topic
 
 summarization:
-  model: "llama-3.1-8b-instant"
+  model: "openai/gpt-oss-20b"
   max_summary_words: 60
   prompt_template: |
     You are a news analyst for a technology and telecom company based in Spain.

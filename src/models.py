@@ -113,7 +113,7 @@ class AiSummarySettings:
 
     enabled: bool = True
     provider: str = "placeholder"
-    model: str = "grok-beta"
+    model: str = "openai/gpt-oss-20b"
     max_words: int = 60
     prompt_template: str = DEFAULT_SUMMARY_PROMPT_TEMPLATE
     api_url: str = ""

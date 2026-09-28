@@ -46,6 +46,7 @@ jobs:
 
             NEWSAPI_KEY='${{ secrets.NEWSAPI_KEY }}' \
             GROQ_API_KEY='${{ secrets.GROQ_API_KEY }}' \
+            AI_SUMMARY_PROVIDER='groq' \
             python main.py --mode daily
 
             if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.commit_changes }}" != "true" ]; then
