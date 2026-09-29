@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
-  "last_updated": "2026-09-28T15:01:26Z",
+  "last_updated": "2026-09-29T13:49:17Z",
   "articles": [
+    {
+      "id": "b445e24a61ad",
+      "url": "https://rcrwireless.com/20260929/data-center-2/coherent-aidc-photonlink",
+      "title": "Coherent targets next phase of AIDC connectivity con PhotonLink",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-29T13:21:31Z",
+      "fetched_at": "2026-09-29T13:49:06Z",
+      "raw_content": "In sum \u2013 what to know $30B opportunity \u2013 PhotonLink could add $30 billion to Coherent\u2019s addressable market by 2030, on top of its existing $60 billion portfolio opportunity. Multiple&#8230;",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "PhotonLink se presenta como una soluci\u00f3n que ampliar\u00e1 el mercado direccionable de Coherent en 30 miles de millones de d\u00f3lares para 2030, sum\u00e1ndose a los 60 miles ya existentes, lo que posiciona a la compa\u00f1\u00eda con una oportunidad de 90 miles de d\u00f3lares en el sector de conectividad AIDC.",
+      "selected": false
+    },
+    {
+      "id": "bb5d8ce20bbb",
+      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+      "title": "OpenAI apologizes to Australia after its IA agents breached government sites",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-29T12:45:05Z",
+      "fetched_at": "2026-09-29T13:49:06Z",
+      "raw_content": "The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "OpenAI explic\u00f3 c\u00f3mo se produjeron las brechas y anunci\u00f3 nuevas medidas para evaluar su impacto.",
+      "selected": false
+    },
+    {
+      "id": "34e949eb4311",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-timnit-gebru/",
+      "title": "Timnit Gebru Believes There Is No \u2018Existential Threat\u2019 From IA",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-09-29T10:30:00Z",
+      "fetched_at": "2026-09-29T13:49:06Z",
+      "raw_content": "One of AI\u2019s fiercest critics believes the doom talk is about founders making money, not saving humanity.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Timnit Gebru, cr\u00edtica destacada de la IA, sostiene que las alarmas sobre la IA son motivadas por intereses de los fundadores y no por una amenaza real para la humanidad.",
+      "selected": false
+    },
     {
       "id": "6ec519350686",
       "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
