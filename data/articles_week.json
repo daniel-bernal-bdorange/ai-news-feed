@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
-  "last_updated": "2026-09-29T13:49:17Z",
+  "last_updated": "2026-09-30T13:22:42Z",
   "articles": [
+    {
+      "id": "04885edf45af",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+      "title": "Here\u2019s how tech leaders will self-police IA safety under Trump\u2019s acuerdo",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-09-30T12:24:32Z",
+      "fetched_at": "2026-09-30T13:22:32Z",
+      "raw_content": "<figure>\n\n<img alt=\"Satya Nadella, chief executive officer of Microsoft Corp., from left, Greg Brockman, president and co-founder of OpenAI Inc., Jensen Huang, chief executive officer of Nvidia Corp., US House Speaker Mike Johnson, a Republican from Louisiana, US President Donald Trump, Lisa Su, chair and chief executive officer of Advanced Micro Devices Inc. (AMD), Nikesh Arora, chief executive officer at Palo Alto Networks Inc., and Elon Musk, chief executive officer of Tesla Inc., during a meeting with tech executives on artificial intelligence in the East Room of the White House in Washington, DC, US, on Tuesday, Sept. 29, 2026. The gathering follows a surge in concern about AI potentially posing a threat to humans. \" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2297269621.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tAnyone else getting \u201cThe Last Supper\u201d vibes from this photo taken at the White House tech gathering? | Photographer: Tierney L. Cross/The Washington Post/Bloomberg via Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">We now have the full details of the <a href=\"https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence\">\"morally binding\" AI safety deal</a> announced by President Trump yesterday, in which top executives agreed to self-regulate their artificial intelligence technology. The accord, officially titled the Joint Commitment On Frontier Responsibilities, was <a href=\"https://x.com/DavidSacks/status/2105060520327786914\">shared online</a> by tech founder and presidential advisor David Sacks, and has been signed by Google's Sundar Pichai, Anthropic's Dario Amodei, Meta's Mark Zuckerberg, OpenAI's Greg Brockman, XAI's Elon Musk, and Nvidia's Jensen Huang.</p>\n<p class=\"wp-block-paragraph\">\"In order to build a positive future for the American people and the world, we believe every company is responsible for developing  \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "El presidente Trump anunci\u00f3 un acuerdo moralmente vinculante de seguridad de IA, en el que los principales ejecutivos de tecnolog\u00eda se autorregulan. El pacto, llamado Joint Commitment On Frontier Responsibilities, ya est\u00e1 firmado por Sundar Pichai, Dario Amodei, Mark Zuckerberg, Greg Brockman, Elon Musk y Jensen Huang. El objetivo es garantizar un futuro seguro y responsable.",
+      "selected": false
+    },
+    {
+      "id": "26ce368aa0f6",
+      "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+      "title": "Airbnb adds IA search, more social features",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-09-30T12:00:00Z",
+      "fetched_at": "2026-09-30T13:22:32Z",
+      "raw_content": "Airbnb is also launching new services such as meal delivery and laundry in select locations.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Airbnb ampl\u00eda su oferta con b\u00fasqueda impulsada por IA y nuevas funciones sociales, y lanza servicios de entrega de comidas y lavander\u00eda en lugares seleccionados.",
+      "selected": false
+    },
+    {
+      "id": "f6acfbc1548b",
+      "url": "https://rcrwireless.com/20260930/podcasts/who-will-build-the-ai-boom-solving-americas-skilled-labor-crisis-with-mike-greenawalt-of-the-greenawalt-foundation",
+      "title": "Who Will Build the IA Boom? Solving America\u2019s Skilled Labor Crisis con",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-09-30T11:00:00Z",
+      "fetched_at": "2026-09-30T13:22:32Z",
+      "raw_content": "In this episode, Mike Greenawalt, former CEO of Rosendin and founder of the Greenawalt Foundation, shares how his journey from electrical apprentice to leadi...",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "Mike Greenawalt, ex-CEO de Rosendin y fundador de la Greenawalt Foundation, narra su trayectoria desde aprendiz el\u00e9ctrico hasta l\u00edder empresarial, y explica c\u00f3mo su organizaci\u00f3n busca mitigar la escasez de talento calificado en la industria de la IA en Estados Unidos. Destaca la importancia de la formaci\u00f3n pr\u00e1ctica y la colaboraci\u00f3n p\u00fablico\u2011privada.",
+      "selected": false
+    },
     {
       "id": "b445e24a61ad",
       "url": "https://rcrwireless.com/20260929/data-center-2/coherent-aidc-photonlink",
