@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
-  "last_updated": "2026-10-01T14:16:31Z",
+  "last_updated": "2026-10-02T13:38:53Z",
   "articles": [
+    {
+      "id": "d3e3112d8454",
+      "url": "https://www.rcrtechroundtables.com/page/5850633/request-invitation",
+      "title": "RCRTech Roundtables IA Infrastructure",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-02T13:24:55Z",
+      "fetched_at": "2026-10-02T13:38:41Z",
+      "raw_content": "The RCRTech Roundtables, facilitated by a host of experts, will provide attendees with the opportunity to share their experiences and discuss the challenges they are currently facing regarding powering data&#8230;",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "Las mesas redondas de RCRTech, organizadas por expertos, ofrecen a los asistentes la oportunidad de compartir experiencias y debatir los retos actuales en el suministro de energ\u00eda para datos.",
+      "selected": false
+    },
+    {
+      "id": "4805756b9923",
+      "url": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+      "title": "IA hallucinations are making entitled clientes even worse",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-02T12:00:00Z",
+      "fetched_at": "2026-10-02T13:38:41Z",
+      "raw_content": "<figure>\n\n<img alt=\"Person\u2019s hand holding a phone with a wooden face and Pinocchio nose.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked that her last name be withheld to protect her identity. \"And they'll order a fish dish that comes with a broth that is made of shellfish.\" </p>\n<p class=\"wp-block-paragraph\">When she tells them a dish contains an allergen, she's had guests push back, saying ChatGPT disagrees. \"They just want to talk to ChatGPT,\" Madison explains. \"You're allergic to shellfish, and ChatGPT says there's no shellfish  \u2026</p>\n<p><a href=\"https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "Madison, camarera en York, utiliza IA para saludar a los comensales y preguntar sobre alergias. Sin embargo, las alucinaciones de la IA generan errores, como indicar que un plato no contiene mariscos cuando s\u00ed lo hace, provocando que los clientes se quejen y prefieran consultar a ChatGPT. El caso subraya los riesgos de la IA en el servicio al cliente.",
+      "selected": false
+    },
+    {
+      "id": "ca874f476ec1",
+      "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+      "title": "A Flaw in ChatGPT\u2019s Mac App Could Have Let Hackers Grab Sensitive",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-02T09:45:00Z",
+      "fetched_at": "2026-10-02T13:38:41Z",
+      "raw_content": "While the focus has been on AI agents\u2019 hacking capabilities, a recently patched vulnerability in a ChatGPT app shows that AI software is itself an inviting\u2014and vulnerable\u2014target.",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "La reciente correcci\u00f3n de una vulnerabilidad en la aplicaci\u00f3n Mac de ChatGPT demuestra que el software de IA tambi\u00e9n es un objetivo atractivo y vulnerable, m\u00e1s all\u00e1 de las capacidades de hacking de los agentes de IA.",
+      "selected": false
+    },
     {
       "id": "73f8b77898ca",
       "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
