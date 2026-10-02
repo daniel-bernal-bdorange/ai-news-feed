@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
-  "last_updated": "2026-10-02T13:38:53Z",
+  "last_updated": "2026-10-02T14:15:19Z",
   "articles": [
     {
       "id": "d3e3112d8454",
@@ -10,7 +10,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-10-02T13:24:55Z",
-      "fetched_at": "2026-10-02T13:38:41Z",
+      "fetched_at": "2026-10-02T14:14:29Z",
       "raw_content": "The RCRTech Roundtables, facilitated by a host of experts, will provide attendees with the opportunity to share their experiences and discuss the challenges they are currently facing regarding powering data&#8230;",
       "relevance_score": 2.5,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "The Verge - AI",
       "category": "tech",
       "published_at": "2026-10-02T12:00:00Z",
-      "fetched_at": "2026-10-02T13:38:41Z",
+      "fetched_at": "2026-10-02T14:14:29Z",
       "raw_content": "<figure>\n\n<img alt=\"Person\u2019s hand holding a phone with a wooden face and Pinocchio nose.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked that her last name be withheld to protect her identity. \"And they'll order a fish dish that comes with a broth that is made of shellfish.\" </p>\n<p class=\"wp-block-paragraph\">When she tells them a dish contains an allergen, she's had guests push back, saying ChatGPT disagrees. \"They just want to talk to ChatGPT,\" Madison explains. \"You're allergic to shellfish, and ChatGPT says there's no shellfish  \u2026</p>\n<p><a href=\"https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents\">Read the full story at The Verge.</a></p>",
       "relevance_score": 3.25,
       "geo_boost": false,
@@ -38,7 +38,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-10-02T09:45:00Z",
-      "fetched_at": "2026-10-02T13:38:41Z",
+      "fetched_at": "2026-10-02T14:14:29Z",
       "raw_content": "While the focus has been on AI agents\u2019 hacking capabilities, a recently patched vulnerability in a ChatGPT app shows that AI software is itself an inviting\u2014and vulnerable\u2014target.",
       "relevance_score": 3.25,
       "geo_boost": false,
