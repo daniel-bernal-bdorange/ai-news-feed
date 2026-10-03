@@ -1,8 +1,50 @@
 {
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
-  "last_updated": "2026-10-02T14:15:19Z",
+  "last_updated": "2026-10-03T12:16:54Z",
   "articles": [
+    {
+      "id": "4be7cfcbd6cc",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "title": "Apple changes full-disk access permissions to curb abuse from IA agents",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-02T23:03:16Z",
+      "fetched_at": "2026-10-03T12:16:43Z",
+      "raw_content": "<p>Apple says it is changing its macOS privacy settings to stop third-party app developers from misusing them to access message histories.</p>\n<p>Friday's <a href=\"https://developer.apple.com/news/?id=p6zjojqw\">announcement</a> comes two weeks after tech columnist Jason Aten <a href=\"https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202\">said</a> that Meta\u2019s new general-purpose AI agent Muse sent him an unsolicited notification referencing a thread between him and a co-worker over Apple Messages. Aten said he never granted Muse permissions to read his messages and had assumed they were off-limits. Social media last week blew up with masses of people who agreed and said the incident showed that AI assistants given access to calendars, emails, messages, shopping accounts, and other resources are akin to a skill saw or other power tool. While potentially useful, they can do real damage if not used carefully.</p>\n<h2>He said/she said</h2>\n<p>Meta CTO David Singleton <a href=\"https://www.threads.com/@davidsingleton/post/DddI7WtG8ul\">joined the fray</a> with a rebuttal that appeared solid. For Muse to access Apple Messages, a user must manually give it two privileges. One is full-disk access, a macOS system-level permission. The other is to enable a Messages connector setting in Muse.</p><p><a href=\"https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/#comments\">Comments</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "Apple ajusta la configuraci\u00f3n de privacidad de macOS para impedir que desarrolladores usen el permiso de acceso completo al disco y accedan a mensajes. La medida sigue al caso de Meta, donde su agente de IA Muse obtuvo acceso no autorizado a Apple Messages, provocando indignaci\u00f3n. Ahora Apple exige dos privilegios: acceso completo al disco y habilitaci\u00f3n del conector de",
+      "selected": false
+    },
+    {
+      "id": "a4e0a7b57e0f",
+      "url": "https://rcrwireless.com/20261002/tech/nokia-spectral-efficiency-ran-forum",
+      "title": "Nokia sees 2x spectral efficiency by 2028, but Orange is focused on",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-02T22:20:51Z",
+      "fetched_at": "2026-10-03T12:16:43Z",
+      "raw_content": "Orange wants Nokia&#8217;s AI RAN gains proven in a live network In sum &#8211; what we know: Nokia brought the spectral efficiency headline to the Intelligent RAN Forum \u2014 20%&#8230;",
+      "relevance_score": 4.75,
+      "geo_boost": false,
+      "summary": "Orange exige que las mejoras de eficiencia espectral de Nokia, prometidas a 2\u00d7 para 2028 gracias a su IA RAN, se demuestren en una red operativa real. Nokia present\u00f3 el objetivo en el Intelligent RAN Forum, pero Orange insiste en pruebas de campo antes de comprometerse con la tecnolog\u00eda.",
+      "selected": false
+    },
+    {
+      "id": "ac153d8f7821",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "title": "Apple will limit Mac disk access as IA agents \u2018substantially\u2019 increase risk",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-02T20:08:40Z",
+      "fetched_at": "2026-10-03T12:16:43Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268759_Mac_Mini_AKrales_0079.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, <a href=\"https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/\">as reported earlier by <em>TechCrunch</em></a>. In <a href=\"https://developer.apple.com/news/?id=p6zjojqw\">an update on Friday</a>, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.\"</p>\n<p class=\"wp-block-paragraph\">The change comes just weeks after <em>Inc</em>'s Jason Aten found that Meta's Muse AI somehow <a href=\"https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy\">knew the contents of his messages</a>, despite not giving the chatbot explicit permission to access them on his iPhone or Mac. Meta spokesperson Andy Stone <a href=\"https://x.com/andymstone/status/2105107596734849423?s=20\">pushed back on this report</a>, saying access to Messages is \"entirely opt-in. \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Apple implementa nuevas restricciones al acceso total al disco en Mac para mitigar riesgos que generan los agentes de IA. La actualizaci\u00f3n exige una acci\u00f3n expl\u00edcita del usuario para conceder dicho permiso, respondiendo a incidentes recientes donde bots accedieron a datos sin autorizaci\u00f3n. La medida refuerza la seguridad y la privacidad de los usuarios.",
+      "selected": false
+    },
     {
       "id": "d3e3112d8454",
       "url": "https://www.rcrtechroundtables.com/page/5850633/request-invitation",
