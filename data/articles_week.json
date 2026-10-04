@@ -1,8 +1,36 @@
 {
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
-  "last_updated": "2026-10-03T12:16:54Z",
+  "last_updated": "2026-10-04T13:04:07Z",
   "articles": [
+    {
+      "id": "216cb0b0d101",
+      "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+      "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-03T18:00:00Z",
+      "fetched_at": "2026-10-04T13:04:00Z",
+      "raw_content": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "El aumento de 100 USD en el precio del Nvidia Shield TV, con 7 a\u00f1os, refleja la inflaci\u00f3n de memoria impulsada por la IA, que eleva los costes de dispositivos de streaming antiguos.",
+      "selected": false
+    },
+    {
+      "id": "12f1c0f583e5",
+      "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "title": "Splice CEO Kakul Srivastava thinks IA emails are killing conversations",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-03T15:00:00Z",
+      "fetched_at": "2026-10-04T13:04:00Z",
+      "raw_content": "<figure>\n\n<img alt=\"Splice CEO Kakul Srivastava.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_3820.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"<a href=\"https://youtu.be/dNCWe_6HAM8\">Money</a>\" and \"<a href=\"https://youtu.be/eVli-tstM5E\">Espresso</a>\" by Sabrina Carpenter. (The original samples are <a href=\"https://splice.com/sounds/sample/023441d922ac1266aa00741e2b62ea41a30ef4eda9953b9faf4313c2858446b0\">here</a> and <a href=\"https://splice.com/sounds/sample/30dd0c48c5dcc6b8c43aa6d75c3a3eaa5cd0cb8a6672f006f76e75f8ea133852\">here</a>, for the curious.)</p>\n<p class=\"wp-block-paragraph\">Before that, Kakul held executive roles at Flickr, Yahoo, GitHub, and Adobe. Throughout her career, Kakul has found herself at the intersection of Silicon Valley and creatives. That's been especially true at Splice, where she's not just expanded the platform's footprint by acquiring <a href=\"https://www.spitfireaudio.com/\">Spitfire Audio</a>, but also overseen its forays into the wor \u2026</p>\n<p><a href=\"https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "Kakul Srivastava, directora ejecutiva de Splice, se\u00f1ala que los correos generados por IA est\u00e1n reduciendo la interacci\u00f3n humana. Con experiencia en Flickr, Yahoo, GitHub y Adobe, ha ampliado la plataforma mediante la adquisici\u00f3n de Spitfire Audio y nuevas iniciativas. Su comentario subraya la necesidad de equilibrar automatizaci\u00f3n y comunicaci\u00f3n directa en la industria creativa.",
+      "selected": false
+    },
     {
       "id": "4be7cfcbd6cc",
       "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
