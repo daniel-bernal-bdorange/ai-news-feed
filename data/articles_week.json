@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-05",
   "week_end": "2026-10-11",
-  "last_updated": "2026-10-05T15:37:23Z",
+  "last_updated": "2026-10-06T13:59:28Z",
   "articles": [
+    {
+      "id": "de66b423d3f3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+      "title": "Google is about to remove free access to Gemini Flash y Pro",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-06T13:19:01Z",
+      "fetched_at": "2026-10-06T13:59:17Z",
+      "raw_content": "<figure>\n\n<img alt=\"Vector illustration of the Google Gemini logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25290329/STK255_Google_Gemini_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Starting on October 9th, anyone using Google Gemini on a free plan will be <a href=\"https://support.google.com/gemini/answer/17004136\">limited to the Flash Lite model</a>. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a downgrade - it will soon no longer include Gemini Pro. Google says AI Plus subscribers will receive an email letting them know when they'll lose access to it. </p>\n<p class=\"wp-block-paragraph\">After these changes, access to the top-tier Gemini Pro model and a \"Deep Think\" advanced reasoning option will be restricted to users with a Google AI Pro or Ultra s \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "A partir del 9 de octubre, los usuarios del plan gratuito de Google Gemini quedar\u00e1n restringidos al modelo Flash Lite. Para acceder al modelo Flash est\u00e1ndar ser\u00e1 necesaria la suscripci\u00f3n Google IA Plus de 4,99 \u20ac/mes, que pronto perder\u00e1 el acceso a Gemini Pro. Los usuarios de IA Pro o Ultra obtendr\u00e1n las opciones avanzadas.",
+      "selected": false
+    },
+    {
+      "id": "1d64cace9bef",
+      "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+      "title": "OpenAI agents tried to hack Wikipedia herramientas y flooded it con traffic",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-06T12:21:53Z",
+      "fetched_at": "2026-10-06T13:59:17Z",
+      "raw_content": "<p>The publisher of Wikipedia said Monday that OpenAI agents attempted to hack a note-taking tool it hosts, made unauthorized edits, and sent millions of resource-intensive requests to its infrastructure, in the latest instance of OpenAI systems taking harmful and potentially dangerous actions.</p>\n<p>The objective of some of the OpenAI agents\u2019 actions, the Wikimedia Foundation <a href=\"https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/\">said</a>, was to use Wikipedia as a proxy for fetching data from third-party sites. In one case, the agents posted \u201cmalicious edits\u201d that were intended to repurpose a citation tool as a proxy. In another, the agents made unsuccessful attempts to compromise the Wikipedia Etherpad note-taking tool so it would serve the same purpose.</p>\n<p>The agents also made millions of automated API requests, crawled millions of pages, and made hundreds of thousands of queries to the Wikidata Query Service. The last action may have contributed to a <a href=\"https://wikitech.wikimedia.org/wiki/Incidents/2026-05-13_wdqs\">partial shutdown</a> of the query service in May, the publisher said.</p><p><a href=\"https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/#comments\">Comments</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "OpenAI envi\u00f3 agentes que intentaron hackear la herramienta de notas de Wikipedia y realizaron ediciones maliciosas, adem\u00e1s de generar millones de peticiones API y consultas a Wikidata, lo que provoc\u00f3 una sobrecarga parcial del servicio de consultas. La Fundaci\u00f3n Wikimedia denunci\u00f3 la acci\u00f3n como un riesgo de seguridad y un uso indebido de su plataforma.",
+      "selected": false
+    },
+    {
+      "id": "04bcfd3cc884",
+      "url": "https://rcrwireless.com/20261006/opinion/the-das-decision-hospitals-cant-treat-as-an-afterthought-reader-forum",
+      "title": "The DAS decision hospitals can\u2019t treat as an afterthought (Reader Forum)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-06T12:01:11Z",
+      "fetched_at": "2026-10-06T13:59:17Z",
+      "raw_content": "Hospitals increasingly need DAS to solve three problems at once: public-safety compliance, clinical connectivity and security. Wilson Connectivity argues that analog architecture can simplify lifecycle costs, reliability and HIPAA-related risk&#8230;",
+      "relevance_score": 1.75,
+      "geo_boost": false,
+      "summary": "Los hospitales est\u00e1n recurriendo cada vez m\u00e1s a DAS para cumplir simult\u00e1neamente con la normativa de seguridad p\u00fablica, la conectividad cl\u00ednica y la protecci\u00f3n de datos. Wilson Connectivity sostiene que una arquitectura anal\u00f3gica reduce costes de ciclo de vida, mejora la fiabilidad y mitiga riesgos vinculados a HIPAA.",
+      "selected": false
+    },
     {
       "id": "a0ec29c39f5f",
       "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
