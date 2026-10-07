@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-05",
   "week_end": "2026-10-11",
-  "last_updated": "2026-10-06T13:59:28Z",
+  "last_updated": "2026-10-07T14:16:24Z",
   "articles": [
+    {
+      "id": "f89e83538a9a",
+      "url": "https://rcrwireless.com/20261007/network-infrastructure/europes-gia-and-the-wi-fi-spectrum-gap-analyst-angle",
+      "title": "Gigabit to the building, not the device \u2013 Europa\u2019s GIA y the",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-07T11:28:14Z",
+      "fetched_at": "2026-10-07T14:16:15Z",
+      "raw_content": "The gigabit promise stops at the socket. Europe&#8217;s Gigabit Infrastructure Act takes fibre into new buildings, but its Wi-Fi spectrum policy leaves the final metres unresolved. In dense apartment blocks,&#8230;",
+      "relevance_score": 3.75,
+      "geo_boost": true,
+      "summary": "El Acta de Infraestructura Gigabit de la UE lleva fibra a nuevos edificios, pero deja sin resolver la brecha de espectro inal\u00e1mbrico, especialmente en bloques de apartamentos densos. Esto afecta a Espa\u00f1a y al mercado europeo, pues los \u00faltimos metros dependen de la asignaci\u00f3n local, limitando la cobertura completa y el rendimiento para operadores y usuarios.",
+      "selected": false
+    },
+    {
+      "id": "651e2d5687f7",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "title": "ChatGPT para Teens is an \u2018unacceptable risk,\u2019 says Common Sense Media",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-07T09:00:00Z",
+      "fetched_at": "2026-10-07T14:16:15Z",
+      "raw_content": "<figure>\n\n<img alt=\"Vector illustration of the Chat GPT logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25461999/STK155_OPEN_AI_CVirginia_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\"</p>\n<p class=\"wp-block-paragraph\">ChatGPT for Teens, <a href=\"https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode\">introduced in August</a>, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen protections offered by the feature \"fall short of what the company promised.\" Common Sense Media's assessment found that ChatGPT \"doesn't send alerts to parents when it should,\" doesn't offer \"the right help in crisis situations,\" and \"still does kids' homework,\" <a href=\"https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds\">according to a press release</a>.</p>\n<p class=\"wp-block-paragraph\">\"ChatGPT for Tee \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.75,
+      "geo_boost": false,
+      "summary": "Common Sense Media, entidad que eval\u00faa apps y entretenimiento juvenil, califica a ChatGPT para adolescentes como riesgo inaceptable. La revisi\u00f3n indica que las barreras de protecci\u00f3n no cumplen lo prometido: no env\u00eda alertas a los padres, no ofrece ayuda en crisis y sigue facilitando tareas escolares. La herramienta, lanzada en agosto, no alcanza est\u00e1ndares de seguridad.",
+      "selected": false
+    },
+    {
+      "id": "67d2baa10e8a",
+      "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+      "title": "OpenAI will watermark ChatGPT outputs by default\u2014but only in the EU",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-06T20:50:32Z",
+      "fetched_at": "2026-10-07T14:16:15Z",
+      "raw_content": "<p>OpenAI will begin automatically watermarking text generated with ChatGPT in the European Union, the company has announced. It will also offer the watermarking feature in other regions, but it will be off by default outside of the EU.</p>\n<p>The move in Europe is driven by a need to comply with the EU AI Act, which took effect in August. It requires marking content produced by AI models in a way that another tool can detect. Unfortunately, there is still no completely effective and reliable way to do that. A few standards already exist, like SynthID and the C2PA project, but they are relatively easy to circumvent for anyone with basic\u00a0know-how.</p>\n<p>The same is likely true for OpenAI's watermark. Its method is proprietary; the company calls it textGrain, and has published a technical paper <a href=\"https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf\">explaining</a> how it works. But in general, it works like other LLM watermarking tools we've seen in the past: It puts patterns in the word choices that are not clear to a human reader, and that don't meaningfully change the general quality of the output, but that someone with a key can use a specialized detector to find. OpenAI says it will be giving access to the detector to a limited number of researchers and organizations, and providing a request-for-approval process for others to be added over time.</p><p><a href=\"https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/#comments\">Comments</a></p>",
+      "relevance_score": 7.125,
+      "geo_boost": true,
+      "summary": "OpenAI implementar\u00e1 una marca de agua autom\u00e1tica en los textos generados por ChatGPT dentro de la Uni\u00f3n Europea, cumpliendo con la Ley de IA. Fuera de la UE, la funci\u00f3n estar\u00e1 desactivada por defecto. La tecnolog\u00eda, llamada textGrain, permite a terceros detectar el contenido con un detector limitado. Esta medida afecta directamente al mercado europeo.",
+      "selected": false
+    },
     {
       "id": "de66b423d3f3",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
