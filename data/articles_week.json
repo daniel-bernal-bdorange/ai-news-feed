@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-05",
   "week_end": "2026-10-11",
-  "last_updated": "2026-10-07T14:16:24Z",
+  "last_updated": "2026-10-08T14:25:03Z",
   "articles": [
+    {
+      "id": "570cb2cddef8",
+      "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+      "title": "Nvidia's big bet on physical IA aims para safer robotaxis, humanoid robots",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-08T11:15:33Z",
+      "fetched_at": "2026-10-08T14:24:51Z",
+      "raw_content": "<p>Investors bullish on AI data centers may be fueling Nvidia\u2019s multitrillion-dollar market capitalization, but the AI chipmaker has also bet billions of dollars on physical AI technologies such as robotics and self-driving cars. Part of that gambit has involved developing a full-stack safety system that companies can build upon to reduce the risk of their machines harming nearby people.</p>\n<p>Nvidia's Halos system <a href=\"https://blogs.nvidia.com/blog/halos-safety-system-autonomous-vehicles/\">launched in 2025</a> with hardware and software tools to help developers implement guardrails in self-driving cars and other autonomous vehicles. Then the company expanded its safety architecture to more physical AI technologies by announcing <a href=\"https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai\">Nvidia Halos for Robotics</a> in June 2026\u2014with the goal of enabling safe deployments of autonomous mobile robots in warehouses, humanoid robots walking around inside a factory, or even surgical robots.</p>\n<p>\u201cNow the AI models are getting capable, the robot hardware is getting capable, and a thing we thought is going to be the next bottleneck is safety,\u201d <a href=\"https://www.linkedin.com/in/amit-goel-759146a/\">Amit Goel</a>, head of robotics ecosystem and edge computing at Nvidia, told Ars. \u201cSo that's why we launched our Halos for Robotics to unlock the capability of these systems.\u201d</p><p><a href=\"https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/#comments\">Comments</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Nvidia ha invertido miles de millones en IA f\u00edsica, lanzando el sistema de seguridad Halos para veh\u00edculos aut\u00f3nomos y robots. La plataforma permite a desarrolladores integrar barreras de protecci\u00f3n, reduciendo riesgos en robotaxis, robots humanoides y equipos de almac\u00e9n. La iniciativa busca acelerar la adopci\u00f3n segura de la rob\u00f3tica.",
+      "selected": false
+    },
+    {
+      "id": "2b7c8cc51619",
+      "url": "https://rcrwireless.com/20261008/ai-infrastructure/aws-ai-traffic",
+      "title": "AWS says route diversity is clave as Sta\u2019O\u2019Nuk targets transpacific IA traffic",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-08T10:16:03Z",
+      "fetched_at": "2026-10-08T14:24:51Z",
+      "raw_content": "David Selby, director of global network planning and acquisition at AWS, told RCR that the system is designed to address concentration risk in existing transpacific infrastructure by using new landing&#8230;",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "AWS, a trav\u00e9s de su director de planificaci\u00f3n de redes globales, David Selby, afirma que la diversificaci\u00f3n de rutas es esencial para mitigar el riesgo de concentraci\u00f3n en la infraestructura transpac\u00edfica. La compa\u00f1\u00eda planea ampliar puntos de aterrizaje y rutas alternativas para soportar el creciente tr\u00e1fico de IA, como el de Sta\u2019O\u2019Nuk, asegurando mayor resiliencia y rendimiento.",
+      "selected": false
+    },
+    {
+      "id": "806f1cce20cf",
+      "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
+      "title": "These Researchers Made IA Drive a Toyota Corolla to Get In-N-Out",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-07T18:45:00Z",
+      "fetched_at": "2026-10-08T14:24:51Z",
+      "raw_content": "Three engineers put GPT, Claude, and Grok in charge of a real car. Only one of them was successful.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Tres ingenieros pusieron a prueba GPT, Claude y Grok en un Toyota Corolla real. Solo GPT logr\u00f3 conducir el veh\u00edculo sin intervenci\u00f3n humana, mientras que Claude y Grok fallaron en tareas b\u00e1sicas de navegaci\u00f3n. El experimento subraya las diferencias de rendimiento entre modelos de lenguaje y la necesidad de mejoras para la conducci\u00f3n aut\u00f3noma.",
+      "selected": false
+    },
     {
       "id": "f89e83538a9a",
       "url": "https://rcrwireless.com/20261007/network-infrastructure/europes-gia-and-the-wi-fi-spectrum-gap-analyst-angle",
