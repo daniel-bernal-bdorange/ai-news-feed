@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-05",
   "week_end": "2026-10-11",
-  "last_updated": "2026-10-08T14:25:03Z",
+  "last_updated": "2026-10-09T14:11:06Z",
   "articles": [
+    {
+      "id": "44ff75f8e187",
+      "url": "https://rcrwireless.com/20261009/opinion/wi-fi-8-defensive-frontline-isps-ai-cyberattacks-reader-forum",
+      "title": "Wi-Fi 8 \u2013 the defensive frontline para ISPs against IA-driven cyberattacks (Reader",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-09T09:58:18Z",
+      "fetched_at": "2026-10-09T14:10:57Z",
+      "raw_content": "Wi-Fi 8 could give ISPs a new line of defense against AI-driven cyberattacks, embedding inference hardware in residential gateways. Airties CEO Metin Taskin argues operators must pair next-generation chipsets with&#8230;",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "Wi\u2011Fi 8 ofrece a los ISP una nueva l\u00ednea de defensa contra ciberataques impulsados por IA, integrando hardware de inferencia en las puertas de enlace residenciales. El director ejecutivo de Airties, Metin Taskin, sostiene que los operadores deben combinar chipsets de pr\u00f3xima generaci\u00f3n con esta tecnolog\u00eda para reforzar la seguridad.",
+      "selected": false
+    },
+    {
+      "id": "d55dd9b285d6",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "title": "OpenAI doubles down on decision to fire three IA safety researchers",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-09T09:48:26Z",
+      "fetched_at": "2026-10-09T14:10:57Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\"</p>\n<p class=\"wp-block-paragraph\">In a <a href=\"https://x.com/OpenAINewsroom/status/2108441580806025712\">post</a> on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita &#8288;Balesni were dismissed for violating \"clear policies on handling sensitive information.\" It insisted the decision was not about the trio speaking out about the company and their concerns about AI safety.</p>\n<p class=\"wp-block-paragraph\">The post is a direct response to an open <a href=\"https://mikitabalesni.com/letter/letter.pdf\">letter</a> the researchers published on Thursday urging OpenAI to be more transparent about the decision. In it and a <a href=\"https://x.com/j_asminewang/status/2108263312291180680?s=20\">series</a> of <a href=\"https://x.com/tomekkorbak/status/2108266859397283953?s=20\">social</a> <a href=\"https://x.com/balesni/status/2108262814003687745?s=20\">media</a> posts, the group said they believ \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "OpenAI mantiene firme su decisi\u00f3n de despedir a tres investigadores de seguridad tras una investigaci\u00f3n que revel\u00f3 una grave violaci\u00f3n de confianza. Los empleados, Jasmine Wang, Tomek Korbak y Mikita Balesni, infringieron pol\u00edticas claras sobre el manejo de informaci\u00f3n sensible. La compa\u00f1\u00eda afirma que el despido no responde a sus cr\u00edticas sobre la transparencia.",
+      "selected": false
+    },
+    {
+      "id": "1bc6c949e17a",
+      "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+      "title": "Pretend you\u2019re sitting at Elizabeth Holmes\u2019 desk on this weirdly detailed website",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-08T21:00:00Z",
+      "fetched_at": "2026-10-09T14:10:57Z",
+      "raw_content": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "El ingeniero Bo Lau de Extend ha desarrollado un sitio web que replica la experiencia de explorar el escritorio de Elizabeth Holmes, utilizando m\u00e1s de mil correos, presentaciones y documentos del juicio de Estados Unidos contra la fundadora de Theranos. La plataforma permite a los usuarios navegar por los archivos como si estuvieran revisando su espacio de trabajo.",
+      "selected": false
+    },
     {
       "id": "570cb2cddef8",
       "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
