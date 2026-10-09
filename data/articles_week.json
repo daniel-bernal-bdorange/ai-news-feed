@@ -1,8 +1,22 @@
 {
   "week_start": "2026-10-05",
   "week_end": "2026-10-11",
-  "last_updated": "2026-10-09T14:11:06Z",
+  "last_updated": "2026-10-09T14:45:41Z",
   "articles": [
+    {
+      "id": "9c3c12ce2bad",
+      "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+      "title": "Trump\u2019s attempt to rename IA is looking awfully artificial",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-09T14:25:43Z",
+      "fetched_at": "2026-10-09T14:44:50Z",
+      "raw_content": "<figure>\n\n<img alt=\"CEO of Meta Platforms Mark Zuckerberg (R) looks on as U.S. President Donald Trump holds a press briefing with AI executives following a meeting on artificial intelligence, outside the West Wing of the White House on September 29, 2026 in Washington, DC.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2297777001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like \"Little Marco\" and \"Crooked Hillary\"; he changed \"fake news\" from <a href=\"http://journalism.org/2016/12/15/many-americans-believe-fake-news-is-sowing-confusion/\">a phrase</a> describing scammy media outlets to a derogatory term for the press at large. Over the past few weeks, he's clearly decided he can work the same magic to promote artificial intelligence - branding a technology he wants to accelerate \"super\", while turning \"artificial\" into his latest go-to pejorative and <a href=\"https://truthsocial.com/@realDonaldTrump/posts/117406176604364910\">declaring resisters</a> \"THE ENEMY.\" Some of the biggest names in AI are going along with him. But he's picked a tough linguistic batt \u2026</p>\n<p><a href=\"https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "El presidente Trump ha lanzado una campa\u00f1a para renombrar la inteligencia artificial, prefiriendo el t\u00e9rmino \"super\" y descalificando \"artificial\". Varios l\u00edderes del sector de IA se han alineado con su iniciativa, mientras \u00e9l etiqueta a los cr\u00edticos como \"enemigos\". La medida busca impulsar la adopci\u00f3n de la tecnolog\u00eda bajo su propio discurso pol\u00edtico.",
+      "selected": false
+    },
     {
       "id": "44ff75f8e187",
       "url": "https://rcrwireless.com/20261009/opinion/wi-fi-8-defensive-frontline-isps-ai-cyberattacks-reader-forum",
@@ -10,7 +24,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-10-09T09:58:18Z",
-      "fetched_at": "2026-10-09T14:10:57Z",
+      "fetched_at": "2026-10-09T14:44:50Z",
       "raw_content": "Wi-Fi 8 could give ISPs a new line of defense against AI-driven cyberattacks, embedding inference hardware in residential gateways. Airties CEO Metin Taskin argues operators must pair next-generation chipsets with&#8230;",
       "relevance_score": 3.25,
       "geo_boost": false,
@@ -38,7 +52,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-10-08T21:00:00Z",
-      "fetched_at": "2026-10-09T14:10:57Z",
+      "fetched_at": "2026-10-09T14:44:50Z",
       "raw_content": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
       "relevance_score": 3.25,
       "geo_boost": false,
