@@ -1,8 +1,36 @@
 {
   "week_start": "2026-10-05",
   "week_end": "2026-10-11",
-  "last_updated": "2026-10-10T13:19:58Z",
+  "last_updated": "2026-10-11T13:49:36Z",
   "articles": [
+    {
+      "id": "a439fdc2654e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "title": "Learning to use local IA is exciting, overwhelming, y frustrating",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-11T11:00:00Z",
+      "fetched_at": "2026-10-11T13:49:27Z",
+      "raw_content": "<figure>\n\n<img alt=\"An Asus TUF A14 laptop running Hermes Agent local AI and sitting on a child\u2019s table full of toys.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/100926_Asus_TUF_A14_Hermes_local_AI_ADiBenedetto_0001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tBaby\u2019s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful that it's worth throwing gobs of money at a computer or a laptop with lots of overpriced RAM? I'll try to help you find out. I'm not an AI expert, it's going to be a journey for me, but maybe I can help you see if that journey is worth taking - and I'll be posting my way through it.</p>\n<p class=\"wp-block-paragraph\">A big part of Apple's pitch for its new Mac desktops is how good they  \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "El autor se embarca en probar IA local para evitar compartir datos en la nube. Eval\u00faa el rendimiento de modelos potentes en equipos con gran memoria, cuestionando si la inversi\u00f3n en hardware premium vale la pena. Documenta su experiencia y compara con la estrategia de Apple para sus nuevos Mac Studio, ofreciendo una gu\u00eda pr\u00e1ctica para usuarios empresariales.",
+      "selected": false
+    },
+    {
+      "id": "13ca25f147a7",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "title": "Microsoft\u2019s Satya Nadella says IA modelos need an \u2018emergency brake\u2019",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-10T21:47:51Z",
+      "fetched_at": "2026-10-11T13:49:27Z",
+      "raw_content": "In a Saturday morning post, Microsoft's CEO wrote that it\u2019s time \u201cto step back and assess the trust architecture\u201d of AI.",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "El director ejecutivo de Microsoft, Satya Nadella, public\u00f3 un mensaje en el que afirma que es momento de retroceder y evaluar la arquitectura de confianza de la IA, subrayando la necesidad de un control m\u00e1s riguroso.",
+      "selected": false
+    },
     {
       "id": "479bf263659d",
       "url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
