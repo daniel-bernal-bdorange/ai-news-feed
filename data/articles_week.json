@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-12",
   "week_end": "2026-10-18",
-  "last_updated": "2026-10-13T14:50:57Z",
+  "last_updated": "2026-10-14T12:41:24Z",
   "articles": [
+    {
+      "id": "00a3010ae326",
+      "url": "https://rcrwireless.com/20261014/private-5g/nokia-ece-drones-unit-stays-in-house-mpw-solution-stays-on-menu",
+      "title": "More on Nokia ECE sale \u2013 drones unit stays in-house, MPW soluci\u00f3n",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-14T11:49:19Z",
+      "fetched_at": "2026-10-14T12:41:11Z",
+      "raw_content": "Nokia\u2019s sale of its campus private 5G business to Aurelius includes its MPW platform but excludes its drone unit, it turns out. The latter is under strategic review, as the&#8230;",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "Nokia vende su negocio de 5G privado a Aurelius, manteniendo la plataforma MPW y la unidad de drones, que se encuentra bajo revisi\u00f3n estrat\u00e9gica.",
+      "selected": false
+    },
+    {
+      "id": "98e92c27c426",
+      "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+      "title": "OpenAI, Google pushing nuevo IA modelos easily tricked into making nudes, researchers",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-14T11:00:30Z",
+      "fetched_at": "2026-10-14T12:41:11Z",
+      "raw_content": "<p>Safety researchers continue to warn that a large volume of AI-generated explicit content is spreading unchecked, while regulators do little to meaningfully stop it.</p>\n<p>This non-consensual content is commonly shared in text and direct messages or stored in private clouds where it\u2019s less likely to be detected or reported, a Google co-authored <a href=\"https://www.sciencedirect.com/science/article/pii/S0747563226000324\">study</a> of Internet users across the United States, Australia, and the United Kingdom found this July. That\u2019s why the \u201cmost critical intervention point\u201d remains at the source: the harmful AI tools used to make the fake sexual images, Google researchers concluded.</p>\n<p>Yet red-teaming in recent months suggests that as some of the leading AI image generators from Google and OpenAI become more capable, they may be getting worse at blocking explicit outputs.</p><p><a href=\"https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/#comments\">Comments</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "<p>Safety researchers continue to warn that a large volume of IA-generated explicit content is spreading unchecked, while regulators do little to meaningfully stop it.</p> <p>This non-consensual content is commonly shared in text y direct messages or stored in private clouds where it\u2019s less likely to be detected or reported, a Google co-authored <a href=\"https://www.sciencedirect.com/science/article/pii/S0747563226000324\">study</a> of Internet users across the United",
+      "selected": false
+    },
+    {
+      "id": "1cf1a3388554",
+      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "title": "Scimplify raises $25M to challenge China\u2019s grip on critical materials con IA",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-14T11:00:00Z",
+      "fetched_at": "2026-10-14T12:41:11Z",
+      "raw_content": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Scimplify ha triplicado su facturaci\u00f3n anualizada a 200 millones de d\u00f3lares y planea expandirse a Estados Unidos, reforzando su posici\u00f3n tras la reciente ronda de 25 millones de d\u00f3lares destinada a competir con el dominio chino de materiales cr\u00edticos mediante IA.",
+      "selected": false
+    },
     {
       "id": "1edcc9f190bd",
       "url": "https://rcrwireless.com/20261013/networks/ai-networks-deutsche-telekom",
