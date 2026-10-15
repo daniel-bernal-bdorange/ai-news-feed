@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-12",
   "week_end": "2026-10-18",
-  "last_updated": "2026-10-14T12:41:24Z",
+  "last_updated": "2026-10-15T12:29:42Z",
   "articles": [
+    {
+      "id": "c07a9af3c9fc",
+      "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
+      "title": "Amazon\u2019s always-listening Bee wearable can now help you buy stuff",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-15T12:00:00Z",
+      "fetched_at": "2026-10-15T12:29:32Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/BEE_FAMILY_02_1600x900.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Last year, <a href=\"https://www.theverge.com/news/711621/amazon-bee-ai-wearable-acquisition\">Amazon bought Bee</a>, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And coming soon is the $99.99 Bee Eclipse, a credit-card-shaped gadget that snaps magnetically onto the back of a smartphone. </p>\n<p class=\"wp-block-paragraph\">Both devices are framed as gadgets to help you stay present in the moment. They listen to your daily conversations and then provide summaries, transcripts, insights, and to-dos based on what ha \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "Amazon, tras adquirir Bee, lanza dos nuevos dispositivos: Bee Frontier a 74,99 \u20ac y Bee Eclipse a 99,99 \u20ac, ambos con suscripci\u00f3n incluida. El wearable, que escucha conversaciones y entrega res\u00famenes, transcripciones e ideas, ahora tambi\u00e9n facilita las compras al integrar recordatorios y enlaces de compra. La propuesta apunta a mejorar la productividad y la experiencia de compra.",
+      "selected": false
+    },
+    {
+      "id": "73bfa6d6525e",
+      "url": "https://rcrwireless.com/20261015/opinion/mexi-cant-att-chooses-simple-life-at-home-starlink-fight",
+      "title": "Mexican, or Mexi-can\u2019t? AT&T picks simple life home \u2014 y Starlink battle",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-15T09:30:37Z",
+      "fetched_at": "2026-10-15T12:29:32Z",
+      "raw_content": "From the newsletter (October 14; sign-up or follow if you want it sooner): AT&#38;T has agreed to sell its Mexican business for $2bn, ending a decade-long expansion abroad to focus&#8230;",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "AT&T vender\u00e1 su negocio mexicano por 2 bn USD, poniendo fin a una d\u00e9cada de expansi\u00f3n internacional y concentr\u00e1ndose en el mercado dom\u00e9stico, donde compite con Starlink.",
+      "selected": false
+    },
+    {
+      "id": "6be473450b1b",
+      "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
+      "title": "Fridge hack costing millions y sparking fires stemmed from poor seguridad",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-14T21:35:09Z",
+      "fetched_at": "2026-10-15T12:29:32Z",
+      "raw_content": "<p>Earlier this week, a mass hack of refrigeration systems at an <a href=\"https://www.cnn.com/2026/10/14/europe/france-cyberattack-supermarket-fridges-intl\">estimated</a> 700 supermarkets throughout France caused them to suddenly malfunction, causing spoilage of untold tons of perishables and, in some cases, fires. As is now the norm, basic cybersecurity would have prevented it.</p>\n<p>French authorities say the systems, made up of entire fleets of refrigerators and freezers throughout a store, were hacked. More specifically, Internet-connected controllers that allow technicians to remotely administer the store-wide systems were compromised. The unknown attackers responsible then activated defrosters long enough for the fridges to reach temperatures as high as 50\u00b0 Celsius (122\u00b0 Fahrenheit). By the time the mass compromise was discovered, food was spoiled, and in some cases their electrical systems caught fire.</p>\n<h2>The hacks that didn't have to happen</h2>\n<p><a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-10\">Multiple</a> security <a href=\"https://www.cisa.gov/news-events/ics-advisories/icsa-25-140-03\">advisories</a> and public research reports show that all three of the controller models reportedly hacked in the incident\u2014sold by Danfoss of Denmark and Dixell and its parent company Copeland in the US\u2014contained critical vulnerabilities that allow attackers to remotely log in to the devices with the same system rights as administrators. Until recently, Danfoss controllers, for instance, used a credential that changes each day. The password is generated by the publicly available firmware based on the date. A hacker who takes the time to analyze the code can do the same thing on any device that hasn\u2019t received a recent update. Daily passwords are identical across models located in hundreds or thousands of stores.</p><p><a href=\"https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/#comments\">Comments</a></p>",
+      "relevance_score": 3.75,
+      "geo_boost": true,
+      "summary": "Un ciberataque masivo a sistemas de refrigeraci\u00f3n en 700 supermercados franceses provoc\u00f3 fallos, p\u00e9rdida de alimentos y incendios. Los atacantes comprometieron controladores remotos con contrase\u00f1as diarias id\u00e9nticas, facilitando el acceso. La falta de ciberseguridad gener\u00f3 p\u00e9rdidas millonarias y riesgos de incendio, un caso de alerta para el mercado europeo.",
+      "selected": false
+    },
     {
       "id": "00a3010ae326",
       "url": "https://rcrwireless.com/20261014/private-5g/nokia-ece-drones-unit-stays-in-house-mpw-solution-stays-on-menu",
