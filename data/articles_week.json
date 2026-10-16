@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-12",
   "week_end": "2026-10-18",
-  "last_updated": "2026-10-16T12:07:56Z",
+  "last_updated": "2026-10-16T12:47:57Z",
   "articles": [
     {
       "id": "fa424d5b48b9",
@@ -10,7 +10,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-10-16T11:09:13Z",
-      "fetched_at": "2026-10-16T12:07:45Z",
+      "fetched_at": "2026-10-16T12:47:04Z",
       "raw_content": "Plume has rebuilt its architecture, embraced industry standards and launched an AI agent workspace, shifting from Wi-Fi optimization to ISP-wide intelligence. The bet: lower support costs, reduced churn and new&#8230;",
       "relevance_score": 1.75,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-10-16T11:00:00Z",
-      "fetched_at": "2026-10-16T12:07:45Z",
+      "fetched_at": "2026-10-16T12:47:04Z",
       "raw_content": "A network of AI-generated models is using comics\u2019 material to funnel views to their OnlyFans and Fanvue accounts\u2014and there\u2019s not much comedians can do about it.",
       "relevance_score": 4.0,
       "geo_boost": false,
@@ -38,7 +38,7 @@
       "source_name": "TechCrunch - AI",
       "category": "tech",
       "published_at": "2026-10-15T20:04:53Z",
-      "fetched_at": "2026-10-16T12:07:45Z",
+      "fetched_at": "2026-10-16T12:47:04Z",
       "raw_content": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
       "relevance_score": 3.25,
       "geo_boost": false,
