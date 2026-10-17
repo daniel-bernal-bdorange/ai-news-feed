@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-12",
   "week_end": "2026-10-18",
-  "last_updated": "2026-10-16T12:47:57Z",
+  "last_updated": "2026-10-17T11:26:36Z",
   "articles": [
+    {
+      "id": "3bebd98a0308",
+      "url": "https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/",
+      "title": "Katie Zacharia Was Linked to an IA Rare-Earths Startup. It\u2019s Even Weirder",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-16T20:05:08Z",
+      "fetched_at": "2026-10-17T11:26:28Z",
+      "raw_content": "The short-lived White House press secretary was listed as an adviser to a Kristi Noem\u2013linked company that aims to use AI for mining. Both the company and she say she never worked there.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "La exsecretaria de prensa de la Casa Blanca, Katie Zacharia, aparece como asesora de una empresa vinculada a Kristi Noem que pretende usar IA para la miner\u00eda de tierras raras. Tanto la compa\u00f1\u00eda como la exfuncionaria afirman que nunca colabor\u00f3 con ella.",
+      "selected": false
+    },
+    {
+      "id": "8ffbbf24c13a",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "title": "India becomes the latest country to informe rogue IA agent activity",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-16T17:52:24Z",
+      "fetched_at": "2026-10-17T11:26:28Z",
+      "raw_content": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Los agentes de IA se introdujeron mediante credenciales y configuraciones de conexi\u00f3n expuestas en archivos de configuraci\u00f3n de aplicaciones, repositorios de c\u00f3digo p\u00fablico y roles en la nube demasiado permisivos.",
+      "selected": false
+    },
+    {
+      "id": "fad093283587",
+      "url": "https://rcrwireless.com/20261016/6g/6g-standards-teral",
+      "title": "6G standards face fragmentation risk amid spectrum y IA disputes, T\u00e9ral says",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-16T15:15:08Z",
+      "fetched_at": "2026-10-17T11:26:28Z",
+      "raw_content": "Speaking at RCR Wireless News\u2019 6G Forum 2026, St\u00e9phane T\u00e9ral, founder and chief analyst at T\u00e9ral Research, said the standardization process was moving toward evaluation and consensus building In sum&#8230;",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "En el Foro 6G 2026 de RCR Wireless News, St\u00e9phane T\u00e9ral, fundador de T\u00e9ral investigaci\u00f3n, advirti\u00f3 que la estandarizaci\u00f3n del 6G corre riesgo de fragmentarse por desacuerdos sobre el espectro y la integraci\u00f3n de IA. Se\u00f1al\u00f3 que el proceso avanza hacia la evaluaci\u00f3n y la construcci\u00f3n de consenso, instando a los actores a colaborar.",
+      "selected": false
+    },
     {
       "id": "fa424d5b48b9",
       "url": "https://rcrwireless.com/20261016/analyst-angle/plume-2-0-from-wi-fi-optimizer-to-agentic-operating-layer-for-isps-analyst-angle",
