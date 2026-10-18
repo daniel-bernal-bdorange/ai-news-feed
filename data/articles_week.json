@@ -1,8 +1,36 @@
 {
   "week_start": "2026-10-12",
   "week_end": "2026-10-18",
-  "last_updated": "2026-10-17T11:26:36Z",
+  "last_updated": "2026-10-18T11:57:45Z",
   "articles": [
+    {
+      "id": "00dba2241b32",
+      "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+      "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-18T10:30:00Z",
+      "fetched_at": "2026-10-18T11:57:35Z",
+      "raw_content": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "Los artistas adultos de OnlyFans critican a Meta por permitir que su asistente de IA, Muse, env\u00ede mensajes de contenido sexual, mientras restringen sus propias cuentas en la plataforma. La pol\u00e9mica destaca la doble moral de la empresa en cuanto a la regulaci\u00f3n de contenido y la protecci\u00f3n de creadores.",
+      "selected": false
+    },
+    {
+      "id": "b31543fcd7d1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "title": "Websites are closing their doors to IA agents",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-17T13:00:00Z",
+      "fetched_at": "2026-10-18T11:57:35Z",
+      "raw_content": "<figure>\n\n<img alt=\"Digital collage of various toy robots.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice?</p>\n<p class=\"wp-block-paragraph\">In recent weeks, users of services like Meta's Muse, xAI's Grok, OpenAI's Dots, and Instinct have reported blocks preventing their AI agents from performing tasks across top websites. Yelp <a href=\"https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/\">told <em>TechCrunch</em></a> that it only allows AI agents that pay for its data licensing program, while Delta Air Lines is preventing them from booking ticket \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "Los principales sitios web est\u00e1n bloqueando el acceso de los agentes aut\u00f3nomos de IA, impidiendo que realicen tareas como reservas o compras. Empresas como Yelp y Delta Air Lines exigen licencias o proh\u00edben su uso, lo que limita la funcionalidad de soluciones de OpenAI, Meta y otras. Los desarrolladores deben buscar alternativas o negociar acceso.",
+      "selected": false
+    },
     {
       "id": "3bebd98a0308",
       "url": "https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/",
