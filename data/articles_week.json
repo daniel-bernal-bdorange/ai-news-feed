@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-19",
   "week_end": "2026-10-25",
-  "last_updated": "2026-10-19T14:24:40Z",
+  "last_updated": "2026-10-20T12:34:25Z",
   "articles": [
+    {
+      "id": "2bc8f394e83c",
+      "url": "https://rcrwireless.com/20261020/opinion/eu-mno-ntn-jv-big-four-seek-satellite-control-in-name-of-sovereignty-telco-diary",
+      "title": "EU MNO NTN JV? Big four seek satellite control in name of",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-20T09:42:35Z",
+      "fetched_at": "2026-10-20T12:34:13Z",
+      "raw_content": "From the newsletter (October 19; sign-up or follow if you want it sooner): Deutsche Telekom, Orange, Telef\u00f3nica and Vodafone want a joint position on mobile satellite spectrum, but can Europe\u2019s&#8230;",
+      "relevance_score": 4.875,
+      "geo_boost": true,
+      "summary": "Deutsche Telekom, Orange, Telef\u00f3nica y Vodafone buscan coordinar una posici\u00f3n conjunta sobre el espectro satelital m\u00f3vil, argumentando la necesidad de proteger la soberan\u00eda europea. La iniciativa apunta a asegurar acceso y regulaci\u00f3n del espectro para servicios satelitales, reforzando la competitividad de los operadores espa\u00f1oles y europeos frente a actores externos.",
+      "selected": false
+    },
+    {
+      "id": "f6e3170c2d58",
+      "url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
+      "title": "Japan lanza mission to bring home a piece of the Martian moon",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-20T05:59:56Z",
+      "fetched_at": "2026-10-20T12:34:13Z",
+      "raw_content": "<p>Japan launched a $578 million mission Monday on a five-year expedition to land on the largest moon of Mars and retrieve samples for return to Earth, a daring international project that could yield new insights into the formation of the Solar System.</p>\n<p>The robotic Martian Moons eXploration mission, known as MMX, lifted off at 3:41 pm EDT Monday (4:41 am Japan Standard Time Tuesday) from Tanegashima Space Center in southern Japan.</p>\n<p>The MMX spacecraft rode into orbit atop a 207-foot-tall (63-meter) H3 rocket, Japan's flagship launch vehicle. The rocket assigned to MMX debuted a new souped-up configuration with four strap-on solid rocket boosters, full-throttle main engines, and an extended payload shroud to accommodate the demands of Japan's heaviest and most ambitious interplanetary mission to date.</p><p><a href=\"https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/#comments\">Comments</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "Jap\u00f3n lanz\u00f3 la misi\u00f3n MMX, con un presupuesto de 578 millones de d\u00f3lares, para aterrizar en la luna de Marte, Phobos, y recoger muestras que se devolver\u00e1n a la Tierra. La nave se lanz\u00f3 el lunes desde Tanegashima con el cohete H3, que incluye una nueva configuraci\u00f3n de propulsi\u00f3n y un contenedor ampliado para la mayor carga de la misi\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "85ed69736e92",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+      "title": "CoreWeave&#8217;s debt is becoming the whole IA industry&#8217;s problem",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-19T21:28:20Z",
+      "fetched_at": "2026-10-20T12:34:13Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">CoreWeave had a bad week last week. Its bonds slipped into <a href=\"https://www.ft.com/content/8171ef4a-b291-4375-bc85-87bee0f8bf7b\">distressed territory</a> by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesday Chamath <a href=\"https://www.axios.com/2026/06/24/chamath-palihapitiya-spac-axios-show\">\"SPAC King\"</a> Palihapitiya <a href=\"https://x.com/chamath/status/2110128893680378299\">noticed the distressed debt</a>, and also <a href=\"https://x.com/chamath/status/2110090896960356768\">asked whether the AI buildout was a private credit bubble</a>. Its shares are down more than 20 percent since Tuesday's close, which is kind of a lot! There even seemed to be some collateral damage in the market on other AI companies, too.</p>\n<p class=\"wp-block-paragraph\">Now, I have <em>also</em> asked if the AI industry is a bubble, but when the SPAC King echoes concerns held by a lady whose ongoing questi \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "La deuda de CoreWeave ha ca\u00eddo en territorio distresado, provocando una ca\u00edda del 20 % en sus acciones y generando preocupaci\u00f3n sobre una burbuja de cr\u00e9dito privado en el sector de IA. Chamath Palihapitiya destac\u00f3 el riesgo, lo que provoc\u00f3 repercusiones en otras empresas de IA.",
+      "selected": false
+    },
     {
       "id": "94ee6265fd22",
       "url": "https://rcrwireless.com/20261019/analyst-angle/us-telecom-retail-holds-up-where-might-starlink-fit-analyst-angle",
