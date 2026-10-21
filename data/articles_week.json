@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-19",
   "week_end": "2026-10-25",
-  "last_updated": "2026-10-20T12:34:25Z",
+  "last_updated": "2026-10-21T12:45:35Z",
   "articles": [
+    {
+      "id": "2cb21a1b015b",
+      "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+      "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-21T10:30:00Z",
+      "fetched_at": "2026-10-21T12:45:27Z",
+      "raw_content": "It\u2019s the latest in a growing wave of bets that AI companies are making on brain data.",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "OpenAI ha invertido en una empresa emergente que emplea implantes cerebrales para detectar c\u00e1ncer, reforzando la tendencia de las empresas de IA a apostar por datos neurol\u00f3gicos.",
+      "selected": false
+    },
+    {
+      "id": "925e6a635cad",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "title": "Google\u2019s more personalized Gemini IA is heading to your car",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-20T22:11:34Z",
+      "fetched_at": "2026-10-21T12:45:27Z",
+      "raw_content": "<figure>\n\n<img alt=\"An image showing Gemini\u2019s Personal Intelligence feature on a car\u2019s display\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Google is <a href=\"https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/\">bringing Personal Intelligence to Gemini AI</a> in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search.</p>\n<p class=\"wp-block-paragraph\">As an example, Google says you can ask Gemini about your flight status if you're driving to the airport. The AI assistant can pull your flight details from a confirmation message in Gmail and then use that information to look up the status. You can also ask Gemini to \"take me to my doctor's appointment\" instead of pulling up directions manually, or ask it to \"find the car wash from the photo I t \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Google integra la Inteligencia Personal de Gemini en Android Auto y veh\u00edculos con Google incorporado, permitiendo al conductor acceder a datos de Gmail, Calendario, Maps, Fotos, YouTube y B\u00fasqueda. El asistente puede consultar el estado de vuelos, dirigir a citas o localizar lavados de coches a partir de fotos, mejorando la experiencia de conducci\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "674d0954f753",
+      "url": "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary",
+      "title": "6G progress, minus the business case \u2013 plus IA-RAN, D2D, Industry 4.0",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-20T17:19:37Z",
+      "fetched_at": "2026-10-21T12:45:27Z",
+      "raw_content": "From the newsletter (October 20; sign-up or follow if you want it sooner): A new 6G architecture is taking shape, but its business case remains elusive. This week: AI-RAN performance&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "El bolet\u00edn de octubre destaca que la arquitectura 6G est\u00e1 tomando forma, aunque su caso de negocio sigue sin definirse. Se resalta el rendimiento de IA\u2011RAN, la comunicaci\u00f3n D2D y la integraci\u00f3n con Industria 4.0 como avances clave. La comunidad teleco busca consolidar la viabilidad econ\u00f3mica del despliegue.",
+      "selected": false
+    },
     {
       "id": "2bc8f394e83c",
       "url": "https://rcrwireless.com/20261020/opinion/eu-mno-ntn-jv-big-four-seek-satellite-control-in-name-of-sovereignty-telco-diary",
