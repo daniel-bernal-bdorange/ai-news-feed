@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-19",
   "week_end": "2026-10-25",
-  "last_updated": "2026-10-21T12:45:35Z",
+  "last_updated": "2026-10-22T12:48:59Z",
   "articles": [
+    {
+      "id": "f2ef808e610c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "title": "Claude did not invent scorpion antivenom",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-22T12:21:07Z",
+      "fetched_at": "2026-10-22T12:48:50Z",
+      "raw_content": "<figure>\n\n<img alt=\"A scorpion \" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-182124864.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell <em>The Verge</em>. </p>\n<p class=\"wp-block-paragraph\">Citrini Research, the firm behind the experiment, admitted that \"none of us could claim to know anything about AI as it related to biology.\" That didn't stop it from trying to make a drug from scratch - or publishing a <a href=\"https://www.citriniresearch.com/p/citrini-therapeutics\">blog post</a> titled \"We Wanted to Use Claude to Create a New Drug. Here's What Happened.\" The account came comple \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Una firma de investigaci\u00f3n de inversiones intent\u00f3 demostrar que la IA puede revolucionar el desarrollo farmac\u00e9utico al colaborar con Anthropic para crear un antiveneno de escorpi\u00f3n con Claude. El modelo gener\u00f3 ideas preliminares, pero no logr\u00f3 producir un f\u00e1rmaco viable, seg\u00fan expertos de The Verge.",
+      "selected": false
+    },
+    {
+      "id": "2fcb0ecf75b2",
+      "url": "https://rcrwireless.com/20261022/ai-infrastructure/telcos-doing-telco-things-amid-ai-noise-telco-diary",
+      "title": "Telcos doing telco things \u2013 amid the IA noise (Telco Diary)",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-22T08:43:19Z",
+      "fetched_at": "2026-10-22T12:48:50Z",
+      "raw_content": "From the newsletter (October 21; sign-up or follow if you want it sooner): Nvidia and Nokia are pushing telcos to turn their networks and sites into distributed AI infrastructure, but&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Nvidia y Nokia impulsan a las operadoras a convertir sus redes y sitios en infraestructuras de IA distribuidas, aunque el proceso implica retos de integraci\u00f3n y costes. La iniciativa busca aprovechar la capacidad de c\u00f3mputo de las telecomunicaciones para servicios de IA, pero requiere inversiones y adaptaci\u00f3n tecnol\u00f3gica.",
+      "selected": false
+    },
+    {
+      "id": "8d2d0448075e",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "title": "Blackstone\u2019s Jas Khaira says fears over IA-buildout debt are overblown",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-21T22:51:22Z",
+      "fetched_at": "2026-10-22T12:48:50Z",
+      "raw_content": "Blackstone\u2019s AI head on why the PE giant isn't panicked by market jitters.",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "El jefe de IA de Blackstone, Jas Khaira, asegura que los temores sobre la deuda generada por la expansi\u00f3n de la IA son exagerados. Explica que la compa\u00f1\u00eda mantiene una estrategia de financiaci\u00f3n prudente y que la volatilidad del mercado no afecta su confianza en las inversiones tecnol\u00f3gicas. Por tanto, Blackstone no se muestra alarmado por las fluctuaciones actuales.",
+      "selected": false
+    },
     {
       "id": "2cb21a1b015b",
       "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
