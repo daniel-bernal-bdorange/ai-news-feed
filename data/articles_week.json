@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-19",
   "week_end": "2026-10-25",
-  "last_updated": "2026-10-22T12:48:59Z",
+  "last_updated": "2026-10-23T12:27:27Z",
   "articles": [
+    {
+      "id": "06b9e932a6c2",
+      "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+      "title": "Ukraine learns to fight without Starlink as Musk plays politics con satellites",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-23T11:30:22Z",
+      "fetched_at": "2026-10-23T12:27:18Z",
+      "raw_content": "<p>Elon Musk\u2019s Starlink satellite service has played a pivotal role in supporting Ukraine\u2019s successful resistance to Russia\u2019s full-scale invasion for years. But with Starlink having become increasingly unreliable due to Musk\u2019s political inclinations and the latest surprise disruptions to service in Ukraine, the Ukrainians and Europe as a whole are now facing urgent questions about how to move forward without it.</p>\n<p>As the world\u2019s largest communications satellite network, Starlink can typically support high-speed Internet and data streams for any user or vehicle equipped with a relatively compact Starlink terminal. This has enabled Ukraine to <a href=\"https://arstechnica.com/tech-policy/2022/02/ukraine-asks-musk-for-starlink-terminals-as-russian-invasion-disrupts-broadband/\">maintain vital communications</a> for both civilian purposes and military operations\u2014and has also expanded the Ukrainian military\u2019s capability to remotely control or provide guidance to drones used in both air defense against Russian attacks and for striking back at Russian targets.</p>\n<p>\u201cStarlink currently offers some of the best satellite coverage available, with virtually no competitors when you consider the combination of cost, availability, and ease of use,\u201d according to the head of hardware R&amp;D at the Ukrainian defense company <a href=\"https://www.blue-bird.tech/en/?srsltid=AU7gw4WmVqxY4djnXNryQa4KfnVZ3sWEDFy1htgolAzE-lSIZZoge3k1\">BlueBird Tech</a>, who provided comments to Ars anonymously for security reasons. \u201cIn practical terms, the main limitation is the need to position the antenna so it can receive signals from the satellites.\u201d</p><p><a href=\"https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/#comments\">Comments</a></p>",
+      "relevance_score": 4.875,
+      "geo_boost": true,
+      "summary": "El servicio de sat\u00e9lites Starlink, clave en la defensa ucraniana, se ha vuelto poco fiable por decisiones pol\u00edticas de Musk, provocando interrupciones inesperadas. Ucrania y Europa deben replantear su dependencia de la conectividad satelital para comunicaciones cr\u00edticas y operaciones militares. La situaci\u00f3n subraya la necesidad de infraestructuras de telecomunicaciones resilientes en el mercado europeo.",
+      "selected": false
+    },
+    {
+      "id": "d41aac5db534",
+      "url": "https://rcrwireless.com/20261023/analyst-angle/boldyns-bet-own-the-pipes-stay-neutral-on-the-radios-analyst-angle",
+      "title": "Boldyn\u2019s big bet \u2013 own the pipes, stay neutral on the radios",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-23T10:39:02Z",
+      "fetched_at": "2026-10-23T12:27:18Z",
+      "raw_content": "Boldyn Networks is betting on neutral-host fiber, sites and power to support successive radio generations, prioritizing US expansion and owner-funded converged networks while remaining cautious on private 5G, Open RAN,&#8230;",
+      "relevance_score": 1.75,
+      "geo_boost": false,
+      "summary": "Boldyn Networks apuesta por la fibra neutral, sitios y energ\u00eda para soportar las pr\u00f3ximas generaciones de radio, enfoc\u00e1ndose en la expansi\u00f3n en EE. UU. y en redes convergentes financiadas por los propietarios, mientras mantiene cautela respecto al 5G privado y Open RAN.",
+      "selected": false
+    },
+    {
+      "id": "cf51e24baa15",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia con Pony.IA",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-23T04:00:00Z",
+      "fetched_at": "2026-10-23T12:27:18Z",
+      "raw_content": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "inDrive, competidor de Uber, tiene previsto iniciar pruebas de robotaxis de Pony.IA en la capital kazaja, Nur\u2011Sultan, durante la primera mitad de 2027, consolidando su presencia en el mercado de movilidad aut\u00f3noma.",
+      "selected": false
+    },
     {
       "id": "f2ef808e610c",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
