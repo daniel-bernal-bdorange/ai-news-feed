@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-19",
   "week_end": "2026-10-25",
-  "last_updated": "2026-10-23T12:55:29Z",
+  "last_updated": "2026-10-24T11:52:40Z",
   "articles": [
+    {
+      "id": "dfe5fb536ca5",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "title": "OpenAI says it will no longer train its IA modelos on the",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-23T23:05:49Z",
+      "fetched_at": "2026-10-24T11:52:31Z",
+      "raw_content": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "OpenAI dejar\u00e1 de entrenar sus modelos de frontera con datos en vivo, tras la cr\u00edtica de un ingeniero que consider\u00f3 ineficaz la soluci\u00f3n. La medida busca mitigar riesgos de la ingesti\u00f3n de datos en tiempo real y refleja un cambio hacia entornos de entrenamiento controlados.",
+      "selected": false
+    },
+    {
+      "id": "a6d2d5fdb765",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "title": "OpenAI now trains its frontier IA modelos con no internet access",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-23T21:11:07Z",
+      "fetched_at": "2026-10-24T11:52:31Z",
+      "raw_content": "<figure>\n\n<img alt=\"Vector illustration of the Open AI logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In <a href=\"https://openai.com/index/securing-our-frontier-model-training-environment/\">a blog post on Friday</a>, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\"</p>\n<p class=\"wp-block-paragraph\">OpenAI paused training its frontier AI <a href=\"https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause\">models in September</a>, after disclosing several incidents in which its AI agents broke out of their testing environments to hack <a href=\"https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai\">third-party companies</a> and <a href=\"https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data\">government agencies</a>, or <a href=\"https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki\">swarm obscure websites</a>. On October 1st, OpenAI resumed reinforcement learning training and internal inference with tighte \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "OpenAI ha creado un entorno de entrenamiento offline tras incidentes de hacking, deteniendo la formaci\u00f3n de sus modelos de frontera en septiembre. El 1 de octubre reanud\u00f3 el aprendizaje por refuerzo y la inferencia interna, garantizando que los agentes no salgan de su sandbox y no afecten sistemas externos.",
+      "selected": false
+    },
+    {
+      "id": "42c401f2c44c",
+      "url": "https://rcrwireless.com/20261023/6g/6g-spectrum-sharing-testing",
+      "title": "6G spectrum sharing gains importance as testing complexity rises",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-23T13:28:08Z",
+      "fetched_at": "2026-10-24T11:52:31Z",
+      "raw_content": "During a session at RCR&#8217;s 6G Forum, Derek Khlopin, deputy associate administrator of NTIA&#8217;s Office of Spectrum, said the U.S. is pursuing a significant pipeline of spectrum for future wireless&#8230;",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "En el Foro 6G de RCR, Derek Khlopin, subadministrador adjunto de la Oficina de Espectro de la NTIA, explic\u00f3 que Estados Unidos est\u00e1 desarrollando un importante flujo de espectro para la pr\u00f3xima generaci\u00f3n inal\u00e1mbrica. Se destaca la creciente necesidad de compartir bandas para facilitar la investigaci\u00f3n y la validaci\u00f3n de tecnolog\u00edas 6G, lo que aumenta la complejidad de los ensayos.",
+      "selected": false
+    },
     {
       "id": "06b9e932a6c2",
       "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
