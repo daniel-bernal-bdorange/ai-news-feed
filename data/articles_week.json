@@ -1,8 +1,36 @@
 {
   "week_start": "2026-10-19",
   "week_end": "2026-10-25",
-  "last_updated": "2026-10-24T11:52:40Z",
+  "last_updated": "2026-10-25T12:22:53Z",
   "articles": [
+    {
+      "id": "24d6a1210f4b",
+      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-25T10:00:00Z",
+      "fetched_at": "2026-10-25T12:22:46Z",
+      "raw_content": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what\u2019s happened everywhere from Ireland to New Zealand.",
+      "relevance_score": 2.5,
+      "geo_boost": false,
+      "summary": "Paris Marx, autor de Hyperscale, ha seguido la evoluci\u00f3n de los centros de datos a nivel mundial. El movimiento estadounidense que busca limitar su construcci\u00f3n puede inspirarse en las experiencias de pa\u00edses como Irlanda y Nueva Zelanda, donde las regulaciones y la planificaci\u00f3n han avanzado de forma diferente.",
+      "selected": false
+    },
+    {
+      "id": "36111d6bc6b4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "title": "Blue Planet III is keeping the rough edges in the age of",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-24T21:29:12Z",
+      "fetched_at": "2026-10-25T12:22:46Z",
+      "raw_content": "<figure>\n\n<img alt=\"A humpback whale breaching with the NYC skyline in the background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">BBC's <em><a href=\"https://www.bbcearth.com/shows/blue-planet-iii\">Blue Planet III</a></em> is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue Planet III goes warts and all.</p>\n<p class=\"wp-block-paragraph\">Executive Producer Elizabeth White told <em><a href=\"https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom\">The Guardian</a></em> in the past, \"the amount of plankton and things\" floating in the water would have caused them to cut a shot. Or \"we might have framed out a boat or a buoy or gone: 'Oh, actually \u2026 the water conditions are not really good enough  \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.25,
+      "geo_boost": false,
+      "summary": "La tercera temporada de Blue Planet de la BBC apuesta por la autenticidad manteniendo tomas imperfectas. En lugar de eliminar elementos como plancton, barcos o boyas, la serie las deja visibles para evitar la apariencia pulida de la IA. As\u00ed, la serie busca reforzar la credibilidad frente a la generaci\u00f3n de contenido artificial.",
+      "selected": false
+    },
     {
       "id": "dfe5fb536ca5",
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
