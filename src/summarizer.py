@@ -72,6 +72,7 @@ def summarize_articles(
                 article,
                 display_title=_fallback_spanish_title(article.title),
                 summary=_placeholder_summary(article, settings),
+                relevance_score=article.relevance_score,
             )
             for article in articles
         ]
@@ -99,14 +100,15 @@ def summarize_articles(
     try:
         result = []
         for article in articles:
-            headline, summary = generate_summary(article, settings, active_key, client=http_client)
-            if headline or summary:
+            headline, summary, relevance_score = generate_summary(article, settings, active_key, client=http_client)
+            if headline or summary or relevance_score is not None:
                 summaries_generated += 1
                 result.append(
                     replace(
                         article,
-                        display_title=_fallback_spanish_title(article.title),
+                        display_title=_normalize_spanish_text(headline) or _fallback_spanish_title(article.title),
                         summary=_normalize_spanish_text(summary) or _excerpt_fallback_summary(article, settings.max_words),
+                        relevance_score=_resolve_relevance_score(article.relevance_score, relevance_score),
                     )
                 )
             else:
@@ -117,6 +119,7 @@ def summarize_articles(
                         article,
                         display_title=_fallback_spanish_title(article.title),
                         summary=fallback,
+                        relevance_score=article.relevance_score,
                     )
                 )
         
@@ -163,7 +166,7 @@ def generate_summary(
     api_key: str,
     *,
     client: httpx.Client,
-) -> tuple[str | None, str | None]:
+) -> tuple[str | None, str | None, float | None]:
     """Generate a single article summary using Groq, xAI, or other OpenAI-compatible APIs.
     
     Requires active billing with the configured provider.
@@ -193,13 +196,13 @@ def generate_summary(
                 },
             )
             response.raise_for_status()
-            headline, summary = _extract_summary_fields(response.json())
-            if not headline and not summary:
+            headline, summary, relevance_score = _extract_summary_fields(response.json())
+            if not headline and not summary and relevance_score is None:
                 LOGGER.warning(
                     f"Groq devolvio una respuesta vacia para '{article_title_short}'",
                     extra={"operation": "generate_summary", "article_title": article_title_short, "reason": "empty_response"}
                 )
-                return None, None
+                return None, None, None
 
             elapsed = time.time() - start_time
             LOGGER.debug(
@@ -214,6 +217,7 @@ def generate_summary(
             return (
                 _truncate_to_max_words(headline, 14) if headline else None,
                 _truncate_to_max_words(summary, settings.max_words) if summary else None,
+                relevance_score,
             )
         except httpx.HTTPStatusError as exc:
             status_code = exc.response.status_code
@@ -239,7 +243,7 @@ def generate_summary(
                     "status_code": status_code if isinstance(exc, httpx.HTTPStatusError) else None,
                 }
             )
-            return None, None
+            return None, None, None
         except httpx.RequestError as exc:
             if attempt < settings.max_retries:
                 LOGGER.debug(
@@ -261,7 +265,7 @@ def generate_summary(
                     "error": str(exc),
                 }
             )
-            return None, None
+            return None, None, None
 
 
 def _excerpt_fallback_summary(article: Article, max_words: int) -> str | None:
@@ -297,20 +301,38 @@ def _extract_summary_text(payload: dict) -> str:
     return " ".join(str(message.get("content") or "").split())
 
 
-def _extract_summary_fields(payload: dict) -> tuple[str | None, str | None]:
+def _extract_summary_fields(payload: dict) -> tuple[str | None, str | None, float | None]:
     """Extract Spanish headline and summary from a structured response payload."""
 
     content = _extract_summary_text(payload)
     if not content:
-        return None, None
+        return None, None, None
 
     parsed = _parse_json_block(content)
     if isinstance(parsed, dict):
         headline = str(parsed.get("headline_es") or parsed.get("title_es") or parsed.get("headline") or "").strip() or None
         summary = str(parsed.get("summary_es") or parsed.get("summary") or "").strip() or None
-        return headline, summary
+        relevance_score = _parse_relevance_score(parsed.get("relevance_score") or parsed.get("score"))
+        return headline, summary, relevance_score
 
-    return None, content
+    return None, content, None
+
+
+def _parse_relevance_score(value: object) -> float | None:
+    """Normalize the model relevance score onto the configured 1-5 scale."""
+
+    try:
+        score = float(value)
+    except (TypeError, ValueError):
+        return None
+
+    return max(1.0, min(score, 5.0))
+
+
+def _resolve_relevance_score(current_score: float, generated_score: float | None) -> float:
+    """Keep the generated relevance score when available, otherwise preserve the current one."""
+
+    return generated_score if generated_score is not None else current_score
 
 
 def _parse_json_block(content: str) -> dict[str, object] | None:

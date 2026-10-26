@@ -39,6 +39,18 @@ editorial:
 ranking:
   max_articles_per_category: 2
   max_articles_per_source: 1
+trending:
+  enabled: true
+  provider: gdelt
+  timespan_hours: 12
+  max_topics: 4
+  max_records_per_query: 25
+  min_articles: 2
+  boost_score: 0.9
+  timeout_seconds: 12.0
+  seed_queries:
+    - ai
+    - spain
 ai_summary:
   enabled: true
   model: grok-vision-beta
@@ -70,6 +82,15 @@ ai_summary:
     assert settings.editorial.geo_priority.boost_score == 1.8
     assert settings.ranking.max_articles_per_category == 2
     assert settings.ranking.max_articles_per_source == 1
+    assert settings.trending.enabled is True
+    assert settings.trending.provider == "gdelt"
+    assert settings.trending.timespan_hours == 12
+    assert settings.trending.max_topics == 4
+    assert settings.trending.max_records_per_query == 25
+    assert settings.trending.min_articles == 2
+    assert settings.trending.boost_score == 0.9
+    assert settings.trending.timeout_seconds == 12.0
+    assert settings.trending.seed_queries == ["ai", "spain"]
     assert settings.ai_summary.enabled is True
     assert settings.ai_summary.model == "grok-vision-beta"
     assert settings.ai_summary.max_words == 45

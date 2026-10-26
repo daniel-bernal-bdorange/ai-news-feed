@@ -7,9 +7,11 @@ from time import gmtime
 import httpx
 
 from src.fetcher import (
+    apply_trending_boost,
     deduplicate_articles,
     fetch_all_articles,
     fetch_newsapi_articles,
+    fetch_trending_topics,
     fetch_rss_articles,
     rank_articles_for_digest,
 )
@@ -19,6 +21,8 @@ from src.models import (
     GeoPrioritySettings,
     NewsApiSettings,
     RankingSettings,
+    TrendingSettings,
+    TrendingTopic,
     RssSourceConfig,
     ScheduleSettings,
     Settings,
@@ -39,6 +43,8 @@ def build_settings(
     geo_priority_enabled: bool = True,
     geo_boost_keywords: list[str] | None = None,
     geo_boost_score: float = 1.5,
+    trending_enabled: bool = False,
+    trending_seed_queries: list[str] | None = None,
 ) -> Settings:
     """Build a compact settings object for ingestion-focused tests."""
 
@@ -65,6 +71,10 @@ def build_settings(
         ranking=RankingSettings(
             max_articles_per_category=max_ranked_articles_per_category,
             max_articles_per_source=max_ranked_articles_per_source,
+        ),
+        trending=TrendingSettings(
+            enabled=trending_enabled,
+            seed_queries=list(trending_seed_queries or ["ai", "spain"]),
         ),
     )
 
@@ -276,6 +286,76 @@ def test_fetch_all_articles_prioritizes_keyword_rich_articles_over_newer_generic
 
     assert [article.title for article in articles] == ["Orange launches AI network platform", "Orange update"]
     assert articles[0].relevance_score > articles[1].relevance_score
+
+
+def test_fetch_trending_topics_returns_ranked_gdelt_topics() -> None:
+    """GDELT trend fetch should keep the hottest seed queries by article volume."""
+
+    settings = TrendingSettings(
+        enabled=True,
+        seed_queries=["ai", "spain", "telecom"],
+        max_topics=2,
+        min_articles=1,
+    )
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        query = request.url.params.get("query")
+        if query == "ai":
+            count = 3
+        elif query == "spain":
+            count = 7
+        else:
+            count = 1
+
+        items = "".join(
+            f"<item><title>{query} article {index}</title></item>" for index in range(count)
+        )
+        body = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>{query}</title>{items}</channel></rss>"""
+        return httpx.Response(200, text=body)
+
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+
+    topics = fetch_trending_topics(settings, client=client)
+
+    assert [topic.query for topic in topics] == ["spain", "ai"]
+    assert [topic.article_count for topic in topics] == [7, 3]
+
+
+def test_apply_trending_boost_prefers_articles_matching_hot_topics() -> None:
+    """Articles that match hotter topics should receive a larger relevance boost."""
+
+    settings = TrendingSettings(enabled=True, boost_score=1.0)
+    articles = [
+        Article(
+            title="Spain AI regulation update",
+            url="https://example.com/spain-ai",
+            source_name="Feed A",
+            published_date=datetime(2026, 5, 7, 8, 0, tzinfo=UTC),
+            raw_content="Spanish market implications for AI regulation",
+            category="ai",
+            relevance_score=1.0,
+        ),
+        Article(
+            title="Generic cloud launch",
+            url="https://example.com/cloud",
+            source_name="Feed B",
+            published_date=datetime(2026, 5, 7, 7, 0, tzinfo=UTC),
+            raw_content="Global enterprise cloud update",
+            category="tech",
+            relevance_score=1.0,
+        ),
+    ]
+    topics = [
+        TrendingTopic(query="spain", article_count=10),
+        TrendingTopic(query="ai", article_count=6),
+        TrendingTopic(query="cloud", article_count=2),
+    ]
+
+    boosted = apply_trending_boost(articles, topics, settings)
+
+    assert boosted[0].relevance_score > boosted[1].relevance_score
+    assert boosted[0].relevance_score > 1.0
 
 
 def test_rank_articles_for_digest_respects_category_and_source_limits() -> None:

@@ -22,6 +22,22 @@ DEFAULT_GEO_PRIORITY_KEYWORDS = [
     "eu ai act",
 ]
 
+DEFAULT_TRENDING_SEED_QUERIES = [
+    "artificial intelligence",
+    "ai",
+    "telecom",
+    "5g",
+    "cloud computing",
+    "cybersecurity",
+    "spain",
+    "españa",
+    "european regulation",
+    "orange",
+    "openai",
+    "gemini",
+    "llama",
+]
+
 
 @dataclass(frozen=True)
 class Article:
@@ -104,6 +120,29 @@ class RankingSettings:
 
 
 @dataclass(frozen=True)
+class TrendingSettings:
+    """External trend signals used to boost articles that match hot topics."""
+
+    enabled: bool = False
+    provider: str = "gdelt"
+    timespan_hours: int = 24
+    max_topics: int = 5
+    max_records_per_query: int = 50
+    min_articles: int = 3
+    boost_score: float = 0.75
+    timeout_seconds: float = 15.0
+    seed_queries: list[str] = field(default_factory=lambda: list(DEFAULT_TRENDING_SEED_QUERIES))
+
+
+@dataclass(frozen=True)
+class TrendingTopic:
+    """One hot topic discovered from an external trend source."""
+
+    query: str
+    article_count: int
+
+
+@dataclass(frozen=True)
 class AiSummarySettings:
     """Runtime settings for AI-based article summaries.
     
@@ -132,4 +171,5 @@ class Settings:
     sources: SourceSettings = field(default_factory=SourceSettings)
     editorial: EditorialSettings = field(default_factory=EditorialSettings)
     ranking: RankingSettings = field(default_factory=RankingSettings)
+    trending: TrendingSettings = field(default_factory=TrendingSettings)
     ai_summary: AiSummarySettings = field(default_factory=AiSummarySettings)

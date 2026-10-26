@@ -97,6 +97,30 @@ ranking:
   max_articles_per_category: 2
   max_articles_per_source: 1
 
+trending:
+  enabled: false
+  provider: "gdelt"
+  timespan_hours: 24
+  max_topics: 5
+  max_records_per_query: 50
+  min_articles: 3
+  boost_score: 0.75
+  timeout_seconds: 15.0
+  seed_queries:
+    - "artificial intelligence"
+    - "ai"
+    - "telecom"
+    - "5g"
+    - "cloud computing"
+    - "cybersecurity"
+    - "spain"
+    - "españa"
+    - "european regulation"
+    - "orange"
+    - "openai"
+    - "gemini"
+    - "llama"
+
 ai_summary:
   enabled: true
   provider: "placeholder"
@@ -106,11 +130,12 @@ ai_summary:
   timeout_seconds: 20.0
   prompt_template: |
     You are a news analyst for a technology and telecom company based in Spain.
-    Return a JSON object with the keys "headline_es" and "summary_es" only.
+    Return a JSON object with the keys "headline_es", "summary_es", and "relevance_score" only.
     Headline: a concise Spanish headline that preserves the meaning of the original title. Do not keep the English title.
     Summary: summarize the following news article in {max_words} words or less.
+    Relevance score: an integer from 1 to 5, where 5 means this story should be prioritized for the digest and 1 means low priority.
     {geo_instruction}
-    Write both fields entirely in European Spanish (es-ES) using a business-colloquial tone suitable for executive chats. Do not leave English words in either field.
+    Write the headline and summary entirely in European Spanish (es-ES) using a business-colloquial tone suitable for executive chats. Do not leave English words in either text field.
     Be factual, neutral, and concise. Output only valid JSON, no preamble.
     Original headline: {title}
     Article: {content}

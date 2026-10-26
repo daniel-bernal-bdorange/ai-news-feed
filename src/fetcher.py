@@ -12,9 +12,10 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import feedparser
 import httpx
 
-from .models import Article, EditorialSettings, Settings
+from .models import Article, EditorialSettings, Settings, TrendingSettings, TrendingTopic
 
 LOGGER = logging.getLogger(__name__)
+GDELT_DOC_API_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
 TRACKING_QUERY_KEYS = {"fbclid", "gclid", "mc_cid", "mc_eid"}
 TITLE_NOISE_TOKENS = {
@@ -76,6 +77,142 @@ def fetch_all_articles(
     )
     
     return result
+
+
+def fetch_trending_topics(
+    settings: TrendingSettings,
+    *,
+    client: httpx.Client | None = None,
+) -> list[TrendingTopic]:
+    """Discover external hot topics from GDELT using a small set of seed queries."""
+
+    if not settings.enabled or settings.provider.casefold() != "gdelt" or not settings.seed_queries:
+        LOGGER.debug(
+            "Tendencias deshabilitadas o sin seeds; se omite la señal externa.",
+            extra={"source": "gdelt", "enabled": settings.enabled, "provider": settings.provider},
+        )
+        return []
+
+    own_client = client is None
+    http_client = client or httpx.Client(timeout=settings.timeout_seconds)
+    trending_topics: list[TrendingTopic] = []
+
+    LOGGER.info(
+        f"Iniciando obtención de tendencias GDELT: {len(settings.seed_queries)} seeds",
+        extra={
+            "operation": "fetch_trending_topics",
+            "provider": settings.provider,
+            "seed_count": len(settings.seed_queries),
+            "timespan_hours": settings.timespan_hours,
+        },
+    )
+
+    try:
+        for query in settings.seed_queries:
+            try:
+                response = http_client.get(
+                    GDELT_DOC_API_URL,
+                    params={
+                        "query": query,
+                        "mode": "artlist",
+                        "format": "rss",
+                        "maxrecords": settings.max_records_per_query,
+                        "timespan": f"{settings.timespan_hours}h",
+                        "sort": "datedesc",
+                    },
+                )
+                response.raise_for_status()
+            except httpx.HTTPError as exc:
+                LOGGER.debug(
+                    f"GDELT fallo para la seed '{query}': {exc}",
+                    extra={"operation": "fetch_trending_topics", "seed": query, "error": str(exc)},
+                )
+                continue
+
+            feed = feedparser.parse(response.text)
+            article_count = len(feed.entries)
+            LOGGER.debug(
+                f"GDELT seed '{query}': {article_count} articulos en ventana reciente",
+                extra={"operation": "fetch_trending_topics", "seed": query, "article_count": article_count},
+            )
+
+            if article_count < settings.min_articles:
+                continue
+
+            trending_topics.append(TrendingTopic(query=query, article_count=article_count))
+    finally:
+        if own_client:
+            http_client.close()
+
+    trending_topics.sort(key=lambda topic: (topic.article_count, topic.query.casefold()), reverse=True)
+    result = trending_topics[: settings.max_topics]
+
+    LOGGER.info(
+        f"Tendencias GDELT completadas: {len(result)} temas detectados",
+        extra={
+            "operation": "fetch_trending_topics",
+            "provider": settings.provider,
+            "detected_topics": len(result),
+            "candidate_topics": len(trending_topics),
+        },
+    )
+
+    return result
+
+
+def apply_trending_boost(
+    articles: list[Article],
+    trending_topics: list[TrendingTopic],
+    settings: TrendingSettings,
+) -> list[Article]:
+    """Increase article relevance when the text aligns with recent external trends."""
+
+    if not settings.enabled or not trending_topics:
+        return articles
+
+    max_count = max(topic.article_count for topic in trending_topics)
+    if max_count <= 0:
+        return articles
+
+    boosted_articles: list[Article] = []
+    boosted_count = 0
+
+    for article in articles:
+        relevance_score = article.relevance_score
+        searchable_text = _normalize_search_text(
+            " ".join(
+                part
+                for part in (
+                    article.display_title or article.title,
+                    article.summary or "",
+                    article.raw_content,
+                )
+                if part
+            )
+        )
+
+        for topic in trending_topics:
+            if _keyword_matches(searchable_text, topic.query):
+                topic_weight = topic.article_count / max_count
+                relevance_score += settings.boost_score * topic_weight
+
+        if relevance_score != article.relevance_score:
+            boosted_count += 1
+            boosted_articles.append(replace(article, relevance_score=relevance_score))
+        else:
+            boosted_articles.append(article)
+
+    LOGGER.info(
+        f"Boost de tendencias aplicado: {boosted_count} articulos ajustados",
+        extra={
+            "operation": "apply_trending_boost",
+            "boosted_count": boosted_count,
+            "article_count": len(articles),
+            "topic_count": len(trending_topics),
+        },
+    )
+
+    return boosted_articles
 
 
 def filter_editorial_articles(articles: list[Article], editorial: EditorialSettings) -> list[Article]:

@@ -44,6 +44,48 @@ def test_build_summary_prompt_keeps_geo_instruction_conditional_for_generic_arti
 
     assert "only when the article clearly supports it" in prompt
     assert "Mention that relevance explicitly" not in prompt
+    assert "relevance_score" in prompt
+
+
+def test_summarize_articles_uses_relevance_score_from_external_provider() -> None:
+    """External providers should return a relevance score that is persisted on the article."""
+
+    article = Article(
+        title="Spain AI regulation update",
+        url="https://example.com/spain-ai-regulation",
+        source_name="Feed A",
+        published_date=datetime(2026, 5, 7, 8, 0, tzinfo=UTC),
+        raw_content="European regulation update for the Spanish telecom market.",
+        category="ai",
+        geo_boost=True,
+    )
+
+    def handler(_: httpx.Request) -> httpx.Response:
+        return httpx.Response(
+            200,
+            json={
+                "choices": [
+                    {
+                        "message": {
+                            "content": "{\"headline_es\": \"España y Europa en el centro de la actualización\", \"summary_es\": \"España y Europa siguen siendo clave en esta actualización.\", \"relevance_score\": 4.5}"
+                        }
+                    }
+                ]
+            },
+        )
+
+    settings = AiSummarySettings(
+        provider="groq",
+        api_url="https://api.groq.com/openai/v1/chat/completions",
+        max_words=12,
+    )
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        summarized = summarize_articles([article], settings, "groq-test-key", client=client)
+
+    assert summarized[0].display_title == "España y Europa en el centro de la actualización"
+    assert summarized[0].summary == "España y Europa siguen siendo clave en esta actualización."
+    assert summarized[0].relevance_score == 4.5
 
 
 def test_summarize_articles_placeholder_extracts_first_max_words() -> None:
@@ -112,7 +154,7 @@ def test_summarize_articles_uses_configured_model_and_prompt_template_with_exter
     assert '"model":"grok-vision-beta"' in str(captured_request["payload"])
     assert "Custom prompt for 12 words." in str(captured_request["payload"])
     assert "Mention that relevance explicitly" in str(captured_request["payload"])
-    assert summarized[0].display_title == "España IA regulación actualización"
+    assert summarized[0].display_title == "España y Europa en el centro de la actualización de teleco e IA"
     assert summarized[0].summary == "España y Europa siguen siendo clave en esta actualización de política de"
 
 

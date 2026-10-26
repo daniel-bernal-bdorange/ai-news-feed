@@ -11,6 +11,7 @@ from .models import (
     GeoPrioritySettings,
     NewsApiSettings,
     RankingSettings,
+    TrendingSettings,
     RssSourceConfig,
     ScheduleSettings,
     Settings,
@@ -29,6 +30,7 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
     editorial_data = data.get("editorial", {})
     geo_priority_data = editorial_data.get("geo_priority", {})
     ranking_data = data.get("ranking", {})
+    trending_data = data.get("trending", {})
     ai_summary_data = data.get("ai_summary", {})
 
     # Keep source parsing explicit so malformed sections fail close to the config boundary.
@@ -52,6 +54,18 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
         max_articles_per_category=ranking_data.get("max_articles_per_category"),
         max_articles_per_source=ranking_data.get("max_articles_per_source"),
     )
+    default_trending = TrendingSettings()
+    trending = TrendingSettings(
+        enabled=trending_data.get("enabled", default_trending.enabled),
+        provider=trending_data.get("provider", default_trending.provider),
+        timespan_hours=trending_data.get("timespan_hours", default_trending.timespan_hours),
+        max_topics=trending_data.get("max_topics", default_trending.max_topics),
+        max_records_per_query=trending_data.get("max_records_per_query", default_trending.max_records_per_query),
+        min_articles=trending_data.get("min_articles", default_trending.min_articles),
+        boost_score=trending_data.get("boost_score", default_trending.boost_score),
+        timeout_seconds=trending_data.get("timeout_seconds", default_trending.timeout_seconds),
+        seed_queries=list(trending_data.get("seed_queries", default_trending.seed_queries)),
+    )
     ai_summary = AiSummarySettings(
         enabled=ai_summary_data.get("enabled", True),
         provider=os.getenv("AI_SUMMARY_PROVIDER", ai_summary_data.get("provider", AiSummarySettings().provider)),
@@ -71,6 +85,7 @@ def load_settings(path: str | Path = "config/settings.yaml") -> Settings:
         sources=SourceSettings(rss=rss_sources, newsapi=newsapi),
         editorial=editorial,
         ranking=ranking,
+        trending=trending,
         ai_summary=ai_summary,
     )
 
