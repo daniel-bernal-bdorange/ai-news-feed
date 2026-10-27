@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-26",
   "week_end": "2026-11-01",
-  "last_updated": "2026-10-26T13:57:39Z",
+  "last_updated": "2026-10-27T13:01:05Z",
   "articles": [
+    {
+      "id": "0ba745f0c495",
+      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "title": "General Compute recauda 100 millones de d\u00f3lares en Serie A, desafiando la narrativa de",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-27T13:00:00Z",
+      "fetched_at": "2026-10-27T13:00:57Z",
+      "raw_content": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "General Compute ha asegurado 100 millones de d\u00f3lares en una ronda Serie A, apostando por chips de inferencia fuera del ecosistema Nvidia, lo que contrarresta la narrativa de desastre de neocloud.",
+      "selected": false
+    },
+    {
+      "id": "9b4194834dcf",
+      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+      "title": "Los agentes de IA, la nueva audiencia de los medios",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-27T11:00:00Z",
+      "fetched_at": "2026-10-27T13:00:57Z",
+      "raw_content": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI\u2014not humans.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Con la adopci\u00f3n masiva de agentes de IA, algunos editores buscan monetizar contenido dise\u00f1ado espec\u00edficamente para estos asistentes, esperando que los usuarios paguen por material optimizado para la IA en lugar de para humanos.",
+      "selected": false
+    },
+    {
+      "id": "db65eb3918f6",
+      "url": "https://rcrwireless.com/20261026/network-infrastructure/no-magic-wand-no-secret-sauce-no-shortcut-verizon-bats-away-spacex-hype-telco-diary",
+      "title": "Verizon refuta el hype de SpaceX: sin atajos ni soluciones milagrosas",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-26T19:18:15Z",
+      "fetched_at": "2026-10-27T13:00:57Z",
+      "raw_content": "From the newsletter (October 26; sign-up or follow if you want it sooner): Verizon has raised its full-year guidance for the third consecutive quarter, signed $4 billion in AI infrastructure&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Verizon ha elevado su orientaci\u00f3n anual por tercer trimestre consecutivo y ha firmado un contrato de 4 mil millones de d\u00f3lares en infraestructura de IA. La compa\u00f1\u00eda rechaza el hype de SpaceX, subrayando que no existen atajos ni soluciones milagrosas para el crecimiento. La actualizaci\u00f3n refuerza la posici\u00f3n de Verizon como l\u00edder en servicios de telecomunicaciones y tecnolog\u00eda.",
+      "selected": false
+    },
     {
       "id": "8730dc35da78",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
