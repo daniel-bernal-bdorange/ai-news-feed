@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-26",
   "week_end": "2026-11-01",
-  "last_updated": "2026-10-27T13:01:05Z",
+  "last_updated": "2026-10-28T13:51:40Z",
   "articles": [
+    {
+      "id": "3c84bdc9f1b4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+      "title": "Meta lanza Waddle World, diario de mascotas con IA",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-28T11:27:30Z",
+      "fetched_at": "2026-10-28T13:51:30Z",
+      "raw_content": "<figure>\n\n<img alt=\"A screenshot taken of the Waddle World app from Apple\u2019s App store.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Waddle-World-meta-app-hero.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations.</p>\n<p class=\"wp-block-paragraph\">According to its <a href=\"https://apps.apple.com/ph/app/waddle-world-ai-pet-journal/id6809943562\">Apple</a> and <a href=\"https://play.google.com/store/apps/details?id=com.meta.waddle&amp;hl=en_GB\">Play</a> Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\" Users should talk, not type, with their pets, the description says, as well as play \"cozy games\" like stacking groceries or word games. The Play store description says:</p>\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\">A little friend that listens. A cozy world that's yours. Waddle World is a cozy 16-bit world where your pixel pet lives. Hatch a virtual pet, visit whenever you like, and let it \u2026</p></blockquote>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "Meta lanza Waddle World, una app de diario de mascotas con IA que permite a los usuarios conversar y crear dibujos con sus criaturas virtuales.",
+      "selected": false
+    },
+    {
+      "id": "bab4d2d109d6",
+      "url": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+      "title": "Espa\u00f1a y Europa en riesgo por sabotaje chino a cables submarinos del Pac\u00edfico",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-10-28T11:00:49Z",
+      "fetched_at": "2026-10-28T13:51:30Z",
+      "raw_content": "<p>Subsea cable projects owned by US companies such as Google and Meta face some of the greatest risks from the threat of deep-sea sabotage in the Pacific Ocean, according to a new report. That coincides with Chinese research ships spending an extraordinary amount of time apparently surveying undersea cables\u2014not to mention Chinese commercial ships being investigated for cutting cables in both European and Asian waters.</p>\n<p>Most damage to the undersea cables that form the Internet\u2019s backbone is the result of accidents involving bottom-trawling fishing nets and ship anchors dragging on the seabed, with storms and undersea landslides also factoring in. But the recent rise in international tensions and open conflicts have placed new scrutiny on more suspicious instances of cable-cutting damage, with analysts warning about Russia and China in particular engaging in cable sabotage or tampering as \u201cgray zone\u201d tactics that fall short of direct military confrontation.</p>\n<p>One of the newest risk assessments of China\u2019s gray zone tactics targeting the Internet\u2019s undersea infrastructure comes from a <a href=\"https://www.uscc.gov/research/chinas-gray-zone-threats-trans-pacific-undersea-cables\">research report</a> published by the <a href=\"https://www.uscc.gov/\">US-China Economic and Security Review Commission</a>, an independent government commission that advises Congress. The report was contracted to the London-based think tank <a href=\"https://www.csri.global/\">China Strategic Risks Institute</a> and published in September 2026.</p><p><a href=\"https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/#comments\">Comments</a></p>",
+      "relevance_score": 5.0,
+      "geo_boost": true,
+      "summary": "El informe de la US-China Economic y seguridad Review Commission alerta que los cables submarinos de Google y Meta, esenciales para la conectividad europea, est\u00e1n bajo amenaza de sabotaje chino en el Pac\u00edfico. El aumento de investigaciones sobre barcos chinos que inspeccionan y cortan cables en aguas europeas subraya el riesgo para la infraestructura digital de Espa\u00f1a y la UE.",
+      "selected": false
+    },
+    {
+      "id": "a50712efa05c",
+      "url": "https://rcrwireless.com/20261028/podcast/electrons-electricians-inference-what-it-takes-to-scale-ai-with-chris-sharp-of-digital-realty",
+      "title": "Electrones, Electricistas e Inferencia: C\u00f3mo Escalar la IA seg\u00fan Chris Sharp de Digital Realty",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-28T11:00:00Z",
+      "fetched_at": "2026-10-28T13:51:30Z",
+      "raw_content": "In this episode, Chris Sharp, Chief Technology Officer of Digital Realty, shares his perspective on what it really takes to scale AI infrastructure beyond th...",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Chris Sharp, CTO de Digital Realty, explica los retos y soluciones para ampliar la infraestructura de IA. Destaca la necesidad de optimizar energ\u00eda, refrigeraci\u00f3n y redes, as\u00ed como la adopci\u00f3n de hardware especializado y software de gesti\u00f3n. Subraya la importancia de la colaboraci\u00f3n entre proveedores y clientes para garantizar rendimiento y sostenibilidad.",
+      "selected": false
+    },
     {
       "id": "0ba745f0c495",
       "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
