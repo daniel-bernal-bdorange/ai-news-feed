@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-26",
   "week_end": "2026-11-01",
-  "last_updated": "2026-10-28T13:51:40Z",
+  "last_updated": "2026-10-29T13:58:04Z",
   "articles": [
+    {
+      "id": "130656092a26",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "title": "Anthropic apuesta por el c\u00f3mputo masivo para asegurar su crecimiento",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-29T13:30:00Z",
+      "fetched_at": "2026-10-29T13:57:57Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_dario-amodei_money.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\"><a href=\"https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm\">The Anthropic S-1</a> seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT contracts, Anthropic has just offered a handy solution: Doing a bunch of things that look like you're trying to build the machine god is the only way to avoid going bankrupt.</p>\n<p class=\"wp-block-paragraph\">Forget about the machine god for a minute. At least in my read of the S-1, it seems like Anthropic is pinning the future of its company to dramatic growth; it has to, in orde \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "El S\u20111 de Anthropic revela que la compa\u00f1\u00eda justifica enormes gastos en c\u00f3mputo como estrategia para impulsar un crecimiento explosivo y evitar la quiebra. La narrativa de \u201cconstruir un dios de la IA\u201d sirve m\u00e1s como argumento de mercado que como objetivo real, orient\u00e1ndose a contratos de TI y a la rentabilidad a largo plazo.",
+      "selected": false
+    },
+    {
+      "id": "3eb958348088",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "title": "Deepgram adquiere Daily, creador de Pipecat, para reforzar su infraestructura de IA de voz",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-29T13:00:00Z",
+      "fetched_at": "2026-10-29T13:57:57Z",
+      "raw_content": "Deepgram said that it is committed to keep Pipecat open source.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Deepgram ha adquirido Daily, la empresa detr\u00e1s de Pipecat, con el objetivo de fortalecer su plataforma de inteligencia artificial de voz. La firma anunci\u00f3 su compromiso de mantener Pipecat como c\u00f3digo abierto, lo que permitir\u00e1 a la comunidad colaborar y ampliar sus capacidades.",
+      "selected": false
+    },
+    {
+      "id": "0c832493b24b",
+      "url": "https://rcrwireless.com/20261028/opinion/satellite-land-grab-tower-premiums-6g-money-problems-telco-diary",
+      "title": "Adquisiciones satelitales, primas de torres y problemas de financiaci\u00f3n del 6G",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-28T16:42:25Z",
+      "fetched_at": "2026-10-29T13:57:57Z",
+      "raw_content": "From the newsletter (October 28; sign-up or follow if you want it sooner): Amazon Leo\u2019s $11.5bn Globalstar deal intensifies the direct-to-device satellite race, while Bell Canada\u2019s tower valuation highlights infrastructure\u2019s&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Amazon Leo compra Globalstar por 11,5 bn USD, impulsando la carrera de conectividad directa a dispositivos. Bell Canada destaca el alto valor de sus torres, reflejando la demanda de infraestructura. El desarrollo del 6G enfrenta retos financieros, se\u00f1alando la necesidad de inversiones estrat\u00e9gicas.",
+      "selected": false
+    },
     {
       "id": "3c84bdc9f1b4",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
