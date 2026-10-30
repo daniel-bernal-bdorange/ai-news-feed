@@ -1,8 +1,50 @@
 {
   "week_start": "2026-10-26",
   "week_end": "2026-11-01",
-  "last_updated": "2026-10-29T13:58:04Z",
+  "last_updated": "2026-10-30T13:52:48Z",
   "articles": [
+    {
+      "id": "57bd8cae501a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "title": "Anthropic presenta su S\u20111: \u00bfinversi\u00f3n en milagros o riesgo existencial?",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-10-30T13:11:05Z",
+      "fetched_at": "2026-10-30T13:52:37Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"?</p>\n<p class=\"wp-block-paragraph\">To some extent, Anthropic suggests in a letter at the top of its S-1 filing, you have to just believe.</p>\n<p class=\"wp-block-paragraph\">Anthropic's 335-page S-1 prospectus, filed Monday, is part of a steady hype escalation in Silicon Valley's interactions with Wall Street. In some ways, it's not even that bizarre; SpaceX IPO'd in June after filing an S-1 that referenced din \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "La firma de IA Anthropic ha presentado su prospecto S\u20111, subrayando la necesidad de creer en su tecnolog\u00eda. El documento, de 335 p\u00e1ginas, destaca tanto el potencial de revolucionar la industria como los riesgos existenciales que podr\u00edan acompa\u00f1ar a la IA. La presentaci\u00f3n refleja la creciente relaci\u00f3n entre Silicon Valley y Wall Street, con un tono de apuesta y cautela.",
+      "selected": false
+    },
+    {
+      "id": "8b1a51ae689f",
+      "url": "https://rcrwireless.com/20261029/networks/direct-to-device-orange-kyivstar",
+      "title": "El D2D sale del laboratorio: Orange, Skylo y Kyivstar lanzan continuidad",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-29T18:53:57Z",
+      "fetched_at": "2026-10-30T13:52:37Z",
+      "raw_content": "Two direct-to-device services, one from GEO, one from LEO In sum &#8211; what to know: For all the discussion of 6G architectures and&#160;WRC-27 agenda items, direct-to-device (D2D) is already a&#8230;",
+      "relevance_score": 5.0,
+      "geo_boost": false,
+      "summary": "El D2D ya no es solo teor\u00eda. Orange, Skylo y Kyivstar han puesto en marcha servicios de continuidad directa a dispositivo, aprovechando constelaciones GEO y LEO. La iniciativa avanza en paralelo con la agenda de 6G y la WRC\u201127, demostrando que la conectividad de extremo a extremo ya est\u00e1 disponible comercialmente.",
+      "selected": false
+    },
+    {
+      "id": "6fa2e18fb225",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "title": "Contratista de defensa permite acceso de su agente IA personal al Pent\u00e1gono",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-29T18:39:43Z",
+      "fetched_at": "2026-10-30T13:52:37Z",
+      "raw_content": "Sources tell WIRED that an Accenture employee\u2019s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
+      "relevance_score": 5.0,
+      "geo_boost": false,
+      "summary": "Un empleado de Accenture dej\u00f3 que su agente Claude personal operara en la red del Departamento de Defensa durante dos meses antes de ser detectado. La brecha se identific\u00f3 y se pudo corregir, evitando un riesgo mayor.",
+      "selected": false
+    },
     {
       "id": "130656092a26",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
