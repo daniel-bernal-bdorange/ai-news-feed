@@ -1,8 +1,22 @@
 {
   "week_start": "2026-10-26",
   "week_end": "2026-11-01",
-  "last_updated": "2026-10-30T13:52:48Z",
+  "last_updated": "2026-10-30T14:39:29Z",
   "articles": [
+    {
+      "id": "e54e2cc79a7a",
+      "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+      "title": "Deja la charla superficial: Conecta con oportunidades transformadoras en el TechCrunch Founder Summit con",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-30T14:00:00Z",
+      "fetched_at": "2026-10-30T14:38:43Z",
+      "raw_content": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, plus get a second for free.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "El TechCrunch Founder Summit 2026 se celebrar\u00e1 el 4 de noviembre en SoWa Power Station, Boston. La plataforma Braindate facilita la b\u00fasqueda de encuentros 1:1 o en peque\u00f1os grupos. Reg\u00edstrate antes del evento para ahorrar hasta 100 USD en la entrada y obtener una segunda entrada gratis.",
+      "selected": false
+    },
     {
       "id": "57bd8cae501a",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
@@ -24,7 +38,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-10-29T18:53:57Z",
-      "fetched_at": "2026-10-30T13:52:37Z",
+      "fetched_at": "2026-10-30T14:38:43Z",
       "raw_content": "Two direct-to-device services, one from GEO, one from LEO In sum &#8211; what to know: For all the discussion of 6G architectures and&#160;WRC-27 agenda items, direct-to-device (D2D) is already a&#8230;",
       "relevance_score": 5.0,
       "geo_boost": false,
@@ -38,7 +52,7 @@
       "source_name": "Wired - AI & Tech",
       "category": "tech",
       "published_at": "2026-10-29T18:39:43Z",
-      "fetched_at": "2026-10-30T13:52:37Z",
+      "fetched_at": "2026-10-30T14:38:43Z",
       "raw_content": "Sources tell WIRED that an Accenture employee\u2019s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
       "relevance_score": 5.0,
       "geo_boost": false,
