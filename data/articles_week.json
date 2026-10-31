@@ -1,8 +1,36 @@
 {
   "week_start": "2026-10-26",
   "week_end": "2026-11-01",
-  "last_updated": "2026-10-30T14:39:29Z",
+  "last_updated": "2026-10-31T13:23:30Z",
   "articles": [
+    {
+      "id": "be384ac73b24",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "title": "Nuevo malware 'Volta\u2011Autodoxer' usa IA para robar datos de usuarios",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-10-31T12:00:00Z",
+      "fetched_at": "2026-10-31T13:23:23Z",
+      "raw_content": "Named \u201cVolta-Autodoxer,\u201d the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "El malware 'Volta\u2011Autodoxer' utiliza herramientas de IA para recopilar datos de v\u00edctimas, incluyendo credenciales de acceso, n\u00fameros de tarjetas de cr\u00e9dito, sesiones de Discord y recibos de UberEats.",
+      "selected": false
+    },
+    {
+      "id": "420fd151ca6f",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "title": "Nvidia eval\u00faa cosignar pr\u00e9stamo para el centro IA de Nscale en West Virginia",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-31T01:20:05Z",
+      "fetched_at": "2026-10-31T13:23:23Z",
+      "raw_content": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Nvidia eval\u00faa cosignar pr\u00e9stamo para el centro IA de Nscale en West Virginia, ofreciendo respaldo financiero que tranquiliza a los inversores preocupados por los gastos en IA.",
+      "selected": false
+    },
     {
       "id": "e54e2cc79a7a",
       "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
@@ -15,6 +43,20 @@
       "relevance_score": 3.0,
       "geo_boost": false,
       "summary": "El TechCrunch Founder Summit 2026 se celebrar\u00e1 el 4 de noviembre en SoWa Power Station, Boston. La plataforma Braindate facilita la b\u00fasqueda de encuentros 1:1 o en peque\u00f1os grupos. Reg\u00edstrate antes del evento para ahorrar hasta 100 USD en la entrada y obtener una segunda entrada gratis.",
+      "selected": false
+    },
+    {
+      "id": "6d9a58ebc5ac",
+      "url": "https://rcrwireless.com/20261030/5g/america-movil-televida-pay-tv",
+      "title": "Am\u00e9rica M\u00f3vil espera que la fusi\u00f3n Televisa-AT&T abra la puerta a la TV paga",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-10-30T13:49:19Z",
+      "fetched_at": "2026-10-31T13:23:23Z",
+      "raw_content": "America Movil&#8217;s chief executive officer Daniel Hajj said the company does not yet know what Televisa\u2019s strategy will be once the transaction is completed but noted that Televisa will be&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "El director ejecutivo Daniel Hajj de Am\u00e9rica M\u00f3vil indic\u00f3 que la compa\u00f1\u00eda a\u00fan desconoce la estrategia de Televisa tras la operaci\u00f3n, pero prev\u00e9 que la fusi\u00f3n con AT&T genere oportunidades para la televisi\u00f3n de pago. El acuerdo podr\u00eda ampliar la presencia de Am\u00e9rica M\u00f3vil en el mercado de contenidos premium, aunque los detalles concretos siguen pendientes.",
       "selected": false
     },
     {
