@@ -1,8 +1,36 @@
 {
   "week_start": "2026-10-26",
   "week_end": "2026-11-01",
-  "last_updated": "2026-10-31T13:23:30Z",
+  "last_updated": "2026-11-01T14:05:35Z",
   "articles": [
+    {
+      "id": "3f9a89f38973",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+      "title": "Los chatbots desv\u00edan a los excursionistas, con graves consecuencias",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-11-01T10:30:00Z",
+      "fetched_at": "2026-11-01T14:05:30Z",
+      "raw_content": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "La dependencia de los chatbots para planificar rutas de senderismo puede hacer que los excursionistas conf\u00eden ciegamente en la IA, abandonando su propio juicio cr\u00edtico. Este fen\u00f3meno aumenta el riesgo de perderse y sufrir accidentes mortales en zonas remotas.",
+      "selected": false
+    },
+    {
+      "id": "d9269f49d95d",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "title": "Apple: no lanzar\u00e1 IA solo por el hecho de hacerlo",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-10-31T21:41:00Z",
+      "fetched_at": "2026-11-01T14:05:30Z",
+      "raw_content": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "El CEO de Apple afirm\u00f3 que la compa\u00f1\u00eda no quiere lanzar IA solo por el hecho de hacerlo. Defendi\u00f3 su posici\u00f3n actual en el panorama de IA, centr\u00e1ndose en aplicaciones significativas, no en la moda. Enfatiz\u00f3 la integraci\u00f3n cuidadosa, la privacidad del usuario y el valor a largo plazo.",
+      "selected": false
+    },
     {
       "id": "be384ac73b24",
       "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
