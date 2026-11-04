@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-02",
   "week_end": "2026-11-08",
-  "last_updated": "2026-11-03T14:53:01Z",
+  "last_updated": "2026-11-04T15:11:23Z",
   "articles": [
+    {
+      "id": "0718a13bcd16",
+      "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
+      "title": "El Reino Unido estima 400 mil millones de libras de crecimiento por IA, cifra",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-11-04T13:49:51Z",
+      "fetched_at": "2026-11-04T15:11:16Z",
+      "raw_content": "The AI minister now concedes the estimated figure is less than a third of that. Researchers blame the country\u2019s slow rate of adoption",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "El ministro de IA del Reino Unido admite que la cifra de 400 mil millones de libras es inferior a un tercio de la estimaci\u00f3n inicial, y los investigadores atribuyen la brecha a la lenta adopci\u00f3n de la tecnolog\u00eda en el pa\u00eds.",
+      "selected": false
+    },
+    {
+      "id": "70b74534ea66",
+      "url": "https://rcrwireless.com/20261104/carriers/true-networks-ai",
+      "title": "True impulsa crecimiento combinando mejoras de red y transformaci\u00f3n IA",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-04T12:50:17Z",
+      "fetched_at": "2026-11-04T15:11:16Z",
+      "raw_content": "In Q3, Thai telco True reported its highest service revenue since the combination with rival operator dtac, with growth both year-on-year and quarter-on-quarter In sum \u2013 what to know Mobile&#8230;",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "En el tercer trimestre, la telco tailandesa True registr\u00f3 ingresos por servicios por primera vez desde su fusi\u00f3n con dtac, con crecimiento interanual y intertrimestral. La compa\u00f1\u00eda combina mejoras de red y transformaci\u00f3n de IA para impulsar su expansi\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "c172670df3bb",
+      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+      "title": "Rusia acelera centros de datos subterr\u00e1neos tras ataques de drones ucranianos",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-03T20:39:55Z",
+      "fetched_at": "2026-11-04T15:11:16Z",
+      "raw_content": "<p>Russian tech companies are scrambling to harden and hide their data centers underground after Ukrainian drone strikes damaged facilities housing AI supercomputers and disrupted cloud services for millions of Russian users. Meanwhile, the Kremlin is requiring data center owners to reserve computing capacity for emergency state needs and has even authorized possible use of foreign data centers.</p>\n<p>These consequences of Russia's war against Ukraine come as the Russian military has <a href=\"https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-2-2026/\">bombarded Ukrainian cities with drones and missiles</a> nearly night and day in recent months, along with <a href=\"https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/\">specifically targeting Ukrainian data centers</a> since late September. But Ukraine has retaliated with its own drone strikes on military and infrastructure targets across Russia, degrading or knocking out data centers <a href=\"https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/\">operated by Russian tech giant Yandex</a>, the state-owned bank Sberbank, social media site VKontakte, and the Russian Ministry of Finance.</p>\n<p>Now, state-owned telecommunications company Rostelcom has raised the possibility of moving some Russian data centers underground in talks with the nickel and palladium mining company Norilsk, according to <a href=\"https://www.vedomosti.ru/technology/articles/2026/11/02/1241876-rostelekom-zaimetsya-stroitelstvom\">Russian newspaper Vedomosti</a>. The industry publication <a href=\"https://www.datacenterdynamics.com/en/news/rostelecom-in-talks-with-norilsk-nickel-for-underground-data-centers-amid-drone-attacks/\">Data Center Dynamics</a> also pointed to a recent proposal by a Russian regional governor to build data centers <a href=\"https://www.datacenterdynamics.com/en/news/russian-official-proposes-data-centers-in-disused-coal-mines-to-protect-from-drone-strikes/\">within open-pit coal mines</a>\u00a0while planting green public parks above as camouflage.</p><p><a href=\"https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/#comments\">Comments</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Tras da\u00f1os a supercomputadoras y servicios en la nube por drones ucranianos, las empresas tecnol\u00f3gicas rusas aceleran la construcci\u00f3n de centros de datos subterr\u00e1neos. El Kremlin exige reservar capacidad para emergencias estatales y contempla usar centros extranjeros. Rostelcom negocia con Norilsk y un gobernador propone usar minas de carb\u00f3n abandonadas como refugio.",
+      "selected": false
+    },
     {
       "id": "c2c5ba0726ac",
       "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
