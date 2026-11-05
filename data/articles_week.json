@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-02",
   "week_end": "2026-11-08",
-  "last_updated": "2026-11-04T15:11:23Z",
+  "last_updated": "2026-11-05T15:12:56Z",
   "articles": [
+    {
+      "id": "5c6fd66a42c8",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+      "title": "SoundCloud integra ElevenLabs para publicar m\u00fasica IA sin exportar",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-05T15:00:00Z",
+      "fetched_at": "2026-11-05T15:12:45Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1083228772.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tBERLIN, GERMANY - JANUARY 16: In this photo illustration the logo of the music streaming service SoundCloud is displayed on a smartphone on January 16, 2019 in Berlin, Germany. (Photo by Thomas Trutschel/Photothek via Getty Images) | Photothek via Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">After <a href=\"https://moises.ai/newsroom/partnerships/moises-soundcloud/\">partnering with Moises</a> earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part of the partnership, SoundCloud Artist Pro subscribers are also getting three months of ElevenMusic Pro for free, so they can experiment with generative AI and <a href=\"https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it\">potentially alienate their fans</a>. Songs published from ElevenLabs directly to SoundCloud will be labeled as such, making clear their AI origins. </p>\n<p class=\"wp-block-paragraph\">The integration between SoundCloud and ElevenLabs isn't as deep  \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "SoundCloud se asocia con ElevenLabs para permitir a los usuarios publicar m\u00fasica generada por IA directamente desde la plataforma, sin necesidad de exportar y subir manualmente. Los suscriptores de SoundCloud Artist Pro obtienen tres meses gratuitos de ElevenMusic Pro para experimentar con la IA. Las pistas etiquetadas indican su origen IA.",
+      "selected": false
+    },
+    {
+      "id": "6190dc03f38e",
+      "url": "https://rcrwireless.com/20261105/5g/qualcomm-spacex-deal",
+      "title": "Qualcomm confirma ingresos por acuerdo con SpaceX a partir de 2027",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-05T14:51:06Z",
+      "fetched_at": "2026-11-05T15:12:45Z",
+      "raw_content": "Qualcomm expects the deal to begin contributing to revenue as it exits fiscal 2027, with fiscal 2028 expected to be the more significant period In sum \u2013 what to know&#8230;",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Qualcomm ha anunciado que el contrato con SpaceX empezar\u00e1 a generar ingresos en el ejercicio fiscal 2027, con un impacto mayor previsto para 2028. El acuerdo, que cubre la fabricaci\u00f3n de chips para la nave espacial, se considera una fuente de ingresos sostenida que reforzar\u00e1 la posici\u00f3n de Qualcomm en el mercado de comunicaciones satelitales.",
+      "selected": false
+    },
+    {
+      "id": "bbaf82ed1d23",
+      "url": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
+      "title": "Startup de IA acelera el descubrimiento de f\u00e1rmacos",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-11-05T13:00:00Z",
+      "fetched_at": "2026-11-05T15:12:45Z",
+      "raw_content": "Potential Sciences, a startup backed by the UK government, is betting that training AI models on computer-generated biochemical data can speed up the plodding process of developing new drugs.",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "Potential Sciences, respaldada por el gobierno brit\u00e1nico, apuesta por entrenar modelos de IA con datos bioqu\u00edmicos generados por ordenador para acelerar el tedioso proceso de descubrimiento de f\u00e1rmacos. La empresa busca reducir la dependencia de experimentos de laboratorio, optimizando la identificaci\u00f3n de compuestos prometedores mediante simulaciones digitales.",
+      "selected": false
+    },
     {
       "id": "0718a13bcd16",
       "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
