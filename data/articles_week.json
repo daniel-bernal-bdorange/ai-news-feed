@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-02",
   "week_end": "2026-11-08",
-  "last_updated": "2026-11-06T14:49:23Z",
+  "last_updated": "2026-11-06T15:27:06Z",
   "articles": [
     {
       "id": "400f973a2207",
@@ -10,7 +10,7 @@
       "source_name": "Ars Technica",
       "category": "tech",
       "published_at": "2026-11-06T14:13:32Z",
-      "fetched_at": "2026-11-06T14:49:14Z",
+      "fetched_at": "2026-11-06T15:26:26Z",
       "raw_content": "<p>Top Republican lawmakers have asked Jensen Huang to appear before Congress to answer questions after it was reported that US intelligence officials believe Nvidia\u2019s chief executive has been targeted by a Chinese spying operation.</p>\n<p>The chairs of the House committees on China, foreign affairs and intelligence wrote to Huang this week asking him to appear before a joint closed-door briefing for their committees on November 18.</p>\n<p>\u201cRecent reports raise significant national security concerns regarding the People\u2019s Republic of China\u2019s access to sensitive US technology and information,\u201d representatives John Moolenaar, Brian Mast and Rick Crawford wrote.</p><p><a href=\"https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/#comments\">Comments</a></p>",
       "relevance_score": 4.0,
       "geo_boost": false,
@@ -24,7 +24,7 @@
       "source_name": "The Verge - AI",
       "category": "tech",
       "published_at": "2026-11-06T14:00:00Z",
-      "fetched_at": "2026-11-06T14:49:14Z",
+      "fetched_at": "2026-11-06T15:26:26Z",
       "raw_content": "<figure>\n\n<img alt=\"Three examples of an Amazon customer using Alexa for Shopping via text message.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Amazon-Alexa-for-Shopping-text-order.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with recommendations, and order the item on the users' behalf.</p>\n<p class=\"wp-block-paragraph\">This launch builds on the existing <a href=\"https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus\">Alexa for Shopping</a> experience that launched in May, allowing users to place orders during moments where texting is more convenient than using Amazon's app or website. The contact will appear in your phone as \"Amazon Alexa,\" and can be us \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders\">Read the full story at The Verge.</a></p>",
       "relevance_score": 3.0,
       "geo_boost": false,
@@ -180,7 +180,7 @@
       "published_at": "2026-11-02T16:30:00Z",
       "fetched_at": "2026-11-02T16:52:02Z",
       "raw_content": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
-      "relevance_score": 3.0,
+      "relevance_score": 4.0,
       "geo_boost": false,
       "summary": "42AI, empresa de IA, acaba de salir de su fase stealth tras recaudar 62,5 millon d\u00f3lares. Su nuevo modelo de mundo, basado en datos globales, pretende predecir el comportamiento humano incluso en situaciones in\u00e9ditas, abriendo posibilidades para aplicaciones en marketing, finanzas y servicios. La ronda de financiaci\u00f3n incluye a inversores estrat\u00e9gicos.",
       "selected": false
