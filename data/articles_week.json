@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-02",
   "week_end": "2026-11-08",
-  "last_updated": "2026-11-05T15:12:56Z",
+  "last_updated": "2026-11-06T14:49:23Z",
   "articles": [
+    {
+      "id": "400f973a2207",
+      "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
+      "title": "Huang convocado por el Congreso de EE. UU. por sospechas de espionaje chino",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-06T14:13:32Z",
+      "fetched_at": "2026-11-06T14:49:14Z",
+      "raw_content": "<p>Top Republican lawmakers have asked Jensen Huang to appear before Congress to answer questions after it was reported that US intelligence officials believe Nvidia\u2019s chief executive has been targeted by a Chinese spying operation.</p>\n<p>The chairs of the House committees on China, foreign affairs and intelligence wrote to Huang this week asking him to appear before a joint closed-door briefing for their committees on November 18.</p>\n<p>\u201cRecent reports raise significant national security concerns regarding the People\u2019s Republic of China\u2019s access to sensitive US technology and information,\u201d representatives John Moolenaar, Brian Mast and Rick Crawford wrote.</p><p><a href=\"https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/#comments\">Comments</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Los legisladores republicanos de EE. UU. han solicitado que Jensen Huang comparezca ante el Congreso para responder a preguntas sobre una supuesta operaci\u00f3n de espionaje chino que, seg\u00fan inteligencia estadounidense, lo ha apuntado. El presidente de Nvidia deber\u00e1 asistir a una audiencia cerrada el 18 nov. El asunto plantea preocupaciones de seguridad nacional.",
+      "selected": false
+    },
+    {
+      "id": "58fc9a0b8ae1",
+      "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+      "title": "Amazon permite enviar mensajes de texto a Alexa para comprar",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-06T14:00:00Z",
+      "fetched_at": "2026-11-06T14:49:14Z",
+      "raw_content": "<figure>\n\n<img alt=\"Three examples of an Amazon customer using Alexa for Shopping via text message.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Amazon-Alexa-for-Shopping-text-order.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with recommendations, and order the item on the users' behalf.</p>\n<p class=\"wp-block-paragraph\">This launch builds on the existing <a href=\"https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus\">Alexa for Shopping</a> experience that launched in May, allowing users to place orders during moments where texting is more convenient than using Amazon's app or website. The contact will appear in your phone as \"Amazon Alexa,\" and can be us \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Amazon lanza la posibilidad de enviar mensajes de texto a Alexa para comprar. Los usuarios describen productos o env\u00edan fotos y Alexa busca en el cat\u00e1logo, devuelve recomendaciones y realiza el pedido. La funci\u00f3n complementa la experiencia de Alexa para Shopping, facilitando compras cuando el m\u00f3vil es m\u00e1s c\u00f3modo que la app.",
+      "selected": false
+    },
+    {
+      "id": "e2c51317c296",
+      "url": "https://rcrwireless.com/20261105/opinion/neutral-host-networks-and-the-economics-of-shared-infrastructure-reader-forum",
+      "title": "Redes neutrales y la econom\u00eda de la infraestructura compartida",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-05T16:03:23Z",
+      "fetched_at": "2026-11-06T14:49:14Z",
+      "raw_content": "Neutral host networks could cut the cost and complexity of indoor mobile coverage by replacing duplicated operator infrastructure with shared systems. But commercial alignment, investment models and regulatory differences remain&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Las redes de host neutro pueden reducir costes y complejidad de la cobertura m\u00f3vil interior al sustituir la infraestructura duplicada de operadores por sistemas compartidos, aunque persisten retos de alineaci\u00f3n comercial, modelos de inversi\u00f3n y diferencias regulatorias.",
+      "selected": false
+    },
     {
       "id": "5c6fd66a42c8",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
