@@ -1,8 +1,36 @@
 {
   "week_start": "2026-11-02",
   "week_end": "2026-11-08",
-  "last_updated": "2026-11-06T15:27:06Z",
+  "last_updated": "2026-11-07T13:46:10Z",
   "articles": [
+    {
+      "id": "eecad6fef1da",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "title": "Informe METR revela aceleraci\u00f3n r\u00e9cord en el desarrollo de IA de Anthropic",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-07T12:30:00Z",
+      "fetched_at": "2026-11-07T13:46:02Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tAnthropic CEO Dario Amodei. | Photo: Jason Henry/Bloomberg via Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down.</p>\n<p class=\"wp-block-paragraph\">That's according to a new <a href=\"https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/\">report</a> published Thursday by the AI <a href=\"https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic\">safety research organization</a> METR, following an 11-week investigation inside the company, as part of a report evaluating its AI research and development. The probe is separate from a <a href=\"https://www.theverge.com/ai-artificial-intelligence/1012308/anthropic-metr-employee-like-access\">program</a> offering safety researchers \"employee-like\" access to systems in the wake of <a href=\"https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity\">high-profile</a> <a href=\"https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google\">hacking</a> <a href=\"https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr\">incidents</a> over the summer.</p>\n<p class=\"wp-block-paragraph\">The findings offer some of the clearest evidence yet of AI \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "El informe de METR, tras 11 semanas de investigaci\u00f3n interna, muestra que los modelos de Anthropic mejoran a un ritmo doble al a\u00f1o pasado, sin se\u00f1ales de desaceleraci\u00f3n. La aceleraci\u00f3n plantea preocupaciones de seguridad tras incidentes de hacking recientes y destaca la necesidad de supervisi\u00f3n rigurosa en la industria.",
+      "selected": false
+    },
+    {
+      "id": "ad36c2a7e444",
+      "url": "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/",
+      "title": "Soldado brit\u00e1nico desobedece orden de retirar SIM y es chantajeado",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-07T11:00:34Z",
+      "fetched_at": "2026-11-07T13:46:02Z",
+      "raw_content": "<p>An <a href=\"https://ekspress.delfi.ee/artikkel/120621435/tapal-nato-oppusel-kainud-briti-soduri-telefonist-varastati-alastipildid-algas-valjapressimine\">Estonian newspaper recently revealed</a> that a British soldier disobeyed a direct order to remove the SIM card from his cellphone before being deployed to a part of Estonia, approximately 90 miles west of the Russian border.</p>\n<p>As a result of his refusal to engage in this element of operational security (opsec), the soldier, Daniel Barton-Kennedy, had his phone hacked, and nude photos of himself were stolen and used as blackmail against him.</p>\n<p>Eventually, Barton-Kennedy was court-martialed for disobeying a lawful command, pled guilty, was reduced in rank, and ordered to serve 10 months in detention.</p><p><a href=\"https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/#comments\">Comments</a></p>",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "Un soldado brit\u00e1nico, Daniel Barton-Kennedy, se neg\u00f3 a retirar la tarjeta SIM de su m\u00f3vil antes de su despliegue en Estonia, lo que provoc\u00f3 que su tel\u00e9fono fuera hackeado y se le robaran fotos \u00edntimas. El material se utiliz\u00f3 para chantajearlo. Finalmente, fue juzgado, culp\u00f3, perdi\u00f3 rango y cumplir\u00e1 10 meses de prisi\u00f3n.",
+      "selected": false
+    },
     {
       "id": "400f973a2207",
       "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
