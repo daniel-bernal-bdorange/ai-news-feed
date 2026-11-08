@@ -1,8 +1,36 @@
 {
   "week_start": "2026-11-02",
   "week_end": "2026-11-08",
-  "last_updated": "2026-11-07T13:46:10Z",
+  "last_updated": "2026-11-08T14:06:50Z",
   "articles": [
+    {
+      "id": "4e392e0aaa87",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "title": "Ejecutiva de Megaspeed reclutada para espiar al CEO de Nvidia, seg\u00fan memo de inteligencia",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-07T21:17:08Z",
+      "fetched_at": "2026-11-08T14:06:43Z",
+      "raw_content": "A memo circulated earlier this year reportedly claimed that China\u2019s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "Un memo de inteligencia estadounidense circul\u00f3 este a\u00f1o alegando que el Ministerio de Seguridad del Estado chino reclut\u00f3 a una ejecutiva femenina de Megaspeed para espiar al CEO de Nvidia. La informaci\u00f3n destaca preocupaciones sobre espionaje corporativo y la influencia de China en la industria tecnol\u00f3gica.",
+      "selected": false
+    },
+    {
+      "id": "b521172828d6",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "title": "EE. UU. autoriza a Nvidia a vender chips a oficina vac\u00eda en China",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-07T15:43:45Z",
+      "fetched_at": "2026-11-08T14:06:43Z",
+      "raw_content": "<figure>\n\n<img alt=\"An image of Nvidia\u2019s logo\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to <em><a href=\"https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html\">The New York Times</a></em>, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell with wires dangling from the ceiling where lights should be.\" In fact, the paper could find little evidence that the company exists in any meaningful way:</p>\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\">Only scant information can be found online about New Matrix, which was created 17 months ago. At the building that New Matrix lists as its address, a company directory does not \u2026</p></blockquote>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "El Departamento de Comercio de EE. UU. ha permitido que Nvidia venda sus chips H200 a una empresa china, nuevo Matrix, cuya oficina est\u00e1 vac\u00eda y parece no existir. El caso plantea dudas sobre la diligencia en la verificaci\u00f3n de empresas aprobadas y sobre la seguridad de la cadena de suministro de chips de IA.",
+      "selected": false
+    },
     {
       "id": "eecad6fef1da",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
