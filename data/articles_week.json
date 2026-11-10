@@ -1,8 +1,36 @@
 {
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "last_updated": "2026-11-09T17:14:02Z",
+  "last_updated": "2026-11-10T15:26:45Z",
   "articles": [
+    {
+      "id": "ac85a49a145a",
+      "url": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
+      "title": "Nvidia enfrenta crisis tras la investigaci\u00f3n a Jensen Huang",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-10T14:53:05Z",
+      "fetched_at": "2026-11-10T15:26:37Z",
+      "raw_content": "<p>The investigation of Jensen Huang by Nvidia\u2019s board threatens the future of one of Silicon Valley\u2019s longest-serving executives and a key enabler of the AI boom, who has no obvious successor as leader of the world\u2019s second-most-valuable company.</p>\n<p>Huang is fighting for survival after admitting to an extramarital affair, believed to be with an executive at a large Nvidia customer whom US officials also allege was working as a Chinese spy.</p>\n<p>The prospect that Huang could be forced out as chief executive of the US chipmaker he co-founded more than 30 years ago has alarmed investors and allies in the tech industry. Shares in Nvidia, which late last month ceded its position as the world\u2019s most valuable to Apple amid a broader sell-off in AI stocks, had fallen more than 5 percent by midday trading on Monday.</p><p><a href=\"https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/#comments\">Comments</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "El consejo de Nvidia est\u00e1 investigando a su CEO, Jensen Huang, por una relaci\u00f3n extramarital con una ejecutiva que supuestamente trabajaba como esp\u00eda chino. La posible salida de Huang preocupa a inversores y a la industria tecnol\u00f3gica, provocando una ca\u00edda de m\u00e1s del 5 % en las acciones de la compa\u00f1\u00eda. No hay sucesor claro.",
+      "selected": false
+    },
+    {
+      "id": "c039564e4f55",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+      "title": "Anthropic apunta a una IPO de 1,4 trillones de d\u00f3lares",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-10T14:06:54Z",
+      "fetched_at": "2026-11-10T15:26:37Z",
+      "raw_content": "<figure>\n\n<img alt=\"Anthropic logo on an orange background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its <a href=\"https://www.anthropic.com/news/roadshow-launch\">IPO price</a> is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the <a href=\"https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html\"><em>New York Times</em></a>. The <a href=\"https://www.wsj.com/finance/stocks/anthropic-prepares-to-push-ahead-with-ipo-despite-market-jitters-843dd16c\"><em>Wall Street Journal</em></a> reports that according to its sources, Anthropic is \"aiming for its shares to start trading Thursday or Friday next week.\"</p>\n<p class=\"wp-block-paragraph\">As <em><a href=\"https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/\">Reuters</a></em> notes, the Anthropic IPO was previously expected to be valued at as much as $2 trillion. As of last week, Anthropic's rival OpenAI was <a href=\"https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation\">valued at $1.25 trillion</a>.</p>\n<p class=\"wp-block-paragraph\">Those lower expectations follow months of \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Anthropic confirma que su oferta p\u00fablica inicial podr\u00eda ser una de las m\u00e1s grandes, aunque por debajo de expectativas previas. El precio de las acciones se sit\u00faa entre $70 y $78, valorando la compa\u00f1\u00eda hasta $1,4 trillones. Se espera que la cotizaci\u00f3n comience a la pr\u00f3xima semana.",
+      "selected": false
+    },
     {
       "id": "5ef96bda92f4",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
