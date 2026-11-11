@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "last_updated": "2026-11-10T15:26:45Z",
+  "last_updated": "2026-11-11T14:57:12Z",
   "articles": [
+    {
+      "id": "56dcc72f2ec8",
+      "url": "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle",
+      "title": "Los propietarios que impulsan la oportunidad de conectividad MDU en Europa, relevante para Espa\u00f1a",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-11T12:17:29Z",
+      "fetched_at": "2026-11-11T14:57:02Z",
+      "raw_content": "Europe\u2019s 6.8 million largest multifamily homes (MDUs) are dominated by social and public landlords, not private investors. New research maps the ownership landscape and explains what it means for fibre,&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": true,
+      "summary": "El estudio revela que los 6,8 millones de hogares multifamiliares m\u00e1s grandes de Europa est\u00e1n controlados mayoritariamente por propietarios sociales y p\u00fablicos, no por inversores privados. El an\u00e1lisis detalla el panorama de propiedad y sus implicaciones para la expansi\u00f3n de fibra \u00f3ptica, ofreciendo insights clave para operadores y reguladores espa\u00f1oles, relevante para Espa\u00f1a.",
+      "selected": false
+    },
+    {
+      "id": "a74569461441",
+      "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+      "title": "Ni\u00f1a de 13 a\u00f1os pregunta a IA sobre suicidio en port\u00e1til escolar sin detecci\u00f3n",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-11-11T11:00:00Z",
+      "fetched_at": "2026-11-11T14:57:02Z",
+      "raw_content": "The young girl\u2019s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school\u2019s monitoring systems didn\u2019t know until it was almost too late.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Una ni\u00f1a de 13 a\u00f1os us\u00f3 el modelo Gemini en el Chromebook escolar para planificar un suicidio. Sus padres denuncian que el sistema de supervisi\u00f3n de la escuela no detect\u00f3 la actividad durante semanas, lo que provoc\u00f3 una alarma tard\u00eda. El caso destaca la necesidad de mejorar la detecci\u00f3n de contenido sensible en dispositivos educativos.",
+      "selected": false
+    },
+    {
+      "id": "38f7683430ba",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "title": "El CEO de Nvidia, Jensen Huang, enfrenta acusaciones de relaci\u00f3n con posible esp\u00eda china",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-10T19:04:05Z",
+      "fetched_at": "2026-11-11T14:57:02Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of important people. He also wears a cool leather jacket.</p>\n<p class=\"wp-block-paragraph\">Which makes Huang's <a href=\"https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me\">admission that he had an affair</a> with a woman suspected of being a Chinese spy - reportedly <em>while</em> her spying was known to US intelligence and even President Donald Trump - all the more shocking. The fallout goes well beyond his marriage, his reputation, or Nvidia itself. Experts tell <em>The Verge</em> the incident threate \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "El director ejecutivo de Nvidia, Jensen Huang, ha sido acusado de haber mantenido una relaci\u00f3n con una mujer sospechosa de ser esp\u00eda china, a pesar de que la inteligencia estadounidense ya la conoc\u00eda. El caso, que involucra a altos cargos y a la administraci\u00f3n Trump, plantea riesgos de seguridad para la industria de IA y la reputaci\u00f3n de Nvidia.",
+      "selected": false
+    },
     {
       "id": "ac85a49a145a",
       "url": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
