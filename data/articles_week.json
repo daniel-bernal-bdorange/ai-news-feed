@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "last_updated": "2026-11-11T14:57:12Z",
+  "last_updated": "2026-11-12T15:49:17Z",
   "articles": [
+    {
+      "id": "4c2abdf66c9c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "title": "Jensen Huang renuncia como CEO de Nvidia tras investigaci\u00f3n interna",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-12T15:48:12Z",
+      "fetched_at": "2026-11-12T15:49:07Z",
+      "raw_content": "<figure>\n\n<img alt=\"Vector collage of the Ndivia logo.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25343254/STK083_B_NVIDIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\"><a href=\"https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns\">Jensen Huang resigned</a> as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board <a href=\"https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy\">opening an investigation</a> into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation with the company in an email, which also announced CFO Colette Kress as interim CEO. </p>\n<p class=\"wp-block-paragraph\">You can read the full text of the board's internal memo and Kress's first message to employees as interim CEO below.</p>\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\"><strong>Subject:</strong> Statement from NVIDIA Board Chair</p>\n<p class=\"wp-block-paragraph\">Dear NVIDIA Employees,<sup></sup></p>\n<p class=\"wp-block-paragraph\">I am writing to share an impo \u2026</p></blockquote>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 5.0,
+      "geo_boost": false,
+      "summary": "El fundador y CEO de Nvidia, Jensen Huang, dimite tras la apertura de una investigaci\u00f3n del consejo sobre sus relaciones extramaritales y una supuesta conexi\u00f3n con un esp\u00eda chino. El presidente del consejo, Harvey Jones, anunci\u00f3 la renuncia y nombr\u00f3 a la directora financiera Colette Kress como CEO interina.",
+      "selected": false
+    },
+    {
+      "id": "7d5953574654",
+      "url": "https://rcrwireless.com/20261112/carriers/tim-poste-inwit",
+      "title": "TIM impulsa la integraci\u00f3n de Poste y refuerza propuesta a Inwit",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-12T15:11:59Z",
+      "fetched_at": "2026-11-12T15:49:07Z",
+      "raw_content": "During the earnings call, the CEO of TIM said that the company had recently sent a formal letter to Inwit reiterating the proposal originally made at the start of discussions&#8230;",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "El CEO de TIM inform\u00f3 que la compa\u00f1\u00eda envi\u00f3 recientemente una carta formal a Inwit, reiterando la propuesta inicial de integraci\u00f3n de Poste. La comunicaci\u00f3n busca avanzar en la negociaci\u00f3n y consolidar la colaboraci\u00f3n entre ambas empresas.",
+      "selected": false
+    },
+    {
+      "id": "f890f008ac13",
+      "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "title": "Google lanza gafas inteligentes con enfoque en privacidad, precios desde 395 USD",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-12T14:50:17Z",
+      "fetched_at": "2026-11-12T15:49:07Z",
+      "raw_content": "<p>Smartglasses have always faced an uphill road to acceptance. Not only is propping a computer up on your nose an uncomfortable proposition, but the <a href=\"https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/\">privacy aspect</a> has been vexing people since the <a href=\"https://arstechnica.com/gadgets/2016/01/google-turns-the-lights-out-on-glass-social-media-channels/\">Google Glass days</a>. Now, Google is ready to take another swing at \"<a href=\"https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order\">intelligent eyewear</a>\" for the Gemini era after <a href=\"https://arstechnica.com/google/2025/05/glass-redux-google-aims-to-avoid-past-mistakes-as-it-brings-gemini-to-your-face/\">previewing its plans</a> a couple of times. The first glasses are up for preorder today from Gentle Monster and Warby Parker, but they're no impulse buy.</p>\n<p>These devices are a collaboration between Google, Samsung, and the aforementioned eyewear designers. Gentle Monster and Warby Parker have each designed a few different frames, with options for transparent and tinted lenses. Samsung is providing the computing hardware that fits inside them, and Google has the software covered.</p>\n<p>Warby Parker has designed three frames for Google eyewear, called Alden, Reid, and Wren (see above). They are available with both standard optical and sun lenses in Pine, Saddle, and Jet Black colors at $395 and higher. Warby Parker is only selling devices in the US. Gentle Monster has gone a bit further with six styles, but Google hasn't told us any names for those yet. They come in dark red, pink, gray, and yellow colors and are available with clear, tinted, blue, or brown lenses. The Gentle Monster styles start a little higher at $449, and they will be available in the US and South Korea.</p><p><a href=\"https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/#comments\">Comments</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Google presenta gafas inteligentes impulsadas por Gemini, con \u00e9nfasis en privacidad tras pol\u00e9micas anteriores. La colaboraci\u00f3n incluye a Samsung y dise\u00f1adores Gentle Monster y Warby Parker. Los modelos, disponibles en EE. UU. y Corea del Sur, empiezan en 395 USD, con opciones de montura y lentes variadas.",
+      "selected": false
+    },
     {
       "id": "56dcc72f2ec8",
       "url": "https://rcrwireless.com/20261111/analyst-angle/the-landlords-behind-europes-mdu-connectivity-opportunity-analyst-angle",
