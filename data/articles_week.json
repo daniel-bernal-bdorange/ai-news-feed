@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "last_updated": "2026-11-13T15:09:19Z",
+  "last_updated": "2026-11-13T15:45:36Z",
   "articles": [
     {
       "id": "87debc719bf2",
@@ -24,11 +24,25 @@
       "source_name": "The Verge - AI",
       "category": "tech",
       "published_at": "2026-11-13T14:00:00Z",
-      "fetched_at": "2026-11-13T15:09:08Z",
+      "fetched_at": "2026-11-13T15:44:51Z",
       "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tLet\u2019s get to work. | Photo: Allison Johnson / The Verge\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">Normally, the products I test don't offer to help me write up my experience with them. Duet is different.</p>\n<p class=\"wp-block-paragraph\">Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us <a href=\"https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots\">an impressive text-based assistant</a>, Meta offered us its cute little guy, Muse, <a href=\"https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping\">to help us buy things</a>, and OpenAI gave us <a href=\"https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent\">the more work-oriented Dots</a>. Claude Duet is even more focused on work than those. It's also more consumer-friendly than <a href=\"https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now\">Claude Cowork</a>, which was more consumer-friendly than Claude Code - the co \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on\">Read the full story at The Verge.</a></p>",
-      "relevance_score": 3.0,
+      "relevance_score": 4.0,
       "geo_boost": false,
       "summary": "Claude Duet, el nuevo agente de IA de Anthropic, se presenta como asistente de trabajo orientado al consumidor. A diferencia de otros agentes como Instinct, Meta Muse o OpenAI Dots, Duet combina productividad con facilidad de uso, aunque su personalidad algo neur\u00f3tica puede resultar inesperada. El art\u00edculo eval\u00faa su rendimiento y comparaciones con competidores.",
+      "selected": false
+    },
+    {
+      "id": "cea0e000c38d",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "title": "VCs israel\u00edes ven oportunidad para competidores tras crisis de Nvidia",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-13T12:52:19Z",
+      "fetched_at": "2026-11-13T15:44:51Z",
+      "raw_content": "Given Nvidia\u2019s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "Los capitalistas de riesgo en Israel perciben una ventana para nuevos actores en el sector de IA tras la crisis de Nvidia, que domina el mercado. La salida de su liderazgo preocupa a la comunidad startup, pero abre posibilidades para alternativas locales.",
       "selected": false
     },
     {
@@ -38,9 +52,9 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-11-13T10:53:09Z",
-      "fetched_at": "2026-11-13T15:09:08Z",
+      "fetched_at": "2026-11-13T15:44:51Z",
       "raw_content": "In enterprise network operations, the value of agentic AI depends on whether agents can bring together the right expertise, tools, and evidence for the problem at hand. It\u2019s easy to&#8230;",
-      "relevance_score": 3.0,
+      "relevance_score": 4.0,
       "geo_boost": false,
       "summary": "En las operaciones de red corporativas, el valor de la IA agente depende de que los agentes combinen la experiencia, herramientas y evidencia adecuadas. El art\u00edculo explica c\u00f3mo elegir la experiencia correcta para los agentes de IA, equilibrando habilidades y datos, y destaca retos y buenas pr\u00e1cticas para integrar la IA en la gesti\u00f3n de redes.",
       "selected": false
@@ -96,7 +110,7 @@
       "published_at": "2026-11-11T12:17:29Z",
       "fetched_at": "2026-11-11T14:57:02Z",
       "raw_content": "Europe\u2019s 6.8 million largest multifamily homes (MDUs) are dominated by social and public landlords, not private investors. New research maps the ownership landscape and explains what it means for fibre,&#8230;",
-      "relevance_score": 4.0,
+      "relevance_score": 5.0,
       "geo_boost": true,
       "summary": "El estudio revela que los 6,8 millones de hogares multifamiliares m\u00e1s grandes de Europa est\u00e1n controlados mayoritariamente por propietarios sociales y p\u00fablicos, no por inversores privados. El an\u00e1lisis detalla el panorama de propiedad y sus implicaciones para la expansi\u00f3n de fibra \u00f3ptica, ofreciendo insights clave para operadores y reguladores espa\u00f1oles, relevante para Espa\u00f1a.",
       "selected": false
