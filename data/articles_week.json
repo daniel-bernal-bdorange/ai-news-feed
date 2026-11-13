@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "last_updated": "2026-11-12T15:49:17Z",
+  "last_updated": "2026-11-13T15:09:19Z",
   "articles": [
+    {
+      "id": "87debc719bf2",
+      "url": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/",
+      "title": "Alerta cient\u00edfica: el umbral de 1,5 \u00b0C de cambio clim\u00e1tico podr\u00eda alcanzarse en 2029,",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-13T14:29:15Z",
+      "fetched_at": "2026-11-13T15:09:08Z",
+      "raw_content": "<p>ANTALYA, Turkey\u2014Amid upbeat green-tech pep talks and notices for happy hours at the annual United Nations <a href=\"https://unfccc.int/cop31\">COP31</a> climate change conference on Thursday, two new reports offered a stark reminder of how far the world remains from containing global warming.</p>\n<p><a href=\"https://climateactiontracker.org/publications/warming-projections-global-update-2026/\">Climate Action Tracker</a>, a nonprofit group that analyzes climate policies, found that the planet is still on track to warm nearly 5 degrees Fahrenheit by 2100, a rise that would devastate coral reefs, disrupt agriculture and forests and melt most of the world\u2019s ice. In a separate bulletin, the European Union\u2019s <a href=\"https://climate.copernicus.eu/how-fast-world-has-moved-closer-15degc-global-warming-paris-agreement\">Copernicus</a>climate change service reported that global warming has accelerated significantly since the 2015 <a href=\"https://insideclimatenews.org/tags/paris-climate-agreement/\">Paris climate agreement</a>.</p>\n<p>When the Paris agreement was adopted, the average global temperature was projected to surpass the pact\u2019s long-term threshold of 2.7 degrees Fahrenheit above the preindustrial average around 2045. After another decade of global climate summits, warming is now projected to cross that benchmark as soon as 2029, according to Copernicus.</p><p><a href=\"https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/#comments\">Comments</a></p>",
+      "relevance_score": 5.0,
+      "geo_boost": true,
+      "summary": "En la COP31, dos informes revelan que el planeta sigue en camino de subir casi 5 \u00b0F (\u22482,8 \u00b0C) para 2100, superando el umbral de 1,5 \u00b0C antes de 2029. El servicio Copernicus de la UE confirma la aceleraci\u00f3n del calentamiento, lo que amenaza infraestructuras, agricultura y ecosistemas europeos.",
+      "selected": false
+    },
+    {
+      "id": "0acc674430df",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "title": "Claude Duet: asistente IA que combina utilidad y nerviosismo",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-13T14:00:00Z",
+      "fetched_at": "2026-11-13T15:09:08Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tLet\u2019s get to work. | Photo: Allison Johnson / The Verge\t</figcaption>\n</figure>\n<p class=\"has-drop-cap wp-block-paragraph\">Normally, the products I test don't offer to help me write up my experience with them. Duet is different.</p>\n<p class=\"wp-block-paragraph\">Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us <a href=\"https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots\">an impressive text-based assistant</a>, Meta offered us its cute little guy, Muse, <a href=\"https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping\">to help us buy things</a>, and OpenAI gave us <a href=\"https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent\">the more work-oriented Dots</a>. Claude Duet is even more focused on work than those. It's also more consumer-friendly than <a href=\"https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now\">Claude Cowork</a>, which was more consumer-friendly than Claude Code - the co \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Claude Duet, el nuevo agente de IA de Anthropic, se presenta como asistente de trabajo orientado al consumidor. A diferencia de otros agentes como Instinct, Meta Muse o OpenAI Dots, Duet combina productividad con facilidad de uso, aunque su personalidad algo neur\u00f3tica puede resultar inesperada. El art\u00edculo eval\u00faa su rendimiento y comparaciones con competidores.",
+      "selected": false
+    },
+    {
+      "id": "309e663b80c1",
+      "url": "https://rcrwireless.com/20261113/reader-forum/choosing-the-right-expertise-for-agentic-ai-reader-forum",
+      "title": "M\u00e1s all\u00e1 de la biblioteca de habilidades: elegir la experiencia adecuada para la IA",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-13T10:53:09Z",
+      "fetched_at": "2026-11-13T15:09:08Z",
+      "raw_content": "In enterprise network operations, the value of agentic AI depends on whether agents can bring together the right expertise, tools, and evidence for the problem at hand. It\u2019s easy to&#8230;",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "En las operaciones de red corporativas, el valor de la IA agente depende de que los agentes combinen la experiencia, herramientas y evidencia adecuadas. El art\u00edculo explica c\u00f3mo elegir la experiencia correcta para los agentes de IA, equilibrando habilidades y datos, y destaca retos y buenas pr\u00e1cticas para integrar la IA en la gesti\u00f3n de redes.",
+      "selected": false
+    },
     {
       "id": "4c2abdf66c9c",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
