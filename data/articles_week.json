@@ -1,8 +1,36 @@
 {
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "last_updated": "2026-11-13T15:45:36Z",
+  "last_updated": "2026-11-14T13:58:16Z",
   "articles": [
+    {
+      "id": "d05bc9050dc3",
+      "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+      "title": "Sin pilotos y pocos controladores: \u00bfQu\u00e9 puede fallar?",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-11-14T11:00:00Z",
+      "fetched_at": "2026-11-14T13:58:10Z",
+      "raw_content": "Normally, aviation is slow to embrace new technology\u2014but AI has come for the skies.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "La industria de la aviaci\u00f3n, tradicionalmente lenta en adoptar nuevas tecnolog\u00edas, se enfrenta ahora a la irrupci\u00f3n de la inteligencia artificial en el control de tr\u00e1fico a\u00e9reo y la operaci\u00f3n de aeronaves. Con la reducci\u00f3n de pilotos y controladores, se plantean riesgos operativos y de seguridad que requieren regulaciones y supervisi\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "a53b6d6797d1",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "title": "Salida de Jensen Huang deja gran vac\u00edo en financiaci\u00f3n de startups de IA",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-13T22:43:00Z",
+      "fetched_at": "2026-11-14T13:58:10Z",
+      "raw_content": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Nvidia inyect\u00f3 decenas de miles de millones en startups de IA bajo la direcci\u00f3n de Jensen Huang. Con su salida, los fundadores y los capitalistas de riesgo prev\u00e9n cheques m\u00e1s peque\u00f1os y valoraciones reducidas.",
+      "selected": false
+    },
     {
       "id": "87debc719bf2",
       "url": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/",
