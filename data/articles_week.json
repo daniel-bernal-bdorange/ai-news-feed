@@ -1,8 +1,36 @@
 {
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "last_updated": "2026-11-14T13:58:16Z",
+  "last_updated": "2026-11-15T14:33:09Z",
   "articles": [
+    {
+      "id": "13482003797f",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "title": "Jensen Huang renuncia tras crisis de liderazgo y sospechas de espionaje chino",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-15T13:00:00Z",
+      "fetched_at": "2026-11-15T14:33:01Z",
+      "raw_content": "<figure>\n\n<img alt=\"Jensen Huang in his leather jacket\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\"><em>This is</em> The Stepback<em>, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, <a href=\"https://www.theverge.com/authors/terrence-obrien\">follow Terrence O'Brien</a>.</em> The Stepback <em>arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for</em> The Stepback <a href=\"https://www.theverge.com/newsletters\"><em>here</em></a><em>.</em></p>\n<h2 class=\"wp-block-heading\">How it started</h2>\n<p class=\"wp-block-paragraph\">On October 29th, <em>The New York Times</em> reported that Nvidia co-founder and <a href=\"https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo\">showman</a> CEO Jensen Huang <a href=\"https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html\">appeared to be the target</a> of a Chinese spy plot. Any major tech CEO potentially being compromised by the Chinese government is concerning - especially Jensen Huang. \"If you could draw the network diagram of the entire US AI e \u2026</p>\n<p><a href=\"https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 5.0,
+      "geo_boost": false,
+      "summary": "El CEO de Nvidia, Jensen Huang, renunci\u00f3 tras una crisis interna y acusaciones de que su seguridad fue comprometida por un posible complot de espionaje chino. La noticia, publicada por The Verge, destaca la incertidumbre en la direcci\u00f3n de la compa\u00f1\u00eda y el impacto en el sector de IA. La situaci\u00f3n plantea riesgos de reputaci\u00f3n y continuidad operativa.",
+      "selected": false
+    },
+    {
+      "id": "b62677a8ffed",
+      "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+      "title": "Los DJ de IA arruinan la experiencia de Spotify y YouTube Music",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-11-15T12:00:00Z",
+      "fetched_at": "2026-11-15T14:33:01Z",
+      "raw_content": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "YouTube Music y Spotify planean incorporar presentadores sint\u00e9ticos para curar listas de reproducci\u00f3n, pero su charla inc\u00f3moda y datos falsos sobre canciones deterioran la experiencia del usuario.",
+      "selected": false
+    },
     {
       "id": "d05bc9050dc3",
       "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
