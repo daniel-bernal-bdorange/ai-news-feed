@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "last_updated": "2026-11-16T16:48:04Z",
+  "last_updated": "2026-11-17T16:44:35Z",
   "articles": [
+    {
+      "id": "a07da7ae2f49",
+      "url": "https://rcrwireless.com/20261117/network-infrastructure/rocket-science-another-amazon-launch-snag-telco-diary",
+      "title": "Fallo de ULA destruye 40 sat\u00e9lites Amazon Leo, golpe para la industria espacial",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-17T16:43:27Z",
+      "fetched_at": "2026-11-17T16:44:22Z",
+      "raw_content": "From the newsletter (November 16; sign-up or follow if you want it sooner): ULA\u2019s first launch failure in 20 years has destroyed 40 Amazon Leo satellites, dealing another blow to&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "El primer fracaso de lanzamiento de ULA en 20 a\u00f1os ha destruido 40 sat\u00e9lites Amazon Leo, provocando un golpe significativo para la compa\u00f1\u00eda y el sector de telecomunicaciones v\u00eda sat\u00e9lite. El incidente subraya los riesgos operativos y la necesidad de robustecer las cadenas de suministro y la gesti\u00f3n de riesgos en el mercado espacial.",
+      "selected": false
+    },
+    {
+      "id": "327034ed1b49",
+      "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+      "title": "Jensen Huang dispuesto a volver como CEO de Nvidia",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-17T16:09:57Z",
+      "fetched_at": "2026-11-17T16:44:22Z",
+      "raw_content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement <a href=\"https://www.wsj.com/tech/jensen-huang-statement-nvidia-ceo-9dedca36?st=aCBJRb&amp;reflink=desktopwebshare_permalink\">reported on by <em>The Wall Street Journal</em></a>.</p>\n<p class=\"wp-block-paragraph\">\"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me to return as CEO,\" <a href=\"https://x.com/JensenHuang/status/2122726005219737649\">Huang said</a>. \"If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls and return as CEO.\"</p>\n<p class=\"wp-block-paragraph\">Huang resigned <a href=\"https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns\">on Thursday</a> following reports of two affairs, including one with an alleged  \u2026</p>\n<p><a href=\"https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Jensen Huang, quien renunci\u00f3 la semana pasada, ha declarado que estar\u00eda dispuesto a regresar como director ejecutivo de Nvidia si la junta lo decide. El CEO ha recibido numerosas peticiones de empleados, inversores y socios. Su salida se produjo tras esc\u00e1ndalos de relaciones personales. La decisi\u00f3n depender\u00e1 de los intereses de accionistas y la empresa.",
+      "selected": false
+    },
+    {
+      "id": "d4774d28d264",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "title": "Ars Live: What do drone strikes on data centers mean para the",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-17T15:28:59Z",
+      "fetched_at": "2026-11-17T16:44:22Z",
+      "raw_content": "<p>Drone and missile strikes have inflicted unprecedented damage on data centers in Eastern Europe and the Middle East this year, disrupting cloud services for millions of people and permanently deleting some Amazon Web Services customer data. This trend represents a new concern for Big Tech companies\u2014but also for governments and everyone else who depends on common digital services in modern life.</p>\n<p>To explore what this all means for modern society\u2019s reliance on cloud resilience, I will be hosting a <a href=\"https://www.youtube.com/live/xhciziTZdAQ?feature=share\">live conversation</a> titled \"Drone attacks and data centers: New Risks for Big Tech\" on Tuesday, November 17 at 1 pm ET with <a href=\"https://www.rusi.org/people/jarnecki\">Joseph Jarnecki</a>, a senior research fellow at the Royal United Services Institute (RUSI), a UK defense and security think tank. He leads RUSI\u2019s work on how cloud services factor into national security and defense, along with tech sovereignty efforts.</p>\n<p>Jarnecki has done <a href=\"https://www.rusi.org/explore-our-research/publications/research-papers/european-cloud-adoption-national-security\">extensive research</a> on how Ukraine strengthened its cloud resilience with Western partners despite facing both cyberattacks and kinetic attacks at the start of the full-scale Russian invasion, and explored <a href=\"https://www.rusi.org/explore-our-research/publications/commentary/cloud-capabilities-and-obstacles-adoption-nato\">what that means for NATO</a> and European governments\u2019 cloud adoption plans.</p><p><a href=\"https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/#comments\">Comments</a></p>",
+      "relevance_score": 3.75,
+      "geo_boost": true,
+      "summary": "{\"headline_es\":\"Ataques con drones a centros de datos: amenaza creciente para la nube europea\",\"summary",
+      "selected": false
+    },
     {
       "id": "2b36404943b9",
       "url": "https://rcrwireless.com/20261116/carriers/poste-tim-integration",
