@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "last_updated": "2026-11-17T16:44:35Z",
+  "last_updated": "2026-11-18T16:14:44Z",
   "articles": [
+    {
+      "id": "eaeb1e564c50",
+      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+      "title": "El CEO de OpenAI afirma que es dif\u00edcil imaginar la industria de IA sin",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-18T16:14:09Z",
+      "fetched_at": "2026-11-18T16:14:34Z",
+      "raw_content": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "El fundador y ex CEO de Nvidia, Jensen Huang, renunci\u00f3 la semana pasada tras varios esc\u00e1ndalos, incluido un supuesto romance con una esp\u00eda china. Sam Altman, CEO de OpenAI, coment\u00f3 que es dif\u00edcil imaginar la industria de IA sin Jensen, subrayando su influencia pese a la controversia.",
+      "selected": false
+    },
+    {
+      "id": "e70c2f06c1f9",
+      "url": "https://rcrwireless.com/20261118/network-infrastructure/vodafonethree-joins-nokia-nvidia-test-squad-as-carriers-kick-tires-on-ai-ran",
+      "title": "VodafoneThree prueba la plataforma IA\u2011RAN de Nokia y Nvidia",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-18T16:06:58Z",
+      "fetched_at": "2026-11-18T16:14:34Z",
+      "raw_content": "VodafoneThree will test Nokia and Nvidia\u2019s AI-RAN platform, initially in the lab before field trials, to assess radio performance gains and whether GPU-powered infrastructure can support network slicing and third-party&#8230;",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "VodafoneThree iniciar\u00e1 pruebas de la plataforma IA\u2011RAN de Nokia y Nvidia, empezando en laboratorio y avanzando a pruebas de campo, para evaluar mejoras en rendimiento radio y la viabilidad de infraestructuras GPU para el slicing de red y servicios de terceros.",
+      "selected": false
+    },
+    {
+      "id": "ae1db953e351",
+      "url": "https://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details/",
+      "title": "Voyager 1 a un d\u00eda luz: historiador revisita detalles olvidados del Golden Record",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-18T12:15:44Z",
+      "fetched_at": "2026-11-18T16:14:34Z",
+      "raw_content": "<p>In the one light-day that humanity's most distant object has now traveled from Earth, there has been enough time for details about its creation\u2014and what it left behind\u2014to be discovered again.</p>\n<p>Voyager 1, which left Earth in 1977 on an initial mission to fly by Jupiter and Saturn (as well as the latter's moon Titan), crossed into interstellar space in 2012. Like its twin (Voyager 2), Voyager 1 carries a \"commemorative phonograph record,\" in part as a nod to the 100th anniversary of the recording medium and as a message from humanity to whoever (or whatever) encounters the spacecraft on its journey through outer space.</p>\n<p>About those forgotten bits, <a href=\"https://www.collectspace.com/news/news-111826a-voyager-1-light-day-golden-record-lost-details-swanson.html\" rel=\"noopener\" target=\"_blank\">ask Glen Swanson</a>. While researching the history of the Golden Record, he uncovered the discs' overlooked second set of operating directions and located the duplicates that were made and distributed almost five decades ago.</p><p><a href=\"https://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details/#comments\">Comments</a></p>",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "En el d\u00eda luz que ha recorrido Voyager 1 desde su partida, el historiador Glen Swanson ha recuperado datos olvidados del Golden Record, como un segundo conjunto de instrucciones de operaci\u00f3n y copias duplicadas de la d\u00e9cada de 1970, revelando m\u00e1s sobre la misi\u00f3n y su mensaje a posibles receptores.",
+      "selected": false
+    },
     {
       "id": "a07da7ae2f49",
       "url": "https://rcrwireless.com/20261117/network-infrastructure/rocket-science-another-amazon-launch-snag-telco-diary",
