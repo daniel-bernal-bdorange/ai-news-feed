@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "last_updated": "2026-11-18T16:14:44Z",
+  "last_updated": "2026-11-19T16:22:54Z",
   "articles": [
+    {
+      "id": "d708a4dbf97d",
+      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "title": "Director ejecutivo de Anthropic reafirma compromiso de ritmo controlado en desarrollo de IA",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-19T16:19:41Z",
+      "fetched_at": "2026-11-19T16:22:46Z",
+      "raw_content": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "En el discurso de apertura de Nasdaq, Dario Amodei confirm\u00f3 que Anthropic seguir\u00e1 acelerando la IA con cautela, sin ceder a presiones empresariales ni pol\u00edticas.",
+      "selected": false
+    },
+    {
+      "id": "bc88a3bf825a",
+      "url": "https://rcrwireless.com/20261119/private-5g/private-5g-ports-spectrum",
+      "title": "5G privado en puertos: el espectro bajo la lupa",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-19T14:35:35Z",
+      "fetched_at": "2026-11-19T16:22:46Z",
+      "raw_content": "A panel at Industrial Wireless Forum discussed how private 5G deployments at ports and other industrial sites are bringing spectrum availability and coordination into sharper focus In sum \u2013 what&#8230;",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "El panel del Industrial Wireless Forum examin\u00f3 c\u00f3mo las implementaciones de 5G privado en puertos y otras instalaciones industriales est\u00e1n poniendo a prueba la disponibilidad y coordinaci\u00f3n del espectro, destacando la necesidad de regulaciones y acuerdos claros para optimizar el uso del espectro en entornos industriales.",
+      "selected": false
+    },
+    {
+      "id": "43e1a96da018",
+      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "title": "IPO r\u00e9cord de Anthropic: el mayor riesgo es su propia estrategia",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-11-19T12:00:00Z",
+      "fetched_at": "2026-11-19T16:22:46Z",
+      "raw_content": "Investors betting a barnstorming $107 billion will weigh whether the company\u2019s AI safety strategy and growing public anger towards data centers could impact its growth.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "El lanzamiento de la oferta p\u00fablica de Anthropic, valorada en 107 mil millones de d\u00f3lares, ha generado expectativas de r\u00e9cord. Sin embargo, la estrategia de seguridad de IA y la creciente cr\u00edtica p\u00fablica a los centros de datos plantean riesgos que podr\u00edan frenar el crecimiento futuro de la compa\u00f1\u00eda.",
+      "selected": false
+    },
     {
       "id": "eaeb1e564c50",
       "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
