@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "last_updated": "2026-11-19T16:22:54Z",
+  "last_updated": "2026-11-20T15:56:35Z",
   "articles": [
+    {
+      "id": "bbcc1ed9f795",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "title": "Nvidia sigue creciendo pese al esc\u00e1ndalo de Jensen Huang",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-20T14:55:44Z",
+      "fetched_at": "2026-11-20T15:56:27Z",
+      "raw_content": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to [&#8230;]",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "A pesar de la pol\u00e9mica que rodea la salida de Jensen Huang, Nvidia report\u00f3 ingresos s\u00f3lidos y crecimiento sostenido en su \u00faltimo trimestre. La compa\u00f1\u00eda anunci\u00f3 que dejar\u00e1 de vender los chips H200 en China y rechaz\u00f3 las cr\u00edticas sobre su pol\u00edtica de exportaci\u00f3n. Los analistas prev\u00e9n que la empresa mantendr\u00e1 su trayectoria positiva.",
+      "selected": false
+    },
+    {
+      "id": "af7d30f58230",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "title": "Signal bloquea capturas de pantalla y el acceso de Siri IA a la pantalla",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-20T12:30:47Z",
+      "fetched_at": "2026-11-20T15:56:27Z",
+      "raw_content": "<figure>\n\n<img alt=\"An iPhone shows the option in Signal to block screenshots.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tSignal users on iOS will see this option to toggle blocking screenshots and preventing Siri AI from scanning on-screen content. | Image: Signal\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president <a href=\"https://signal.org/blog/protecting-your-privacy/\">Meredith Whittaker said in a blog post</a>, while urging OS providers to make it easier for app developers to control what data agents can access.</p>\n<p class=\"wp-block-paragraph\">\"We want to be very clear: it is a serious problem that Signal - and application developers beyond - lack robust tools to prevent AI age \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Signal en iOS y Android bloquea la captura de pantalla para impedir que agentes de IA como Siri escaneen el contenido visible, protegiendo la privacidad del usuario. La presidenta Meredith Whittaker pide herramientas m\u00e1s robustas para que los desarrolladores controlen el acceso de la IA a los datos.",
+      "selected": false
+    },
+    {
+      "id": "e53c16d2c274",
+      "url": "https://rcrwireless.com/20261120/sponsored/telecom-ai-networks",
+      "title": "IA en teleco: de ambiciones de agentes a redes m\u00e1s seguras",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-20T11:51:56Z",
+      "fetched_at": "2026-11-20T15:56:27Z",
+      "raw_content": "Following Telco Days 2026, Software Mind&#8217;s annual conference focused on the practical implications of agentic artificial intelligence and network security, the discussion among telecom industry participants is increasingly centered on&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "La conferencia anual de Software Mind, tras Telco Days 2026, destac\u00f3 las implicaciones pr\u00e1cticas de la IA agente y la seguridad de redes. Los participantes del sector teleco se centran en equilibrar la autonom\u00eda de la IA con operaciones de red m\u00e1s seguras, abordando retos regulatorios, \u00e9ticos y t\u00e9cnicos. Se subraya la necesidad de marcos de gobernanza robustos y colaboraci\u00f3n",
+      "selected": false
+    },
     {
       "id": "d708a4dbf97d",
       "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
