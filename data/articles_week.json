@@ -1,8 +1,22 @@
 {
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "last_updated": "2026-11-20T15:56:35Z",
+  "last_updated": "2026-11-20T16:28:39Z",
   "articles": [
+    {
+      "id": "c014b32dbc57",
+      "url": "https://arstechnica.com/gaming/2026/11/valve-says-it-might-have-to-raise-the-price-of-supply-limited-steam-machines/",
+      "title": "Valve podr\u00eda subir el precio de las Steam Machines por falta de componentes",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-20T16:11:21Z",
+      "fetched_at": "2026-11-20T16:27:48Z",
+      "raw_content": "<p>When the Steam Machine <a href=\"https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/\">first started shipping in June</a>, Valve said it was producing fewer units at a higher price than initially planned because it couldn't secure <a href=\"https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/\">supplies of scarce RAM and storage components</a> at a reasonable cost. Now, as the last of the initial batch of Steam Machine reservations are finally being fulfilled, Valve says those supply and cost issues will continue into the foreseeable future and may even require a price change.</p>\n<p>\"We are continuing to build more Steam Machine units, but memory and storage costs continue to increase at unprecedented levels,\" Valve wrote in <a href=\"https://store.steampowered.com/news/group/45479024?emclan=103582791475000432&amp;emgid=687522235410285038\">a blog post on Thursday</a>. \"As a result we don't yet know the number we are able to make, and at what price we'll be able to offer them. The 2TB model in particular will be especially constrained.\"</p>\n<p>If Valve does have to raise the price of the Steam Machine, it will be in good company. All three major console manufacturers instituted <a href=\"https://arstechnica.com/gaming/2025/08/todays-game-consoles-are-historically-overpriced/\">historically atypical price increases in 2025</a>, with <a href=\"https://arstechnica.com/gadgets/2026/03/sony-is-raising-playstation-5-prices-again-this-time-by-between-100-and-150/\">additional</a> <a href=\"https://arstechnica.com/gaming/2026/05/the-nintendo-switch-2-is-getting-more-expensive-later-this-year/\">price</a> <a href=\"https://news.xbox.com/en-us/2026/06/25/xbox-console-price-update/\">hikes</a> happening this year.</p><p><a href=\"https://arstechnica.com/gaming/2026/11/valve-says-it-might-have-to-raise-the-price-of-supply-limited-steam-machines/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/gaming/2026/11/valve-says-it-might-have-to-raise-the-price-of-supply-limited-steam-machines/#comments\">Comments</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Valve informa que la producci\u00f3n de Steam Machines se ve afectada por la escasez de RAM y almacenamiento, lo que eleva costes y podr\u00eda obligar a subir precios. La compa\u00f1\u00eda sigue fabricando unidades, pero la disponibilidad y el precio final, especialmente del modelo de 2 TB, permanecen inciertos. El ajuste de precios se alinea con aumentos recientes de otras consolas.",
+      "selected": false
+    },
     {
       "id": "bbcc1ed9f795",
       "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
@@ -24,9 +38,9 @@
       "source_name": "The Verge - AI",
       "category": "tech",
       "published_at": "2026-11-20T12:30:47Z",
-      "fetched_at": "2026-11-20T15:56:27Z",
+      "fetched_at": "2026-11-20T16:27:48Z",
       "raw_content": "<figure>\n\n<img alt=\"An iPhone shows the option in Signal to block screenshots.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tSignal users on iOS will see this option to toggle blocking screenshots and preventing Siri AI from scanning on-screen content. | Image: Signal\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president <a href=\"https://signal.org/blog/protecting-your-privacy/\">Meredith Whittaker said in a blog post</a>, while urging OS providers to make it easier for app developers to control what data agents can access.</p>\n<p class=\"wp-block-paragraph\">\"We want to be very clear: it is a serious problem that Signal - and application developers beyond - lack robust tools to prevent AI age \u2026</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app\">Read the full story at The Verge.</a></p>",
-      "relevance_score": 3.0,
+      "relevance_score": 4.0,
       "geo_boost": false,
       "summary": "Signal en iOS y Android bloquea la captura de pantalla para impedir que agentes de IA como Siri escaneen el contenido visible, protegiendo la privacidad del usuario. La presidenta Meredith Whittaker pide herramientas m\u00e1s robustas para que los desarrolladores controlen el acceso de la IA a los datos.",
       "selected": false
@@ -38,7 +52,7 @@
       "source_name": "RCR Wireless News",
       "category": "telco",
       "published_at": "2026-11-20T11:51:56Z",
-      "fetched_at": "2026-11-20T15:56:27Z",
+      "fetched_at": "2026-11-20T16:27:48Z",
       "raw_content": "Following Telco Days 2026, Software Mind&#8217;s annual conference focused on the practical implications of agentic artificial intelligence and network security, the discussion among telecom industry participants is increasingly centered on&#8230;",
       "relevance_score": 4.0,
       "geo_boost": false,
@@ -96,7 +110,7 @@
       "published_at": "2026-11-18T16:14:09Z",
       "fetched_at": "2026-11-18T16:14:34Z",
       "raw_content": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
-      "relevance_score": 3.0,
+      "relevance_score": 4.0,
       "geo_boost": false,
       "summary": "El fundador y ex CEO de Nvidia, Jensen Huang, renunci\u00f3 la semana pasada tras varios esc\u00e1ndalos, incluido un supuesto romance con una esp\u00eda china. Sam Altman, CEO de OpenAI, coment\u00f3 que es dif\u00edcil imaginar la industria de IA sin Jensen, subrayando su influencia pese a la controversia.",
       "selected": false
@@ -110,7 +124,7 @@
       "published_at": "2026-11-18T16:06:58Z",
       "fetched_at": "2026-11-18T16:14:34Z",
       "raw_content": "VodafoneThree will test Nokia and Nvidia\u2019s AI-RAN platform, initially in the lab before field trials, to assess radio performance gains and whether GPU-powered infrastructure can support network slicing and third-party&#8230;",
-      "relevance_score": 3.0,
+      "relevance_score": 4.0,
       "geo_boost": false,
       "summary": "VodafoneThree iniciar\u00e1 pruebas de la plataforma IA\u2011RAN de Nokia y Nvidia, empezando en laboratorio y avanzando a pruebas de campo, para evaluar mejoras en rendimiento radio y la viabilidad de infraestructuras GPU para el slicing de red y servicios de terceros.",
       "selected": false
