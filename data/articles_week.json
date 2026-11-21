@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "last_updated": "2026-11-20T16:28:39Z",
+  "last_updated": "2026-11-21T15:08:06Z",
   "articles": [
+    {
+      "id": "d1a52d7504aa",
+      "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+      "title": "FCC ordena a California suspender reglas COLR contra AT&T",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-20T22:28:24Z",
+      "fetched_at": "2026-11-21T15:07:57Z",
+      "raw_content": "<p>The Federal Communications Commission ordered California to stop enforcing its Carrier of Last Resort (COLR) rules against AT&amp;T, setting up another battle between the Trump administration and California over the state's right to enforce its own telecom laws and regulations.</p>\n<p>AT&amp;T's status as a Carrier of Last Resort in California requires it to offer telephone service to any potential customer in its territory. AT&amp;T wants to stop offering basic phone service to new customers and <a href=\"https://www.cpuc.ca.gov/industries-and-topics/internet-and-phone/att-colr-etc-proceedings/federal-applications-to-discontinue-landline-voice-service\">discontinue service</a> for 184,000 residential customers and 15,000 business customers on June 1, 2027.</p>\n<p>The <a href=\"https://www.fcc.gov/document/fcc-removes-barriers-network-modernization-ca\">order released today</a> granted AT&amp;T's request to preempt state rules, following up on the FCC's previous approval of AT&amp;T's petition to discontinue service. AT&amp;T had tried to achieve the same result in court, but a federal <a href=\"https://arstechnica.com/tech-policy/2026/07/att-loses-key-ruling-in-bid-to-stop-offering-basic-phone-service-in-california/\">judge rejected its request</a> to override California's rules in July.</p><p><a href=\"https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/#comments\">Comments</a></p>",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "La Comisi\u00f3n Federal de Comunicaciones (FCC) orden\u00f3 a California suspender la aplicaci\u00f3n de sus reglas de Carrier of Last Resort (COLR) contra AT&T, permitiendo a la compa\u00f1\u00eda cesar el servicio telef\u00f3nico b\u00e1sico a 184.000 clientes residenciales y 15.000 empresariales a partir de junio de 2027. La decisi\u00f3n sigue la petici\u00f3n de AT&T y la aprobaci\u00f3n previa de la FCC.",
+      "selected": false
+    },
+    {
+      "id": "81e856d23e6c",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "title": "IA y humano compiten por resolver la conjetura de Riemann",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-20T19:32:08Z",
+      "fetched_at": "2026-11-21T15:07:57Z",
+      "raw_content": "Mathematicians are having their minds blown by the latest AI-driven result \u2014 and there's a competing human solution, too.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Matem\u00e1ticos se sorprenden con el \u00faltimo resultado impulsado por IA que afirma resolver la conjetura de Riemann, una cuesti\u00f3n de 167 a\u00f1os. Paralelamente, un matem\u00e1tico humano ha presentado una soluci\u00f3n alternativa, generando debate sobre la validez y la originalidad de ambos enfoques.",
+      "selected": false
+    },
+    {
+      "id": "5f13a5fb0698",
+      "url": "https://rcrwireless.com/20261120/5g/private-5g-scale-alongside-wifi",
+      "title": "El 5G privado crece, el Wi\u2011Fi sigue vigente",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-20T19:20:23Z",
+      "fetched_at": "2026-11-21T15:07:57Z",
+      "raw_content": "Devices, CBRS support and carrier approvals still hold back private 5G In sum &#8211; what to know: Private 5G is moving beyond pilots and into requests for proposals, industrial campuses&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "El 5G privado avanza m\u00e1s all\u00e1 de los pilotos, con solicitudes de propuestas y campus industriales, aunque su adopci\u00f3n se ve frenada por la falta de dispositivos compatibles, soporte CBRS y aprobaciones de operadores. A pesar de ello, el Wi\u2011Fi sigue siendo una alternativa dominante en entornos empresariales.",
+      "selected": false
+    },
     {
       "id": "c014b32dbc57",
       "url": "https://arstechnica.com/gaming/2026/11/valve-says-it-might-have-to-raise-the-price-of-supply-limited-steam-machines/",
