@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "last_updated": "2026-11-23T19:01:04Z",
+  "last_updated": "2026-11-24T18:41:08Z",
   "articles": [
+    {
+      "id": "fa121c9b0458",
+      "url": "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready",
+      "title": "eRedCap y eSIM impulsan IoT legado hacia operaciones listas para IA",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-24T18:30:55Z",
+      "fetched_at": "2026-11-24T18:41:01Z",
+      "raw_content": "eRedCap, eSIM and layered security: matching connectivity to each application In sum &#8211; what to know: The IoT market is entering another transition as new connectivity options meet growing interest&#8230;",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "La combinaci\u00f3n de eRedCap, eSIM y seguridad en capas permite adaptar la conectividad a cada aplicaci\u00f3n, acelerando la transici\u00f3n del IoT tradicional a entornos preparados para la inteligencia artificial. La adopci\u00f3n de nuevas opciones de conectividad responde a la creciente demanda de soluciones m\u00e1s inteligentes y seguras en el mercado de IoT.",
+      "selected": false
+    },
+    {
+      "id": "48f2a5e1206d",
+      "url": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
+      "title": "Amazon acelera lanzamientos con SpaceX tras fallo de ULA",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-24T18:30:36Z",
+      "fetched_at": "2026-11-24T18:41:01Z",
+      "raw_content": "<p>A European Ariane 6 launcher propelled 36 satellites into orbit for the Amazon Leo broadband constellation Tuesday, continuing the network's build-out after 40 satellites were lost earlier this month during a <a href=\"https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/\">failure of United Launch Alliance's Vulcan rocket</a>.</p>\n<p>The launch was an important rebound for Amazon, bringing the Amazon Leo fleet to 432 satellites as the company seeks to fill the void left by the grounding of ULA's Vulcan rocket, Amazon's primary launch provider. Now, an Amazon official tells Ars it is accelerating several Falcon 9 launches the company has purchased from SpaceX, which also owns the Starlink satellite network that Amazon seeks to dethrone.</p>\n<p>The next Falcon 9 launch for Amazon Leo is now planned for December, Amazon said, moved forward from its previous launch date next year. Several more Falcon 9s are scheduled to launch Amazon Leo satellites in rapid succession after the December flight.</p><p><a href=\"https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/#comments\">Comments</a></p>",
+      "relevance_score": 5.0,
+      "geo_boost": true,
+      "summary": "Amazon ha impulsado su constelaci\u00f3n Leo con un lanzamiento de Ariane 6, a\u00f1adiendo 36 sat\u00e9lites tras la p\u00e9rdida de 40 en el fallo del cohete Vulcan de ULA. El impulso europeo refuerza la posici\u00f3n de Amazon en el mercado de telecomunicaciones, mientras acelera lanzamientos Falcon 9 de SpaceX para cubrir la brecha. Esta estrategia es clave para el sector europeo",
+      "selected": false
+    },
+    {
+      "id": "ee49075fab92",
+      "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "title": "Fincher acusado de usar IA en su nueva pel\u00edcula",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-24T18:15:00Z",
+      "fetched_at": "2026-11-24T18:41:01Z",
+      "raw_content": "<figure>\n\n<img alt=\"A man wearing a brown shirt and a puka shell necklace sitting with his legs crossed in a cluttered office.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg?quality=90&#038;strip=all&#038;crop=20.001873779297,0,79.998126220703,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Though <a href=\"https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig\">David Fincher</a>'s fans had been eagerly anticipating <em>The Further Mis-Adventures of Cliff Booth</em>, early screenings of the <em>Once Upon a Time in Hollywood</em> sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it feel more like slop than the sort of polished film you'd expect from the director of sleek productions like <em>Fight Club</em> and <em>The Social Network</em>.</p>\n<p class=\"wp-block-paragraph\">Following a number of <em>Cliff Booth</em> critics screenings that took place last week ahead of the film's premiere on November 25th, <a href=\"https://futurism.com/future-society/david-fincher-new-movie-stuffed-ai\">moviegoers rushed to social med \u2026</a></p>\n<p><a href=\"https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "Fans de David Fincher se han quejado de que su nueva pel\u00edcula, 'The Further Mis-Adventures of Cliff Booth', parece haber usado IA generativa, seg\u00fan cr\u00edticas de primeras proyecciones. Los espectadores se\u00f1alaron im\u00e1genes extra\u00f1as e inconsistentes que no reflejan la calidad t\u00edpica del director. La pol\u00e9mica sigue sin confirmarse oficialmente.",
+      "selected": false
+    },
     {
       "id": "9f6a9f2b4d78",
       "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
