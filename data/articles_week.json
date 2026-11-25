@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "last_updated": "2026-11-24T18:41:08Z",
+  "last_updated": "2026-11-25T17:50:26Z",
   "articles": [
+    {
+      "id": "17929128d139",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "title": "FCC aprueba despliegue de 1 mill\u00f3n de sat\u00e9lites IA de SpaceX",
+      "source_name": "The Verge - AI",
+      "category": "tech",
+      "published_at": "2026-11-25T17:44:51Z",
+      "fetched_at": "2026-11-25T17:50:17Z",
+      "raw_content": "<figure>\n\n<img alt=\"SpaceX\u2019s facility in California\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">In <a href=\"https://docs.fcc.gov/public/attachments/DOC-427572A1.pdf\">an announcement on Wednesday</a>, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned <a href=\"https://www.spacex.com/spacexsi/starmind\">company's \"Starmind\" initiative</a>. With <a href=\"https://www.theverge.com/ai-artificial-intelligence/845453/space-data-centers-astronomers\">several others also pursuing the idea of putting AI data centers in space</a>, including Google and Blue Origin, this is the first approval the agency has granted for a full \"constellation\" of AI satellites.</p>\n<p class=\"wp-block-paragraph\"><a href=\"https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf\">The FCC's approval requires</a> SpaceX to deploy at least one satellite by 2033, and meet the 1 million satellite milestone by 2040. The FCC also deferred SpaceX's request to dispose of satellites located above 600km in <a href=\"https://www.nesdis.noaa.gov/news/graveyard-orbits-and-the-satellite-afterlife\">space \"graveyard\" orbits</a>, rather than  \u2026</p>\n<p><a href=\"https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers\">Read the full story at The Verge.</a></p>",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "FCC autoriza a SpaceX a desplegar hasta 1 mill\u00f3n de sat\u00e9lites equipados con chips IA bajo la iniciativa Starmind. Es la primera aprobaci\u00f3n de una constelaci\u00f3n completa de sat\u00e9lites IA. Se exige al menos un lanzamiento antes de 2033 y alcanzar el mill\u00f3n para 2040. La agencia pospone la eliminaci\u00f3n de sat\u00e9lites sobre 600 km.",
+      "selected": false
+    },
+    {
+      "id": "ef02d096cf97",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "title": "Nvidia pospone centros de IA, presi\u00f3n sobre neoclouds",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-25T15:41:43Z",
+      "fetched_at": "2026-11-25T17:50:17Z",
+      "raw_content": "\u2060Nvidia has made clear\u2060 it won&#8217;t backstop an AI data center until it&#8217;s nearly ready to run, and that&#8217;s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck.\u00a0 \u2060Anita Verma-Lallian\u2060 has been selling exactly that. [&#8230;]",
+      "relevance_score": 4.0,
+      "geo_boost": false,
+      "summary": "Nvidia ha dejado claro que no financiar\u00e1 centros de datos de IA hasta que est\u00e9n casi operativos, lo que coincide con retrasos en la construcci\u00f3n y deudas m\u00e1s caras para las neoclouds. El mensaje es que la tierra, la energ\u00eda y la infraestructura terminada superan a la presentaci\u00f3n de un pitch deck. Anita Verma\u2011Lallian vende esa soluci\u00f3n.",
+      "selected": false
+    },
+    {
+      "id": "b60069a1ec17",
+      "url": "https://rcrwireless.com/20261125/analyst-angle/new-research-shows-6ghz-wi-fi-is-growing-fast-analyst-angle",
+      "title": "Estudio revela r\u00e1pido crecimiento del Wi\u2011Fi 6 GHz, pero Espa\u00f1a queda rezagada",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-25T08:26:35Z",
+      "fetched_at": "2026-11-25T17:50:17Z",
+      "raw_content": "New research points to accelerating 6GHz Wi-Fi adoption in the US, with compatible devices and networks driving significant usage gains. Europe lags amid restricted spectrum availability and uneven broadband equipment&#8230;",
+      "relevance_score": 4.0,
+      "geo_boost": true,
+      "summary": "Un nuevo estudio muestra que la adopci\u00f3n del Wi\u2011Fi 6 GHz crece r\u00e1pidamente en EE. UU., impulsada por dispositivos y redes compatibles. En Europa, la disponibilidad limitada de espectro y la desigualdad en equipos de banda ancha retrasan la expansi\u00f3n, lo que afecta a Espa\u00f1a y a los operadores europeos.",
+      "selected": false
+    },
     {
       "id": "fa121c9b0458",
       "url": "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready",
