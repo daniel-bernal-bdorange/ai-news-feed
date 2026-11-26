@@ -1,8 +1,50 @@
 {
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "last_updated": "2026-11-25T17:50:26Z",
+  "last_updated": "2026-11-26T17:34:36Z",
   "articles": [
+    {
+      "id": "193535c3d6a2",
+      "url": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
+      "title": "El drenaje de turberas representa un peque\u00f1o porcentaje del calentamiento global",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "published_at": "2026-11-26T12:15:42Z",
+      "fetched_at": "2026-11-26T17:34:26Z",
+      "raw_content": "<p>Much of the focus for human-caused climate change is on fossil fuels, which are creating most of our problems. But land use change is also a large component of the story, accounting for about one-third of total historical CO<sub>2</sub> emissions. Deforestation plays a major role here, but practices like draining wetlands also factor in. Exactly how much of our history of eliminating wetlands has contributed to warming is challenging to figure out. But thanks to new sources of data that measure emissions from today\u2019s surviving wetlands, it\u2019s possible to put a better number on it.</p>\n<p>A new study led by Jevan Yu at MIT focuses on peatlands\u2014environments like bogs and fens where organic matter accumulates into thick layers of material. Some 600 billion tons of carbon are held in these vast stores of peat, which is more than you can find in all the world\u2019s living vegetation, the researchers note.</p>\n<p>Because these areas are permanently inundated, any oxygen in the water is quickly used up, leaving the job of decaying all that organic matter to anaerobic bacteria that work much more slowly and don't digest everything. So instead of seeing organic carbon turning into the CO<sub>2</sub> gas released by aerobic bacteria, in peatlands, a subset of it gradually turns into methane gas. Methane is an even more potent greenhouse gas than CO<sub>2</sub> itself and ultimately gets oxidized into CO<sub>2</sub>. That means there\u2019s a little trade-off from peatlands\u2014most of the carbon they have is kept out of the atmosphere, but the carbon that does escape does so as methane.</p><p><a href=\"https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/#comments\">Comments</a></p>",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "Un nuevo estudio del MIT cuantifica la contribuci\u00f3n de la eliminaci\u00f3n de turberas al calentamiento global. Los humedales de turba almacenan 600 miles de toneladas de carbono; al drenarse, liberan metano, un gas de efecto invernadero m\u00e1s potente que el CO\u2082. La investigaci\u00f3n estima que esta pr\u00e1ctica representa solo un peque\u00f1o porcentaje de las emisiones hist\u00f3ricas.",
+      "selected": false
+    },
+    {
+      "id": "12d6cacfc3fd",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "title": "Meta se niega a compartir Muse para pruebas, la FCA brit\u00e1nica se queja",
+      "source_name": "Wired - AI & Tech",
+      "category": "tech",
+      "published_at": "2026-11-26T10:51:27Z",
+      "fetched_at": "2026-11-26T17:34:26Z",
+      "raw_content": "The FCA warned against \u201canother force of attack\u201d from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+      "relevance_score": 3.0,
+      "geo_boost": false,
+      "summary": "Meta rechaz\u00f3 la solicitud de la FCA brit\u00e1nica de colaborar en pruebas conjuntas antes del lanzamiento de su agente personal en el Reino Unido. La autoridad de supervisi\u00f3n financiera advirti\u00f3 sobre posibles riesgos y critic\u00f3 la falta de cooperaci\u00f3n, calific\u00e1ndolo como una 'otra fuerza de ataque' de los agentes.",
+      "selected": false
+    },
+    {
+      "id": "79877e39eef0",
+      "url": "https://rcrwireless.com/20261125/ai/t-mobile-ai-ran-test-year-end",
+      "title": "T\u2011Mobile anuncia prueba pionera de IA\u2011RAN antes de fin de a\u00f1o",
+      "source_name": "RCR Wireless News",
+      "category": "telco",
+      "published_at": "2026-11-26T00:01:10Z",
+      "fetched_at": "2026-11-26T17:34:26Z",
+      "raw_content": "There are a lot of things we don&#8217;t know about the big AI-RAN reveal In sum &#8211; what to know: T-Mobile will reveal another AI-RAN test before the end of&#8230;",
+      "relevance_score": 5.0,
+      "geo_boost": false,
+      "summary": "T\u2011Mobile prepara la revelaci\u00f3n de una prueba in\u00e9dita de IA\u2011RAN, la primera del mundo, que se presentar\u00e1 antes de que termine el a\u00f1o. La compa\u00f1\u00eda destaca la innovaci\u00f3n en redes de acceso, posicion\u00e1ndose como l\u00edder en la integraci\u00f3n de inteligencia artificial en infraestructuras m\u00f3viles.",
+      "selected": false
+    },
     {
       "id": "17929128d139",
       "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
