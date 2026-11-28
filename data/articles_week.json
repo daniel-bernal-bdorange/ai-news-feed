@@ -1,8 +1,22 @@
 {
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "last_updated": "2026-11-27T17:42:27Z",
+  "last_updated": "2026-11-28T15:58:53Z",
   "articles": [
+    {
+      "id": "86dc88a31c8f",
+      "url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+      "title": "El CEO de Sakana IA afirma que sus modelos propios van m\u00e1s all\u00e1 de",
+      "source_name": "TechCrunch - AI",
+      "category": "tech",
+      "published_at": "2026-11-28T14:00:00Z",
+      "fetched_at": "2026-11-28T15:58:46Z",
+      "raw_content": "Sakana AI aims to strengthen Japan\u2019s industrial competitiveness with homegrown AI models.",
+      "relevance_score": 2.0,
+      "geo_boost": false,
+      "summary": "Sakana IA, una empresa japonesa de IA, est\u00e1 desarrollando modelos de IA dom\u00e9sticos para impulsar la competitividad industrial del pa\u00eds, seg\u00fan su CEO. La compa\u00f1\u00eda sostiene que sus modelos propios sirven a prop\u00f3sitos m\u00e1s all\u00e1 de la seguridad nacional, buscando fortalecer las capacidades locales y disminuir la dependencia de soluciones extranjeras.",
+      "selected": false
+    },
     {
       "id": "02ae5ce9e9ae",
       "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
@@ -10,7 +24,7 @@
       "source_name": "Ars Technica",
       "category": "tech",
       "published_at": "2026-11-27T17:05:37Z",
-      "fetched_at": "2026-11-27T17:41:41Z",
+      "fetched_at": "2026-11-28T15:58:46Z",
       "raw_content": "<p>Every year has a Prime Day\u2014some years even have two Prime Days!\u2014where we celebrate the life and achievements of the greatest leader the Autobots have ever known: the inimitable Optimus Prime. But just as every dawn is twinned by a dusk that steals its light, so too did Optimus Prime's bright spark fade, extinguished by the foul hand of Megatron during <a href=\"https://www.youtube.com/watch?v=P7GeisRaias\">the Great Decepticon Incursion of 2005</a>.</p>\n<p>It is a day that lives in infamy forever, and we all know the tale\u2014how the evil Megatron (cursed be the flow of his energon!) commandeered an Autobot shuttle, cruelly murdered its crew, and launched a cowardly surprise attack against Autobot City\u2014a plan utterly bereft of honor, as was so typical of Megatron's schemes. Even as individual Autobots strove to secure Autobot City\u2014<a href=\"https://www.youtube.com/watch?v=n4YQsWZ_LNQ\">heroes, all of them</a>!\u2014hope began to fade under an onslaught that included <a href=\"https://www.youtube.com/watch?v=nKMKm7GC1-Q\">an attack by the fearsome Devastator</a>, against which there appeared to be no defense.</p>\n<p>And then, at the precipice of disaster, Optimus Prime made the fateful declaration whose words still ring out to this day: \"<a href=\"https://www.youtube.com/watch?v=37Yl9UgYyf0\">Megatron must be stopped, <em>no matter the cost</em></a>.\" Then the fearless Autobot transformed, rolled out, and got the job done\u2014even though the cost was high. Many brave Autobots besides Optimus Prime lost their lives during the fighting. It was truly a dark day, a black day\u2014and so, every year on the Friday after Thanksgiving, we pause to remember the noble sacrifices made by Prime and by so many others. This is why today is known as Black Friday.</p><p><a href=\"https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/#comments\">Comments</a></p>",
       "relevance_score": 1.0,
       "geo_boost": false,
